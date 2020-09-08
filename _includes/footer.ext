@@ -1,0 +1,40 @@
+<div class="callout"> 
+    <div class="calloutcontainer"> 
+        <div class="container_12"> 
+            <div class="grid"> 
+                 <article class="footbox">
+      <h2>Latest News</h2>
+      <ul>
+        <li><a href="news.html#may01_14">MSR 2014 Distinguished Paper Award!</a><br/>
+         Our paper on <a href="http://sail.cs.queensu.ca/Downloads/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf">The Impact of Code Review Coverage and Code Review Participation on Software Quality ...</a>
+		</li>
+        <li><a href="news.html#april29_14">MAKAO 1.8, Major Revamp!</a><br/>
+        Are you struggling with your Makefiles? Fear not, <a href="makao.html">version 1.8 of MAKAO</a> will make analysis of your build system as streamlined as never before! ...
+		</li>
+       </ul>
+    </article>
+    <article class="footbox last">
+	      <a class="twitter-timeline"  href="https://twitter.com/mcis_lab"  data-widget-id="364476197008199680">Tweets by @mcis_lab</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </article>
+  <article class="latestgallery">
+      <h2>Latest Work</h2>
+<p>MCINTOSH, S., KAMEI, Y., ADAMS, B., and HASSAN, A. E. (2014). <a name="msr14shane" href="http://sail.cs.queensu.ca/Downloads/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf">The Impact of Code Review Coverage and Code Review Participation on Software Quality: A Case Study of the Qt, VTK, and ITK Projects</a>, in Proceedings of the 11th Working Conference on Mining Software Repositories, MSR (Hyderabad, India), pages 192-201.&nbsp;<span style="color: black; font-weight: bold">(Distinguished Paper Award)</span></p><br/>
+<p>SHANG, W., JIANG, Z. M., HEMMATI, H., ADAMS, B., HASSAN, A. E. and MARTIN, P. (2013). <a name="icse13_ian" href="publications/2013/icse_ian.pdf">Assisting Big Data Analytics Developers When Cloud Deploying Hadoop Applications</a>, in Proceedings of the 35th International Conference on Software Engineering, ICSE (San Francisco, CA, US), pages 402-411.&nbsp;<span style="color: black; font-weight: bold">(ACM SIGSOFT Distinguished Paper Award)</span></p>
+      </ul>
+    </article>
+    
+            <div class="clear"></div> 
+        </div> 
+        <div class="calloutoverlay"></div> 
+        <div class="calloutoverlaybottom"></div> 
+    </div> 
+</div> </div> 
+ <footer>
+    <p class="tagline_left">Copyright &copy; {{ site.time | date_to_rfc822 }} - All Rights Reserved - <a href="http://mcis.polymtl.ca/">MCIS</a></p>
+    <p class="tagline_right">Design by <a href="http://www.priteshgupta.com/" title="Pritesh Gupta" target="_blank" >PriteshGupta.com</a>, German Shepherd picture by <a href="http://www.sxc.hu/photo/1323938">Andrew Langham</a></p>
+    <br class="clear" />
+  </footer>
+
+<br />
+<br />

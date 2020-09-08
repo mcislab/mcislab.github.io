@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<title>Lab on Maintenance, Construction and Intelligence of Software (MCIS)</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="styles/elegant-press.css" type="text/css" />
+<script src="scripts/elegant-press.js" type="text/javascript"></script>
+<!--[if IE]><style>#header h1 a:hover{font-size:75px;}</style><![endif]-->
+</head>
+<body>
+ <!--#include virtual="header.shtml" -->
+<div class="main-container">
+  <div id="nav-container">
+   <nav> 
+    <ul class="nav">
+      <li><a href="index.shtml">Home</a></li>
+      <li><a href="about.shtml">About</a></li>
+      <li><a href="news.shtml">News</a></li>
+      <li><a class="urgent" href="join.shtml">Join Us!</a></li>
+      <li><a href="publications.shtml">Publications</a>
+      </li>
+          <li><a href="people.shtml">People</a>              <ul>
+          <li><a href="http://mcis.polymtl.ca/bram.html">Bram Adams</a></li>
+	  <li><a href="http://mcis.polymtl.ca/~jojo">Yujuan Jiang</a></li>
+          </ul></li>
+      <li class="active"><a href="gallery.shtml">Gallery</a></li>
+      <li class="last"><a href="contact.php">Contact</a></li>
+    </ul>
+   </nav> 
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="main-container">
+  <div class="container1">
+   <div id="breadcrumb">
+    <ul>
+      <li class="first">You Are Here</li>
+      <li>&#187;</li>
+      <li><a href="index.shtml">Home</a></li>
+      <li>&#187;</li>
+      <li class="current"><a href="gallery.shtml">Gallery Page</a></li>
+      <li>&#187;</li>
+    </ul>
+</div>
+<br />
+<br />
+
+        <h1>Headline: Gallery Page</h1>
+            <div id="gallery" class="box">
+      <ul>
+        <li><a data-gal="prettyPhoto[gallery2]" href="images/slide1.jpg" title="Image 1"><img src="images/featured1.jpg" width="260" height="190" alt="" /></a></li>
+        <li><a data-gal="prettyPhoto[gallery2]" href="images/slide2.jpg" title="Image 2"><img src="images/featured2.jpg" width="260" height="190" alt="" /></a></li>
+        <li class="last"><a data-gal="prettyPhoto[gallery2]" href="images/slide3.jpg" title="Image 3"><img src="images/featured3.jpg" width="260" height="190" alt="" /></a></li>
+        <li><a data-gal="prettyPhoto[gallery2]" href="images/slide1.jpg" title="Image 1"><img src="images/featured1.jpg" width="260" height="190" alt="" /></a></li>
+        <li><a data-gal="prettyPhoto[gallery2]" href="images/slide2.jpg" title="Image 2"><img src="images/featured2.jpg" width="260" height="190" alt="" /></a></li>
+        <li class="last"><a data-gal="prettyPhoto[gallery2]" href="images/slide3.jpg" title="Image 3"><img src="images/featured3.jpg" width="260" height="190" alt="" /></a></li>
+        <li><a data-gal="prettyPhoto[gallery2]" href="images/slide1.jpg" title="Image 1"><img src="images/featured1.jpg" width="260" height="190" alt="" /></a></li>
+        <li><a data-gal="prettyPhoto[gallery2]" href="images/slide2.jpg" title="Image 2"><img src="images/featured2.jpg" width="260" height="190" alt="" /></a></li>
+        <li class="last"><a data-gal="prettyPhoto[gallery2]" href="images/slide3.jpg" title="Image 3"><img src="images/featured3.jpg" width="260" height="190" alt="" /></a></li>
+      </ul>
+      <br class="clear" />
+    </div>
+
+<br />
+      
+      <div class="clear"></div>
+    </div>
+    
+ 
+ </div>
+<div class="main-container">
+ </div>
+ 
+ <!--#include virtual="footer.shtml" -->
+
+<br />
+<br />
+</body>
+</html>

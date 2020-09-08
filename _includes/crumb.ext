@@ -1,0 +1,19 @@
+{% if page.url != "/index.html" %}
+   <div id="breadcrumb">
+    <ul>
+      <li class="first">You Are Here</li>
+      <li>&#187;</li>
+      <li><a href="index.html">Home</a></li>
+      <li>&#187;</li>
+      {% if page.url == "/bram.html" %}
+      <li class="current"><a href="{{ page.url }}">Dr. Bram Adams</a></li>
+      {% elsif page.url == "/makao.html" %}
+      <li class="current"><a href="{{ page.url }}">MAKAO</a></li>
+      {% else %}
+      <li class="current"><a href="{{ page.url }}">{% for pg in site.data.content %}{% if pg.url == page.url %}{{ pg.label }}{% endif %}{% endfor %}</a></li>
+      {% endif %}
+    </ul>
+</div>
+<br />
+<br />
+{% endif %}

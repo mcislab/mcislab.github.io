@@ -1,0 +1,241 @@
+- title: 1. What is Release Engineering?
+  content:
+    - topic: "Release engineering process: integration, build process, staged testing, packaging and delivery"
+    - topic: "Continuous Delivery: pipeline and automation (Jenkins, Puppet, Chef, etc.)"
+    - topic: "Challenges and problems related to release engineering"
+    - topic: "Case study: Mozilla Firefox"
+  subsections:
+    - title: "Papers"
+      content:
+        - title: "Modern Release Engineering in a Nutshell - Why Researchers should Care"
+          url: "http://mcis.soccerlab.polymtl.ca/publications/2016/fose.pdf"
+        - title: "On Rapid Releases and Software Testing (M&auml;ntyl&auml; et al., ICSM 2013)"
+          url: "http://swat.polymtl.ca/~foutsekh/docs/PID2891705.pdf"
+        - title: "Do Faster Releases Improve Software Quality? An Empirical Case Study of Mozilla Firefox (Khomh et al., MSR 2012)"
+          url: "http://mcis.soccerlab.polymtl.ca/publications/2012/MSR2012Foutse.pdf"
+
+- title: 2. What is Mining Software Repositories (MSR)?
+  content:
+    - topic: Definition and basic concepts
+    - topic: "Different types of repositories: version control systems, bug repositories (Bugzilla), mailing lists (email vs. Twitter), project ecosystems (GitHub) and development collaboration sites (StackOverflow)"
+    - topic: "Different types of empirical analysis: quantitative vs. qualitative, machine learning/data mining, regression models and grounded theory"
+    - topic: "Link between MSR and release engineering"
+  subsections:
+    - title: "Papers"
+      content:
+        - title: "The Road Ahead for Mining Software Repositories (Hassan, ICSM 2008)"
+          url: "http://sail.cs.queensu.ca/publications/pubs/FOSM2008Hassan.pdf"
+        - title: "Software Intelligence: The Future of Mining Software Engineering Data (Hassan et al., FoSER 2010)"
+          url: "http://sail.cs.queensu.ca/publications/pubs/foser2010_hassan.pdf"
+
+- title: 3. Applications of MSR for Software Integration
+  content:
+    - topic: Centralized (CVS/SVN) vs. distributed (git) version control
+    - topic: Impact of branching patterns on software quality
+    - topic: Developer co-ordination across branches
+    - topic: Integration patterns in large-scale projects
+  subsections:
+    - title: Branches & Distributed Version Control
+      content:
+        - title: The Promises and Perils of Mining Git (Bird et al., MSR 2009)
+          url: "http://macbeth.cs.ucdavis.edu/gitminingpaper.pdf"
+        - title: Assessing the Value of Branches with What-if Analysis (Bird et al., FSE 2012)
+          url: "http://research.microsoft.com/pubs/172572/bird-fse-2012.pdf"
+        - title: The Promises and Perils of Mining GitHub (KalliamVakou et al., MSR 2014)
+          url: "http://www.gousios.gr/pub/promises-perils-github.pdf"
+        - title: "Transition from Centralized to Decentralized Version Control Systems: A Case Study on Reasons, Barriers, and Outcomes (Muslu et al., ICSE 2014)"
+          url: "http://files.kivancmuslu.com/Publications/2014/MusluBNC2014icse.pdf"
+        - title: A Case Study of Cross-System Porting in Forked Projects (Ray et al., FSE 2012)
+          url: "http://users.ece.utexas.edu/~miryung/Publications/fse2012-porting.pdf"
+        - title: The Effect of Branching Strategies on Software Quality (Shihab et al., ESEM 2012)
+          url: "http://www.se.rit.edu/~emad/pubs/Shihab_ESEM2012.pdf"
+    - title: The Patch Review Process
+      content:
+        - title: Expectations, Outcomes, and Challenges of Modern Code Review (Bacchelli et al., ICSE 2013)
+          url: "http://research.microsoft.com/pubs/180283/ICSE%202013-codereview.pdf"
+        - title: The Influence of Non-Technical Factors on Code Review (Baysal et al., WCRE 2013)
+          url: "https://cs.uwaterloo.ca/~obaysal/wcre2013-baysal.pdf"
+        - title: "Modern Code Reviews in Open-Source Projects: Which Problems Do They Fix? (Beller et al., MSR 2014)"
+          url: "http://www.st.ewi.tudelft.nl/~mbeller/publications/2014_beller_bacchelli_zaidman_juergens_modern_code_reviews_in_open-source_projects_which_problems_do_they_fix.pdf"
+        - title: Convergent Contemporary Software Peer Review Practices (Rigby et al., FSE 2013)
+          url: "http://www.cabird.com/papers/rigby2013convergent.pdf"
+        - title: "Writing Acceptable Patches: An Empirical Study of Open Source Project Patches (Tao et al., ICSME 2014)"
+          url: "http://www.cse.ust.hk/~idagoo/paper/tao_icsme2014.pdf"
+    - title: The Integration Process
+      content:
+        - title: Proactive Detection of Collaboration Conflicts (Brun et al., FSE 2011)
+          url: "https://cs.uwaterloo.ca/~rtholmes/papers/fse_2011_brun.pdf"
+        - title: An Empirical Study of Delays in the Integration of Addressed Issues (da Costa et al., MSR 2014)
+          url: "http://sail.cs.queensu.ca/publications/pubs/icsme2014-costa.pdf"
+        - title: An Exploratory Study of the Pull-Based Software Development Model (Gousios et al., ICSE 2014)
+          url: "http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2013-010.pdf"
+        - title: Will My Patch Make It? And How Fast? (Jiang et al., MSR 2013)
+          url: "http://mcis.polymtl.ca/publications/2013/msr_jojo.pdf"
+        - title: An Industrial Study on the Risk of Software Changes (Shihab et al., FSE 2012)
+          url: "http://www.se.rit.edu/~emad/pubs/Shihab_FSE2012_.pdf"
+        - title: Identifying Linux Bug Fixing Patches (Tian et al., ICSE 2012)
+          url: "http://www.mysmu.edu.sg/faculty/davidlo/papers/icse12-patch.pdf"
+
+- title: 4. Applications of MSR for the Build Process
+  content:
+    - topic: "Build system technologies: Make vs. Ant"
+    - topic: Build maintenance and impact on development and tests
+    - topic: Build process verification
+    - topic: "Software variability management: Linux"
+  subsections:
+    - title: Build Systems and Build System Smells
+      content:
+        - title: "Automated Migration of Build Scripts using Dynamic Analysis and Search-Based Refactoring (Gligoric et al., OOPSLA 2014)"
+          url: "http://www.msr-waypoint.net/en-us/um/people/livshits/papers/pdf/oopsla14.pdf"
+        - title: An Empirical Study of Build Maintenance Effort (McIntosh et al., ICSE 2011)
+          url: "http://sail.cs.queensu.ca/Downloads/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf"
+        - title: Understanding and Improving Software Build Teams (Phillips et al., ICSE 2014)
+          url: "http://research.microsoft.com/pubs/210048/phillips-icse-2014.pdf"
+        - title: A Qualitative Analysis of Software Build System Changes and Build Ownership Styles (Shridhar et al., ESEM 2014)
+          url: "http://mcis.polymtl.ca/publications/2014/esem14mini.pdf"
+    - title: Build System Failures and Performance
+      content:
+        - title: Improving the build architecture of legacy C/C++ software systems (Dayani-Fard et al., FASE 2005)
+          url: "http://www.cs.toronto.edu/~periklis/pubs/fase05.pdf"
+        - title: Using Decision Trees to Predict the Certification Result of a Build (Hassan et al., ASE 2006)
+          url: "http://sail.cs.queensu.ca/publications/pubs/ase2006.pdf"
+        - title: Predicting Build Failures using Social Network Analysis on Developer Communication (Wolf et al., ICSE 2009)
+          url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5070503"
+        - title: Reducing Build Time Through Precompilations for Evolving Large Software (Yu et al., ICSM 2005)
+          url: "http://www.cs.toronto.edu/~periklis/pubs/icsm05.pdf"
+    - title: Software Configurability
+      content:
+        - title: "SPLat: Lightweight Dynamic Analysis for Reducing Combinatorics in Testing Configurable Systems (Kim et al., FSE 2013)"
+          url: "http://www.cs.utexas.edu/ftp/predator/FSE13.pdf"
+        - title: Scalable Analysis of Variable Software (Liebig et al., FSE 2013)
+          url: "http://www.cs.cmu.edu/~ckaestne/pdf/fse13.pdf"
+        - title: "Mining Configuration Constraints: Static Analyses and Empirical Results (Nadi et al., ICSE 2014)"
+          url: "http://gsd.uwaterloo.ca/node/554"
+        - title: "Feature Consistency in Compile-Time–Configurable System Software: Facing the Linux 10,000 Feature Problem (Tartler et al., EUROSYS 2011)"
+          url: "http://eurosys2011.cs.uni-salzburg.at/pdf/eurosys2011-tartler.pdf"
+
+- title: 5. Applications of MSR for Staged Testing
+  content:
+    - topic: Bug prediction to guide test effort
+    - topic: Test reduction, minimisation and selection
+    - topic: Continuous quality assurance
+  subsections:
+    - title: Bug Prediction
+      content:
+        - title: Studying the Impact of Social Structures on Software Quality (Bettenburg et al., ICPC 2010)
+          url: "http://maroon.cs.queensu.ca/home/ahmed/home/teaching/CISC880/F11/papers/SocialStructures_ICPC2011.pdf"
+        - title: "Think Locally, Act Globally: Improving Defect and Effort Prediction Models (Bettenburg et al., MSR 2012)"
+          url: "http://sail.cs.queensu.ca/publications/pubs/MSR2012_Bettenburg.pdf"
+        - title: Does Distributed Development Affect Software Quality? An Empirical Case Study of Windows Vista (Bird et al., ICSE 2009)
+          url: "http://macbeth.cs.ucdavis.edu/distributed.pdf"
+        - title: An Extensive Comparison of Bug Prediction Approaches (D'Ambros et al., MSR 2010)
+          url: "http://www.old.inf.usi.ch/phd/dambros/publications/msr10.pdf"
+        - title: Tracking Concept Drift of Software Projects Using Defect Prediction Quality (Ekanayake et al., MSR 2009)
+          url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5069480"
+        - title: Effort-Aware Defect Prediction Models (Mende et al., CSMR 2010)
+          url: "http://cs.queensu.ca/~ahmed/home/teaching/CISC880/F10/papers/EffortAware_CSMR2010.pdf"
+        - title: Towards Building a Universal Defect Prediction Model (Zhang et al., MSR 2014)
+          url: "http://mockus.org/papers/msr2014_submission_101.pdf"
+    - title: Automated Testing & Performance Testing
+      content:
+        - title: A Framework for Automated Testing of JavaScript Web Applications (Artzi et al., ICSE 2011)
+          url: "https://cs.au.dk/~amoeller/papers/artemis/paper.pdf"
+        - title: "DART: Directed Automated Random Testing (Godefroid et al., PLDI 2005)"
+          url: "http://research.microsoft.com/en-us/um/people/pg/public_psfiles/pldi2005.pdf"
+        - title: Performance Debugging in the Large via Mining Millions of Stack Traces (Han et al., ICSE 2012)
+          url: "http://web.engr.illinois.edu/~taoxie/publications/icse12-stackmine.pdf"
+        - title: Automatic Identification of Load Testing Problems (Jiang et al., ICSM 2008)
+          url: "http://www.cse.yorku.ca/~zmjiang/publications/ICSM2008Jiang.pdf"
+        - title: Automated Cross-Browser Compatibility Testing (Mesbah et al., ICSE 2011)
+          url: "http://www.ece.ubc.ca/~amesbah/docs/icse11.pdf"
+        - title: Exploring Variability-Aware Execution for Testing Plugin-Based Web Applications (Nguyen et al., ICSE 2014)
+          url: "http://www.cs.cmu.edu/~ckaestne/pdf/icse14_varex.pdf"
+    - title: Test Optimization
+      content:
+        - title: "Improving the Effectiveness of Test Suite through Mining Historical Data (Anderson et al., MSR 2014)"
+          url: "http://dl.acm.org/citation.cfm?id=2597084"
+        - title: "Prioritizing The Devices To Test Your App On: A Case Study Of Android Game Apps (Khalid et al., FSE 2014)"
+          url: "http://sail.cs.queensu.ca/publications/pubs/FSE2014-Khalid.pdf"
+        - title: "KATCH: High-Coverage Testing of Software Patches (Marinescu et al., FSE 2013)"
+          url: "http://srg.doc.ic.ac.uk/files/papers/katch-fse-13.pdf"
+        - title: Efficiency and Early Fault Detection with Lower and Higher Strength Combinatorial Interaction Testing (Petke et al., FSE 2013)
+          url: "http://dl.acm.org/citation.cfm?id=2491436"
+
+- title: 6. Applications of MSR for Software Packaging
+  content:
+    - topic: "Large-scale software distributions: Debian"
+    - topic: Code provenance across software projects
+    - topic: "Mobile applications: challenges and technologies"
+  subsections:
+    - title: Dependency Analysis
+      content:
+        - title: "DSketch: Lightweight, Adaptable Dependency Analysis (Cossette et al., FSE 2010)"
+          url: "http://courses.cs.washington.edu/courses/cse590n/10au/cossette-fse-2010.pdf"
+        - title: "Software Bertillonage: Finding the Provenance of an Entity (Davies et al., MSR 2011)"
+          url: "https://plg.uwaterloo.ca/~migod/papers/2011/msr11-juiliusAbramDaniel.pdf"
+        - title: Automated Dependency Resolution for Open Source Software (Ossher et al., MSR 2010)
+          url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5463346"
+    - title: Dependency Conflicts
+      content:
+        - title: Why Do Software Packages Conflict? (Artho et al., MSR 2012)
+          url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6224274"
+        - title: Early Identification of Incompatibilities in Multi-component Upgrades (McCamant et al., ECOOP 2004)
+          url: "http://homes.cs.washington.edu/~mernst/pubs/upgrades-ecoop2004.pdf"
+        - title: Broken Sets in Software Repository Evolution (Vouillon et al., ICSE 2013)
+          url: "http://www.pps.univ-paris-diderot.fr/~vouillon/coinst/upgrades/upgrades.pdf"
+    - title: API Evolution
+      content:
+        - title: "Seeking the Ground Truth: A Retroactive Study on the Evolution and Migration of Software Libraries (Cossette et al., FSE 2012)"
+          url: "http://lsmr.cpsc.ucalgary.ca/projects/corpus/fse2012cossette.pdf"
+        - title: "API Change and Fault Proneness: A Threat to the Success of Android Apps (Linares-V&aacute;squez et al., FSE 2013)"
+          url: "http://www.cs.wm.edu/~denys/pubs/FSE'13-AndroidApps-CAMERA.pdf"
+        - title: Measuring Library Stability Through Historical Version Analysis (Raemaekers et al., ICSM 2012)
+          url: "http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2012-012.pdf"
+        - title: How Do Developers React to API Deprecation? The Case of a Smalltalk Ecosystem (Robbes et al., FSE 2012)
+          url: "http://users.dcc.uchile.cl/~rrobbes/p/FSE2012-deprecation.pdf"
+        - title: Mining Library Migration Graphs (Teyton et al., WCRE 2012)
+          url: "http://www.labri.fr/perso/cteyton/Files/papers/TeytonWCRE2012.pdf"
+        - title: "AURA: a hybrid approach to identify framework evolution (Wu et al., ICSE 2010)"
+          url: "http://www.ptidej.net/publications/documents/ICSE10b.doc.pdf"
+
+- title: 7. Applications of MSR for Software Deployment and Release
+  content:
+    - topic: Deployment technologies
+    - topic: Release Strategies
+    - topic: App stores and immediate user feedback (ratings/comments)
+    - topic: Cloud computing and deployment
+  subsections:
+    - title: Physical Deployment
+      content:
+        - title: Imposing a Memory Management Discipline on Software Deployment (Dolstra et al., ICSE 2004)
+          url: "http://nixos.org/~eelco/pubs/immdsd-icse2004-final.pdf"
+        - title: Software Deployment Activities and Challenges – A Case Study of Four Software Product Companies (M&auml;ntyl&auml; et al., CSMR 2011)
+          url: "http://www.soberit.hut.fi/~mmantyla/CSMR_final_mmantyla_install.pdf"
+    - title: Analysis of Deployment Feedback
+      content:
+        - title: Classifying Field Crash Reports for Fixing Bugs - A Case Study of Mozilla Firefox (Dhaliwal et al., ICSM 2011)
+          url: "http://post.queensu.ca/~zouy/files/icsm2011-tejinder.pdf"
+        - title: "BugRedux: Reproducing Field Failures for In-House Debugging (Jin et al., ICSE 2012)"
+          url: "http://www.cercs.gatech.edu/tech-reports/tr2011/git-cercs-11-06.pdf"
+        - title: "An Entropy Evaluation Approach for Triaging Field Crashes: A Case Study of Mozilla Firefox (Khomh et al., WCRE 2011)"
+          url: "http://post.queensu.ca/~zouy/files/wcre2011-foutse.pdf"
+        - title: Detecting Large-Scale System Problems by Mining Console Logs (Xu et al., SOSP 2009)
+          url: "http://iiis.tsinghua.edu.cn/~weixu/files/sosp09.pdf"
+        - title: Automated Diagnosis of Software Configuration Errors (Zhang et al., ICSE 2013)
+          url: "https://homes.cs.washington.edu/~mernst/pubs/configuration-errors-icse2013.pdf"
+        - title: Which Configuration Option Should I Change? (Zhang et al., ICSE 2014)
+          url: "http://homes.cs.washington.edu/~szhang/pdf/Zhang-ConfSuggester-ICSE2014.pdf" 
+    - title: Prediction of Deployment Feedback
+      content:
+        - title: "AR-Miner: Mining Informative Reviews for Developers from Mobile App Marketplace (Chen et al., ICSE 2014)"
+          url: "http://www.cais.ntu.edu.sg/~nchen1/AR-Miner/icse14-preprint.pdf"
+        - title: Search-Based Genetic Optimization for Deployment and Reconfiguration of Software in the Cloud (Frey et al., ICSE 2013)
+          url: "http://dl.acm.org/citation.cfm?id=2486856"
+        - title: "Impact of Installation Counts on Perceived Quality: A Case Study on Debian (Herraiz et al., WCRE 2011)"
+          url: "http://oa.upm.es/9585/1/paper.pdf"
+        - title: Characterizing the Differences Between Pre- and Post- Release Versions of Software (Li et al., ICSE 2011)
+          url: "http://research.microsoft.com/pubs/149840/ICSE%202010%20Windows%20Reliability.pdf"
+        - title: Predictors of Customer Perceived Software Quality (Mockus et al., ICSE 2005)
+          url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.1597&rep=rep1&type=pdf"
+        - title: Assisting Developers of Big Data Analytics Applications When Deploying on Hadoop Clouds (Shang et al., ICSE 2013)
+          url: "http://mcis.polymtl.ca/publications/2013/icse_ian.pdf"

@@ -1,0 +1,324 @@
+---
+layout: index 
+title: MAKAO, re(verse)-engineering build systems
+---
+
+{% assign latest_url = "files/makao-1.8.tar.bz2" %}
+
+  <div id="mySlides">
+    	<div id="slide1">
+        <img src="images/makao/R-3.0.3-wide.png" alt="Slide 1 jFlow Plus" />
+        <span><b class="slideheading">Understand<br/>your Build!</b><br />Visualize the build dependency<br/>graph to understand how those hundreds<br/>of GNU Makefiles connect to<br/>each other. Zoom and drag your<br/>way to static libraries, executables or<br/>any other build artifact.<a href="{{ latest_url }}" title="MAKAO == Insight into your GNU Make build!" class="readmore">Try MAKAO!</a></span>
+    </div>
+    <div id="slide2">
+        <img src="images/makao/parrot-0.4.14-wide.png" alt="Slide 2 jFlow Plus" />
+        <span><b class="slideheading">Filter out<br>Junk!</b><br />Show or hide unimportant<br/>build targets and dependencies,<br/>like header files, or focus<br/>only on GNU Make's dependency graph<br/>construction phase, or the actual<br/>compilation phase. MAKAO even detects<br/>potentially missing dependencies!.<a href="{{ latest_url }}" title="MAKAO == insight into your GNU Make build!" class="readmore">Try MAKAO!</a></span>
+    </div>
+    <div id="slide3">    
+        <img src="images/makao/linux-2.6.21.5-wide.png" alt="Slide 3 jFlow Plus" />
+        <span><b class="slideheading">Want to Replay<br/>your Build?</b><br />Just use MAKAO's time slider<br/>and see your build as it happened!<br/>You can even replay the whole<br/>build automatically!<a href="{{ latest_url }}" title="MAKAO == Insight into your GNU Make build!" class="readmore">Try MAKAO!</a></span>
+	</div>    	
+    <div id="slide4">
+        <img src="images/makao/qt4-wide.png" alt="Slide 4 jFlow Plus" />
+        <span><b class="slideheading">Fancy Writing<br/>Custom Analyses?</b><br />We got you covered! Write<br/>Python-based scripts to automatically<br/>analyze and manipulate the build<br/>dependency graph, or even<br/>extend MAKAO!<a href="{{ latest_url }}" title="MAKAO == Insight into your GNU Make build!" class="readmore">Try MAKAO!</a></span>
+   </div>
+       <div id="slide5">
+        <img src="images/makao/hotspot-1.5.0-wide.png" alt="Slide 5 jFlow Plus" />
+        <span><b class="slideheading">Oh, you want<br/>Declarative<br/>Control?</b><br />Why not let MAKAO generate a Prolog<br/>representation of the build<br/>dependency graph for you?<br/>Then analyze the build to your<br/>declarative heart's content!<a href="{{ latest_url }}" title="MAKAO == Insight into your GNU Make build!" class="readmore">Try MAKAO!</a></span>
+   </div>   
+</div>
+
+<div id="myController">
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+  <span class="jFlowControl"></span>
+    <span class="jFlowControl"></span>
+</div>
+
+<section class="jFlowPrev"><div></div></section>
+<section class="jFlowNext"><div></div></section>
+<br />
+<br />
+
+
+    <div class="box">
+           <div class="content">
+
+	     <h1><a name="news">News</a></h1>
+	     <p>
+	     <ul>
+	       <li>[April 28, 2014] <a href="{{ latest_url }}">MAKAO 1.8</a> released, with user-friendly UI, time slider, filtering, GNU Make 4.0 support, identification of gcc/g++ preprocessor flags, and many fixed parser bugs.</li>
+	           <li>[March 7, 2014] <a>MAKAO 1.7</a> released, fixing bugs in implicit dependency detection, circular dependency detection (currently flagged when generating the gdf, but ignored in the graph) and with weird target names (containing spaces or plus signs).</li>
+	       </ul></p>
+	       <br/>
+	       	       <br/>
+
+	       <h1><a name="what">What does MAKAO do?</a></h1>
+        <p>
+
+
+  <p>Making sense of hundreds of Makefiles is <a href="#phd">very hard</a>. Finding out where to modify them is even harder. Enter MAKAO, i.e., the "Makefile Architecture Kernel featuring Aspect Orientation", which uses visualization and some ideas of <a href="http://aosd.net/">Aspect-Orientation Software Development (AOSD)</a> to understand and manage build systems.</p><br/>
+
+<p>MAKAO provides the following features:
+  <ul>
+    <li><b>visualization</b> of the build dependency graph</li>
+    <li><b>querying</b> of build targets and dependencies for their build commands and variables</li>
+    <li><b>filtering</b> of the build dependency graph using Prolog rules to reduce clutter or to identify build idioms</li>
+    <li><b>verification</b> of the presence of bad smells in the build dependency graph</li>
+<!--    <li><b>re-engineering</b> of the build dependency graph and build scripts using aspects</li>    -->
+  </ul>
+</p><br/>
+
+<p>MAKAO builds on <a href="http://graphexploration.cond.org/">GUESS (Graph Exploration System)</a>, which is a flexible and scriptable graph manipulation framework. It takes the build trace of a <a href="http://www.gnu.org/software/make/">GNU Make</a> or <a href="http://www-306.ibm.com/software/awdtools/clearcase/index.html">ClearMake</a> build run as input, generates and lays out the build dependency graph, and then provides the above five features to the user. More information can be found in the <a href="#tutorial">tutorial</a> and <a href="#pubs">publications</a> sections.</p><br/>
+
+<p>We would like to thank <a href="http://homepages.vub.ac.be/~kdeschut/">Kris De Schutter</a>, Herman Tromp, Matthias Rieger, <a href="http://artho.com/">Cyrille Artho</a>, Dieter Paeps, Istvan Nagy, <a href="http://www.win.tue.nl/~rp/">Reinier Post</a>, <a href="http://shanemcintosh.org/">Shane McIntosh</a> and Leon He for their contributions and suggestions!</p><br/>
+
+  <p>PS: <a href="http://www.gamedesire.com/online.game-makao,n-3.html">Apparently</a>, MAKAO (or Mau-Mau) is the name of a popular Polish card game, but we intended the name to be an allusion on both the "Made in Macao"-statement found on products fabricated in <a href="http://www.cia.gov/cia/publications/factbook/geos/mc.html">Macao</a> and on <a href="http://www.gnu.org/software/make/">GNU Make</a> of course.</p><br/>
+
+
+
+        <br/><h1><a name="down">MAKAO's Requirements</a></h1>
+        <p>The latest version of MAKAO can be downloaded <a href="{{ latest_url }}">here</a>. MAKAO is covered by the Mozilla Public License 1.1 (MPL 1.1), and runs on Linux, Max OSX and Windows (using <a href="http://www.cygwin.com/">Cygwin 1.7.x</a>).</p><br/>
+
+  <p>Required dependencies:
+  <ul>
+    <li>(On Windows) <a href="http://www.cygwin.com/">Cygwin 1.7.x</a></li>
+    <li><a href="http://www.gnu.org/software/make/">GNU Make 3.80+ or 4.0</a> (on Windows, <a href="http://www.cygwin.com/">Cygwin 1.7.x</a> provides a recent version under "Devel" in the installer) or <a href="http://www-306.ibm.com/software/awdtools/clearcase/index.html">ClearMake</a> (preliminary support)</li>
+    <li><a href="http://www.perl.org/">Perl 5.6+</a> or (on Windows) the most recent version provided by <a href="http://www.cygwin.com/">Cygwin 1.7.x</a> (under "Interpreters" in the installer)</li>
+    <li><a href="http://graphexploration.cond.org/">GUESS</a>, more in particular <a href="files/guess.tar.bz2">this version</a> (install it under <code>$GUESS_HOME</code>)</li>
+    <li><a href="http://www.java.com/en/download/faq/java_6.xml" class="mcis">Java 6 or older</a> (that's right: <a href="http://graphexploration.cond.org/">GUESS</a> <span class="highlight_red">does not play nicely with Java 7 and above</span>)</li>
+    <li><a href="http://search.cpan.org/dist/XML-Writer/">XML::Writer</a> (using <code>sudo perl -MCPAN -e 'install XML::Writer'</code>)</li>
+    </ul></p><br/>
+    <p>Optional dependencies:
+    <ul>
+    <li>(for filtering) <a href="http://www.swi-prolog.org/">SWI Prolog</a> or (on Windows) the most recent version provided by <a href="http://www.cygwin.com/">Cygwin 1.7.x</a> (under "Interpreters" in the installer)</li>
+<!--    <li>(for re-engineering) <a href="http://search.cpan.org/dist/Getopt-Long/">Getopt::Long</a></li>
+    <li>(for re-engineering) <a href="http://search.cpan.org/~mjd/Tie-File-0.96/">Tie::File</a></li>-->
+</ul></p><br/>
+
+  <p>MAKAO has been tested extensively on <a href="http://www.gnu.org/software/make/">GNU Make 3.80+</a>, and provides preliminary support for <a href="http://www.gnu.org/software/make/">GNU Make 4.0</a> and <a href="http://www-306.ibm.com/software/awdtools/clearcase/index.html">ClearMake</a>. As long as a build dependency graph can be extracted from your build tool, MAKAO can be used to re(verse)-engineer your build layer. Example build dependency graphs of <a href="http://www.antlr.org/">ANTLR 2.7.6</a>, <a href="http://mcis.polymtl.ca/~bram/aspicere/index.html">Aspicere</a>, <a href="http://cpptest.sourceforge.net/">CppTest 1.0.2</a>, <a href="http://gaim.sourceforge.net/">Gaim 2.0.0beta3</a>, <a href="http://gcc.gnu.org/">GCC 4.1.1</a>, <a href="http://inkscape.org/">Inkscape 0.44</a>, <a href="http://ioquake3.org/">Ioquake3</a>, <a href="http://fcgp.sourceforge.net/lgp/index.html">Linux Kernel Graphing Project</a> and other systems are included in the download!</p><br/>
+
+
+
+        <br/><h1><a name="tutorial">Tutorial</a></h1>
+			  <h4>0. Installing MAKAO</h4>
+			  <p>Install the required dependencies listed <a href="#down">above</a>, then install <a href="{{ latest_url }}">the latest version</a> under <code>$MAKAO</code>. Also make sure that <code>$JAVA_HOME/bin/java</code> refers to your Java 6 or earlier Java runtime.</p>
+			  <br/><br/><h4>1. Preparing your Makefiles</h4>
+
+{% highlight basemake linenos %}
+all:
+     $(MAKE) -C sub1/ all
+     make -C sub2/ all{% endhighlight %}<br/>
+
+			  <p>MAKAO needs to trace the full build dependency graph, even across recursive make calls. For this reason, all such calls should use a variable like <code>$(MAKE)</code> to refer to the <code>make</code> program. If not, MAKAO will not be able to identify the dependencies in the corresponding recursive build (more on this <a href="http://aegis.sourceforge.net/auug97.pdf">here</a>).</p><br/>
+			  <p>You can use the following tool to help you spot potential occurrences of <code>make</code> (NOTE: most of the results will be false alarm, but better be safe than sorry):</p><br/>
+
+{% highlight bash linenos %}
+cd /dir/with/source/code
+$MAKAO/parsing/bin/search_for_sub_make.sh path_to_system_to_analyze{% endhighlight %}<br/>
+
+			  <p>If you find an incorrect call to <code>make</code>, please replace it by a call to <code>$(MAKE)</code>.</p>
+			  
+			  <br/><br/><h4>2. Extracting the Build Dependency Graph</h4>
+
+{% highlight bash linenos %}
+cd /dir/with/source/code
+$MAKAO/parsing/bin/makewrapper.sh all 2&> trace.txt
+$MAKAO/parsing/bin/generate_makao_graph.pl -in trace.txt -out trace.gdf \
+                -format gdf{% endhighlight %}<br/>
+			  
+			  <p>The above commands first run your build system with a bunch of standard GNU Make debugging switches. The corresponding textual trace (<code>trace.txt</code>) then is analyzed to extract the build dependency graph used during the build. Note that <code>all</code> is the build target for which one wanted to analyze the build. You'll notice that an XML file named <code>trace.gdf.xml</code> has also been generated. This one contains the formal/actual commands executed for each exercised build target, as well as the active preprocessor flags.</p>
+			  
+			  <br/><br/><h4>3. Lay Out your Graph using the Force</h4>
+<div class="imgholder"><a href="images/makao/layout.png" data-gal="prettyPhoto[featured]" title="Lay Out your Graph using the Force"><img src="images/makao/layout.png" width="500" alt="" /></a></div><br/>
+			  </p>If you would visualize the generated build dependency graph as is, you would only see one big blob. So, one needs to lay out the graph with a force-directed layout. For this, type the following:</p><br/>
+
+{% highlight bash linenos %}
+$MAKAO/ui/bin/show.sh trace.gdf -p{% endhighlight %}<br/>
+
+<p>A Java 6 program called <a href="http://graphexploration.cond.org/">GUESS</a> fires up, showing a big blob (as predicted) and a separate control panel. Click on the red "CENTER" button to center the graph, then click on the "Start/Stop" button of the control panel. The blob starts to explode, and you will notice that small clusters are being pushed outwards. Slowly, but surely you will start to see a structure in the graph. To help the layout algorithm, it helps to slowly increase the "DefaultSpring..." slider (which increases the forces between nodes) until it reaches the maximum value.</p><br/>
+<p>Once you are happy with the layout, click again on the "Start/Stop" button, then either click on "SAVE & QUIT" to save the layout and exit, or on "SAVE & ANALYZE" to save the layout and start the analysis of the graph. The latter will close <a href="http://graphexploration.cond.org/">GUESS</a> and reopen the graph with the new layout again in the analysis mode.</p><br/>
+
+			  <br/><br/><h4>4. Exploring the Build Dependency Graph</h4>
+
+<div class="imgholder"><a href="images/makao/default_screen.png" data-gal="prettyPhoto[featured]" title="Exploring the Build Dependency Graph: Default Screen"><img src="images/makao/default_screen.png" width="500" alt="" /></a></div><br/>
+
+<p>You can explore a build dependency graph with layout either after doing the layout (see previous step) or by executing the following command (the layout algorithm typically adds the "-piccolo" suffix to the .gdf file):</p><br/>
+{% highlight bash linenos %}
+$MAKAO/ui/bin/show.sh trace-piccolo.gdf{% endhighlight %}<br/>
+
+<p>You should now see an attractive build dependency graph in the main window, with on the left a legend explaining the graph's colors. Basically, each node represents a GNU Make target that was exercised during the build of your system. Edges represent build dependencies followed during the executed build, with the top target (e.g., "all") depending on its dependencies, etc. A dependency is colored based on the color of its destination node (target), and a node's color is based on the corresponding file's extension (red for .o, blue for .c, etc.). Grey files are files with unknown or system-specific extensions.</p><br/>
+
+<div class="imgholder"><a href="images/makao/right_click.png" data-gal="prettyPhoto[featured]" title="Exploring the Build Dependency Graph: Information Window and Context Menu"><img src="images/makao/right_click.png" width="500" alt="" /></a></div><br/>
+
+<p>You can zoom in or out by holding down the right mouse button and moving to the right/left, respectively. Drag and hold the left mouse button to pan the dependency graph. Clicking on an edge or node centers and zooms on that edge or node. Choose "Display => Information Window" to see a tab page on the left containing the values of the nodes' and edges' attributes (depending on the node or edge below the mouse cursor). These attributes contain information extracted from the build, such as directory names, error status and phony status for nodes or whether a build dependency is implicit, recursive, pruned or executed during the build dependency graph construction or execution phase of GNU Make ("ismeta" true/false, resp.).</p><br/>
+
+<p>Even more information can be found when right-clicking on a node or edge. The status menu allow you to assign a name to the selected node or edge for manipulation in scripts ("Copy as Variable...", see below), see a target's build recipe as seen in the Makefile ("Commands") or during execution (with Make variables expanded, "Actual Commands"), get a list of active macro flags ("Active Macros"), or see in which makefile or directory a build target originated ("Whereabouts").</p>
+
+			  <br/><br/><h4>5. Hiding/Showing Unimportant Parts of the Graph</h4>
+
+<div class="imgholder"><a href="images/makao/no_java.png" data-gal="prettyPhoto[featured]" title="Hiding/Showing Unimportant Parts of the Graph: Hiding the Java Build Targets"><img src="images/makao/no_java.png" width="500" alt="" /></a></div><br/>
+
+<p>Granted, even after layout, some build dependency graphs still look busy. On the "Target Filter" tab, you can show/hide targets of any non-grey color. You can then zoom in or drag some nodes around (for this, select the "Manipulate Nodes" icon on the bottom of the <a href="http://graphexploration.cond.org/">GUESS</a> window, i.e., the second from left out of five small icons).</p><br/>
+
+<div class="imgholder"><a href="images/makao/no_phase_one.png" data-gal="prettyPhoto[featured]" title="Hiding/Showing Unimportant Parts of the Graph: Hiding Dependency Graph Construction and Implicit Dependencies"><img src="images/makao/no_phase_one.png" width="500" alt="" /></a></div><br/>
+
+<p>The "Visibility Control" tab allows coarser-grained filtering of the graph. One can use it to show/hide all targets/dependencies used only in the first phase of GNU Make, i.e., in which GNU Make reads in the makefiles to build its internal build dependency graph. These are the edges with the "ismeta" attribute set to true. Similarly, one can also show/hide the targets/dependencies used only during the actual construction phase, where the real compilation and processing of source code files happens.</p><br/>
+<p>Finally, MAKAO is able to scan the build commands executed for each build target to identify files that are not mentioned as build dependencies in the corresponding Makefile rule. Such omissions could be errors in the Makefile, or could be false alarm. In the latter case, you can hide those dependencies with the third control on the "Visibility Control" tab.</p>
+
+			  <br/><br/><h4>6. Going Back in Time</h4>
+
+<div class="imgholder"><a href="images/makao/slider.png" data-gal="prettyPhoto[featured]" title="Going Back in Time: Time Slider"><img src="images/makao/slider.png" width="500" alt="" /></a></div><br/>
+
+<p>Wouldn't it be cool to replay a build and see in what order targets are being processed? You're in luck, since GNU Make's trace file, and hence MAKAO's build dependency graph, records the order in which dependencies are followed. This is stored in the "tstamp" attribute of a dependency. Targets also have such an attribute, but since targets can be checked multiple times, only one value (most recent one) is stored. Dependencies on the other hand are unique, hence their "tstamp" value is reliable.</p><br/>
+<p>The time slider on the "Time Slider" tab allows you to scroll across time, while the "Previous" and "Next" buttons allow finer-grained control. At any point, you can center the screen using the familiar red "CENTER" button. The name of the most recently executed build dependency is shown at the bottom of the screen (initially, the last executed build target is shown).</p><br/>
+
+<p>As an experimental feature, you can see an automated replay of the whole build by clicking on the "Play Back" button. You will get a warning that the replay can *not* be paused, so be careful! To speed up the replay, all successive dependencies of the same build target are shown at once, which is especially handy in the case of header dependencies.</p><br/>
+
+<p>You might have noticed that clicking on the "Time Slider" tab can take a while. This is because MAKAO stores the state of the graph obtained using the filter controls of the previous step, such that when returning to those tabs the state can be restored. The "Time Slider" tab has its own state of the graph. You can move to the "Interpreter" tab without losing that state, but as soons as you click on one of the other tabs, their state is restored (similarly, moving to the "Interpreter" tab from the other tabs keeps their state intact, allowing manipulation from the "Interpreter", see below).</p>
+
+			  <br/><br/><h4>7. Scripting your Analyses</h4>
+<div class="imgholder"><a href="images/makao/error.png" data-gal="prettyPhoto[featured]" title="Scripting your Analysis: Only Show Path to Build Targets with a Build Error"><img src="images/makao/error.png" width="500" alt="" /></a></div><br/>
+
+<p>Did you know that all the buttons, sliders and menus used thus far are just Gython extensions on top of <a href="http://graphexploration.cond.org/">GUESS</a>? Gython is a dialect of Jython, which is a version of Python with access to Java classes and objects, since Jython interpreters are embedded in Java applications. In other words, each node and dependency in the build dependency graph is a Gython object!</p><br/>
+
+<p>The "name" attribute of a node or edge is the name through which the node or edge can be referenced in the "Interpreter" tab. For example, a target with as "name" the value "all" can be referenced as <code>all</code>:</p><br/>
+
+{% highlight python linenos %}
+all.name
+(error==0).visible=0
+execfile(makao_path+"path/relative/to/makao/home/script.py")
+center{% endhighlight %}<br/>
+
+<p>The above code snippet first prints the name of the "all" target, then hides all the build targets that had no error during the build by setting those targets' "visible" attribute to zero. You should only see the paths in the build dependency graph along which build errors occurred. The expression between parentheses selects all nodes (or edges) with a particular attribute value. Finally, line 3 loads in a custom Gython script, while line 4 programmatically centers back the graph. More on Gython can be found <a href="http://guess.wikispot.org/manual">in the GUESS manual</a>.</p>
+
+			  <br/><br/><h4>8. Using Prolog for Declarative Analysis</h4>
+
+{% highlight bash linenos %}
+$MAKAO/parsing/bin/generate_makao_graph.pl -in trace.txt -out trace.gdf \
+                -format prolog{% endhighlight %}<br/>
+
+        <p>If you're more a declarative person, you can use the above command instead of the one in step 2 to obtain a Prolog representation of the build dependency graph. The format is compatible with <a href="http://www.swi-prolog.org/">SWI Prolog</a>, and you can write your own rules and queries in terms of the provided facts (there is also an XML representation of the commands and active preprocessor macros).</p><br/>
+
+<p>If you want a small framework for systematically identifying certain build targets (based on a query), then filtering those targets out of the build dependency graph (to simplify it), you can use the following commands (subsumes the command above):</p><br/>
+
+{% highlight bash linenos %}
+cp $MAKAO/filtering/prolog-backward/rules/gdf-sample.pl \
+                $SOMEDIR/gdf-trace.pl
+cp $MAKAO/filtering/prolog-backward/rules/gdf-sample-logic.pl \
+                $SOMEDIR/gdf-trace-logic.pl
+cp $MAKAO/filtering/prolog-backward/bin/prepare_fact_base.sh \
+                $SOMEDIR/prepare_fact_base.sh
+
+#Modify the first three variable definitions of
+#<code>$SOMEDIR/prepare_fact_base.sh</code> and make sure
+#that <code>PL_IN=$WORK_DIR/trace-facts.pl</code>
+$SOMEDIR/prepare_fact_base.sh
+
+#modify and add rules, see below
+
+#apply the rules to filter the graph, like this:
+$MAKAO/filtering/prolog-backward/bin/show_reduced.sh \
+                 trace-facts.pl target_name
+
+#layout the graph as usual, then visualize using:
+$MAKAO/filtering/prolog-backward/ui/show.sh some_file-piccolo.gdf \
+                 target_name{% endhighlight %}<br/>
+
+<p>With the sample rules as inspiration, you can write logic filtering rules in <code>$SOMEDIR/gdf-trace-logic.pl</code> and configure which rules are active in <code>$SOMEDIR/gdf-trace.pl</code>. This part of MAKAO is quite advanced and experimental, details are given in <a href="http://mcis.polymtl.ca/publications/2008/PhD.pdf">my PhD dissertation</a>), but feel free to contact <script type='text/javascript'>var a = new Array('gmail.com','lab.mcis@');document.write("<a href='mailto:"+a[1]+a[0]+"'>"+a[1]+a[0]+"</a>");</script>
+    <noscript><a href="mailto:lab DOT mcis WHAT gmail DOT com">lab DOT mcis WHAT gmail DOT com</a><i>(DOT=. and WHAT=@)</i></noscript> in case of trouble.</p><br/>
+
+<!--<h3><a name="reeng"></a>5. Refactoring of Build Dependency Graph</h3>
+
+<p>MAKAO can refactor Makefiles (only <a href="http://www.gnu.org/software/make/">GNU Make</a>) using <a href="http://aosd.net/">Aspect-Orientation Software Development (AOSD)</a> technology. The full details are given <a href="http://mcis.polymtl.ca/publications/2008/PhD.pdf">here</a>, but this tutorial shows how to re-enact our experiments.</p>
+
+<p>We want to preprocess each .c file with a custom tool before compilation. For this, we will add a call to that tool before every compiler invocation, making sure that instead of the original file the compiler gets as input the preprocessed file.</p>
+
+<p>Open the build dependency graph you want to re-engineer in the <a href="http://www.cs.umd.edu/hcil/piccolo/">Piccolo</a> mode of <a href="http://graphexploration.cond.org/">GUESS</a>. Then:
+<ol>
+<li><code>execfile(makao_path+"scripts/case-cc.py")</code></li>
+<li>Select <code>$MAKAO/refactoring/example</code> as directory when prompted (create this directory if it is not there).</li>
+<li>If you check the command list of any red object file node (<code>commands[t]</code>), you will see that a call to the custom tool has been added before every compilation command. This has only happened on MAKAO's in-memory model of the build dependency graph, NOT on the actual Makefiles (<b>"virtual weaving"</b>).</li>
+<li>If the results are not satisfactorily, the virtual weaving can be undone using <code>cc_weaver.unweave_before()</code>.</li>
+<li>If you are happy with the proposed changes, it is time to modify the real Makefiles (<b>"physical weaving"</b>) by:
+<ul>
+<li>Copying your Makefiles to <code>$MAKAO/refactoring/examle/orig</code>.</li>
+<li>Creating an empty directory <code>$MAKAO/refactoring/example/makao</code>.</li>
+<li><code>cd $MAKAO/refactoring</code></li>
+<li>Synchronizing <code>$MAKAO/refactoring/examle/orig</code> and <code>$MAKAO/refactoring/example/makao</code> using <code>./bin/weave.sh example aspicere-cc reset /path/to/build/dir</code>.</li>
+<li>Doing the physical weaving using <code>./bin/weave.sh example aspicere-cc weave /path/to/directory/during/build</code>.</li>
+<li>To show that the Makefiles in <code>$MAKAO/refactoring/example/makao</code> have been modified, a diff is shown to compare with the original Makefiles in <code>$MAKAO/refactoring/example/orig</code>.</li>
+<li>Undoing the physical weaving only requires <code>./bin/weave.sh example aspicere-cc unweave /path/to/directory/during/build</code>.</li>
+</ul>
+</li>
+</ol>
+</p>
+-->
+
+
+
+
+
+        <br/><h1><a name="pubs">Related Publications</a></h1>
+          <ul><li>MCINTOSH, S., ADAMS, B., KAMEI, Y., NGUYEN, T. and HASSAN, A. E. (2011). An Empirical Study of Build Maintenance Effort, in Proceedings of the 33rd International Conference on Software Engineering, ICSE (Waikiki, Honolulu, Hawaii), to appear. (Acceptance ratio: 62/441=14%)&nbsp;<a name="icse11" href="http://mcis.polymtl.ca/publications/2011/icse11.bib"><i>BibTeX</i></a></li>
+      <li>
+    MCINTOSH, S., ADAMS, B. and HASSAN, A. E. (2010). <a href="http://sail.cs.queensu.ca/publications/pubs/msr2010_mcintosh.pdf">The Evolution of ANT Build Systems</a>, in Proceedings of the 7th IEEE Working Conference on Mining Software Repositories, MSR (Cape Town, South Africa), pages 42-51. (Acceptance ratio: 16/51=31.4%)&nbsp;<a name="msr10shane" href="http://mcis.polymtl.ca/publications/2010/msr10shane.bib"><i>BibTeX</i></a>
+    </li>
+     <li>
+    ADAMS, B. (2009). <a href="http://sail.cs.queensu.ca/publications/pubs/icsm09PhDSymposium.pdf">Co-Evolution of Source Code and the Build System</a>, PhD Symposium at the 25th IEEE International Conference on Software Maintenance, ICSM (Edmonton, Canada), September 2009.&nbsp;<a href="http://mcis.polymtl.ca/publications/2009/phdsym09.bib"><i>BibTeX</i></a>
+    </li>
+        <li>
+    ADAMS, B. (2008). <a name="phd" href="http://mcis.polymtl.ca/publications/2008/PhD.pdf">Co-evolution of Source Code and the Build System: Impact on the Introduction of AOSD in Legacy Systems</a>, PhD dissertation, ISBN 978-90-8578-203-2, Ghent University, Belgium, May 2009.&nbsp;<a href="http://mcis.polymtl.ca/publications/2008/phd.bib"><i>BibTeX</i></a>
+    </li>
+    <li>
+    ADAMS, B., DE SCHUTTER, K., TROMP, H. and DE MEUTER, W. (2008). <a name="eceasst08" href="http://eceasst.cs.tu-berlin.de/index.php/eceasst/article/download/115/119">The Evolution of the Linux Build System</a>, in Proceedings of the ERCIM Working Group on Software Evolution 2007 (Paris, France), Electronic Communications of the ECEASST, Vol. 8., 16 p.&nbsp;<a href="http://mcis.polymtl.ca/publications/2008/eceasst.bib"><i>BibTeX</i></a>
+    </li>    
+    <li>
+    ADAMS, B., DE SCHUTTER, K., TROMP, H. and DE MEUTER, W. (2007). <a name="icsm07" href="http://mcis.polymtl.ca/publications/2007/icsm.pdf">Design Recovery and Maintenance of Build Systems</a>, in Proceedings of the 23rd IEEE International Conference on Software Maintenance, ICSM, pages 114-123, IEEE Computer Society, Paris, France, October 2007. (Acceptance ratio: 46/214=21%)&nbsp;<a href="http://mcis.polymtl.ca/publications/2007/recovery.bib"><i>BibTeX</i></a>
+    </li>
+        <li>
+    ADAMS, B., DE SCHUTTER, K., TROMP, H. and DE MEUTER, W. (2007). <a name="icsm07-demo" href="http://mcis.polymtl.ca/publications/2007/icsm-demo.pdf">MAKAO</a> (demo), in Proceedings of the 23rd IEEE International Conference on Software Maintenance, ICSM (Paris, France), pages 517-518, IEEE Computer Society, October 2007.&nbsp;<a href="http://mcis.polymtl.ca/publications/2007/icsm-demo.bib"><i>BibTeX</i></a>
+    </li>
+      </ul>
+
+	     </div>
+
+
+
+                 <div class="sidebar">
+
+        <div class="subnav">
+	    <h5>Download</h5>
+<p>
+  <ul>
+    <li><a href="{{ latest_url }}">MAKAO 1.8 (28/04/2014)</a></li>
+    <li>MAKAO 1.7 (07/03/2014)</li>
+    <li>MAKAO 1.6 (05/08/2013)</li>
+    <li>MAKAO 1.5 (02/07/2011)</li>
+  </ul>
+</p>
+  <br/>
+    <br/>
+  <h5>Jump to ...</h5>
+<p>
+  <ul>
+  <li><a href="#news">News</a></li>
+  <li><a href="#what">What does MAKAO do?</a></li>
+  <li><a href="#down">MAKAO's Requirements</a></li>
+  <li><a href="#tutorial">Tutorial</a></li>
+  <li><a href="#pubs">Related Publications</a></li>
+  </ul>
+</p>
+    <br/>
+    <br/>
+<h5>Our Other Tools</h5>
+<p>
+  <ul>
+    <li><a href="http://mcis.polymtl.ca/~bram/r3v3rs3/index.html"><b>R3V3RS3</b></a></li>
+    <li><a href="http://mcis.polymtl.ca/~bram/aspicere/index.html"><b>Aspicere</b></a></li>
+    <li><a href="http://prologdoc.sourceforge.net/"><b>PrologDoc</b></a></li>
+  </ul>
+</p>
+        </div>
+      </div>

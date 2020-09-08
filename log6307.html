@@ -1,0 +1,121 @@
+---
+layout: index 
+title: LOG 6307, Release Engineering -- Application of Mining Software Repositories (Fall 2018)
+---
+
+    <div class="box">
+     <div class="sidebar">
+       <div class="subnav">
+          <h5>LOG 6307:</h5>
+          <ul>
+            <li><a href="#intro">Introduction</a></li>
+<!--	    <li><a href="#description">Description</a></li>-->
+	    <li><a href="#practice">Practicalities</a></li>
+	    <li><a href="#success" class="urgent">Successful Projects</a></li>
+	    <li><a href="#outline">Outline</a></li>
+	    <li><a href="#data">MSR Data</a></li>
+          </ul>
+<br/><br/><br/>
+	                <h5>Relevant Links:</h5>
+	    <ul>
+	      <li><a href="http://www.polymtl.ca/etudes/cours/details.php?sigle=LOG6307%20%20%20">LOG6307 details</a></li>
+	      <li><a href="https://moodle.polymtl.ca/course/view.php?id=1721">Moodle</a></li>
+	      <li>&nbsp;</li>
+	      <li><a href="http://releng.polymtl.ca/">RELENG workshop</a></li>
+	      <li><a href="http://msrconf.org/">MSR conference</a></li>
+
+	      <li>&nbsp;</li>
+	      <li><a href="http://relengofthenerds.blogspot.ca/">RELENG of the Nerds</a></li>
+	      <li><a href="http://google-engtools.blogspot.ca/">Google Release Engineering Tools</a></li>
+	      <li><a href="http://oduinn.com/blog/">Mozilla Release Engineering</a></li>
+	      </ul>
+        </div>
+
+      </div>
+
+           <div class="content">
+
+	     <h1><a name="intro"><b>LOG 6307</b> Release Engineering -- Applications of Mining Software Repositories (Fall 2018)</a></h1><br/>
+
+	     <p>LOG6307 is a grad course given each Fall <b>in English</b> at Polytechnique Montreal by <a href="http://mcis.polymtl.ca/~bram/">Dr. Bram Adams</a>.</p><br/>
+	     
+	     <p><a href="http://www.polymtl.ca/etudes/cours/details.php?sigle=LOG6307%20%20%20">LOG6307</a> (in French: "Fouille de r&eacute;f. pour mise en prod. logicielle") aims to introduce graduate students to the wonderful, yet challenging world of <a href="http://en.wikipedia.org/wiki/Release_engineering">software release engineering</a>. Software release engineering is the discipline of integrating, building, testing, deploying and releasing qualitative software releases to the end user. These activities form a vital link in today's <a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a> world!</p><br/>
+
+	     <p>While many people still think of software as cardboard boxes bought in their local electronics shop, the advent of agile methodologies and the web has changed the landscape drastically. Deployment of modern applications often includes coordinating the release of applications on multiple mobile platforms, web platforms with centralized backend services, app stores, and native desktop clients. Furthermore, concepts like continuous delivery of software are no longer curiosities, but essential to retain a competitive edge. Did you know that lean start-ups like <a href="http://www.imvu.com/">IMVU</a> release up to 50 times <b>per day</b>, while modern companies like <a href="http://www.intuit.ca/intuit-products/index.jsp">Intuit</a>, <a href="http://www.google.ca">Google</a> and <a href="http://www.mozilla.org/en-US/">Mozilla</a> only take a couple of weeks in between releases? Browsers like <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> and <a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> even update silently to new releases, without the user noticing it.</p><br/>
+
+	     <p>But how can a software organization achieve such a highly performant release engineering process? How can delays and inefficiencies be identified and monitored, and how can they be resolved? As a methodology towards dealing with these questions, this course promotes the usage of techniques from the area of <a href="http://msrconf.org">mining software repositories</a>. This area leverages a wide range of readily available databases such as version control repositories, bug repositories, mailing lists and other data gathered during or following the development process, in order to extract actionable data that can help stakeholders like release engineers or gatekeepers to improve integration or to make the right decision.</p><br/>
+
+<!--	     <br/><br/><h3><a name="description">Description of the Course</a></h3>
+	     <p>Software release engineering process: integration, build, staged tests, packaging and deployment. Release planning. Definition and basic concepts of mining software repositories. Different types of repositories: version control, bug repositories, mailing lists, project ecosystems and collaboration environments. Empirical techniques for repository mining: data mining, statistical analysis, natural language processing, source code analysis and qualitative analysis. Integration : configuration management, impact of branching patterns on software quality, integration patterns in large-scale software projects. Build: build maintenance and verification, software variability management. Staged tests: bug prediction, test reduction/minimization/selection and continuous quality assurance. Packaging: large-scale software distributions, code provenance and mobile applications. Deployment: deployment strategies, app stores and cloud computing.</p><br/>-->
+
+	     <br/><br/><h3><a name="practice">Some Practicalities</a></h3>
+<p>The LOG6307 course outline is given <a href="#outline">below</a>, while the time table can be found <a href="http://www.polymtl.ca/etudes/cours/fouille-de-ref-pour-mise-en-prod-logicielle">here</a>.</p><br/><!-- <a href="https://moodle.polymtl.ca/course/view.php?id=1721">the Moodle site</a> will be used to submit the assignment and project.</p><br/><!--<span class="essence">Note that on Tuesday the 27th of August, the lab session exceptionally will be replaced by a lecture (the first lectures of the year).</span></p><br/>-->
+
+<p>Evaluation is based on weekly presentations and discussion, reviews, one assignment and a project. The assignment will be in group, while the other activities will be individual. More details are provided <a href="https://moodle.polymtl.ca/course/view.php?id=1721">on Moodle</a>.</p><br/>
+
+	     <br/><br/><h3><a name="success">Successful Projects</a></h3>
+             <p>The following conference papers started as an assignment or project in LOG6307, keep an eye on this section for more ;-)</p><br/>
+             <ul>
+               <li>
+                 LANOVAZ, M., and ADAMS, B. (2019). <a name="ieeesw19_marc">A Comparison of Communication Tone and Responding Across Users and Developers in Two R Mailing Lists</a>, special issue on Sentiment and Emotion in Software Engineering, IEEE Software, to appear.&nbsp;<a href="publications/2019/ieeesw_marc.bib"><i>BibTeX</i></a>
+               </li>	   
+          <li>
+    BEN BRAIEK, H., KHOMH, F. and ADAMS, B. (2018). <a href="publications/2018/msr2.pdf">The Open-Closed Principle of Modern Machine Learning Frameworks</a>, in Proceedings of the 15th International Conference on Mining Software Repositories, MSR (Gothenburg, Sweden), to appear. (Acceptance ratio: 37/113=32.7%)&nbsp;<a href="publications/2018/msr2.bib"><i>BibTeX</i></a>
+    </li>
+    <li>BENBACHIR, A., DE MELO JR, I.F., DAGENAIS, M. and ADAMS, B. (2017). <a href="publications/2017/qrs.pdf">Automated Performance Deviation Detection Across Software Versions Releases</a> [short], in Proceedings of the 2017 IEEE International Conference on Software Quality, Reliability and Security, QRS (Prague, Czech Republic), to appear.&nbsp;<a href="publications/2017/qrs.bib"><i>BibTeX</i></a></li>
+          <li>
+    ZOLFAGHARINIA, M., ADAMS, B. and GU&Eacute;H&Eacute;NEUC, Y.-G. (2017). <a href="publications/2017/msr.pdf">Do Not Trust Build Results at Face Value - An Empirical Study of 30 Million CPAN Builds</a>, in Proceedings of the 14th International Conference on Mining Software Repositories, MSR (Buenos Aires, Argentina), to appear. (Acceptance ratio: 37/121=30.6%)&nbsp;<a href="publications/2017/msr.bib"><i>BibTeX</i></a>
+    </li>
+            <li>
+    FOUNDJEM, A. T., KHOMH, F. and ADAMS, B. (2017). <a href="http://swat.polymtl.ca/~foutsekh/docs/ICST-Tita.pdf">Broadcast vs. Unicast Review Technology: Does it Matter?</a>, in Proceedings of the 10th IEEE International Conference on Software Testing, Verification and Validation, ICST (Tokyo, Japan), to appear. (Acceptance ratio: 36/135=27%)&nbsp;<a href="publications/2017/icst.bib"><i>BibTeX</i></a>
+    </li>
+              <li>
+    MUSAVI, P., ADAMS, B. and KHOMH, F. (2016). <a name="issrepooya">Experience Report: An Empirical Study of API Failures in OpenStack Cloud Environments</a>, in Proceedings of the 27th International Symposium on Software Reliability Engineering, ISSRE (Ottawa, ON), to appear. (Acceptance ratio: 45/130=34.6%)&nbsp;<a href="publications/2016/issre_pooya.bib"><i>BibTeX</i></a>
+    </li>
+            <li>
+    RAHMAN, M. T., QUEREL, L.-P., RIGBY, P. C. and ADAMS, B. (2016). <a href="http://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf">Feature Toggles: A case study and survey</a>, in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR (Austin, TX), pages 201-211. (Acceptance ratio: 36/103=27%)&nbsp;<a href="publications/2016/msrupak.bib"><i>BibTeX</i></a></li>
+                <li>BOISSELLE, V. and ADAMS, B. (2015). <a href="publications/2015/scam15_vincent.pdf">The Impact of Cross-Distribution Bug Duplicates, Empirical Study on Debian and Ubuntu</a>, in Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM (Bremen, Germany), pages 131-140. (Acceptance ratio: 24/68=35%)&nbsp;<a href="publications/2015/scam15b.bib"><i>BibTeX</i></a></li>
+		            <li>SAYAGH, M. and ADAMS, B. (2015). <a href="publications/2015/scam15_mohammed.pdf">Multi-layer Software Configuration - Empirical Study on Wordpress</a>, in Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM (Bremen, Germany), pages 31-40. (Acceptance ratio: 24/68=35%)&nbsp;<a href="publications/2015/scam15a.bib"><i>BibTeX</i></a> [<a href="http://mcis.polymtl.ca/~msayagh/Paper/SCAM15/Figures/">additional</a> <a href="http://mcis.polymtl.ca/~msayagh/Paper/SCAM15/LOC_vs_Options/">figures</a>]</li>
+        <li>
+    TOURANI, P., JIANG, Y. and ADAMS, B. (2014). <a href="publications/2014/cascon14.pdf">Monitoring Sentiment in Open Source Mailing Lists – Exploratory Study on the Apache Ecosystem</a>, in Proceedings of the 2014 Conference of the Center for Advanced Studies on Collaborative Research, CASCON (Markham, ON, Canada), pages 34-44. (Acceptance ratio: 19/56=33.9%)&nbsp;<a href="publications/2014/cascon.bib"><i>BibTeX</i></a>
+</li>
+    <li>AN, L., KHOMH, F., and ADAMS, B. (2014). <a href="http://swat.polymtl.ca/~foutsekh/docs/suppl_reop.pdf">Supplementary Bug Fixes vs. Re-opened Bugs</a>, in Proceedings of the 14th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM (Victoria, BC, Canada), pages 205-214. (Acceptance ratio: 26/82=31.7%)&nbsp;<a href="publications/2014/scam14.bib"><i>BibTeX</i></a></li>
+        <li>
+    SHRIDHAR, M., ADAMS, B. and KHOMH, F. (2014). <a href="publications/2014/esem14mini.pdf">A Qualitative Analysis of Software Build System Changes and Build Ownership Styles</a>, in Proceedings of the 8th International Symposium on Empirical Software Engineering and Measurement, ESEM (Torino, Italy), article 29. (Acceptance ratio: 23/123=19%)&nbsp;<a href="publications/2014/esemmini.bib"><i>BibTeX</i></a>
+    </li>
+    </ul>
+<br/>
+
+	     <br/><br/><h3><a name="outline">Outline of the Course</a></h3>
+  {% for entry in site.data.log6307 %}
+  <h4><b><i>{{ entry.title }}</i></b></h4>
+  <p><ul>
+    {% for topic in entry.content %}
+    <li>{{ topic.topic }}</li>
+    {% endfor %}
+  </ul></p>
+  <br/>
+  {% for subsection in entry.subsections %}
+  {% if subsection.title contains 'Slides' %}
+  <p>
+  <ul>
+    {% for topic in subsection.content %}
+    {% if topic.url contains 'slideshare' %}<br/>{{ topic.url }}{% else %}<li><a href="{{ topic.url }}">{{ topic.title }}</a></li>{% endif %}
+    {% endfor %}
+  </ul></p><br/>
+  {% endif %}
+  {% endfor %}
+  <br/>
+  {% endfor %}
+
+	     <h3><a name="data">Where to get MSR Data?</a></h3>
+  {% for entry in site.data.empirical_data %}
+  <p><b><i>{{ entry.title }}:</i></b>
+<ul>
+  {% for link in entry.links %}
+  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+  {% endfor %}
+</ul></p><br/>
+  {% endfor %}
+      </div>
+      

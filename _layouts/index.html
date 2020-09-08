@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{ page.title }}</title>
+{% include search.ext %}
+</head>
+<body>
+
+<!-- Header Stuff -->
+{% include header.ext %}
+
+<!-- Nav Bar -->
+{% include navbar.ext %}
+
+<div class="main-container">
+
+  <div class="container1">
+
+  <!-- Bread Crumb if not on main page -->
+  {% include crumb.ext %}
+
+  <!-- Actual Content -->
+  {{ content }}
+
+  <div class="clear"></div>
+  </div>
+  </div>
+<div class="main-container">
+ </div>
+
+ <!-- Footer -->
+ {% include footer.ext %}
+
+    </body>
+</html>

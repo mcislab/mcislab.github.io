@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>problems_and_solutions</title>
+<!-- 2018-01-18 Thu 18:30 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Bram Adams" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/javascript" src="http://orgmode.org/mathjax/MathJax.js"></script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+    MathJax.Hub.Config({
+        // Only one of the two following lines, depending on user settings
+        // First allows browser-native MathML display, second forces HTML/CSS
+        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
+                     "TeX/noUndefined.js"],
+        tex2jax: {
+            inlineMath: [ ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
+            skipTags: ["script","noscript","style","textarea","pre","code"],
+            ignoreClass: "tex2jax_ignore",
+            processEscapes: false,
+            processEnvironments: true,
+            preview: "TeX"
+        },
+        showProcessingMessages: true,
+        displayAlign: "center",
+        displayIndent: "2em",
+
+        "HTML-CSS": {
+             scale: 100,
+             availableFonts: ["STIX","TeX"],
+             preferredFont: "TeX",
+             webFont: "TeX",
+             imageFont: "TeX",
+             showMathMenu: true,
+        },
+        MMLorHTML: {
+             prefer: {
+                 MSIE:    "MML",
+                 Firefox: "MML",
+                 Opera:   "HTML",
+                 other:   "HTML"
+             }
+        }
+    });
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">problems_and_solutions</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. unplanned_creation</a>
+<ul>
+<li><a href="#sec-1-1">1.1. unplanned_creation/convention over configuration.docx</a></li>
+<li><a href="#sec-1-2">1.2. unplanned_creation/unplanned_evolution.docx</a></li>
+<li><a href="#sec-1-3">1.3. unplanned_creation/ad hoc options.docx</a></li>
+<li><a href="#sec-1-4">1.4. unplanned_creation/what_to_make_configurable.docx</a></li>
+<li><a href="#sec-1-5">1.5. unplanned_creation/options vs. splitting program.docx</a></li>
+<li><a href="#sec-1-6">1.6. unplanned_creation/complex configuration.docx</a></li>
+<li><a href="#sec-1-7">1.7. unplanned_creation/configuration_mechanisms_are_system_specific.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. complexity_through_creation</a>
+<ul>
+<li><a href="#sec-2-1">2.1. complexity_through_creation/many files.docx</a></li>
+<li><a href="#sec-2-2">2.2. complexity_through_creation/many options.docx</a></li>
+<li><a href="#sec-2-3">2.3. complexity_through_creation/large_files.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. managing_default_value</a>
+<ul>
+<li><a href="#sec-3-1">3.1. managing_default_value/choose consistent default value.docx</a></li>
+<li><a href="#sec-3-2">3.2. managing_default_value/no perfect default value for everyone.docx</a></li>
+<li><a href="#sec-3-3">3.3. managing_default_value/wrong or unsafe default value.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. ambiguous_role_during_creation</a>
+<ul>
+<li><a href="#sec-4-1">4.1. ambiguous_role_during_creation/ownership.docx</a></li>
+<li><a href="#sec-4-2">4.2. ambiguous_role_during_creation/wrong_location.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. mixing_storage</a>
+<ul>
+<li><a href="#sec-5-1">5.1. mixing_storage/secret configuration values.docx</a></li>
+<li><a href="#sec-5-2">5.2. mixing_storage/many different sources.docx</a></li>
+<li><a href="#sec-5-3">5.3. mixing_storage/storage mechanism.docx</a></li>
+<li><a href="#sec-5-4">5.4. mixing_storage/multi-file configuration updates.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. performance_implications_storage</a>
+<ul>
+<li><a href="#sec-6-1">6.1. performance_implications_storage/configuration access leads to high load.docx</a></li>
+<li><a href="#sec-6-2">6.2. performance_implications_storage/config DB offline.docx</a></li>
+<li><a href="#sec-6-3">6.3. performance_implications_storage/reload system to incorporate option changes.docx</a></li>
+<li><a href="#sec-6-4">6.4. performance_implications_storage/reduce configuration access bottleneck by refactoring system.docx</a></li>
+<li><a href="#sec-6-5">6.5. performance_implications_storage/race conditions when accessing options.docx</a></li>
+<li><a href="#sec-6-6">6.6. performance_implications_storage/cache configuration DB in file.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-7">7. unsuitable_format</a>
+<ul>
+<li><a href="#sec-7-1">7.1. unsuitable_format/reuse_of_config_data.docx</a></li>
+<li><a href="#sec-7-2">7.2. unsuitable_format/untyped options.docx</a></li>
+<li><a href="#sec-7-3">7.3. unsuitable_format/hierarchical_format_hard_to_understand.docx</a></li>
+<li><a href="#sec-7-4">7.4. unsuitable_format/custom_format_difficult.docx</a></li>
+<li><a href="#sec-7-5">7.5. unsuitable_format/non-primitive_options.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-8">8. cross_env_platform_variant_options</a>
+<ul>
+<li><a href="#sec-8-1">8.1. cross_env_platform_variant_options/different_versions_of_same_system.docx</a></li>
+<li><a href="#sec-8-2">8.2. cross_env_platform_variant_options/cross-os_configuration.docx</a></li>
+<li><a href="#sec-8-3">8.3. cross_env_platform_variant_options/options in product line.docx</a></li>
+<li><a href="#sec-8-4">8.4. cross_env_platform_variant_options/consolidate common configuration options across components or environments.docx</a></li>
+<li><a href="#sec-8-5">8.5. cross_env_platform_variant_options/multi-environment options.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-9">9. option_access_across_code</a>
+<ul>
+<li><a href="#sec-9-1">9.1. option_access_across_code/reduce impact of configuration on the system.docx</a></li>
+<li><a href="#sec-9-2">9.2. option_access_across_code/custom_architecture.docx</a></li>
+<li><a href="#sec-9-3">9.3. option_access_across_code/configuration-aware component framework.docx</a></li>
+<li><a href="#sec-9-4">9.4. option_access_across_code/improve architecture of product line for option reuse.docx</a></li>
+<li><a href="#sec-9-5">9.5. option_access_across_code/add_abstractions_to_access_configuration.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-10">10. config_framework_underutilized</a>
+<ul>
+<li><a href="#sec-10-1">10.1. config_framework_underutilized/use high-level configuration framework.docx</a></li>
+<li><a href="#sec-10-2">10.2. config_framework_underutilized/low-level configuration framework.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-11">11. knowledge_spread_across_people</a>
+<ul>
+<li><a href="#sec-11-1">11.1. knowledge_spread_across_people/changing currently used options.docx</a></li>
+<li><a href="#sec-11-2">11.2. knowledge_spread_across_people/know-how of person changing option (value).docx</a></li>
+<li><a href="#sec-11-3">11.3. knowledge_spread_across_people/determining impact of option change.docx</a></li>
+<li><a href="#sec-11-4">11.4. knowledge_spread_across_people/unknown_impact.docx</a></li>
+<li><a href="#sec-11-5">11.5. knowledge_spread_across_people/configuration UI.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-12">12. config_understanding_complex</a>
+<ul>
+<li><a href="#sec-12-1">12.1. config_understanding_complex/third_party_configuration.docx</a></li>
+<li><a href="#sec-12-2">12.2. config_understanding_complex/non-exposed options.docx</a></li>
+<li><a href="#sec-12-3">12.3. config_understanding_complex/interference or overlap between options.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-13">13. incomprehensible_option_names</a>
+<ul>
+<li><a href="#sec-13-1">13.1. incomprehensible_option_names/meaningful names.docx</a></li>
+<li><a href="#sec-13-2">13.2. incomprehensible_option_names/inconsistent naming.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-14">14. risk_of_dead_option_removal</a>
+<ul>
+<li><a href="#sec-14-1">14.1. risk_of_dead_option_removal/disable dead option.docx</a></li>
+<li><a href="#sec-14-2">14.2. risk_of_dead_option_removal/deprecatable configuration options.docx</a></li>
+<li><a href="#sec-14-3">14.3. risk_of_dead_option_removal/remove dead options.docx</a></li>
+<li><a href="#sec-14-4">14.4. risk_of_dead_option_removal/warn about dead options.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-15">15. different_option_priorities</a></li>
+<li><a href="#sec-16">16. traceability_loss_during_evolution</a>
+<ul>
+<li><a href="#sec-16-1">16.1. traceability_loss_during_evolution/generate configuration files.docx</a></li>
+<li><a href="#sec-16-2">16.2. traceability_loss_during_evolution/backward-compatible option changes.docx</a></li>
+<li><a href="#sec-16-3">16.3. traceability_loss_during_evolution/refactoring configuration files.docx</a></li>
+<li><a href="#sec-16-4">16.4. traceability_loss_during_evolution/traceability.docx</a></li>
+<li><a href="#sec-16-5">16.5. traceability_loss_during_evolution/option duplication.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-17">17. debugging_config_complex</a>
+<ul>
+<li><a href="#sec-17-1">17.1. debugging_config_complex/show run-time values.docx</a></li>
+<li><a href="#sec-17-2">17.2. debugging_config_complex/understanding_behaviour_issues_due_to_options.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-18">18. lack_of_config_debugging_tools</a>
+<ul>
+<li><a href="#sec-18-1">18.1. lack_of_config_debugging_tools/trial-and-error.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-19">19. avoiding_config_regressions</a></li>
+<li><a href="#sec-20">20. lack_of_config_documentation</a>
+<ul>
+<li><a href="#sec-20-1">20.1. lack_of_config_documentation/third_party_configuration_option_documentation.docx</a></li>
+<li><a href="#sec-20-2">20.2. lack_of_config_documentation/reading code to understand configuration.docx</a></li>
+<li><a href="#sec-20-3">20.3. lack_of_config_documentation/online_search_for_documentation.docx</a></li>
+<li><a href="#sec-20-4">20.4. lack_of_config_documentation/documentation of default values.docx</a></li>
+<li><a href="#sec-20-5">20.5. lack_of_config_documentation/distinguish important from other options.docx</a></li>
+<li><a href="#sec-20-6">20.6. lack_of_config_documentation/lack of documentation.docx</a></li>
+<li><a href="#sec-20-7">20.7. lack_of_config_documentation/out_of_date_docs.docx</a></li>
+<li><a href="#sec-20-8">20.8. lack_of_config_documentation/detailed documentation.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-21">21. lack_of_config_communication</a>
+<ul>
+<li><a href="#sec-21-1">21.1. lack_of_config_communication/teaching_of_options.docx</a></li>
+<li><a href="#sec-21-2">21.2. lack_of_config_communication/lack_of_knowledge.docx</a></li>
+<li><a href="#sec-21-3">21.3. lack_of_config_communication/learning_curve.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-22">22. no_config_review</a>
+<ul>
+<li><a href="#sec-22-1">22.1. no_config_review/configuration review.docx</a></li>
+</ul>
+</li>
+<li><a href="#sec-23">23. lack_of_config_validation</a>
+<ul>
+<li><a href="#sec-23-1">23.1. lack_of_config_validation/off-line configuration validation.docx</a></li>
+<li><a href="#sec-23-2">23.2. lack_of_config_validation/no run-time protection against option errors.docx</a></li>
+<li><a href="#sec-23-3">23.3. lack_of_config_validation/dynamic programming languages vs. checking.docx</a></li>
+<li><a href="#sec-23-4">23.4. lack_of_config_validation/configuration-aware testing.docx</a></li>
+<li><a href="#sec-23-5">23.5. lack_of_config_validation/configuration validation at start-up.docx</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> unplanned_creation</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> unplanned_creation/convention over configuration.docx</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.59% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.59% Coverage =&gt; We strongly suggest that common sense options are the default. We use the &amp;quot;convention over configuration&amp;quot; pattern. We never force a developer to add an configuration option that is the same for most applications
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> unplanned_creation/unplanned_evolution.docx</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Internals\\Problems and solutions - § 3 references coded [ 1.73% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.25% Coverage =&gt; One bug produced a new option instead of fixing the existing options which lead to the bug&#x2026;
+</li>
+
+<li>Reference 2 - 0.79% Coverage =&gt; Nesting options was not originally planned for, but was quickly encountered. This led to a few additional iterations that could have been avoided. Using standard format (JSON, YAML, S-Expressions) would have saved some up-front costs but the original system sort of grew organically.
+</li>
+
+<li>Reference 3 - 0.68% Coverage =&gt; We should have anticipated nested configurations, but the config system sort of grew organically at first. Later we had to step back and redesign it. Using something standard earlier (JSON, YAML, S-Expressions) would have saved some later pain.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> unplanned_creation/ad hoc options.docx</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Internals\\Problems and solutions - § 5 references coded [ 1.56% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.22% Coverage =&gt; creation of ad-hoc properties that create maintenance burden in the long term
+</li>
+
+<li>Reference 2 - 0.52% Coverage =&gt; I think the biggest problems are created by developers. They are doing configuration files/variables that only they know and use fluently. They don’t presume that others might need them.
+</li>
+
+<li>Reference 3 - 0.27% Coverage =&gt; Sometimes configuration options are designed without taking full account of the consequences
+</li>
+
+<li>Reference 4 - 0.37% Coverage =&gt; the most common problem is that the developer who wrote the application is usually the only one or the most familiar with the options.
+</li>
+
+<li>Reference 5 - 0.18% Coverage =&gt; A general problem is that it’s easy to add them without much thought
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> unplanned_creation/what_to_make_configurable.docx</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+Internals\\Problems and solutions - § 7 references coded [ 3.72% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.21% Coverage =&gt; standard way of separating runtime vs non-runtime changeable properties
+</li>
+
+<li>Reference 2 - 0.35% Coverage =&gt; I tend to leave too many configuration options hard coded into the application, making it difficult to change from a client side
+</li>
+
+<li>Reference 3 - 0.23% Coverage =&gt; Software by design is open and flexible, configurations are static by their nature.
+</li>
+
+<li>Reference 4 - 0.17% Coverage =&gt; making it clear what type of user benefits from a given setting
+</li>
+
+<li>Reference 5 - 1.22% Coverage =&gt; The most important problem is knowing what options our users want and how to tailor those options to that audience. Often times​ we can’t communicate with all of our users and that creates a very big gap of understanding between developers and our userbase. We have to guess what our users want and the issue with that is that we have an audience that is comprised of very different people who have different needs and who have very different goals.
+</li>
+
+<li>Reference 6 - 1.02% Coverage =&gt; This is even more complicated in the case of our project because we have to even consider people who aren’t directly using or developing for our platform because Glowkit is a fork of an actively used project. We can’t really solve this issue but we can lessen its effects by determining use cases and finding configuration options that could be created to help that use case.
+</li>
+
+<li>Reference 7 - 0.51% Coverage =&gt; The major problem with configurations is deciding which elements should be open to configuration and which should be options should be decided by the developer to be non-configurable.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> unplanned_creation/options vs. splitting program.docx</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 1.06% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.54% Coverage =&gt; &amp;quot;do I create two separate programs or do I just add options to one program?&amp;quot;. In most cases, separating the program (or at least a clearly separated &amp;quot;sub-command&amp;quot; in the program) is a good solution.
+</li>
+
+<li>Reference 2 - 0.52% Coverage =&gt; segregate the application into small services (maybe microservices) and let independent teams manage them. (But microservices have there own problems and maybe not be fit for all cases.)
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-6" class="outline-3">
+<h3 id="sec-1-6"><span class="section-number-3">1.6</span> unplanned_creation/complex configuration.docx</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.12% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.12% Coverage =&gt; very complicated, ad hoc configurations
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-7" class="outline-3">
+<h3 id="sec-1-7"><span class="section-number-3">1.7</span> unplanned_creation/configuration_mechanisms_are_system_specific.docx</h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.20% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.20% Coverage =&gt; Config options are very hard to set up because every system is different
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> complexity_through_creation</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> complexity_through_creation/many files.docx</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Internals\\Problems and solutions - § 5 references coded [ 2.18% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.28% Coverage =&gt; Many config files spreaded around all the cosabase using different formats (.properties and .xml)
+</li>
+
+<li>Reference 2 - 0.29% Coverage =&gt; Configuration spread across many different files, even different kinds. Mostly just had to live with it.
+</li>
+
+<li>Reference 3 - 0.15% Coverage =&gt; they existed in multiple places with no documentation
+</li>
+
+<li>Reference 4 - 0.77% Coverage =&gt; Experiences of scattered and undocumented configuration options led to the development of the Options capability of what was originally called V7 and now called Krail. The idea was to solve a lot of the commonly faced issues - Options may eventually become a standalone library
+</li>
+
+<li>Reference 5 - 0.69% Coverage =&gt; Generally I find developers dislike using configuration files and prefer using annotations when it makes sense. Too many configuration files or too many attributes declared in a configuration file can make an application hard to debug or maintain.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> complexity_through_creation/many options.docx</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Internals\\Problems and solutions - § 14 references coded [ 3.36% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.08% Coverage =&gt; The more options the harder
+</li>
+
+<li>Reference 2 - 0.11% Coverage =&gt; mess with many configuration options
+</li>
+
+<li>Reference 3 - 0.26% Coverage =&gt; As we work on a big and complex system it’s impossible to know about every configuration option.
+</li>
+
+<li>Reference 4 - 0.86% Coverage =&gt; I have bad experience with &amp;quot;configuration bloat&amp;quot; which means that sometimes there is a plethora of config option and you don’t really need 99% for almost all usecases. In effect this means someone getting acquainted with the software will miss important config options because most of them can be safely ignored.
+</li>
+
+<li>Reference 5 - 0.28% Coverage =&gt; For one project that I participate amount of variables is tremendous and hard to order and document.
+</li>
+
+<li>Reference 6 - 0.05% Coverage =&gt; too many options
+</li>
+
+<li>Reference 7 - 0.10% Coverage =&gt; big number of configuration options
+</li>
+
+<li>Reference 8 - 0.12% Coverage =&gt; Too many configs are difficult to manage.
+</li>
+
+<li>Reference 9 - 0.13% Coverage =&gt; Config options were scattered across systems,
+</li>
+
+<li>Reference 10 - 0.18% Coverage =&gt; Many config options were added early on without any consistency
+</li>
+
+<li>Reference 11 - 0.13% Coverage =&gt; Nobody know all the thing that can be configured
+</li>
+
+<li>Reference 12 - 0.16% Coverage =&gt; Minimize configurations, prefer single common solution.
+</li>
+
+<li>Reference 13 - 0.29% Coverage =&gt; That configuration options require quite some maintenance effort to keep the number of options small.
+</li>
+
+<li>Reference 14 - 0.62% Coverage =&gt; An excessive number of configuration options. Fixed this using a Kanban-style WIP limit for the amount of options allowed in the system. When this limit it reached, adding anything new requires retiring an old option first.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> complexity_through_creation/large_files.docx</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 1.62% Coverage]
+</p>
+
+
+<ul class="org-ul">
+<li>Reference 1 - 0.19% Coverage =&gt; Usually, configuration files get bloated. Less is sometimes more.
+</li>
+
+<li>Reference 2 - 1.43% Coverage =&gt; We were designing our web application that we wanted to be fully configurable. Its core is basically a set of small pieces (widgets) that introduce different UI elements or functionality, but you need to manually put those pieces together by creating an XML file that described how all those small pieces were structured on the front-end - that was basically one huge configuration file. Quite soon it became pretty obvious that those configuration files will grow immensely in size making them really hard to maintain.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> managing_default_value</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> managing_default_value/choose consistent default value.docx</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Internals\\Problems and solutions - § 6 references coded [ 1.50% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.19% Coverage =&gt; ensured every option had a documented and consistent default value.
+</li>
+
+<li>Reference 2 - 0.08% Coverage =&gt; missing default option(s)
+</li>
+
+<li>Reference 3 - 0.11% Coverage =&gt; Stupid defaults, or no defaults at all
+</li>
+
+<li>Reference 4 - 0.50% Coverage =&gt; we try to make configs as small and local as possible, in a way that as few options as possible have to be touched (in regular use). ideally, everything runs with the default settings.
+</li>
+
+<li>Reference 5 - 0.15% Coverage =&gt; Names not lining up correctly were added with default
+</li>
+
+<li>Reference 6 - 0.48% Coverage =&gt; I try to keep configuration options to a minimum. Many users never configure the program, and so choosing the best possible defaults for configuration options is important.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> managing_default_value/no perfect default value for everyone.docx</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.51% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.27% Coverage =&gt; Different parts of the user base wanting a feature on or off by default and then once off by default
+</li>
+
+<li>Reference 2 - 0.24% Coverage =&gt; Choosing between values for default value, as it should satisfy the most of developers
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> managing_default_value/wrong or unsafe default value.docx</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Internals\\Problems and solutions - § 4 references coded [ 1.58% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.16% Coverage =&gt; fallback value that by default denied access to all clients
+</li>
+
+<li>Reference 2 - 1.07% Coverage =&gt; I think the most important problem is having safe defaults. Even most expert developers seem to have issues understanding those deeply enough. As result most software have non-safe default values. For example Graylog may destroy all your logs if the log retention module’s configuration can not be loaded properly, because the default in the code is to have a very short retention period
+</li>
+
+<li>Reference 3 - 0.18% Coverage =&gt; Most issues of cluster setup of my applications are wrong configs.
+</li>
+
+<li>Reference 4 - 0.16% Coverage =&gt; default values - sometimes different than what you expect
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> ambiguous_role_during_creation</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> ambiguous_role_during_creation/ownership.docx</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Internals\\Problems and solutions - § 4 references coded [ 1.36% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.38% Coverage =&gt; And when those developers leave, it is almost very difficult to determine what implications this config have if not documented properly
+</li>
+
+<li>Reference 2 - 0.57% Coverage =&gt; Probably the biggest problem with configurable products is making them too configurable. Addressing this is best done by limiting the configurability (ie only architects can add configurable aspects),
+</li>
+
+<li>Reference 3 - 0.20% Coverage =&gt; One problem we had, all developers had access to the configuration files
+</li>
+
+<li>Reference 4 - 0.21% Coverage =&gt; To fix it, we limited the developers to access to that configuration options
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> ambiguous_role_during_creation/wrong_location.docx</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 1.26% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.39% Coverage =&gt; Sometimes a configuration file could not be found, but that was rather a problem of not having it in the right location than any serios error.
+</li>
+
+<li>Reference 2 - 0.88% Coverage =&gt; Issue: different developers might have their own conf, such as user’s home dir on their own conf files set, so while each dev might add new options inside their own conf files, then other developers might have runtime issues.Solution: a. using docker technology to unify host names, services names, file paths and etc.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> mixing_storage</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> mixing_storage/secret configuration values.docx</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+Internals\\Problems and solutions - § 6 references coded [ 2.07% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.16% Coverage =&gt; Dealing with secrets between env that is still not solved
+</li>
+
+<li>Reference 2 - 0.45% Coverage =&gt; Some configuration can be stored in the VCS together with the code while some cannot be stored be stored and should be kept secret (like password for the database).
+</li>
+
+<li>Reference 3 - 0.44% Coverage =&gt; The biggest problem is making the application as unbreakable as possible. Often times configuration files are a great place where a user can break the program.
+</li>
+
+<li>Reference 4 - 0.43% Coverage =&gt; Security. Developers sometimes check in secure configuration options. For public repositories, this means that the version history has to be rolled back
+</li>
+
+<li>Reference 5 - 0.39% Coverage =&gt; Security of config option (DB credentials). Adding another service lets us encrypt the data, but then adds more point of failures in the app.
+</li>
+
+<li>Reference 6 - 0.20% Coverage =&gt; Plain text passwords. Fixed them via external lookup via revokable key.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> mixing_storage/many different sources.docx</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+Internals\\Problems and solutions - § 3 references coded [ 1.01% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.18% Coverage =&gt; Different sources for configuration options can be confussing
+</li>
+
+<li>Reference 2 - 0.28% Coverage =&gt; Many config files spreaded around all the cosabase using different formats (.properties and .xml)
+</li>
+
+<li>Reference 3 - 0.56% Coverage =&gt; Different system configures in different files and different formats, it can be property file, xml, yaml, json and it’s awful especially if you doesn’t see available options and how they affect system
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> mixing_storage/storage mechanism.docx</h3>
+<div class="outline-text-3" id="text-5-3">
+<p>
+Internals\\Problems and solutions - § 4 references coded [ 1.26% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.24% Coverage =&gt; thing about a clustered environment, containers database where to store the config&#x2026;
+</li>
+
+<li>Reference 2 - 0.16% Coverage =&gt; files vs. DB (sometimes not clear what takes precedence);
+</li>
+
+<li>Reference 3 - 0.29% Coverage =&gt; maintain multiple sources of the configuration, merge them and expose to the application via unified API
+</li>
+
+<li>Reference 4 - 0.56% Coverage =&gt; Different system configures in different files and different formats, it can be property file, xml, yaml, json and it’s awful especially if you doesn’t see available options and how they affect system
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-5-4" class="outline-3">
+<h3 id="sec-5-4"><span class="section-number-3">5.4</span> mixing_storage/multi-file configuration updates.docx</h3>
+<div class="outline-text-3" id="text-5-4">
+<p>
+Internals\\Problems and solutions - § 3 references coded [ 0.53% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.19% Coverage =&gt; sometimes multiple files need to be updated at once for a single config
+</li>
+
+<li>Reference 2 - 0.18% Coverage =&gt; automating or scripting this could improve things significantly
+</li>
+
+<li>Reference 3 - 0.15% Coverage =&gt; clustering - propagation of changes done in one node;
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> performance_implications_storage</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> performance_implications_storage/configuration access leads to high load.docx</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 1.21% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.25% Coverage =&gt; Basically configurations can cause heavy load on system if methods are not called properly
+</li>
+
+<li>Reference 2 - 0.95% Coverage =&gt; These days configuration management daemons, such as Consul or etcd, tend to lead the application design into right direction from the very beginning with the idea of fetching the configuration from the daemon instead of, say, reading a file. This mechanism is often easier to to expand to handle e.g. periodic polling of configuration options
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2"><span class="section-number-3">6.2</span> performance_implications_storage/config DB offline.docx</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.64% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.64% Coverage =&gt; At one project, we using distributed config service in db, but sometimes mysql was down due to network issues. App was written in php, and checks mysql for latest settings, and when it was down, users seen 500 Internal Error on our site.
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3"><span class="section-number-3">6.3</span> performance_implications_storage/reload system to incorporate option changes.docx</h3>
+<div class="outline-text-3" id="text-6-3">
+<p>
+Internals\\Problems and solutions - § 7 references coded [ 2.20% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.19% Coverage =&gt; Runtime modification of configuration options is a big issue for us
+</li>
+
+<li>Reference 2 - 0.23% Coverage =&gt; reload the app or comunicate the chage to other nodes after having changed something
+</li>
+
+<li>Reference 3 - 0.16% Coverage =&gt; some configuration changes require whole system restart.
+</li>
+
+<li>Reference 4 - 0.37% Coverage =&gt; for some of configuration we need live reload without server restart (say via database) and some of it should depend on the environment
+</li>
+
+<li>Reference 5 - 0.41% Coverage =&gt; Something that has historically often came up as a bit of an afterthough is updating configuration options for a running process without a restart.
+</li>
+
+<li>Reference 6 - 0.60% Coverage =&gt; We’ve usually faced the issue of changing configuration in realtime, meaning adjusting values while the software running. And since most configuration is stored in memory, this has become a difficult task to handle.
+</li>
+
+<li>Reference 7 - 0.23% Coverage =&gt; changing the same things affect the code in real time and need to restart the server.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-6-4" class="outline-3">
+<h3 id="sec-6-4"><span class="section-number-3">6.4</span> performance_implications_storage/reduce configuration access bottleneck by refactoring system.docx</h3>
+<div class="outline-text-3" id="text-6-4">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.20% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.20% Coverage =&gt; we use logcats and find the source of the load and thereby refactor the code
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-6-5" class="outline-3">
+<h3 id="sec-6-5"><span class="section-number-3">6.5</span> performance_implications_storage/race conditions when accessing options.docx</h3>
+<div class="outline-text-3" id="text-6-5">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.14% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.14% Coverage =&gt; race conditions - can the vlaues change, caching etc
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-6-6" class="outline-3">
+<h3 id="sec-6-6"><span class="section-number-3">6.6</span> performance_implications_storage/cache configuration DB in file.docx</h3>
+<div class="outline-text-3" id="text-6-6">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.45% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.45% Coverage =&gt; We extract config to typical ini file, at sync it asynchronously from db - it looks like just a cache of latest settings, and db downtime does not affect primary app.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> unsuitable_format</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> unsuitable_format/reuse_of_config_data.docx</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 1.99% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.70% Coverage =&gt; I tried to add optimizations that weren’t needed and just complicated everything (trying to remove the need to copy 2 identical lines by spending 3 hours trying and failing to implement inheritance in a simple json file) - DONT DO PREMATURE OPTIMIZATION
+</li>
+
+<li>Reference 2 - 1.29% Coverage =&gt; we often had to reuse some existing configuration parts across different front-end configuration files. So we created a way to include them within each other. Since XML wasn’t accessed directly and was read into object form in runtime - I’ve written a quite complex merge algorithm that can merge all kinds of objects which also supported merging all those includes together to provide us the final configuration in runtime while keeping it simple in the original form.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> unsuitable_format/untyped options.docx</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+Internals\\Problems and solutions - § 10 references coded [ 3.89% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.26% Coverage =&gt; Do not store your configuration in properties files or similar and the database without a plan
+</li>
+
+<li>Reference 2 - 0.37% Coverage =&gt; We wrote a new config framework at requires declaring every option with explicit data types, validation, descriptions and defaults.
+</li>
+
+<li>Reference 3 - 0.60% Coverage =&gt; Any unknown property is an error. This prevents making a typo and thinking you configured something (typically an important option needed for production to work). It also prevents dead properties from accumulating.
+</li>
+
+<li>Reference 4 - 0.16% Coverage =&gt; impossible in certain configuration languages, ie yaml
+</li>
+
+<li>Reference 5 - 0.32% Coverage =&gt; The property use a number to set a time in minutes, but the code it was in milliseconds, so we change the code to minutes
+</li>
+
+<li>Reference 6 - 0.06% Coverage =&gt; The type of property
+</li>
+
+<li>Reference 7 - 0.53% Coverage =&gt; This question seems too vague. Sometimes people complain about JSON as a config format because they quote numbers, quote booleans, etc. but in general I still see JSON as a good config format.
+</li>
+
+<li>Reference 8 - 1.14% Coverage =&gt; I also think that one way that config needs to be extended even further is with &amp;quot;dynamic configs&amp;quot; via callback functions or similar. Currently our system will &amp;quot;Eval&amp;quot; strings, but this is dangerous, and therefore, systems like extending objects via mixins that are specified in plugins should be used, however, this is significantly more complicated than just telling a user to store callback as a string in config.
+</li>
+
+<li>Reference 9 - 0.11% Coverage =&gt; Not declaring any variables correctly
+</li>
+
+<li>Reference 10 - 0.35% Coverage =&gt; Often, options types are not correct : we use a string or a number, where it is in fact an enum value, or some kind of deduced value
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> unsuitable_format/hierarchical_format_hard_to_understand.docx</h3>
+<div class="outline-text-3" id="text-7-3">
+<p>
+Internals\\Problems and solutions - § 3 references coded [ 2.07% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 1.60% Coverage =&gt; One of the problems is that nearly every configuration system in Java proceeds in terms of hierarchies. But configuration values are not inherently hierarchical. It SEEMS like they are, but they’re not. Consider a configuration file that supplies values suitable for X region and Y environment, and another configuration file that supplies values suitable for Y environment and Z data center. Which should trump the other? The answer is not obvious and requires thought. I fixed them in my configuration framework: <a href="https://ljnelson.github.io/microbean-configuration/">https://ljnelson.github.io/microbean-configuration/</a>
+</li>
+
+<li>Reference 2 - 0.39% Coverage =&gt; I faced problem that tree-like structures of YAML/JSON are difficult to understand by non-advanced users who use config-driven software.
+</li>
+
+<li>Reference 3 - 0.09% Coverage =&gt; option nesting is hard to solve
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-7-4" class="outline-3">
+<h3 id="sec-7-4"><span class="section-number-3">7.4</span> unsuitable_format/custom_format_difficult.docx</h3>
+<div class="outline-text-3" id="text-7-4">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.20% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.20% Coverage =&gt; Creating custom config formats was a problem. I switched to JSON instead.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-7-5" class="outline-3">
+<h3 id="sec-7-5"><span class="section-number-3">7.5</span> unsuitable_format/non-primitive_options.docx</h3>
+<div class="outline-text-3" id="text-7-5">
+<p>
+Internals\\Problems and solutions - § 4 references coded [ 2.40% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.35% Coverage =&gt; Having configuration options that refer to other entities (e.g. a properties file that specifies a particular class to use),
+</li>
+
+<li>Reference 2 - 0.99% Coverage =&gt; Designing a robust system which can encompass any form of configuration, whether that be just single line variables, multilined options, or providing a visual grouping of options with inline comments. Furthermore, providing an easy to understand and easy to modify collection of those configurations in code for simple access can also prove challenging.
+</li>
+
+<li>Reference 3 - 0.43% Coverage =&gt; Biggest issue I had was needing to configure essentially a directed acyclic graph with references to different objects, which is hard to keep working by hand
+</li>
+
+<li>Reference 4 - 0.63% Coverage =&gt; In my current project, where we use Clojure, we strive to use standard Clojure .edn data files for some of the more complex configurations. They are part of the codebase and uses the Clojure &amp;quot;slurp&amp;quot; function to be read/imported.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8"><span class="section-number-2">8</span> cross_env_platform_variant_options</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-sec-8-1" class="outline-3">
+<h3 id="sec-8-1"><span class="section-number-3">8.1</span> cross_env_platform_variant_options/different_versions_of_same_system.docx</h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.29% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.29% Coverage =&gt; people using different versions of the same software at the same time -&amp;gt; separate configuration options
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-8-2" class="outline-3">
+<h3 id="sec-8-2"><span class="section-number-3">8.2</span> cross_env_platform_variant_options/cross-os_configuration.docx</h3>
+<div class="outline-text-3" id="text-8-2">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.62% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.24% Coverage =&gt; different system environments (Windows/Mac/Linux) different option sets/values
+</li>
+
+<li>Reference 2 - 0.38% Coverage =&gt; We worked on a cross-platform software (mobile and desktop). Managing configuration options in a standardized way was extremely hard.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-8-3" class="outline-3">
+<h3 id="sec-8-3"><span class="section-number-3">8.3</span> cross_env_platform_variant_options/options in product line.docx</h3>
+<div class="outline-text-3" id="text-8-3">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.45% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.45% Coverage =&gt; Jetty provides both a standard distribution and embedded usage and managing configuration across these two diametrically opposed use cases can be interesting
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-8-4" class="outline-3">
+<h3 id="sec-8-4"><span class="section-number-3">8.4</span> cross_env_platform_variant_options/consolidate common configuration options across components or environments.docx</h3>
+<div class="outline-text-3" id="text-8-4">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.42% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.32% Coverage =&gt; lots of declarative code that ends up in config, separate out into other files that are the same in dev, test, prod etc
+</li>
+
+<li>Reference 2 - 0.10% Coverage =&gt; The team pulled everything together
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-8-5" class="outline-3">
+<h3 id="sec-8-5"><span class="section-number-3">8.5</span> cross_env_platform_variant_options/multi-environment options.docx</h3>
+<div class="outline-text-3" id="text-8-5">
+<p>
+Internals\\Problems and solutions - § 7 references coded [ 3.18% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.57% Coverage =&gt; Being able to specify configuration option one way (e.g. via text file) in development while specifying a different way (e.g. via environment variables) in production is a constant source of frustration
+</li>
+
+<li>Reference 2 - 0.32% Coverage =&gt; For different environments ( DEV,PROD,TEST) config option repeats either in single file or three different files
+</li>
+
+<li>Reference 3 - 0.54% Coverage =&gt; Separating dev config from test config from prod config is an important issue. If you have different config files for each, you can hit problems when you release due to the prod config being untested
+</li>
+
+<li>Reference 4 - 0.53% Coverage =&gt; The same option on a different platform (Windows vs Mac vs Linux) can yield a different behavior or error. That is often very difficult to fix and require booting virtual machines to reproduce.
+</li>
+
+<li>Reference 5 - 0.57% Coverage =&gt; We need to build an Android app that requires to be shrinked with ProGuard for end users. This implies ~2x longer build time for each build. We’ve made it a less of a pain by configuring debug builds to not shrink.
+</li>
+
+<li>Reference 6 - 0.17% Coverage =&gt; we have three servers: staging, development and production.
+</li>
+
+<li>Reference 7 - 0.47% Coverage =&gt; When running the same web app on Linux, OSX and Windows (10) you can run into a challenge, especially if working with C or C++ code. Java, ECMA script, bash is less of an issue.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9"><span class="section-number-2">9</span> option_access_across_code</h2>
+<div class="outline-text-2" id="text-9">
+</div><div id="outline-container-sec-9-1" class="outline-3">
+<h3 id="sec-9-1"><span class="section-number-3">9.1</span> option_access_across_code/reduce impact of configuration on the system.docx</h3>
+<div class="outline-text-3" id="text-9-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.21% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.21% Coverage =&gt; ensure that config does not play too great a role in the operation of the system
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-9-2" class="outline-3">
+<h3 id="sec-9-2"><span class="section-number-3">9.2</span> option_access_across_code/custom_architecture.docx</h3>
+<div class="outline-text-3" id="text-9-2">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.62% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.62% Coverage =&gt; The third &amp;quot;configuration&amp;quot; is to use dependency injection to configure which &amp;quot;big building blocks&amp;quot; to use, when we use my recently invented architecture, &amp;quot;The Micro Monolith Architecture&amp;quot; (you can read about it on Medium).
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-9-3" class="outline-3">
+<h3 id="sec-9-3"><span class="section-number-3">9.3</span> option_access_across_code/configuration-aware component framework.docx</h3>
+<div class="outline-text-3" id="text-9-3">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.43% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.43% Coverage =&gt; rearchitectured our system to use a component based model (based on OSGi); components can be plugged in at runtime, and they carry their own configuration
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-9-4" class="outline-3">
+<h3 id="sec-9-4"><span class="section-number-3">9.4</span> option_access_across_code/improve architecture of product line for option reuse.docx</h3>
+<div class="outline-text-3" id="text-9-4">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.89% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.89% Coverage =&gt; configuration mechanism for the distribution is in effect a thin skin over the embedded components themselves so often on startup configuration options within the distribution flow through to the same embedded api’s those users make use of. This lets the distribution itself become an example of embedded usage of Jetty.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-9-5" class="outline-3">
+<h3 id="sec-9-5"><span class="section-number-3">9.5</span> option_access_across_code/add_abstractions_to_access_configuration.docx</h3>
+<div class="outline-text-3" id="text-9-5">
+<p>
+Internals\\Problems and solutions - § 7 references coded [ 1.59% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.33% Coverage =&gt; from the application perspective the location of the configuration values should not be visible or make a difference
+</li>
+
+<li>Reference 2 - 0.15% Coverage =&gt; introduced ansible to standardize config management
+</li>
+
+<li>Reference 3 - 0.24% Coverage =&gt; See my master: Gestion de fichiers de configuration par une vue abstraite modifiable
+</li>
+
+<li>Reference 4 - 0.16% Coverage =&gt; Config options not centralized but spread over all the code
+</li>
+
+<li>Reference 5 - 0.17% Coverage =&gt; config hierarchy that follows the class spaces (framework),
+</li>
+
+<li>Reference 6 - 0.20% Coverage =&gt; In my point of view is to do a part of the software to manage these settings
+</li>
+
+<li>Reference 7 - 0.35% Coverage =&gt; JSON file format changes required the code to change to accommodate the new behavior; There was no escaping changing the code
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-10" class="outline-2">
+<h2 id="sec-10"><span class="section-number-2">10</span> config_framework_underutilized</h2>
+<div class="outline-text-2" id="text-10">
+</div><div id="outline-container-sec-10-1" class="outline-3">
+<h3 id="sec-10-1"><span class="section-number-3">10.1</span> config_framework_underutilized/use high-level configuration framework.docx</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+Internals\\Problems and solutions - § 6 references coded [ 2.76% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.29% Coverage =&gt; configurate is a fantastic library that solved this, makes our code much cleaner and easier to work with
+</li>
+
+<li>Reference 2 - 0.27% Coverage =&gt; When configuration becomes to large but is a client requirement move to a tool to modify the config
+</li>
+
+<li>Reference 3 - 0.33% Coverage =&gt; creating or finding a library to easily create a configuration file that could be accessed via getter and setter methods
+</li>
+
+<li>Reference 4 - 0.37% Coverage =&gt; I did not have any really matter problems on recent projects, because config was so simple as at possible, typesafehub/config rocks!
+</li>
+
+<li>Reference 5 - 0.77% Coverage =&gt; Experiences of scattered and undocumented configuration options led to the development of the Options capability of what was originally called V7 and now called Krail. The idea was to solve a lot of the commonly faced issues - Options may eventually become a standalone library
+</li>
+
+<li>Reference 6 - 0.73% Coverage =&gt; Lack of efficient library in Java that was both user friendly and worked like an ORM. YAML was a great choice, and I used it for other projects, but the issue was that it was somewhat of a hefty library and was relatively difficult to use (compared to libraries like GSON).
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-10-2" class="outline-3">
+<h3 id="sec-10-2"><span class="section-number-3">10.2</span> config_framework_underutilized/low-level configuration framework.docx</h3>
+<div class="outline-text-3" id="text-10-2">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.38% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.30% Coverage =&gt; A lot of libraries do not give you a high-level approach to configuration and you are left to implement file i/o
+</li>
+
+<li>Reference 2 - 0.08% Coverage =&gt; Using Java Preferences API
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-11" class="outline-2">
+<h2 id="sec-11"><span class="section-number-2">11</span> knowledge_spread_across_people</h2>
+<div class="outline-text-2" id="text-11">
+</div><div id="outline-container-sec-11-1" class="outline-3">
+<h3 id="sec-11-1"><span class="section-number-3">11.1</span> knowledge_spread_across_people/changing currently used options.docx</h3>
+<div class="outline-text-3" id="text-11-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.52% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.52% Coverage =&gt; difficult to change existing options (their default values, the related code, or how they are configured) when existing users/deployments leverage them, particularly in large systems
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-11-2" class="outline-3">
+<h3 id="sec-11-2"><span class="section-number-3">11.2</span> knowledge_spread_across_people/know-how of person changing option (value).docx</h3>
+<div class="outline-text-3" id="text-11-2">
+<p>
+Internals\\Problems and solutions - § 5 references coded [ 1.11% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.26% Coverage =&gt; we assume the role who tweak its value have required basic knowledge but sometimes they don’t
+</li>
+
+<li>Reference 2 - 0.23% Coverage =&gt; We assume the ones who change it understand required basic knowledge but they don’t.
+</li>
+
+<li>Reference 3 - 0.14% Coverage =&gt; end users, never read docs before doing something
+</li>
+
+<li>Reference 4 - 0.36% Coverage =&gt; The one created that option has quited the team and that option invokded in too many places of the code and hard to guess what it does.
+</li>
+
+<li>Reference 5 - 0.12% Coverage =&gt; specific knowledge of certain developers
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-11-3" class="outline-3">
+<h3 id="sec-11-3"><span class="section-number-3">11.3</span> knowledge_spread_across_people/determining impact of option change.docx</h3>
+<div class="outline-text-3" id="text-11-3">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.61% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.20% Coverage =&gt; easy to add a configuration option its more difficult to know its impact
+</li>
+
+<li>Reference 2 - 0.42% Coverage =&gt; Often people create configuration options, but don’t bother documenting them properly. Therefore, people are too afraid to ever change them again.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-11-4" class="outline-3">
+<h3 id="sec-11-4"><span class="section-number-3">11.4</span> knowledge_spread_across_people/unknown_impact.docx</h3>
+<div class="outline-text-3" id="text-11-4">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.30% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.30% Coverage =&gt; Many developers are creating configuration files without discussing its possible implications on code.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-11-5" class="outline-3">
+<h3 id="sec-11-5"><span class="section-number-3">11.5</span> knowledge_spread_across_people/configuration UI.docx</h3>
+<div class="outline-text-3" id="text-11-5">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.27% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.27% Coverage =&gt; OSGi approach for configuration, which allow config options to be changed via UI and saved in the DB
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-12" class="outline-2">
+<h2 id="sec-12"><span class="section-number-2">12</span> config_understanding_complex</h2>
+<div class="outline-text-2" id="text-12">
+</div><div id="outline-container-sec-12-1" class="outline-3">
+<h3 id="sec-12-1"><span class="section-number-3">12.1</span> config_understanding_complex/third_party_configuration.docx</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+Internals\\Problems and solutions - § 6 references coded [ 1.08% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.18% Coverage =&gt; Changes between environments that affect the behavior of the code
+</li>
+
+<li>Reference 2 - 0.28% Coverage =&gt; dependency versions and build system versions can cause things to not build or work inconsistently.
+</li>
+
+<li>Reference 3 - 0.04% Coverage =&gt; Dependencies
+</li>
+
+<li>Reference 4 - 0.19% Coverage =&gt; Third-party deps. Get rid of them or force the developer to do it right.
+</li>
+
+<li>Reference 5 - 0.25% Coverage =&gt; Normally, problems arise when updating 3rd party libraries, APIs or operating systems.
+</li>
+
+<li>Reference 6 - 0.13% Coverage =&gt; 3rd party libraries are difficult to configure
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-12-2" class="outline-3">
+<h3 id="sec-12-2"><span class="section-number-3">12.2</span> config_understanding_complex/non-exposed options.docx</h3>
+<div class="outline-text-3" id="text-12-2">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.51% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.51% Coverage =&gt; One common problem is that we have configuration options which are only accessible by modifying the source code. This is time consuming, and it requires regular review of the situation
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-12-3" class="outline-3">
+<h3 id="sec-12-3"><span class="section-number-3">12.3</span> config_understanding_complex/interference or overlap between options.docx</h3>
+<div class="outline-text-3" id="text-12-3">
+<p>
+Internals\\Problems and solutions - § 5 references coded [ 1.12% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.28% Coverage =&gt; very large, but very simple .properties file and a few ones that we can edit to override configuration
+</li>
+
+<li>Reference 2 - 0.10% Coverage =&gt; isolation from other config options
+</li>
+
+<li>Reference 3 - 0.05% Coverage =&gt; often overlapping
+</li>
+
+<li>Reference 4 - 0.20% Coverage =&gt; dependencies between options and options that override other options
+</li>
+
+<li>Reference 5 - 0.49% Coverage =&gt; Having a stack of configurations, each one overriding parts of the previous ones. One needs to be very clear on the order of evaluation up front and remember to log the resolving.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-13" class="outline-2">
+<h2 id="sec-13"><span class="section-number-2">13</span> incomprehensible_option_names</h2>
+<div class="outline-text-2" id="text-13">
+</div><div id="outline-container-sec-13-1" class="outline-3">
+<h3 id="sec-13-1"><span class="section-number-3">13.1</span> incomprehensible_option_names/meaningful names.docx</h3>
+<div class="outline-text-3" id="text-13-1">
+<p>
+Internals\\Problems and solutions - § 8 references coded [ 1.35% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.18% Coverage =&gt; Coming up with short but descriptive names for the keys is very hard
+</li>
+
+<li>Reference 2 - 0.22% Coverage =&gt; try to make it as descriptive as possible, and then fill in the rest with a comment
+</li>
+
+<li>Reference 3 - 0.13% Coverage =&gt; Vague names which hard to find in a lrge conf file
+</li>
+
+<li>Reference 4 - 0.15% Coverage =&gt; mess up the exact usage of it. Better naming helps a lot
+</li>
+
+<li>Reference 5 - 0.52% Coverage =&gt; giving considerable thought to the naming of individual options and (most vitally) expending maximum effort to come up with an overall workable and extensible naming convention system
+</li>
+
+<li>Reference 6 - 0.02% Coverage =&gt; Naming
+</li>
+
+<li>Reference 7 - 0.02% Coverage =&gt; Naming
+</li>
+
+<li>Reference 8 - 0.11% Coverage =&gt; Coming up with names for configuration
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-13-2" class="outline-3">
+<h3 id="sec-13-2"><span class="section-number-3">13.2</span> incomprehensible_option_names/inconsistent naming.docx</h3>
+<div class="outline-text-3" id="text-13-2">
+<p>
+Internals\\Problems and solutions - § 8 references coded [ 2.50% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.31% Coverage =&gt; Overload of configuration options, which are interpreted differently in different parts of the application.
+</li>
+
+<li>Reference 2 - 0.72% Coverage =&gt; we decided to use the client Vocabulary for our configuration options so that all of us are on same page. But due to the reason that some do not used that approach we end up stucking where one configuration was actually pointing out two things one for each developer.
+</li>
+
+<li>Reference 3 - 0.53% Coverage =&gt; A often-recurring big challenge is to come up with a simple and clear name for each configuration option, and come up with an overall workable naming convention for all configuration options
+</li>
+
+<li>Reference 4 - 0.18% Coverage =&gt; Many config options were added early on without any consistency
+</li>
+
+<li>Reference 5 - 0.10% Coverage =&gt; Wrong names will create confusion
+</li>
+
+<li>Reference 6 - 0.14% Coverage =&gt; No coherent naming schemes, added naming scheme.
+</li>
+
+<li>Reference 7 - 0.14% Coverage =&gt; Discussing naming conventions. No settlement yet.
+</li>
+
+<li>Reference 8 - 0.39% Coverage =&gt; emphasis the important of consistent configuration options to ensure non-docker env such as sit, uat, production has correct conf as well.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-14" class="outline-2">
+<h2 id="sec-14"><span class="section-number-2">14</span> risk_of_dead_option_removal</h2>
+<div class="outline-text-2" id="text-14">
+</div><div id="outline-container-sec-14-1" class="outline-3">
+<h3 id="sec-14-1"><span class="section-number-3">14.1</span> risk_of_dead_option_removal/disable dead option.docx</h3>
+<div class="outline-text-3" id="text-14-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.53% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.53% Coverage =&gt; Generally configuration problems show up when a user uses an arcane configuration not thought of by developers. The issue is fixed on a case-by-case basis, usually by adding a check in the code.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-14-2" class="outline-3">
+<h3 id="sec-14-2"><span class="section-number-3">14.2</span> risk_of_dead_option_removal/deprecatable configuration options.docx</h3>
+<div class="outline-text-3" id="text-14-2">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.67% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.67% Coverage =&gt; There is also an option to mark and old name as legacy when renaming or transitioning to a new config option. This prints a warning but allows a graceful transition.We can also mark options as defunct, giving a good error message for dead options.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-14-3" class="outline-3">
+<h3 id="sec-14-3"><span class="section-number-3">14.3</span> risk_of_dead_option_removal/remove dead options.docx</h3>
+<div class="outline-text-3" id="text-14-3">
+<p>
+Internals\\Problems and solutions - § 7 references coded [ 1.98% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.40% Coverage =&gt; Dead options collect forever in config files and everyone is afraid to touch them. No one knows if or where they are used, the default value, etc.
+</li>
+
+<li>Reference 2 - 0.28% Coverage =&gt; Most of them are forgotten but noone removes them as it might cause problems for some old instalations
+</li>
+
+<li>Reference 3 - 0.07% Coverage =&gt; not removing dead options
+</li>
+
+<li>Reference 4 - 0.27% Coverage =&gt; It important to remove config options that are no longer used, other wise it will be a config hell.
+</li>
+
+<li>Reference 5 - 0.11% Coverage =&gt; We removed and deprecated old options
+</li>
+
+<li>Reference 6 - 0.33% Coverage =&gt; One of the big problems I’ve had in the past is configuration options that were not being used (e.g. they were misnamed).
+</li>
+
+<li>Reference 7 - 0.53% Coverage =&gt; Sometimes the addition of a new features means that old configuration options are not functional. However, the code for those configuration options is not removed, and may cause side effects
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-14-4" class="outline-3">
+<h3 id="sec-14-4"><span class="section-number-3">14.4</span> risk_of_dead_option_removal/warn about dead options.docx</h3>
+<div class="outline-text-3" id="text-14-4">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.35% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.35% Coverage =&gt; The tool gave no indication that some lines in the configuration were not being used at all. A better tool would warn about this.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-15" class="outline-2">
+<h2 id="sec-15"><span class="section-number-2">15</span> different_option_priorities</h2>
+</div>
+<div id="outline-container-sec-16" class="outline-2">
+<h2 id="sec-16"><span class="section-number-2">16</span> traceability_loss_during_evolution</h2>
+<div class="outline-text-2" id="text-16">
+</div><div id="outline-container-sec-16-1" class="outline-3">
+<h3 id="sec-16-1"><span class="section-number-3">16.1</span> traceability_loss_during_evolution/generate configuration files.docx</h3>
+<div class="outline-text-3" id="text-16-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.09% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.09% Coverage =&gt; Also config files build from code
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-16-2" class="outline-3">
+<h3 id="sec-16-2"><span class="section-number-3">16.2</span> traceability_loss_during_evolution/backward-compatible option changes.docx</h3>
+<div class="outline-text-3" id="text-16-2">
+<p>
+Internals\\Problems and solutions - § 5 references coded [ 1.69% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 1.06% Coverage =&gt; how to deal with introducing or removing configuration options in new software releases, considering that the release may have to be rolled back in case of a faulty release. If users have already started using new configuration options, the old release will not recognize them and error out, but it is also not trivial to version configuration changes together with software releases
+</li>
+
+<li>Reference 2 - 0.07% Coverage =&gt; Backward compatibility.
+</li>
+
+<li>Reference 3 - 0.07% Coverage =&gt; Backward compatibility;
+</li>
+
+<li>Reference 4 - 0.06% Coverage =&gt; variable change name
+</li>
+
+<li>Reference 5 - 0.42% Coverage =&gt; Another problem was configuration options that evolve from simple values/strings to more nuanced structures, and keeping backwards compatibility.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-16-3" class="outline-3">
+<h3 id="sec-16-3"><span class="section-number-3">16.3</span> traceability_loss_during_evolution/refactoring configuration files.docx</h3>
+<div class="outline-text-3" id="text-16-3">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.08% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.08% Coverage =&gt; change and merge config files
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-16-4" class="outline-3">
+<h3 id="sec-16-4"><span class="section-number-3">16.4</span> traceability_loss_during_evolution/traceability.docx</h3>
+<div class="outline-text-3" id="text-16-4">
+<p>
+Internals\\Problems and solutions - § 4 references coded [ 1.30% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.18% Coverage =&gt; Reproducing old configurations is hard if they are not versioned
+</li>
+
+<li>Reference 2 - 0.14% Coverage =&gt; variable change name, looking back into git history
+</li>
+
+<li>Reference 3 - 0.33% Coverage =&gt; The key issue is traceability. Who what &amp;amp; when? We use git backed configs and all changes can be traced down to the author.
+</li>
+
+<li>Reference 4 - 0.65% Coverage =&gt; Transparency is an important problem. A developer should not have to login to AWS to see how their dev/test/prod software is configured to run. The barrier to entry can cause confusion and cause debugging to take longer than necessary.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-16-5" class="outline-3">
+<h3 id="sec-16-5"><span class="section-number-3">16.5</span> traceability_loss_during_evolution/option duplication.docx</h3>
+<div class="outline-text-3" id="text-16-5">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.07% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.07% Coverage =&gt; duplication is an issue
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-17" class="outline-2">
+<h2 id="sec-17"><span class="section-number-2">17</span> debugging_config_complex</h2>
+<div class="outline-text-2" id="text-17">
+</div><div id="outline-container-sec-17-1" class="outline-3">
+<h3 id="sec-17-1"><span class="section-number-3">17.1</span> debugging_config_complex/show run-time values.docx</h3>
+<div class="outline-text-3" id="text-17-1">
+<p>
+Internals\\Problems and solutions - § 6 references coded [ 1.83% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.12% Coverage =&gt; needed a tool to show actual value at runtime
+</li>
+
+<li>Reference 2 - 0.19% Coverage =&gt; feedback about the current configuration when something goes wrong
+</li>
+
+<li>Reference 3 - 0.29% Coverage =&gt; On startup, it loads all config options and prints their name, description, default and current value.
+</li>
+
+<li>Reference 4 - 0.36% Coverage =&gt; Configuraiton options for Things like timeouts retries or other connnection options are quite useless without good monitoring
+</li>
+
+<li>Reference 5 - 0.37% Coverage =&gt; Visualise the active configuration efficiently (e.g. when using consul / zookeeper / archaius)to many configuration keys (1000s)
+</li>
+
+<li>Reference 6 - 0.50% Coverage =&gt; Our logging configuration was not logging all required context information. Comparing it to the configuration of other applications helped to find the parameter which was wrong.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-17-2" class="outline-3">
+<h3 id="sec-17-2"><span class="section-number-3">17.2</span> debugging_config_complex/understanding_behaviour_issues_due_to_options.docx</h3>
+<div class="outline-text-3" id="text-17-2">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.40% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.40% Coverage =&gt; Had similar applications not work while the code was almost the same. Had to debug until I found out that the problem was in the configuration file.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-18" class="outline-2">
+<h2 id="sec-18"><span class="section-number-2">18</span> lack_of_config_debugging_tools</h2>
+<div class="outline-text-2" id="text-18">
+</div><div id="outline-container-sec-18-1" class="outline-3">
+<h3 id="sec-18-1"><span class="section-number-3">18.1</span> lack_of_config_debugging_tools/trial-and-error.docx</h3>
+<div class="outline-text-3" id="text-18-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.10% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.10% Coverage =&gt; Fix: Dig deep and hack till it works
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-19" class="outline-2">
+<h2 id="sec-19"><span class="section-number-2">19</span> avoiding_config_regressions</h2>
+</div>
+<div id="outline-container-sec-20" class="outline-2">
+<h2 id="sec-20"><span class="section-number-2">20</span> lack_of_config_documentation</h2>
+<div class="outline-text-2" id="text-20">
+</div><div id="outline-container-sec-20-1" class="outline-3">
+<h3 id="sec-20-1"><span class="section-number-3">20.1</span> lack_of_config_documentation/third_party_configuration_option_documentation.docx</h3>
+<div class="outline-text-3" id="text-20-1">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.39% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.39% Coverage =&gt; Sometimes, when I use third libraries, the documentation about configuration files is small, so I have to do a code review to understand it.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-20-2" class="outline-3">
+<h3 id="sec-20-2"><span class="section-number-3">20.2</span> lack_of_config_documentation/reading code to understand configuration.docx</h3>
+<div class="outline-text-3" id="text-20-2">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.28% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.10% Coverage =&gt; Resolved by examining source code.
+</li>
+
+<li>Reference 2 - 0.18% Coverage =&gt; No easy solution unless you more put more effort to read the code.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-20-3" class="outline-3">
+<h3 id="sec-20-3"><span class="section-number-3">20.3</span> lack_of_config_documentation/online_search_for_documentation.docx</h3>
+<div class="outline-text-3" id="text-20-3">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.30% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.19% Coverage =&gt; Google / stackoverflow.com search problems is very quick to fix them.
+</li>
+
+<li>Reference 2 - 0.11% Coverage =&gt; Just check Documents on their website
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-20-4" class="outline-3">
+<h3 id="sec-20-4"><span class="section-number-3">20.4</span> lack_of_config_documentation/documentation of default values.docx</h3>
+<div class="outline-text-3" id="text-20-4">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.13% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.13% Coverage =&gt; Config files listing listing defaults values
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-20-5" class="outline-3">
+<h3 id="sec-20-5"><span class="section-number-3">20.5</span> lack_of_config_documentation/distinguish important from other options.docx</h3>
+<div class="outline-text-3" id="text-20-5">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.44% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.44% Coverage =&gt; try to separate &amp;quot;important&amp;quot; options from the other &amp;quot;detail config&amp;quot; by giving specific examples on how to use the important ones in the top-level documentation.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-20-6" class="outline-3">
+<h3 id="sec-20-6"><span class="section-number-3">20.6</span> lack_of_config_documentation/lack of documentation.docx</h3>
+<div class="outline-text-3" id="text-20-6">
+<p>
+Internals\\Problems and solutions - § 14 references coded [ 2.93% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.06% Coverage =&gt; Lack of documentation
+</li>
+
+<li>Reference 2 - 0.17% Coverage =&gt; Documentation for configuration may not be as detailed as need
+</li>
+
+<li>Reference 3 - 0.14% Coverage =&gt; usually options that are not properly documented
+</li>
+
+<li>Reference 4 - 0.12% Coverage =&gt; Undocumented or badly documented options
+</li>
+
+<li>Reference 5 - 0.08% Coverage =&gt; hard to document to new users
+</li>
+
+<li>Reference 6 - 0.15% Coverage =&gt; they existed in multiple places with no documentation
+</li>
+
+<li>Reference 7 - 0.38% Coverage =&gt; Confusion in documentation means confusion in the code. It’s an escalation of misunderstanding when you will extend/maintain the code
+</li>
+
+<li>Reference 8 - 0.77% Coverage =&gt; Experiences of scattered and undocumented configuration options led to the development of the Options capability of what was originally called V7 and now called Krail. The idea was to solve a lot of the commonly faced issues - Options may eventually become a standalone library
+</li>
+
+<li>Reference 9 - 0.14% Coverage =&gt; having new users not know the feature even exists.
+</li>
+
+<li>Reference 10 - 0.14% Coverage =&gt; Mixing up options, sometimes badly documented,
+</li>
+
+<li>Reference 11 - 0.12% Coverage =&gt; not docs, not logs, work app not understand
+</li>
+
+<li>Reference 12 - 0.15% Coverage =&gt; At first had a hard time figuring out the config options
+</li>
+
+<li>Reference 13 - 0.25% Coverage =&gt; Often people create configuration options, but don’t bother documenting them properly.
+</li>
+
+<li>Reference 14 - 0.26% Coverage =&gt; Lack of documentation would be the most important problem I have ever faced, and I usually face.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-20-7" class="outline-3">
+<h3 id="sec-20-7"><span class="section-number-3">20.7</span> lack_of_config_documentation/out_of_date_docs.docx</h3>
+<div class="outline-text-3" id="text-20-7">
+<p>
+Internals\\Problems and solutions - § 3 references coded [ 0.65% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.17% Coverage =&gt; to keep documentation up-to-date with new options/features
+</li>
+
+<li>Reference 2 - 0.30% Coverage =&gt; documenting the specific version requirements and ensuring widest communication helped fix our problems
+</li>
+
+<li>Reference 3 - 0.17% Coverage =&gt; Problem: Documentation goes out of date with version updates.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-20-8" class="outline-3">
+<h3 id="sec-20-8"><span class="section-number-3">20.8</span> lack_of_config_documentation/detailed documentation.docx</h3>
+<div class="outline-text-3" id="text-20-8">
+<p>
+Internals\\Problems and solutions - § 8 references coded [ 1.31% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.21% Coverage =&gt; documents that can clearly describe the parameter, its use, and its behavior
+</li>
+
+<li>Reference 2 - 0.11% Coverage =&gt; file is richly commented and very clear
+</li>
+
+<li>Reference 3 - 0.09% Coverage =&gt; domain model for configuration
+</li>
+
+<li>Reference 4 - 0.36% Coverage =&gt; using a Wiki to put all the Configurations , Service Related and their meanings and synchronised it with the Clients Vocabulary.
+</li>
+
+<li>Reference 5 - 0.15% Coverage =&gt; More comments explaining and example value, teaching
+</li>
+
+<li>Reference 6 - 0.18% Coverage =&gt; We’re fairly disciplined in adding documentation for features.
+</li>
+
+<li>Reference 7 - 0.06% Coverage =&gt; add training and FAQs.
+</li>
+
+<li>Reference 8 - 0.15% Coverage =&gt; The team pulled everything together and documented it
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-21" class="outline-2">
+<h2 id="sec-21"><span class="section-number-2">21</span> lack_of_config_communication</h2>
+<div class="outline-text-2" id="text-21">
+</div><div id="outline-container-sec-21-1" class="outline-3">
+<h3 id="sec-21-1"><span class="section-number-3">21.1</span> lack_of_config_communication/teaching_of_options.docx</h3>
+<div class="outline-text-3" id="text-21-1">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.18% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.15% Coverage =&gt; More comments explaining and example value, teaching
+</li>
+
+<li>Reference 2 - 0.03% Coverage =&gt; Teach them
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-21-2" class="outline-3">
+<h3 id="sec-21-2"><span class="section-number-3">21.2</span> lack_of_config_communication/lack_of_knowledge.docx</h3>
+<div class="outline-text-3" id="text-21-2">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 1.02% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.59% Coverage =&gt; In addition to lack of discipline, it is often lack of knowledge in the first place. Chapters on Configuration management from books like Continuous Delivery would help and should be mandatory reading, I believe.
+</li>
+
+<li>Reference 2 - 0.43% Coverage =&gt; sometimes new people don’t know that a feature already exists and can be deployed using just a configuration. In this case, reading the code helps very much.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-21-3" class="outline-3">
+<h3 id="sec-21-3"><span class="section-number-3">21.3</span> lack_of_config_communication/learning_curve.docx</h3>
+<div class="outline-text-3" id="text-21-3">
+<p>
+Internals\\Problems and solutions - § 3 references coded [ 0.98% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.30% Coverage =&gt; This was the first time we had used such a tool and it took a considerable amount of work to get things started up.
+</li>
+
+<li>Reference 2 - 0.25% Coverage =&gt; new person to the project can’t catch up easily -&amp;gt; Just learn the project and its specifics
+</li>
+
+<li>Reference 3 - 0.43% Coverage =&gt; The learning curve is longer for the less experienced developer. Moving from configuration files to annotations has helped us to alleviate these problem.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-22" class="outline-2">
+<h2 id="sec-22"><span class="section-number-2">22</span> no_config_review</h2>
+<div class="outline-text-2" id="text-22">
+</div><div id="outline-container-sec-22-1" class="outline-3">
+<h3 id="sec-22-1"><span class="section-number-3">22.1</span> no_config_review/configuration review.docx</h3>
+<div class="outline-text-3" id="text-22-1">
+<p>
+Internals\\Problems and solutions - § 5 references coded [ 1.37% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.19% Coverage =&gt; code review of which variables should be put into a configuration file
+</li>
+
+<li>Reference 2 - 0.11% Coverage =&gt; better code review process and practice
+</li>
+
+<li>Reference 3 - 0.44% Coverage =&gt; To overcome it, automated reviews and tests should be incorporated into the coding flow so anyone who adds or changes configuration will be aware of the outcome.
+</li>
+
+<li>Reference 4 - 0.58% Coverage =&gt; And we have all the routes in a configuration file, the problem was the configuration file was not being reviewed, so some developers were testing and changing the routes and pushing the changes without knowing.
+</li>
+
+<li>Reference 5 - 0.04% Coverage =&gt; b. code review
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-23" class="outline-2">
+<h2 id="sec-23"><span class="section-number-2">23</span> lack_of_config_validation</h2>
+<div class="outline-text-2" id="text-23">
+</div><div id="outline-container-sec-23-1" class="outline-3">
+<h3 id="sec-23-1"><span class="section-number-3">23.1</span> lack_of_config_validation/off-line configuration validation.docx</h3>
+<div class="outline-text-3" id="text-23-1">
+<p>
+Internals\\Problems and solutions - § 10 references coded [ 2.05% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.10% Coverage =&gt; accidentally removed an extra line
+</li>
+
+<li>Reference 2 - 0.29% Coverage =&gt; application does not check configuration file correctness (ie typo in option name, missing comma, &#x2026;)
+</li>
+
+<li>Reference 3 - 0.18% Coverage =&gt; have the same check available as separate tool for pre-commit hook
+</li>
+
+<li>Reference 4 - 0.13% Coverage =&gt; resistance by upstream and lack of resources
+</li>
+
+<li>Reference 5 - 0.27% Coverage =&gt; Had an LDAP filter related problem when it turned out that the validation logic for the filter is bad
+</li>
+
+<li>Reference 6 - 0.27% Coverage =&gt; Once I set the configuration variable name incorrectly. And I had to debug to find out the reason.
+</li>
+
+<li>Reference 7 - 0.05% Coverage =&gt; Static analysis
+</li>
+
+<li>Reference 8 - 0.04% Coverage =&gt; no validation
+</li>
+
+<li>Reference 9 - 0.69% Coverage =&gt; Dealing with parse errors caused by the end user mangling formats in the config file (in a system where the config file is usually manually edited), which can be fixed by verbose error messages and a LARGE comment at the top explaining how to deal with it.
+</li>
+
+<li>Reference 10 - 0.03% Coverage =&gt; validation
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-23-2" class="outline-3">
+<h3 id="sec-23-2"><span class="section-number-3">23.2</span> lack_of_config_validation/no run-time protection against option errors.docx</h3>
+<div class="outline-text-3" id="text-23-2">
+<p>
+Internals\\Problems and solutions - § 6 references coded [ 2.08% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.17% Coverage =&gt; application should have failed to start without the property
+</li>
+
+<li>Reference 2 - 0.14% Coverage =&gt; fails at runtime when mistyped option is accessed
+</li>
+
+<li>Reference 3 - 0.06% Coverage =&gt; invalid config states
+</li>
+
+<li>Reference 4 - 1.30% Coverage =&gt; A solution to this is to have extensive bounds checking for configuration options, and storing a default and known-working configuration file inside the application, so that if values are missing, they can be replaced with the defaults. Some error output, letting the user know that they messed something up in the configuration file is helpful as well. Sometimes I’ve gone so far as to point out exactly where (down to the very character) a configuration error was found.
+</li>
+
+<li>Reference 5 - 0.12% Coverage =&gt; config runtime correctness (validation)
+</li>
+
+<li>Reference 6 - 0.29% Coverage =&gt; If a value was outside scope it would throw an error and the system would require user to reconfigure it all
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-23-3" class="outline-3">
+<h3 id="sec-23-3"><span class="section-number-3">23.3</span> lack_of_config_validation/dynamic programming languages vs. checking.docx</h3>
+<div class="outline-text-3" id="text-23-3">
+<p>
+Internals\\Problems and solutions - § 1 reference coded [ 0.25% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.25% Coverage =&gt; solution was not yet fully implemented because very hard in dynamic languages, ie python
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-23-4" class="outline-3">
+<h3 id="sec-23-4"><span class="section-number-3">23.4</span> lack_of_config_validation/configuration-aware testing.docx</h3>
+<div class="outline-text-3" id="text-23-4">
+<p>
+Internals\\Problems and solutions - § 12 references coded [ 3.29% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.19% Coverage =&gt; Errors derived from skipping/ignoring conf options during testing
+</li>
+
+<li>Reference 2 - 0.07% Coverage =&gt; Just test properly the app
+</li>
+
+<li>Reference 3 - 0.12% Coverage =&gt; Automated testing is extremely important
+</li>
+
+<li>Reference 4 - 0.51% Coverage =&gt; I developed an ANTLR based grammar based on the LDAP Filter specification and generated the JAVA code based on it. Then we created excessive Unit tests to verify that it works correctly.
+</li>
+
+<li>Reference 5 - 0.44% Coverage =&gt; To overcome it, automated reviews and tests should be incorporated into the coding flow so anyone who adds or changes configuration will be aware of the outcome.
+</li>
+
+<li>Reference 6 - 0.31% Coverage =&gt; Less so for testing them. We generally mark less covered areas or new features configurations as experimental.
+</li>
+
+<li>Reference 7 - 0.11% Coverage =&gt; some options are not tested well enough
+</li>
+
+<li>Reference 8 - 0.26% Coverage =&gt; all configuration scenarios must be tested, no tests = bugs which are subtle &amp;amp; difficult to fix
+</li>
+
+<li>Reference 9 - 0.17% Coverage =&gt; Adding new options in a hurry without carefully checking them
+</li>
+
+<li>Reference 10 - 0.13% Coverage =&gt; Testing all the various configuration options
+</li>
+
+<li>Reference 11 - 0.11% Coverage =&gt; Unit testing is alwas quiet difficult
+</li>
+
+<li>Reference 12 - 0.87% Coverage =&gt; The existence of options implies an additional testing burden, and even when it is possible in principle to test a given option (it does not require any special operating system, for example), often it is not tested, or not all combinations of interacting options are tested.configuration of several environments
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-23-5" class="outline-3">
+<h3 id="sec-23-5"><span class="section-number-3">23.5</span> lack_of_config_validation/configuration validation at start-up.docx</h3>
+<div class="outline-text-3" id="text-23-5">
+<p>
+Internals\\Problems and solutions - § 2 references coded [ 0.62% Coverage]
+</p>
+
+<ul class="org-ul">
+<li>Reference 1 - 0.26% Coverage =&gt; fix is to a) have a complete (syntactic and semantic) configuration check at application start
+</li>
+
+<li>Reference 2 - 0.36% Coverage =&gt; Being able to validate all configuration options upfront (at boot); valide them individually and in combination. Report typos.
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Bram Adams</p>
+<p class="date">Created: 2018-01-18 Thu 18:30</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

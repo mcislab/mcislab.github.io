@@ -1,0 +1,35 @@
+- label: Home
+  url: /index.html
+  urgent: no
+
+- label: About
+  url: /about.html
+  urgent: no
+
+- label: News
+  url: /news.html
+  urgent: no
+
+- label: Join Us!
+  url: /join.html
+  urgent: kindof
+
+- label: Publications
+  url: /publications.html
+  urgent: no
+
+- label: Tools
+  url: /makao.html
+  urgent: no
+
+- label: People
+  url: /people.html
+  urgent: no
+
+- label: Courses
+  url: /log6307.html
+  urgent: kindof
+
+- label: Events
+  url: 
+  urgent: no
