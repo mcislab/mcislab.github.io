@@ -35,7 +35,7 @@ title: LOG 6307, Release Engineering -- Application of Mining Software Repositor
 
            <div class="content">
 
-	     <h1><a name="intro"><b>LOG 6307</b> Release Engineering -- Applications of Mining Software Repositories (Fall 2018)</a></h1><br/>
+	     <h1><a name="intro"><b>LOG 6307-E</b> Release Engineering -- Applications of Mining Software Repositories</a></h1><br/>
 
 	     <p>LOG6307 is a grad course given each Fall <b>in English</b> at Polytechnique Montreal by <a href="http://mcis.polymtl.ca/~bram/">Dr. Bram Adams</a>.</p><br/>
 	     
@@ -48,14 +48,12 @@ title: LOG 6307, Release Engineering -- Application of Mining Software Repositor
 <!--	     <br/><br/><h3><a name="description">Description of the Course</a></h3>
 	     <p>Software release engineering process: integration, build, staged tests, packaging and deployment. Release planning. Definition and basic concepts of mining software repositories. Different types of repositories: version control, bug repositories, mailing lists, project ecosystems and collaboration environments. Empirical techniques for repository mining: data mining, statistical analysis, natural language processing, source code analysis and qualitative analysis. Integration : configuration management, impact of branching patterns on software quality, integration patterns in large-scale software projects. Build: build maintenance and verification, software variability management. Staged tests: bug prediction, test reduction/minimization/selection and continuous quality assurance. Packaging: large-scale software distributions, code provenance and mobile applications. Deployment: deployment strategies, app stores and cloud computing.</p><br/>-->
 
-	     <br/><br/><h3><a name="practice">Some Practicalities</a></h3>
-<p>The LOG6307 course outline is given <a href="#outline">below</a>, while the time table can be found <a href="http://www.polymtl.ca/etudes/cours/fouille-de-ref-pour-mise-en-prod-logicielle">here</a>.</p><br/><!-- <a href="https://moodle.polymtl.ca/course/view.php?id=1721">the Moodle site</a> will be used to submit the assignment and project.</p><br/><!--<span class="essence">Note that on Tuesday the 27th of August, the lab session exceptionally will be replaced by a lecture (the first lectures of the year).</span></p><br/>-->
-
-<p>Evaluation is based on weekly presentations and discussion, reviews, one assignment and a project. The assignment will be in group, while the other activities will be individual. More details are provided <a href="https://moodle.polymtl.ca/course/view.php?id=1721">on Moodle</a>.</p><br/>
 
 	     <br/><br/><h3><a name="success">Successful Projects</a></h3>
              <p>The following conference papers started as an assignment or project in LOG6307, keep an eye on this section for more ;-)</p><br/>
              <ul>
+               <li>VYSALI, S., MCINTOSH, S. and ADAMS, B. (2020). <a href="http://rebels.ece.mcgill.ca/journalpaper/2020/07/19/quantifying-characterizing-and-mitigating-flakily-covered-program-elements.html">Quantifying, Characterizing, and Mitigating Flakily Covered Program Elements</a>, Transactions on Software Engineering (TSE), IEEE, to appear.&nbsp;<a href="publications/2020/tse_shiva.bib"><i>BibTeX</i></a></li>
+               <li>OPENJA, M., ADAMS, B. and KHOMH, F. (2020). <a name="icsme_moses">Analysis of Modern Release Engineering Topics - A Large-Scale Study using StackOverflow</a>, in Proceedings of the 36th IEEE International Conference on Software Maintenance and Evolution, ICSME (Adelaide, Australia), to appear. (Acceptance ratio: 58/201=28.9%)&nbsp;<a href="publications/2020/icsme_moses.bib"><i>BibTeX</i></a></li>
                <li>
                  LANOVAZ, M., and ADAMS, B. (2019). <a name="ieeesw19_marc">A Comparison of Communication Tone and Responding Across Users and Developers in Two R Mailing Lists</a>, special issue on Sentiment and Emotion in Software Engineering, IEEE Software, to appear.&nbsp;<a href="publications/2019/ieeesw_marc.bib"><i>BibTeX</i></a>
                </li>	   
@@ -86,27 +84,6 @@ title: LOG 6307, Release Engineering -- Application of Mining Software Repositor
     </ul>
 <br/>
 
-	     <br/><br/><h3><a name="outline">Outline of the Course</a></h3>
-  {% for entry in site.data.log6307 %}
-  <h4><b><i>{{ entry.title }}</i></b></h4>
-  <p><ul>
-    {% for topic in entry.content %}
-    <li>{{ topic.topic }}</li>
-    {% endfor %}
-  </ul></p>
-  <br/>
-  {% for subsection in entry.subsections %}
-  {% if subsection.title contains 'Slides' %}
-  <p>
-  <ul>
-    {% for topic in subsection.content %}
-    {% if topic.url contains 'slideshare' %}<br/>{{ topic.url }}{% else %}<li><a href="{{ topic.url }}">{{ topic.title }}</a></li>{% endif %}
-    {% endfor %}
-  </ul></p><br/>
-  {% endif %}
-  {% endfor %}
-  <br/>
-  {% endfor %}
 
 	     <h3><a name="data">Where to get MSR Data?</a></h3>
   {% for entry in site.data.empirical_data %}
