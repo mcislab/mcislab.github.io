@@ -1,7 +1,7 @@
 <meta charset="utf-8" />
 <link rel="shortcut icon" href="/images/mcis.ico" />
 <meta name="application-name" content="MCIS" />
-<meta name="msapplication-starturl" content="http://mcis.polymtl.ca/" />
+<meta name="msapplication-starturl" content="http://mcis.cs.queensu.ca/" />
 <link rel="stylesheet" href="css/elegant-press.css" type="text/css" />
 <script src="scripts/elegant-press.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -11,7 +11,7 @@
 // This notice must stay intact for use
 
 //Enter domain of site to search.
-var domainroot="mcis.polymtl.ca"
+var domainroot="mcis.cs.queensu.ca"
 
 function Gsitesearch(curobj){
 curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
@@ -24,7 +24,7 @@ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-50496812-1', 'polymtl.ca');
+  ga('create', 'UA-50496812-1', 'cs.queensu.ca');
   ga('send', 'pageview');
 
 </script>

@@ -70,7 +70,7 @@
         - title: An Exploratory Study of the Pull-Based Software Development Model (Gousios et al., ICSE 2014)
           url: "http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2013-010.pdf"
         - title: Will My Patch Make It? And How Fast? (Jiang et al., MSR 2013)
-          url: "http://mcis.polymtl.ca/publications/2013/msr_jojo.pdf"
+          url: "http://mcis.cs.queensu.ca/publications/2013/msr_jojo.pdf"
         - title: An Industrial Study on the Risk of Software Changes (Shihab et al., FSE 2012)
           url: "http://www.se.rit.edu/~emad/pubs/Shihab_FSE2012_.pdf"
         - title: Identifying Linux Bug Fixing Patches (Tian et al., ICSE 2012)
@@ -92,7 +92,7 @@
         - title: Understanding and Improving Software Build Teams (Phillips et al., ICSE 2014)
           url: "http://research.microsoft.com/pubs/210048/phillips-icse-2014.pdf"
         - title: A Qualitative Analysis of Software Build System Changes and Build Ownership Styles (Shridhar et al., ESEM 2014)
-          url: "http://mcis.polymtl.ca/publications/2014/esem14mini.pdf"
+          url: "http://mcis.cs.queensu.ca/publications/2014/esem14mini.pdf"
     - title: Build System Failures and Performance
       content:
         - title: Improving the build architecture of legacy C/C++ software systems (Dayani-Fard et al., FASE 2005)
@@ -238,4 +238,4 @@
         - title: Predictors of Customer Perceived Software Quality (Mockus et al., ICSE 2005)
           url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.1597&rep=rep1&type=pdf"
         - title: Assisting Developers of Big Data Analytics Applications When Deploying on Hadoop Clouds (Shang et al., ICSE 2013)
-          url: "http://mcis.polymtl.ca/publications/2013/icse_ian.pdf"
+          url: "http://mcis.cs.queensu.ca/publications/2013/icse_ian.pdf"

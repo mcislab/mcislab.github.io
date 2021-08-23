@@ -31,7 +31,7 @@
     </div> 
 </div> </div> 
  <footer>
-    <p class="tagline_left">Copyright &copy; {{ site.time | date_to_rfc822 }} - All Rights Reserved - <a href="http://mcis.polymtl.ca/">MCIS</a></p>
+    <p class="tagline_left">Copyright &copy; {{ site.time | date_to_rfc822 }} - All Rights Reserved - <a href="http://mcis.queensu.ca.ca/">MCIS</a></p>
     <p class="tagline_right">Design by <a href="http://www.priteshgupta.com/" title="Pritesh Gupta" target="_blank" >PriteshGupta.com</a>, German Shepherd picture by <a href="http://www.sxc.hu/photo/1323938">Andrew Langham</a></p>
     <br class="clear" />
   </footer>
