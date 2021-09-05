@@ -8,22 +8,7 @@
   url: http://releng.polymtl.ca/
 
 - name: PoLyMORSE Open Workshop (PLOW)
-  url: http://polymorse.polymtl.ca/plow/
-
-- name: Workshop on Mining Unstructured Data (MUD)
-  url: http://sback.it/mud2014/
+  url: http://plow.soccerlab.polymtl.ca/
 
 - name: 2013 CSER Meeting
   url: http://users.encs.concordia.ca/~pcr/cser/
-
-- name: MITACS MSR Vision 2020
-  url: http://msrcanada.org/msrvision2020/
-
-- name: MISS 2011
-  url: http://www.aosd.net/workshops/miss/2011/
-
-- name: ACP4IS 2010
-  url: http://www.aosd.net/workshops/acp4is/2010/
-
-- name: PLATE 2009
-  url: http://www.aosd.net/workshops/plate/2009/
