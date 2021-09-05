@@ -3,7 +3,7 @@
    <nav> 
     <ul class="nav">
     {% for pg in site.data.content %}
-       {% if pg.url == page.url %}<li class="active">{% elsif pg.urgent == "last" %}<li class="last">{% else %}<li>{% endif %}{% if pg.urgent == "kindof" %}<a class="urgent" href="{{ pg.url }}">{{ pg.label }}</a>{% elsif pg.label == "Courses" or pg.label == "Tools" or pg.label == "Events" %}<a>{{ pg.label }}</a>{% else %}<a href="{{ pg.url }}">{{ pg.label }}</a>{% endif %}{% if pg.label == "People" %}
+       {% if pg.url == page.url %}<li class="active">{% elsif pg.urgent == "last" %}<li class="last">{% else %}<li>{% endif %}{% if pg.urgent == "kindof" %}<a class="urgent" href="{{ pg.url }}">{{ pg.label }}</a>{% elsif pg.label == "Courses" or pg.label == "Tools" or pg.label == "Events" %}<a>{{ pg.label }}</a>{% else %}<a href="{{ pg.url }}">{{ pg.label }}</a>{% endif %}{% if pg.label == "The Team" %}
               <ul>{% for member in site.data.members %}
 	      	     <li><a href="{{ member.url }}">{{ member.name }}</a></li>{% endfor %}
 	      </ul>{% elsif pg.label == "Courses" %}
