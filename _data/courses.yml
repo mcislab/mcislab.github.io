@@ -1,8 +1,14 @@
-- name: Release Engineering (LOG6307)
-  url: "log6307.html"
+- name: DevOps &amp; Release Engineering (CISC 834)
+  url: "cisc834.html"
 
-- name: Processus du g&eacute;nie logiciel (LOG3000)
+- name: Research Methods (CISC 897)
+  url: "https://www.cs.queensu.ca/students/graduate/GradHandbook/courses.php#CISC897"
+
+- name: Software Architecture (CISC 322/326)
+  url: "https://www.queensu.ca/academic-calendar/search/?search=cisc+322"
+  
+- name: Processus du g&eacute;nie logiciel (LOG 3000)
   url: "http://www.polymtl.ca/etudes/cours/details.php?sigle=LOG3000"
 
-- name: Ing&eacute;nierie logicielle (LOG1000)
+- name: Ing&eacute;nierie logicielle (LOG 1000)
   url: "http://www.polymtl.ca/etudes/cours/details.php?sigle=LOG1000"
