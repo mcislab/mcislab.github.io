@@ -2,7 +2,7 @@
     <div class="calloutcontainer"> 
         <div class="container_12"> 
             <div class="grid"> 
-                 <article class="footbox">
+                 <!--<article class="footbox">
       <h2>Latest News</h2>
       <ul>
         <li><a href="news.html#may01_14">MSR 2014 Distinguished Paper Award!</a><br/>
@@ -12,15 +12,19 @@
         Are you struggling with your Makefiles? Fear not, <a href="makao.html">version 1.8 of MAKAO</a> will make analysis of your build system as streamlined as never before! ...
 		</li>
        </ul>
-    </article>
+    </article>-->
     <article class="footbox last">
 	      <a class="twitter-timeline"  href="https://twitter.com/mcis_lab"  data-widget-id="364476197008199680">Tweets by @mcis_lab</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </article>
   <article class="latestgallery">
       <h2>Latest Work</h2>
-<p>MCINTOSH, S., KAMEI, Y., ADAMS, B., and HASSAN, A. E. (2014). <a name="msr14shane" href="http://sail.cs.queensu.ca/Downloads/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf">The Impact of Code Review Coverage and Code Review Participation on Software Quality: A Case Study of the Qt, VTK, and ITK Projects</a>, in Proceedings of the 11th Working Conference on Mining Software Repositories, MSR (Hyderabad, India), pages 192-201.&nbsp;<span style="color: black; font-weight: bold">(Distinguished Paper Award)</span></p><br/>
-<p>SHANG, W., JIANG, Z. M., HEMMATI, H., ADAMS, B., HASSAN, A. E. and MARTIN, P. (2013). <a name="icse13_ian" href="publications/2013/icse_ian.pdf">Assisting Big Data Analytics Developers When Cloud Deploying Hadoop Applications</a>, in Proceedings of the 35th International Conference on Software Engineering, ICSE (San Francisco, CA, US), pages 402-411.&nbsp;<span style="color: black; font-weight: bold">(ACM SIGSOFT Distinguished Paper Award)</span></p>
+      <p>
+           FERREIRA, I., CHENG, J. and ADAMS, B. (2021). <a href="https://cscw.acm.org/2021/">The &ldquo;Shut the f**k up&rdquo; Phenomenon: Characterizing Incivility in Open Source Code Review Discussions</a>, in Proceedings of the 24th ACM Conference on Computer-Supported Cooperative Work and Social Computing, CSCW (virtual), to appear.&nbsp;<a href="publications/2021/cscw.bib"><i>BibTeX</i></a>
+         </p><br/>
+         <p>
+           FOUNDJEM, A., EGHAN, E.E. and ADAMS, B. (2021). <a href="publications/2021/icse_armstrong.pdf">Onboarding vs. Diversity, Productivity and Quality -- Empirical Study of the OpenStack Ecosystem</a>, in Proceedings of the 43rd International Conference on Software Engineering, ICSE (Madrid, Spain), to appear. (Acceptance ratio: 138/602=22.92%)&nbsp;<a href="publications/2021/icse_armstrong.bib"><i>BibTeX</i></a>
+         </p>
       </ul>
     </article>
     
