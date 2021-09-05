@@ -2,14 +2,10 @@
   url: /index.html
   urgent: no
 
-- label: About
-  url: /about.html
+- label: The Team
+  url: /people.html
   urgent: no
-
-- label: News
-  url: /news.html
-  urgent: no
-
+  
 - label: Join Us!
   url: /join.html
   urgent: kindof
@@ -22,13 +18,9 @@
   url: /makao.html
   urgent: no
 
-- label: People
-  url: /people.html
-  urgent: no
-
 - label: Courses
   url: /log6307.html
-  urgent: kindof
+  urgent: no
 
 - label: Events
   url: 
