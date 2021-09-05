@@ -1,3 +1,6 @@
+- name: email2git (part of LF's cregit)
+  url: https://cregit.linuxsources.org/
+
 - name: Analyze your Makefiles (MAKAO)
   url: makao.html
 
