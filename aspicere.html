@@ -70,9 +70,10 @@ title: Aspicere, more AOSD for C
 <div class="content">
   <br/>  <br/>  <br/>
   <h3><a name="examples"></a>Code Examples</h3>
-<p>We give two simple code examples, followed by a more complex one.</p>
-  
-<h3>1. Recovery aspect</h3>
+  <p>We give two simple code examples, followed by a more complex one.</p>
+
+  <br/>
+  <h3>1. Recovery aspect</h3>
 <p>This first example aspect checks whether a critical SQL query (call to <code>_iqcftch</code>) has been interrupted by a database error. If the particular error which popped up is recoverable, the aspect tries to fix the error up to a maximum number of attempts. If the error still persists, an error-specific message is prompted. This example works for Aspicere1 and Aspicere2, but with a slightly different syntax.</p>
 <pre>
 #include &lt;stdio.h&gt;
@@ -123,13 +124,14 @@ sql_redo(-542,0).
 
 critical_method('monthlyPayment').
 
-<span class="highlight_red">critical_call(Jp)</span> :-
+  <span class="highlight_red">critical_call(Jp)</span> :-
     enclosingMethod(Jp,EncMethod),
     execution(EncMethod, Name),
     critical_method(Name),
     print('CRITICAL call found!!!'),nl.
 </pre>
 
+<br/>
 <br/>
 <h3>2. Optimizer aspect</h3>
 <p>In this example, we optimize an SQL-query by modifying the argument of the call to <code>_iqcprep</code>.</p>
@@ -180,7 +182,7 @@ void optimise_query (<span class="highlight_blue">char* Query</span>) before Jp:
     }
 
     printf("--Unoptimised query:\t%s\n",<span class="highlight_blue">Query</span>);
-    <span class="highlight_red">Query=optimised_query;</span>
+  <span class="highlight_red">Query=optimised_query;</span>
     printf("++Optimised query:\t%s\n",<span class="highlight_blue">Query</span>);
     
   }else{
@@ -192,6 +194,7 @@ void optimise_query (<span class="highlight_blue">char* Query</span>) before Jp:
   }
 }</pre>
 
+<br/>
 <br/>
 <h3>3. Delimited Continuation Join Point</h3>
 <p>This more complex example illustrates the concept of <a href="http://mcis.polymtl.ca/publications/2007/splat07.pdf">delimited continuation</a> join points and Aspicere2's annotation support.</p>
@@ -258,6 +261,7 @@ halting_invocation(JpCall,ReturnVal):-
   <h3><a name="down"></a>Releases</h3>
 <p>There are two implementations of Aspicere. <a href="#asp2">Aspicere2</a> fully implements Aspicere, whereas <a href="#asp1">Aspicere1</a> only provides a small subset.</p>
 
+<br/>
 <h3>Aspicere1</h3>
 
 <p><a href="files/aspicere_beta1.tar.bz2">Beta 1</a> is the aspect weaver we used in the Kava <a href="publications/2006/regaining.pdf">case</a> <a href="http://www.st.ewi.tudelft.nl/~zaidman/publications/badamsJSS2009.pdf">study</a>. This means that it is able to weave <span class="highlight_red">in K&R- as well as in ANSI C-code</span>. Unfortunately, in the former case, there are times when method prototypes don't declare the types of their arguments. Aspicere1 infers these types from a procedure's call site, but does not support all possible C types. In those cases, our weaver merely <span class="highlight_blue">"skips"</span> the relevant join points without halting the full weaving process. The weaver shows statistics about the relative percentage of "skipped" join points.</p>
@@ -284,6 +288,7 @@ halting_invocation(JpCall,ReturnVal):-
 
 <p>Aspicere1 is covered under a Tri License scheme: <a href="http://www.mozilla.org/MPL/">MPL/LGLP/GPL</a>. It depends on <a href="http://homepages.vub.ac.be/~kdeschut/yernalindale/">Yerna Lindale</a> and <a href="http://homepages.vub.ac.be/~kdeschut/lillambi/">Lillambi</a>, but these are included in the download. Furthermore, you need a Java 1.4-compatible VM, a C compiler, Perl interpreter and Bash shell. The included INSTALL file contains detailed installation instructions for Aspicere1.</p>
 
+<br/>
 <h3>Aspicere2</h3>
 
 <p>Aspicere2 is also covered under a Tri License scheme: <a href="http://www.mozilla.org/MPL/">MPL/LGLP/GPL</a>. It has the following dependencies:
