@@ -1,58 +1,97 @@
 ---
-layout: index 
+layout: index
 title: Software Maintenance, Software Construction and Software Intelligence
 ---
 
-    <div class="box">
-        <h1><a name="maintenance">Software <black>M</black>aintenance</a></h1>
-        <p><div>
-</div>
-<br/>
-        <img class="imgl" src="images/maintenance-small.jpg" alt="" width="225" height="150" />
-		<p>Releasing a software product often is seen as the end point of the software development process: everything's implemented, time to earn some cash! Of course, quite the opposite is true, since <b>40 to 80% of software development costs are spent during software maintenance activities</b> after release, i.e., to fix bugs, improve the user experience and add new functionality.</p>
-<br/>
-<p><span class="essence">MCIS' mission is to help practitioners maintain their software systems.</span> For example, which files should be tested or fixed first and by who? Which bug to fix first? Did the performance of our system degrade compared to the previous release? How can we improve the energy consumption of our system? Will this change have nasty consequences on other features?</p>
-
-    <div class="clear"></div>
-    <br />
-    <p>By empirical research on software development process data stored in revision control systems (<a href="http://cvs.nongnu.org/">CVS</a>, <a href="http://subversion.tigris.org/">Subversion</a>, <a href="http://git-scm.com/">Git</a>, ...), mailing list archives, bug repositories (<a href="http://www.bugzilla.org/">Bugzilla</a>, <a href="http://www.atlassian.com/software/jira/overview">Jira</a>, ...), online documentation and manuals, MCIS tries to address the above questions, and many more! Typically, the outcome of our research are models developed using data mining, statistical analysis and manual analysis.</p>
-
-<br />
-      
-      <div class="clear"></div>
+<div class="box">
+    <h1><a name="maintenance">Software <black>M</black>aintenance</a></h1>
+    <p>
+    <div>
     </div>
-<br/>
-    <div class="box">
-        <h1><a name="construction">Software <black>C</black>onstruction</a></h1>
-        <p><div>
-</div>
-<br/>
-        <img class="imgl" src="images/construction-small.jpg" alt="" width="150" height="187" />
-		<p>OK, so everyone is familiar with pre-release development activities like requirements gathering, analysis, design and implementation, and also (thanks to the <a href="#maintenance">above explanation</a>) with post-release maintenance. However, what happens in between these activities, i.e., how does one actually make a release? How does one turn textual source code into an installable software product, ready to execute on the user's hardware platform?</p>
     <br />
-<p><span class="essence">MCIS' mission is to help practitioners release their products faster, but without sacrificing quality.</span> To achieve this, one first needs <b>insight into the release engineering process</b>. For example, what is the health status of the build system (i.e., the infrastructure that co-ordinates compilers and configurators to transform source code into executables)? Does it become harder to modify over time? How are implementation changes by different development teams integrated and tested towards inclusion in the next release? How can we prepare our development process and software system for <a href="http://continuousdelivery.com/">continuous delivery</a>, i.e., instantaneously releasing new features or bug fixes to customers?</p>
-    <div class="clear"></div>
-    <br/>
-    <p>Using the same techniques as for <a href="#maintenance">software maintenance</a>, we try to address the questions above. In addition, our lab has unique expertise and data sets on release engineering and software construction, and contacts with industry for access to "real-life" data.</p>
+    <img class="imgl" src="images/maintenance-small.jpg" alt="" width="225" height="150" />
+    <p>Releasing a software product often is seen as the end point of the software development process: everything's
+        implemented, time to earn some cash! Of course, quite the opposite is true, since <b>40 to 80% of software
+            development costs are spent during software maintenance activities</b> after release, i.e., to fix bugs,
+        improve the user experience and add new functionality.</p>
+    <br />
+    <p><span class="essence">MCIS' mission is to help practitioners maintain their software systems.</span> For example,
+        which files should be tested or fixed first and by who? Which bug to fix first? Did the performance of our
+        system degrade compared to the previous release? How can we improve the energy consumption of our system? Will
+        this change have nasty consequences on other features?</p>
 
+    <div class="clear"></div>
+    <br />
+    <p>By empirical research on software development process data stored in revision control systems (<a
+            href="http://cvs.nongnu.org/">CVS</a>, <a href="http://subversion.tigris.org/">Subversion</a>, <a
+            href="http://git-scm.com/">Git</a>, ...), mailing list archives, bug repositories (<a
+            href="http://www.bugzilla.org/">Bugzilla</a>, <a
+            href="http://www.atlassian.com/software/jira/overview">Jira</a>, ...), online documentation and manuals,
+        MCIS tries to address the above questions, and many more! Typically, the outcome of our research are models
+        developed using data mining, statistical analysis and manual analysis.</p>
+
+    <br />
+
+    <div class="clear"></div>
+</div>
 <br />
-      
-      <div class="clear"></div>
+<div class="box">
+    <h1><a name="construction">Software <black>C</black>onstruction</a></h1>
+    <p>
+    <div>
     </div>
-<br/>
-    <div class="box">
-        <h1><a name="intelligence">Software <black>I</black>ntelligence</a></h1>
-        <p><div>
-</div>
-<br/>
-        <img class="imgl" src="images/intelligence-small.jpg" alt="" width="150" height="200" />
-<p>Since (1) <a href="#maintenance">software maintenance</a> activities need to be performed until very long after the release of a system, and (2) <a href="#construction">software construction</a> is a less well-known area, both in practice and research, practitioners typically <b>lack significant knowledge about and experience with the software system</b> they are trying to maintain or construct. The original developers usually are no longer available, there is no documentation, yet there is a tight deadline to work against. So, what should practitioners do?</p>
     <br />
-<p><span class="essence">MCIS' mission is to help practitioners understand their software systems and construction infrastructure to facilitate maintenance, construction and other development activities.</span> For example, how does the concrete architecture or design of this software component look like? What features and functionality has the development team been working on this week? Which open source contributors have been active the most, and which ones have delivered the best work? How does our release engineering infrastructure work?</p>
-<br/>
+    <img class="imgl" src="images/construction-small.jpg" alt="" width="150" height="187" />
+    <p>OK, so everyone is familiar with pre-release development activities like requirements gathering, analysis, design
+        and implementation, and also (thanks to the <a href="#maintenance">above explanation</a>) with post-release
+        maintenance. However, what happens in between these activities, i.e., how does one actually make a release? How
+        does one turn textual source code into an installable software product, ready to execute on the user's hardware
+        platform?</p>
+    <br />
+    <p><span class="essence">MCIS' mission is to help practitioners release their products faster, but without
+            sacrificing quality.</span> To achieve this, one first needs <b>insight into the release engineering
+            process</b>. For example, what is the health status of the build system (i.e., the infrastructure that
+        co-ordinates compilers and configurators to transform source code into executables)? Does it become harder to
+        modify over time? How are implementation changes by different development teams integrated and tested towards
+        inclusion in the next release? How can we prepare our development process and software system for <a
+            href="http://continuousdelivery.com/">continuous delivery</a>, i.e., instantaneously releasing new features
+        or bug fixes to customers?</p>
     <div class="clear"></div>
-    <br/>
-    <p>Intelligence is a vague concept covering elements from reverse engineering, visualization, data mining, statistical analysis, chimps and (of course!) human reasoning. Given that knowledge is crucial in software development, software intelligence forms the heart of MCIS' research activities.</p>
+    <br />
+    <p>Using the same techniques as for <a href="#maintenance">software maintenance</a>, we try to address the questions
+        above. In addition, our lab has unique expertise and data sets on release engineering and software construction,
+        and contacts with industry for access to "real-life" data.</p>
 
+    <br />
+
+    <div class="clear"></div>
+</div>
 <br />
+<div class="box">
+    <h1><a name="intelligence">Software <black>I</black>ntelligence</a></h1>
+    <p>
+    <div>
+    </div>
+    <br />
+    <img class="imgl" src="images/intelligence-small.jpg" alt="" width="150" height="200" />
+    <p>Since (1) <a href="#maintenance">software maintenance</a> activities need to be performed until very long after
+        the release of a system, and (2) <a href="#construction">software construction</a> is a less well-known area,
+        both in practice and research, practitioners typically <b>lack significant knowledge about and experience with
+            the software system</b> they are trying to maintain or construct. The original developers usually are no
+        longer available, there is no documentation, yet there is a tight deadline to work against. So, what should
+        practitioners do?</p>
+    <br />
+    <p><span class="essence">MCIS' mission is to help practitioners understand their software systems and construction
+            infrastructure to facilitate maintenance, construction and other development activities.</span> For example,
+        how does the concrete architecture or design of this software component look like? What features and
+        functionality has the development team been working on this week? Which open source contributors have been
+        active the most, and which ones have delivered the best work? How does our release engineering infrastructure
+        work?</p>
+    <br />
+    <div class="clear"></div>
+    <br />
+    <p>Intelligence is a vague concept covering elements from reverse engineering, visualization, data mining,
+        statistical analysis, chimps and (of course!) human reasoning. Given that knowledge is crucial in software
+        development, software intelligence forms the heart of MCIS' research activities.</p>
 
+    <br />

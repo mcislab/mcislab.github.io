@@ -1,81 +1,95 @@
 ---
-layout: index 
+layout: index
 title: Aspicere, more AOSD for C
 ---
 
 <div class="box">
-  <div class="sidebar">
-  <div class="subnav">
-    <h5>Navigation</h5>
-    <ul>
-      <li><a href="#func">Functionality</a></li>
-      <li><a href="#examples">Code Examples</a></li>
-      <li><a href="#down">Releases</a></li>
-      <li><a href="#pubs">Publications</a></li>
-    </ul>
+    <div class="sidebar">
+        <div class="subnav">
+            <h5>Navigation</h5>
+            <ul>
+                <li><a href="#func">Functionality</a></li>
+                <li><a href="#examples">Code Examples</a></li>
+                <li><a href="#down">Releases</a></li>
+                <li><a href="#pubs">Publications</a></li>
+            </ul>
 
-  <h5>Downloads</h5>
-  <ul>
-  <li><a href="files/aspicere2-1.0beta.tar.bz2">Aspicere2 (v1.0 beta)</a></li>
-  <li><a href="files/aspicere_beta1.tar.bz2">Aspicere1 (beta 1)</a></li>
-  </ul>
-  </div>
-  </div>
+            <h5>Downloads</h5>
+            <ul>
+                <li><a href="files/aspicere2-1.0beta.tar.bz2">Aspicere2 (v1.0 beta)</a></li>
+                <li><a href="files/aspicere_beta1.tar.bz2">Aspicere1 (beta 1)</a></li>
+            </ul>
+        </div>
+    </div>
 
-<div id="primarycontent">
+    <div id="primarycontent">
 
-<div class="content">
-  <h3>Recent News</h3>
-  <ul><li>[August 7, 2009] Website published!</li></ul>
-</div>
+        <div class="content">
+            <h3>Recent News</h3>
+            <ul>
+                <li>[August 7, 2009] Website published!</li>
+            </ul>
+        </div>
 
-<div class="content">
-  <br/>  <br/>  <br/>
-  <h3><a name="func"></a>Functionality</h3>
-<p>Aspicere is an aspect language for C with the following characteristics:
-<ul>
-  <li>an aspect module is a normal C compilation unit enhanced with an advice construct</li>
-  <li>expressive pointcut language based on Prolog, enabling:
-	<ul>
-		<li>generic advice (reuse!)</li>
-		<li>access to and manipulation of join point context</li>	
-		<li>access to weave-time metadata and -rules such as the current build configuration and annotations (<code>/*@some_tag(field1,field2)*/</code>)</li>
-	</ul>
-  </li>
-  <li>supported join points:
-  <ul>
-  <li>call ("invocation"), execution and <a href="http://mcis.polymtl.ca/publications/2007/splat07.pdf">delimited continuation</a> join points</li>
-  <li>preliminary support for <code>cflow</code></li>
-  <li><code>sequence</code>-like <a href="http://mcis.polymtl.ca/publications/2008/acp4is.pdf">temporal pointcuts</a></li>
-  <li>join point properties can be attached to join points (similar to inter-type declaration)</li>
-  </ul>
-  </li>
-  <li>advice code is similar to procedures, except that:
-	<ul>
-		<li>it can use typed variables bound in the pointcut (so-called "bindings")</li>
-		<li>around advice can contain a <code>proceed</code>-call</li>
-	</ul>
-  </li>
-  <li>two weaver implementations:
-  <ul>
-  <li>compile-time weaver which supports limited version of Aspicere (<a href="files/aspicere_beta1.tar.bz2">Aspicere1</a>)</li>
-  <li>fully functional link-time weaver with optimization facilities, based on <a href="http://llvm.org/">LLVM (Low-Level Virtual Machine)</a> (<a href="files/aspicere2-1.0beta.tar.bz2">Aspicere2</a>)</li>
-  </ul>
-  </li>
-</ul>
-</p>
+        <div class="content">
+            <br /> <br /> <br />
+            <h3><a name="func"></a>Functionality</h3>
+            <p>Aspicere is an aspect language for C with the following characteristics:
+            <ul>
+                <li>an aspect module is a normal C compilation unit enhanced with an advice construct</li>
+                <li>expressive pointcut language based on Prolog, enabling:
+                    <ul>
+                        <li>generic advice (reuse!)</li>
+                        <li>access to and manipulation of join point context</li>
+                        <li>access to weave-time metadata and -rules such as the current build configuration and
+                            annotations (<code>/*@some_tag(field1,field2)*/</code>)</li>
+                    </ul>
+                </li>
+                <li>supported join points:
+                    <ul>
+                        <li>call ("invocation"), execution and <a
+                                href="http://mcis.polymtl.ca/publications/2007/splat07.pdf">delimited continuation</a>
+                            join points</li>
+                        <li>preliminary support for <code>cflow</code></li>
+                        <li><code>sequence</code>-like <a
+                                href="http://mcis.polymtl.ca/publications/2008/acp4is.pdf">temporal pointcuts</a></li>
+                        <li>join point properties can be attached to join points (similar to inter-type declaration)
+                        </li>
+                    </ul>
+                </li>
+                <li>advice code is similar to procedures, except that:
+                    <ul>
+                        <li>it can use typed variables bound in the pointcut (so-called "bindings")</li>
+                        <li>around advice can contain a <code>proceed</code>-call</li>
+                    </ul>
+                </li>
+                <li>two weaver implementations:
+                    <ul>
+                        <li>compile-time weaver which supports limited version of Aspicere (<a
+                                href="files/aspicere_beta1.tar.bz2">Aspicere1</a>)</li>
+                        <li>fully functional link-time weaver with optimization facilities, based on <a
+                                href="http://llvm.org/">LLVM (Low-Level Virtual Machine)</a> (<a
+                                href="files/aspicere2-1.0beta.tar.bz2">Aspicere2</a>)</li>
+                    </ul>
+                </li>
+            </ul>
+            </p>
 
-</div>
+        </div>
 
-<div class="content">
-  <br/>  <br/>  <br/>
-  <h3><a name="examples"></a>Code Examples</h3>
-  <p>We give two simple code examples, followed by a more complex one.</p>
+        <div class="content">
+            <br /> <br /> <br />
+            <h3><a name="examples"></a>Code Examples</h3>
+            <p>We give two simple code examples, followed by a more complex one.</p>
 
-  <br/>
-  <h3>1. Recovery aspect</h3>
-<p>This first example aspect checks whether a critical SQL query (call to <code>_iqcftch</code>) has been interrupted by a database error. If the particular error which popped up is recoverable, the aspect tries to fix the error up to a maximum number of attempts. If the error still persists, an error-specific message is prompted. This example works for Aspicere1 and Aspicere2, but with a slightly different syntax.</p>
-<pre>
+            <br />
+            <h3>1. Recovery aspect</h3>
+            <p>This first example aspect checks whether a critical SQL query (call to <code>_iqcftch</code>) has been
+                interrupted by a database error. If the particular error which popped up is recoverable, the aspect
+                tries to fix the error up to a maximum number of attempts. If the error still persists, an
+                error-specific message is prompted. This example works for Aspicere1 and Aspicere2, but with a slightly
+                different syntax.</p>
+            <pre>
 #include &lt;stdio.h&gt;
 #include "sql.h"
 
@@ -109,8 +123,9 @@ int recover(<span class="highlight_red">int ErrorCode</span>, <span class="highl
     return res;
 }
 </pre>
-<p>Of course, the notion of "a critical SQL query" is subject to interpretation. Developers can annotate queries, or use Prolog facts and rules for this. Here, we use the latter approach:</p>
-<pre>
+            <p>Of course, the notion of "a critical SQL query" is subject to interpretation. Developers can annotate
+                queries, or use Prolog facts and rules for this. Here, we use the latter approach:</p>
+            <pre>
 :- load_library('KnowledgeLibrary').
 
 sql_code(-666,'The statement cannot be executed, because a time limit was exceeded.').
@@ -131,11 +146,12 @@ critical_method('monthlyPayment').
     print('CRITICAL call found!!!'),nl.
 </pre>
 
-<br/>
-<br/>
-<h3>2. Optimizer aspect</h3>
-<p>In this example, we optimize an SQL-query by modifying the argument of the call to <code>_iqcprep</code>.</p>
-<pre>#include &lt;stdio.h&gt;
+            <br />
+            <br />
+            <h3>2. Optimizer aspect</h3>
+            <p>In this example, we optimize an SQL-query by modifying the argument of the call to <code>_iqcprep</code>.
+            </p>
+            <pre>#include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 #include &lt;string.h&gt;
 #include "sql.h"
@@ -194,12 +210,14 @@ void optimise_query (<span class="highlight_blue">char* Query</span>) before Jp:
   }
 }</pre>
 
-<br/>
-<br/>
-<h3>3. Delimited Continuation Join Point</h3>
-<p>This more complex example illustrates the concept of <a href="http://mcis.polymtl.ca/publications/2007/splat07.pdf">delimited continuation</a> join points and Aspicere2's annotation support.</p>
-<p>First, we show the base code.</p>
-<pre>#include &lt;stdio.h&gt;
+            <br />
+            <br />
+            <h3>3. Delimited Continuation Join Point</h3>
+            <p>This more complex example illustrates the concept of <a
+                    href="http://mcis.polymtl.ca/publications/2007/splat07.pdf">delimited continuation</a> join points
+                and Aspicere2's annotation support.</p>
+            <p>First, we show the base code.</p>
+            <pre>#include &lt;stdio.h&gt;
 
 int g(void){
 	return 0;
@@ -218,8 +236,11 @@ int main(void){
 	printf("D\n");
 }
 </pre>
-<p>The <span class="highlight_blue">/*@halting()*/-annotation</span> means that we want to stop the execution of procedure <code>f</code> if the call to <code>g</code> returns zero (which is always true here for the sake of simplicity). In other words, <code>printf("C")</code> must NOT be executed. For this, we need the following advice:</p>
-<pre>
+            <p>The <span class="highlight_blue">/*@halting()*/-annotation</span> means that we want to stop the
+                execution of procedure <code>f</code> if the call to <code>g</code> returns zero (which is always true
+                here for the sake of simplicity). In other words, <code>printf("C")</code> must NOT be executed. For
+                this, we need the following advice:</p>
+            <pre>
 int handling (int* ReturnVal) around Jp:
   halting_invocation(JpCall,ReturnVal)
   && <span class="highlight_red">delimited_continuation(Jp,JpCall)</span> {
@@ -229,10 +250,17 @@ int handling (int* ReturnVal) around Jp:
      return proceed();
 }
 </pre>
-<p>This advice does the following: if the return value of a <span class="highlight_blue">/*@halting()*/</span>-annotated call equals zero, the delimited continuation (i.e. the <span class="highlight_red">remaining execution within procedure f after the call to g</span>) is skipped (not proceeded). Otherwise, the remaining execution is resumed (proceeded). In other words, we get "ABD" as output.</p>
+            <p>This advice does the following: if the return value of a <span
+                    class="highlight_blue">/*@halting()*/</span>-annotated call equals zero, the delimited continuation
+                (i.e. the <span class="highlight_red">remaining execution within procedure f after the call to g</span>)
+                is skipped (not proceeded). Otherwise, the remaining execution is resumed (proceeded). In other words,
+                we get "ABD" as output.</p>
 
-<p>How do we define the halting_invocation/2 predicate? For this, we need to attach a <span class="highlight_green">join point property</span> to procedure <code>f</code> in order to temporarily store the return value of <span class="highlight_blue">/*@halting()*/</span>-annotated calls:</p>
-<pre>
+            <p>How do we define the halting_invocation/2 predicate? For this, we need to attach a <span
+                    class="highlight_green">join point property</span> to procedure <code>f</code> in order to
+                temporarily store the return value of <span class="highlight_blue">/*@halting()*/</span>-annotated
+                calls:</p>
+            <pre>
 int* <span class="highlight_green">return_var</span> () on Jp:
   execution(Jp,_);
 
@@ -241,8 +269,8 @@ void var_update(int* ReturnVal) after Jp returning (int* Result):
    *ReturnVal=*Result;
 }
 </pre>
-<p>Finally, this is the actual definition of the halting_invocation/2 predicate:</p>
-<pre>
+            <p>Finally, this is the actual definition of the halting_invocation/2 predicate:</p>
+            <pre>
 halting_invocation(JpCall,ReturnVal):-
 	invocation(JpCall,_),
 	annotation(JpCall,<span class="highlight_blue">halting</span>,_)
@@ -250,87 +278,149 @@ halting_invocation(JpCall,ReturnVal):-
 	property(JpEncl,<span class="highlight_green">return_var</span>,ReturnVal)
 	.
 </pre>
-<p>Basically, there is a check whether <code>JpCall</code> is a call annotated with a <span class="highlight_blue">/*@halting()*/</span> annotation. If so, the current value of the <span class="highlight_green">return_var</span> property attached to the calling execution join point property is returned.</p>
+            <p>Basically, there is a check whether <code>JpCall</code> is a call annotated with a <span
+                    class="highlight_blue">/*@halting()*/</span> annotation. If so, the current value of the <span
+                    class="highlight_green">return_var</span> property attached to the calling execution join point
+                property is returned.</p>
 
-<p>In <a href="#splat07">this paper</a>, we apply delimited continuation join points to extract an idiom-based exception handling idiom into aspects.</p>
+            <p>In <a href="#splat07">this paper</a>, we apply delimited continuation join points to extract an
+                idiom-based exception handling idiom into aspects.</p>
 
-</div>
+        </div>
 
-<div class="content">
-  <br/>  <br/>  <br/>
-  <h3><a name="down"></a>Releases</h3>
-<p>There are two implementations of Aspicere. <a href="#asp2">Aspicere2</a> fully implements Aspicere, whereas <a href="#asp1">Aspicere1</a> only provides a small subset.</p>
+        <div class="content">
+            <br /> <br /> <br />
+            <h3><a name="down"></a>Releases</h3>
+            <p>There are two implementations of Aspicere. <a href="#asp2">Aspicere2</a> fully implements Aspicere,
+                whereas <a href="#asp1">Aspicere1</a> only provides a small subset.</p>
 
-<br/>
-<h3>Aspicere1</h3>
+            <br />
+            <h3>Aspicere1</h3>
 
-<p><a href="files/aspicere_beta1.tar.bz2">Beta 1</a> is the aspect weaver we used in the Kava <a href="publications/2006/regaining.pdf">case</a> <a href="http://www.st.ewi.tudelft.nl/~zaidman/publications/badamsJSS2009.pdf">study</a>. This means that it is able to weave <span class="highlight_red">in K&R- as well as in ANSI C-code</span>. Unfortunately, in the former case, there are times when method prototypes don't declare the types of their arguments. Aspicere1 infers these types from a procedure's call site, but does not support all possible C types. In those cases, our weaver merely <span class="highlight_blue">"skips"</span> the relevant join points without halting the full weaving process. The weaver shows statistics about the relative percentage of "skipped" join points.</p>
-  
-<p>Aspicere1 has the following limitations:
-<ul>
-<li>only supports call join points</li>
-<li>(with GCC 4.x on non-OSX platforms) modifying captured arguments of advised procedures gives a compilation error</li>
-<li>does not advize function pointers</li>
-<li>multiple advices on the same join point are allowed, but advice on advice is not possible yet</li>
-</ul>
-</p>
+            <p><a href="files/aspicere_beta1.tar.bz2">Beta 1</a> is the aspect weaver we used in the Kava <a
+                    href="publications/2006/regaining.pdf">case</a> <a
+                    href="http://www.st.ewi.tudelft.nl/~zaidman/publications/badamsJSS2009.pdf">study</a>. This means
+                that it is able to weave <span class="highlight_red">in K&R- as well as in ANSI C-code</span>.
+                Unfortunately, in the former case, there are times when method prototypes don't declare the types of
+                their arguments. Aspicere1 infers these types from a procedure's call site, but does not support all
+                possible C types. In those cases, our weaver merely <span class="highlight_blue">"skips"</span> the
+                relevant join points without halting the full weaving process. The weaver shows statistics about the
+                relative percentage of "skipped" join points.</p>
 
-<p>As a manual workaround for the GCC 4.x bug, one can do the following:
-<ol>
-<li>open the file which refuses to compile</li>
-<li>regexp-replace all "# .*" (mind the space) by ""</li>
-<li>retry the offended GCC command and note down the erring line numbers</li>
-<li>reopen the file which refuses to compile</li>
-<li>go to the relevant lines and replace the casts like <code>(char*)voidptr=charptr;</code> by <code>voidptr=(void*)charptr;</code></li>
-<li>recompile the corrected file</li>
-</ol>
-</p>
+            <p>Aspicere1 has the following limitations:
+            <ul>
+                <li>only supports call join points</li>
+                <li>(with GCC 4.x on non-OSX platforms) modifying captured arguments of advised procedures gives a
+                    compilation error</li>
+                <li>does not advize function pointers</li>
+                <li>multiple advices on the same join point are allowed, but advice on advice is not possible yet</li>
+            </ul>
+            </p>
 
-<p>Aspicere1 is covered under a Tri License scheme: <a href="http://www.mozilla.org/MPL/">MPL/LGLP/GPL</a>. It depends on <a href="http://homepages.vub.ac.be/~kdeschut/yernalindale/">Yerna Lindale</a> and <a href="http://homepages.vub.ac.be/~kdeschut/lillambi/">Lillambi</a>, but these are included in the download. Furthermore, you need a Java 1.4-compatible VM, a C compiler, Perl interpreter and Bash shell. The included INSTALL file contains detailed installation instructions for Aspicere1.</p>
+            <p>As a manual workaround for the GCC 4.x bug, one can do the following:
+            <ol>
+                <li>open the file which refuses to compile</li>
+                <li>regexp-replace all "# .*" (mind the space) by ""</li>
+                <li>retry the offended GCC command and note down the erring line numbers</li>
+                <li>reopen the file which refuses to compile</li>
+                <li>go to the relevant lines and replace the casts like <code>(char*)voidptr=charptr;</code> by
+                    <code>voidptr=(void*)charptr;</code></li>
+                <li>recompile the corrected file</li>
+            </ol>
+            </p>
 
-<br/>
-<h3>Aspicere2</h3>
+            <p>Aspicere1 is covered under a Tri License scheme: <a href="http://www.mozilla.org/MPL/">MPL/LGLP/GPL</a>.
+                It depends on <a href="http://homepages.vub.ac.be/~kdeschut/yernalindale/">Yerna Lindale</a> and <a
+                    href="http://homepages.vub.ac.be/~kdeschut/lillambi/">Lillambi</a>, but these are included in the
+                download. Furthermore, you need a Java 1.4-compatible VM, a C compiler, Perl interpreter and Bash shell.
+                The included INSTALL file contains detailed installation instructions for Aspicere1.</p>
 
-<p>Aspicere2 is also covered under a Tri License scheme: <a href="http://www.mozilla.org/MPL/">MPL/LGLP/GPL</a>. It has the following dependencies:
-<ul>
-<li>recent Linux or OSX with <a href="http://perl.org/">Perl</a></li>
-<li><a href="http://llvm.org">LLVM 2.3</a></li>
-<li><a href="http://www.gnu.org/software/dejagnu">DejaGNU</a>, <a href="http://expect.nist.gov">Expect</a> and <a href="http://www.tcl.tk/software">TCL</a></li>
-<li><a href="http://www.swi-prolog.org/">SWI Prolog</a></li>
-<li><a href="http://www.boost.org">Boost.regex 1.33.1</a></li>
-<li>[OPTIONALLY] <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a></li>
-</ul>
-</p>
+            <br />
+            <h3>Aspicere2</h3>
 
-<p><a href="files/aspicere2-0.1.tar.bz2">This</a> is the most recent version of Aspicere2, used <a href="publications/2007/splat07.pdf">in</a> <a href="publications/2008/acp4is.pdf">multiple</a> <a href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">papers</a>. The best documentation can be found <a href="publications/2008/PhD.pdf">here</a>. The included INSTALL file contains installation instructions for all of these and for Aspicere2 itself.</p>
+            <p>Aspicere2 is also covered under a Tri License scheme: <a
+                    href="http://www.mozilla.org/MPL/">MPL/LGLP/GPL</a>. It has the following dependencies:
+            <ul>
+                <li>recent Linux or OSX with <a href="http://perl.org/">Perl</a></li>
+                <li><a href="http://llvm.org">LLVM 2.3</a></li>
+                <li><a href="http://www.gnu.org/software/dejagnu">DejaGNU</a>, <a
+                        href="http://expect.nist.gov">Expect</a> and <a href="http://www.tcl.tk/software">TCL</a></li>
+                <li><a href="http://www.swi-prolog.org/">SWI Prolog</a></li>
+                <li><a href="http://www.boost.org">Boost.regex 1.33.1</a></li>
+                <li>[OPTIONALLY] <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a></li>
+            </ul>
+            </p>
 
-</div>
-<div class="content">
-  <br/>  <br/>  <br/>
-  <a name="pubs"></a><h3>Publications</h3>
-  <ul>
-         <li>
-           HAUPT, M., ADAMS, B., TIMBERMONT, S., GIBBS, C., COADY, Y. and HIRSCHFELD, R. (2009). <a href="publications/2009/iet-ccvm-postprint.pdf">Disentangling Virtual Machine Architecture</a>, in IET Software: Special Issue on Domain-specific Aspect Languages, 3 (3), pages 201-218, IET.&nbsp;<a href="publications/2009/iet09.bib"><i>BibTeX</i></a>
-         </li>
-         <li>
-           ADAMS, B., DE SCHUTTER, K., ZAIDMAN, A., DEMEYER, S., TROMP, H. and DE MEUTER, W. (2009). <a href="http://www.st.ewi.tudelft.nl/~zaidman/publications/badamsJSS2009.pdf">Using Aspect Orientation in Legacy Environments for Reverse Engineering using Dynamic Analysis - An Industrial Experience Report</a>, Journal of Software and Systems (JSS), 82 (4), pages 668-684, ISSN: 0164-1212, Elsevier.&nbsp;<a href="publications/2009/jss09.bib"><i>BibTeX</i></a>
-         </li>
-         <li>
-           ADAMS, B., DE MEUTER, W., TROMP, H. and HASSAN, A. E. (2009). <a name="aosd09" href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">Can we Refactor Conditional Compilation into Aspects?</a>, in Proceedings of the 8th ACM international conference on Aspect-oriented Software Development, AOSD (Charlottesville, VA, US), pages 243-254, ISBN-ISSN: 978-1-60558-442-3, ACM, March 2009. (Acceptance ratio: 19/86=22%)&nbsp;<a href="publications/2009/aosd09b.bib"><i>BibTeX</i></a>&nbsp;<span style="color: black; font-weight: bold">(Most Influential Paper Award)</span>
-         </li>
-         <li>
-           ADAMS, B. (2008). <a name="phd" href="publications/2008/PhD.pdf">Co-evolution of Source Code and the Build System: Impact on the Introduction of AOSD in Legacy Systems</a>, PhD dissertation, 353 p., ISBN 978-90-8578-203-2, Ghent University, Belgium, May 2008.&nbsp;<a href="publications/2008/phd.bib"><i>BibTeX</i></a>
-         </li>
-         <li>ADAMS, B., HERZEEL, C. and GYBELS, K. (2008). <a name="acp4is08" href="publications/2008/acp4is.pdf">cHALO, Stateful Aspects in C</a>, in Proceedings of the 7th Workshop on Aspects, Components, and Patterns for Infrastructure Software, ACP4IS (Brussels, Belgium), pages 1-6, ISBN: 978-1-60558-142-2, ACM, March 2008.&nbsp;<a href="publications/2008/acp4is08.bib"><i>BibTeX</i></a>
-         </li>
-         <li>
-           DE SCHUTTER, K. and ADAMS, B. (2007). <a name="entcs07" href="publications/2007/entcs.pdf">Aspect-orientation For Revitalising Legacy Business Software</a>, in Proceedings of the ERCIM Working Group on Software Evolution (06-07 April 2006, Lille, France), Electronic Notes in Theoretical Computer Science (ENTCS), 166 (1), pages 63-80, Elsevier.&nbsp;<a href="publications/2007/ao4revitalisinglegacybusinesssoftware.bib"><i>BibTeX</i></a>
-         </li>
-         <li>ADAMS, B. and DE SCHUTTER, K. (2007). <a name="splat07" href="publications/2007/splat07.pdf">An Aspect for Idiom-based Exception Handling (using local continuation join points, join point properties, annotations and type parameters)</a>, in Proceedings of the 5th Software-Engineering Properties of Languages and Aspect Technologies Workshop, SPLAT (Vancouver, Canada), pages 1-8, ISBN: 1-59593-656-1, ACM, March 2007.(<a href="publications/2007/splat07_presentation.pdf">presentation</a>)(<a href="publications/2007/splat07_poster.pdf">poster</a>)&nbsp;<a href="publications/2007/splat07.bib"><i>BibTeX</i></a>
-         </li>
-         <li>
-           ZAIDMAN, A., ADAMS, B., DE SCHUTTER, K., DEMEYER, S., HOFFMAN, G. and DE RUYCK, B. (2006). <a name="csmr06" href="publications/2006/regaining.pdf">Regaining Lost Knowledge through Dynamic Analysis and Aspect Orientation - An Industrial Experience Report</a>, in Proceedings of the 10th European Conference on Software Maintenance and Reengineering, CSMR (Bari, Italy), pages 91-102, IEEE Computer Society, March 2006. (Acceptance ratio: 27/65=42%)&nbsp;<a href="publications/2006/regaining.bib"><i>BibTeX</i></a>
-         </li> 
-</div>
-</div>			
+            <p><a href="files/aspicere2-0.1.tar.bz2">This</a> is the most recent version of Aspicere2, used <a
+                    href="publications/2007/splat07.pdf">in</a> <a href="publications/2008/acp4is.pdf">multiple</a> <a
+                    href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">papers</a>.
+                The best documentation can be found <a href="publications/2008/PhD.pdf">here</a>. The included INSTALL
+                file contains installation instructions for all of these and for Aspicere2 itself.</p>
 
+        </div>
+        <div class="content">
+            <br /> <br /> <br />
+            <a name="pubs"></a>
+            <h3>Publications</h3>
+            <ul>
+                <li>
+                    HAUPT, M., ADAMS, B., TIMBERMONT, S., GIBBS, C., COADY, Y. and HIRSCHFELD, R. (2009). <a
+                        href="publications/2009/iet-ccvm-postprint.pdf">Disentangling Virtual Machine Architecture</a>,
+                    in IET Software: Special Issue on Domain-specific Aspect Languages, 3 (3), pages 201-218,
+                    IET.&nbsp;<a href="publications/2009/iet09.bib"><i>BibTeX</i></a>
+                </li>
+                <li>
+                    ADAMS, B., DE SCHUTTER, K., ZAIDMAN, A., DEMEYER, S., TROMP, H. and DE MEUTER, W. (2009). <a
+                        href="http://www.st.ewi.tudelft.nl/~zaidman/publications/badamsJSS2009.pdf">Using Aspect
+                        Orientation in Legacy Environments for Reverse Engineering using Dynamic Analysis - An
+                        Industrial Experience Report</a>, Journal of Software and Systems (JSS), 82 (4), pages 668-684,
+                    ISSN: 0164-1212, Elsevier.&nbsp;<a href="publications/2009/jss09.bib"><i>BibTeX</i></a>
+                </li>
+                <li>
+                    ADAMS, B., DE MEUTER, W., TROMP, H. and HASSAN, A. E. (2009). <a name="aosd09"
+                        href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">Can
+                        we Refactor Conditional Compilation into Aspects?</a>, in Proceedings of the 8th ACM
+                    international conference on Aspect-oriented Software Development, AOSD (Charlottesville, VA, US),
+                    pages 243-254, ISBN-ISSN: 978-1-60558-442-3, ACM, March 2009. (Acceptance ratio: 19/86=22%)&nbsp;<a
+                        href="publications/2009/aosd09b.bib"><i>BibTeX</i></a>&nbsp;<span
+                        style="color: black; font-weight: bold">(Most Influential Paper Award)</span>
+                </li>
+                <li>
+                    ADAMS, B. (2008). <a name="phd" href="publications/2008/PhD.pdf">Co-evolution of Source Code and the
+                        Build System: Impact on the Introduction of AOSD in Legacy Systems</a>, PhD dissertation, 353
+                    p., ISBN 978-90-8578-203-2, Ghent University, Belgium, May 2008.&nbsp;<a
+                        href="publications/2008/phd.bib"><i>BibTeX</i></a>
+                </li>
+                <li>ADAMS, B., HERZEEL, C. and GYBELS, K. (2008). <a name="acp4is08"
+                        href="publications/2008/acp4is.pdf">cHALO, Stateful Aspects in C</a>, in Proceedings of the 7th
+                    Workshop on Aspects, Components, and Patterns for Infrastructure Software, ACP4IS (Brussels,
+                    Belgium), pages 1-6, ISBN: 978-1-60558-142-2, ACM, March 2008.&nbsp;<a
+                        href="publications/2008/acp4is08.bib"><i>BibTeX</i></a>
+                </li>
+                <li>
+                    DE SCHUTTER, K. and ADAMS, B. (2007). <a name="entcs07"
+                        href="publications/2007/entcs.pdf">Aspect-orientation For Revitalising Legacy Business
+                        Software</a>, in Proceedings of the ERCIM Working Group on Software Evolution (06-07 April 2006,
+                    Lille, France), Electronic Notes in Theoretical Computer Science (ENTCS), 166 (1), pages 63-80,
+                    Elsevier.&nbsp;<a
+                        href="publications/2007/ao4revitalisinglegacybusinesssoftware.bib"><i>BibTeX</i></a>
+                </li>
+                <li>ADAMS, B. and DE SCHUTTER, K. (2007). <a name="splat07" href="publications/2007/splat07.pdf">An
+                        Aspect for Idiom-based Exception Handling (using local continuation join points, join point
+                        properties, annotations and type parameters)</a>, in Proceedings of the 5th Software-Engineering
+                    Properties of Languages and Aspect Technologies Workshop, SPLAT (Vancouver, Canada), pages 1-8,
+                    ISBN: 1-59593-656-1, ACM, March 2007.(<a
+                        href="publications/2007/splat07_presentation.pdf">presentation</a>)(<a
+                        href="publications/2007/splat07_poster.pdf">poster</a>)&nbsp;<a
+                        href="publications/2007/splat07.bib"><i>BibTeX</i></a>
+                </li>
+                <li>
+                    ZAIDMAN, A., ADAMS, B., DE SCHUTTER, K., DEMEYER, S., HOFFMAN, G. and DE RUYCK, B. (2006). <a
+                        name="csmr06" href="publications/2006/regaining.pdf">Regaining Lost Knowledge through Dynamic
+                        Analysis and Aspect Orientation - An Industrial Experience Report</a>, in Proceedings of the
+                    10th European Conference on Software Maintenance and Reengineering, CSMR (Bari, Italy), pages
+                    91-102, IEEE Computer Society, March 2006. (Acceptance ratio: 27/65=42%)&nbsp;<a
+                        href="publications/2006/regaining.bib"><i>BibTeX</i></a>
+                </li>
+        </div>
+    </div>

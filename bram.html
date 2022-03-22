@@ -1,5 +1,5 @@
 ---
-layout: index 
+layout: index
 title: Dr. Bram Adams
 ---
 
@@ -23,365 +23,794 @@ title: Dr. Bram Adams
     </div>
   </div>-->
 
-    <div class="box">
-           <div class="content">
+<div class="box">
+    <div class="content">
 
-	     <h1><a name="inter">Research Interests</a></h1><br/>
- <h3><a name="coevo"></a>1. Software Release Engineering</h3><br/>
-  <p>Question: What do <a href="http://en.wikipedia.org/wiki/Frankenstein">Mary Shelley's &#8220;Frankenstein&#8221;</a> and software systems have in common? Answer: Surprisingly much! Similar to Frankenstein's monster, a software system is essentially built from &#8220;dead&#8221; artifacts, i.e., textual source code files, and binary libraries and data files. A mysterious build process, consisting of thousands of build tool and compiler invocations, in the right order and on the right artifacts, effectively stitches together a running software system. After medical checks (test suites) and getting dressed (wrapping up into an installable package), the monster heads out to the end user in a sneaky way (push model) or via the front door (pull model). This whole process is called software release engineering.</p><br/>
-  <p>The beating heart of the software release engineering process is the build process, but, surprisingly, even with <a href="http://en.wikipedia.org/wiki/List_of_build_automation_software">current technology</a> the build process is still a mysterious and frustrating resource to work with. In particular, developers have a hard time keeping their projects buildable and configurable at all times, because this <a href="http://mcis.cs.queensu.ca/publications/2008/PhD.pdf">requires the build system to "co-evolve" in a synchronized way with the source code</a>.</p><br/>
-  <p>To understand this phenomenon of co-evolution, we have developed <a href="http://mcis.cs.queensu.ca/makao.html">MAKAO</a>, i.e. the Makefile Architecture Kernel featuring Aspect Orientation, to visualize and interactively query the build dependency graph of GNU Make-based build processes. We have used MAKAO, and other tools, to study the <a href="http://mcis.cs.queensu.ca/publications/2007/icsm.pdf">design of build processes, the evolution of the <a href="http://eceasst.cs.tu-berlin.de/index.php/eceasst/article/download/115/119">Linux kernel</a> and <a href="http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf">Java-based build processes</a>, and the <a href="http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf">build maintenance overhead experienced by developers</a>.</p><br/><br/>
-  <h3><a name="aosd"></a>2. Software Modularity</h3><br/>
-<p>Software modularity separates software concerns into self-contained modules that can be composed in flexible, yet safe, ways to form the behaviour of a software system. A software concern can be anything that software stakeholders deem important about a software system, ranging from security and energy consumption, to business rules. In practice, such concerns do not map one-to-one on individual software modules, because of the <a href="http://www.research.ibm.com/hyperspace/Papers/tr21452.ps">tyranny of the dominant decomposition</a>.</p><br/>
-<p>I rolled into the world of software modularity through the design of an <a href="http://en.wikipedia.org/wiki/Aspect-oriented_programming">aspect language</a> for C called <a href="aspicere/index.html">Aspicere</a>. Inversion of dependencies makes AOSD a key technology to re-engineer legacy systems, e.g. to <a href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">extract conditional compilation out of the base code</a>. However, while working with Aspicere I experienced first-hand that the structured and uniform software concerns targeted by most modularity approaches, represent only a minority of software concerns. This observation prompted me to study software concerns in general.</p><br/>
-<p>We have developed <a href="http://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf">a novel concern mining technique</a>, named COMMIT, that is able to automatically mine for concerns, regardless of their implementation, based on the development history of a project. We have also been working on <a href="http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf">statistical models that can track the implementation of software concerns over time</a> in order to <a href="http://sail.cs.queensu.ca/publications/pubs/thomas_2011_msr.pdf">accurately monitor the health of concerns</a>.</p><br/><br/>
-<h3><a name="rev"></a>3. Green Software</h3><br/>
-<p><a href="http://en.wikipedia.org/wiki/Energy_consumption">Energy consumption</a> has been put forward as the greatest challenge for the software industry in the coming decade. Worldwide, software systems are currently hosted on more than 35 million servers across thousands of data centres. In the US, the total energy consumption of data centres in 2006 accounted for 1.5% of all electricity consumption, with a total cost of $4.5 billion. This energy consumption is estimated to increase by 12\% each year, and to double by 2011.</p><br/>
-<p>The exploding energy consumption has important implications. First, the total cost of ownership (TCO) of a software system increases significantly. Second, software systems become unreliable because of energy consumption overload. Third, given the limited energy resources on earth, the energy consumption of software threatens the <a href="http://en.wikipedia.org/wiki/World_energy_resources_and_consumption">energy reserves left for future generations</a>.</p><br/>
-<p>I am currently active on a project to help companies monitor and test their systems' energy consumption. To be continued!</p><br/><br/>
+        <h1><a name="inter">Research Interests</a></h1><br />
+        <h3><a name="coevo"></a>1. Software Release Engineering</h3><br />
+        <p>Question: What do <a href="http://en.wikipedia.org/wiki/Frankenstein">Mary Shelley's
+                &#8220;Frankenstein&#8221;</a> and software systems have in common? Answer: Surprisingly much! Similar
+            to Frankenstein's monster, a software system is essentially built from &#8220;dead&#8221; artifacts, i.e.,
+            textual source code files, and binary libraries and data files. A mysterious build process, consisting of
+            thousands of build tool and compiler invocations, in the right order and on the right artifacts, effectively
+            stitches together a running software system. After medical checks (test suites) and getting dressed
+            (wrapping up into an installable package), the monster heads out to the end user in a sneaky way (push
+            model) or via the front door (pull model). This whole process is called software release engineering.</p>
+        <br />
+        <p>The beating heart of the software release engineering process is the build process, but, surprisingly, even
+            with <a href="http://en.wikipedia.org/wiki/List_of_build_automation_software">current technology</a> the
+            build process is still a mysterious and frustrating resource to work with. In particular, developers have a
+            hard time keeping their projects buildable and configurable at all times, because this <a
+                href="http://mcis.cs.queensu.ca/publications/2008/PhD.pdf">requires the build system to "co-evolve" in a
+                synchronized way with the source code</a>.</p><br />
+        <p>To understand this phenomenon of co-evolution, we have developed <a
+                href="http://mcis.cs.queensu.ca/makao.html">MAKAO</a>, i.e. the Makefile Architecture Kernel featuring
+            Aspect Orientation, to visualize and interactively query the build dependency graph of GNU Make-based build
+            processes. We have used MAKAO, and other tools, to study the <a
+                href="http://mcis.cs.queensu.ca/publications/2007/icsm.pdf">design of build processes, the evolution of
+                the <a href="http://eceasst.cs.tu-berlin.de/index.php/eceasst/article/download/115/119">Linux kernel</a>
+                and <a href="http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf">Java-based
+                    build processes</a>, and the <a
+                    href="http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf">build
+                    maintenance overhead experienced by developers</a>.</p><br /><br />
+        <h3><a name="aosd"></a>2. Software Modularity</h3><br />
+        <p>Software modularity separates software concerns into self-contained modules that can be composed in flexible,
+            yet safe, ways to form the behaviour of a software system. A software concern can be anything that software
+            stakeholders deem important about a software system, ranging from security and energy consumption, to
+            business rules. In practice, such concerns do not map one-to-one on individual software modules, because of
+            the <a href="http://www.research.ibm.com/hyperspace/Papers/tr21452.ps">tyranny of the dominant
+                decomposition</a>.</p><br />
+        <p>I rolled into the world of software modularity through the design of an <a
+                href="http://en.wikipedia.org/wiki/Aspect-oriented_programming">aspect language</a> for C called <a
+                href="aspicere/index.html">Aspicere</a>. Inversion of dependencies makes AOSD a key technology to
+            re-engineer legacy systems, e.g. to <a
+                href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">extract
+                conditional compilation out of the base code</a>. However, while working with Aspicere I experienced
+            first-hand that the structured and uniform software concerns targeted by most modularity approaches,
+            represent only a minority of software concerns. This observation prompted me to study software concerns in
+            general.</p><br />
+        <p>We have developed <a
+                href="http://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf">a
+                novel concern mining technique</a>, named COMMIT, that is able to automatically mine for concerns,
+            regardless of their implementation, based on the development history of a project. We have also been working
+            on <a
+                href="http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf">statistical
+                models that can track the implementation of software concerns over time</a> in order to <a
+                href="http://sail.cs.queensu.ca/publications/pubs/thomas_2011_msr.pdf">accurately monitor the health of
+                concerns</a>.</p><br /><br />
+        <h3><a name="rev"></a>3. Green Software</h3><br />
+        <p><a href="http://en.wikipedia.org/wiki/Energy_consumption">Energy consumption</a> has been put forward as the
+            greatest challenge for the software industry in the coming decade. Worldwide, software systems are currently
+            hosted on more than 35 million servers across thousands of data centres. In the US, the total energy
+            consumption of data centres in 2006 accounted for 1.5% of all electricity consumption, with a total cost of
+            $4.5 billion. This energy consumption is estimated to increase by 12\% each year, and to double by 2011.</p>
+        <br />
+        <p>The exploding energy consumption has important implications. First, the total cost of ownership (TCO) of a
+            software system increases significantly. Second, software systems become unreliable because of energy
+            consumption overload. Third, given the limited energy resources on earth, the energy consumption of software
+            threatens the <a href="http://en.wikipedia.org/wiki/World_energy_resources_and_consumption">energy reserves
+                left for future generations</a>.</p><br />
+        <p>I am currently active on a project to help companies monitor and test their systems' energy consumption. To
+            be continued!</p><br /><br />
 
-	     <h1><a name="award">Awards</a></h1>
-	     <p>
-               <ul>
-                 <li>Distinguished reviewer award at <a href="http://www.ieee-scam.org/2021/">SCAM 2021</a>.</li>
-                 <li><a href="https://2021.msrconf.org/track/msr-2021-msr-awards?#Call-for-Nominations-">MSR 2021 Foundational Contribution Award</a> for his research and evangelization on release engineering (<a href="https://flux.cs.queensu.ca/news/2021/04/28/professor-bram-adams-receives-the-msr-2021-foundational-contribution-award/">blog post</a>)</li>
-                 <li>Distinguished reviewer award at <a href="https://conf.researchr.org/home/icpc-2021">ICPC 2021</a>.</li>
-                 <li>Most Influential Paper Award for our <a href="http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf">SCAM 2010</a> paper.</li>
-                 <li>Most Influential Paper Award for our <a href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">AOSD 2009</a> paper.</li>
-                 <li>Distinguished reviewer award at <a href="https://icsme2017.github.io/">ICSME 2017</a>.</li>
-                 <li>Distinguished reviewer award at <a href="http://www.ieee-scam.org/2017/">SCAM 2017</a>.</li>
-    	         <li>Outstanding reviewer award at <a href="http://icse2017.gatech.edu/">ICSE 2017</a>.</li>
-	         <li>ACM SIGSOFT Distinguished Paper Award at <a href="http://softwareprocess.es/pubs/hasan2016ICSE-Energy-Profiles-of-Java-Collections-Classes.pdf">ICSE 2016</a>.</li>
-	       <li>IEEE Software Best Paper Award of the SEIP track at <a href="http://sail.cs.queensu.ca/data/pdfs/ICSE2015_AnIndustrialCaseStudyOnTheAutomatedDetectionOfPerformanceRegressionsInHeterogeneousEnvironments.pdf">ICSE 2015</a>.</li>
-	       <li>Distinguished reviewer award at <a href="http://www.icsme.org/">ICSME 2014</a>.</li>
-	       <li>Distinguished Paper Award at <a href="http://2014.msrconf.org/">MSR 2014</a>.</li>
-	       <li>ACM SIGSOFT Distinguished Paper Award at <a href="http://mcis.cs.queensu.ca/publications/2013/icse_ian.pdf">ICSE 2013</a>.</li>
-	       <li>Best paper award at <a href="http://sail.cs.queensu.ca/data/pdfs/WCRE2011_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf">WCRE 2011</a>.</li>
-	       <li>Best reviewer award at <a href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">WCRE 2010</a>.</li>
-	       <li>Best paper award at <a href="images/icsm09_award_large.pdf">ICSM 2009</a>.</li>
-	       </ul></p>
-	       <br/>
-	       	       <br/>
+        <h1><a name="award">Awards</a></h1>
+        <p>
+        <ul>
+            <li>Distinguished reviewer award at <a href="http://www.ieee-scam.org/2021/">SCAM 2021</a>.</li>
+            <li><a href="https://2021.msrconf.org/track/msr-2021-msr-awards?#Call-for-Nominations-">MSR 2021
+                    Foundational Contribution Award</a> for his research and evangelization on release engineering (<a
+                    href="https://flux.cs.queensu.ca/news/2021/04/28/professor-bram-adams-receives-the-msr-2021-foundational-contribution-award/">blog
+                    post</a>)</li>
+            <li>Distinguished reviewer award at <a href="https://conf.researchr.org/home/icpc-2021">ICPC 2021</a>.</li>
+            <li>Most Influential Paper Award for our <a
+                    href="http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf">SCAM
+                    2010</a> paper.</li>
+            <li>Most Influential Paper Award for our <a
+                    href="http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf">AOSD
+                    2009</a> paper.</li>
+            <li>Distinguished reviewer award at <a href="https://icsme2017.github.io/">ICSME 2017</a>.</li>
+            <li>Distinguished reviewer award at <a href="http://www.ieee-scam.org/2017/">SCAM 2017</a>.</li>
+            <li>Outstanding reviewer award at <a href="http://icse2017.gatech.edu/">ICSE 2017</a>.</li>
+            <li>ACM SIGSOFT Distinguished Paper Award at <a
+                    href="http://softwareprocess.es/pubs/hasan2016ICSE-Energy-Profiles-of-Java-Collections-Classes.pdf">ICSE
+                    2016</a>.</li>
+            <li>IEEE Software Best Paper Award of the SEIP track at <a
+                    href="http://sail.cs.queensu.ca/data/pdfs/ICSE2015_AnIndustrialCaseStudyOnTheAutomatedDetectionOfPerformanceRegressionsInHeterogeneousEnvironments.pdf">ICSE
+                    2015</a>.</li>
+            <li>Distinguished reviewer award at <a href="http://www.icsme.org/">ICSME 2014</a>.</li>
+            <li>Distinguished Paper Award at <a href="http://2014.msrconf.org/">MSR 2014</a>.</li>
+            <li>ACM SIGSOFT Distinguished Paper Award at <a
+                    href="http://mcis.cs.queensu.ca/publications/2013/icse_ian.pdf">ICSE 2013</a>.</li>
+            <li>Best paper award at <a
+                    href="http://sail.cs.queensu.ca/data/pdfs/WCRE2011_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf">WCRE
+                    2011</a>.</li>
+            <li>Best reviewer award at <a href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">WCRE 2010</a>.</li>
+            <li>Best paper award at <a href="images/icsm09_award_large.pdf">ICSM 2009</a>.</li>
+        </ul>
+        </p>
+        <br />
+        <br />
 
-	       <h1><a name="act">Academic Service</a></h1>
+        <h1><a name="act">Academic Service</a></h1>
 
-<h3>Chair:</h3>
-<p>
-  <ul>
-    <li>Area co-chair (together with <a href="https://kblincoe.github.io/index.html">Kelly Blincoe</a>) for Software Analytics of the <a href="https://conf.researchr.org/home/icse-2023">45th International Conference on Software Engineering (ICSE)</a>, 2023 (Melbourne, Australia)</li>
-    <li>Vision and Reflection co-chair</a> of the <a href="https://conf.researchr.org/home/msr-2022/">19th Working Conf. on Mining Software Repositories (MSR)</a>, May 22-23, 2022 (virtual)</li>
-    <li>PC co-chair (together with <a href="https://www.cs.fsu.edu/~shaiduc/">Sonia Haiduc</a>) of the <a href="https://conf.researchr.org/home/msr-2019">16th International Conference on Mining Software Repositories (MSR)</a>, 2019 (Montr&eacute;al, QC)</li>
-                 <li>artifacts co-chair (together with <a href="http://amel.me">Amel Bennaceur</a>) of the <a href="http://esec-fse17.uni-paderborn.de">11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>, September 6-8, 2017 (Paderborn, Germany)</li>
-		 <li>PC co-chair (together with <a href="http://www.cs.wm.edu/~denys/">Denys Poshyvanyk</a>) of the <a href="http://icsme2016.github.io">32nd International Conference on Software Maintenance and Evolution (ICSME)</a>, 2016 (Raleigh, NC, USA)</li>
-		 <li>post-PhD symposium co-chair (together with <a href="http://haroonmalik1.wix.com/haroon-malik">Haroon Malik</a> of the <a href="http://saner.inf.usi.ch/home">23rd International Conference on Software Analysis, Evolution and Reengineering (SANER)</a>, March, 2016 (Osaka, Japan)</li>
-	         <li>PC co-chair (together with <a href="http://www.win.tue.nl/~aserebre/">Alexander Serebrenik</a>) of the <a href="http://saner.soccerlab.polymtl.ca/doku.php?id=en:start">22nd International Conference on Software Analysis, Evolution and Reengineering (SANER)</a>, March 2-6, 2015 (Montr&eacute;al, Canada)</li>
-                 <li>tool demo co-chair (together with <a href="http://www.cs.fsu.edu/~shaiduc/">Sonia Haiduc</a>) of the <a href="https://dibt.unimol.it/ICPC15/Home.html">23rd International Conference on Program Comprehension (ICPC)</a>, May 18-19, 2015 (Florence, Italy)</li>
-                 <li>session chair at the <a href="http://www.icsme.org/">30th IEEE Intl. Conf. on Software Maintenance and Evolution (ICSME)</a>, October 1-3, 2014 (Victoria, BC, Canada)</li>
-                 <li>finance chair of the <a href="http://icpc2014.usask.ca/">22nd International Conference on Program Comprehension (ICPC)</a>, June 3-4, 2014 (Hyderabad, India)</li>
-                 <li>session chair at the <a href="http://ansymo.ua.ac.be/csmr-wcre">Conference on Software Maintenance, Reengineering and Reverse Engineering (CSMR/WCRE)</a>, February 3-7, 2014 (Antwerp, Belgium)</li>
-                 <li>PhD symposium co-chair (together with <a href="http://www.sts.tu-harburg.de/~schupp/">Sibylle Schupp</a>) of the <a href="http://ansymo.ua.ac.be/csmr-wcre">Conference on Software Maintenance, Reengineering and Reverse Engineering (CSMR/WCRE)</a>, February 3-7, 2014 (Antwerp, Belgium)</li>
-                 <li>session chair at the <a href="https://www-927.ibm.com/ibm/cas/cascon/">2013 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, November 18, 2013 (Markham, Ontario, Canada)</li>  
-                 <li>ERA track co-chair (together with <a href="http://www.inf.usi.ch/phd/robbes/">Romain Robbes</a>) of the <a href="http://icsm2013.tue.nl">29th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September 24-26, 2013 (Eindhoven, The Netherlands)</li>
-                 <li>PC co-chair (together with <a href="http://www.cs.concordia.ca/~rilling/">Juergen Rilling</a>) of the <a href="http://www.ieee-scam.org/2013/">13th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)</a>, September 22-23, 2013 (Eindhoven, The Netherlands)</li>
-                 <li>session chair at the <a href="https://www-927.ibm.com/ibm/cas/cascon/">2012 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, November 5-7, 2012 (Markham, Ontario, Canada)</li>  
-                 <li>workshop co-chair (together with <a href="http://www.disi.unige.it/person/RiccaF/">Filippo Ricca</a>) of the <a href="http://www.distat.unimol.it/wcre2012/">19th Working Conf. on Reverse Engineering (WCRE)</a>, October 15-18, 2012 (Kingston, ON)</li>
-                 <li>tool demo co-chair (together with <a href="http://www.cs.usask.ca/~croy/">Chanchal Roy</a>) of the <a href="http://selab.fbk.eu/icsm2012/">28th IEEE International Conference on Software Maintenance (ICSM)</a>, September 23-28, 2012 (Riva del Garda, Italy)</li>
-                 <li>PC chair of the <a href="https://sites.google.com/site/iwesep2011/">3rd International Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, November 1, 2011 (Nara, Japan) [<a href="http://www.ustream.tv/channel/iwesep2011">videos</a>]</li>
-                 <li>session chair at the <a href="http://www.cs.wm.edu/semeru/wcre2011/">18th Working Conf. on Reverse Engineering (WCRE)</a>, October 17-20, 2011 (Lero, Limerick, Ireland)</li>
-                 <li>session chair at the <a href="http://www.cs.wm.edu/icsm2011/?page_id=281">ERA track</a> of the <a href="http://www.cs.wm.edu/icsm2011/">27th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September 25-30, 2011 (Williamsburg, VA, US)</li>
-                 <li>session chair at the <a href="http://icpc2011.cs.usask.ca/conf_site/Home.html">19th IEEE International Conference on Program Comprehension (ICPC)</a>, June 22-24, 2011 (Kingston, Ontario, Canada)</li>
-                 <li>session chair at the <a href="http://www.cs.wm.edu/semeru/tefse2011/">6th International Workshop on Traceability in Emerging Forms of Software Engineering (TEFSE)</a>, May 23, 2011 (Honolulu, Hawaii, USA)</li>
-                 <li>session chair at the <a href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">17th Working Conf. on Reverse Engineering (WCRE)</a>, October 13-16, 2010 (Boston, Massachusetts, USA)</li>
-                 <li>session chair at the <a href="http://icsm2010.upt.ro/">26th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September 12-18, 2010 (Timi&#351;oara, Romania)</li>
-                 <li>tool demo co-chair (together with <a href="http://swerl.tudelft.nl/bin/view/MartinPinzger/WebHome">Martin Pinzger</a>) of the <a href="http://web.soccerlab.polymtl.ca/wcre2009/">16th Working Conf. on Reverse Engineering (WCRE)</a>, October 13-16, 2009 (Lille, France)</li>
-               </ul>
-</p><br/>
-    
-<h3>Co-organizer:</h3>
-<p>
-  <ul>
-    <li><a href="https://soheal.github.io">2nd International Workshop on Software Health (SoHeal)</a>, May 28, 2019 (Montr&eacute;al, Quebec), co-located with <a href="https://conf.researchr.org/home/icse-2019">ICSE 2019</a></li>
-    <li><a href="https://semla.polymtl.ca">2nd Symposium on Software Engineering for Machine Learning Applications (SEMLA)</a>, May 23-24, 2019 (Montr&eacute;al, Quebec)</li>
-    <li><a href="https://semla2018.soccerlab.polymtl.ca">1st Symposium on Software Engineering for Machine Learning Applications (SEMLA)</a>, June 12-13, 2018 (Montr&eacute;al, Quebec)</li>
-    <li><a href="https://soheal.github.io/SoHeal2018/index.html">1st International Workshop on Software Health (SoHeal)</a>, May 27, 2018 (Gothenburg, Sweden), co-located with <a href="https://www.icse2018.org">ICSE 2018</a></li>
-    <li><a href="https://www.dagstuhl.de/de/programm/kalender/semhp/?semnr=18122">Dagstuhl Seminar on Automatic Quality Assurance and Release</a>, March 18-21, 2018 (Dagstuhl, Germany)</li>
-    <li><a href="https://devopseducators.github.io/index.html">Devops Educators Workshop</a>, November 19, 2016 (Seattle, WA, US)</li>
-    <li><a href="http://releng.polymtl.ca/RELENG2015/html/index.html">3rd International Workshop on Release Engineering (RELENG)</a>, May 19, 2015 (Florence, Italy), co-located with <a href="http://2015.icse-conferences.org">ICSE 2015</a></li>
-    <li><a href="http://polymorse.polymtl.ca/plow/">4th PoLyMORSE Open Workshop (PLOW)</a>, February 28, 2015 (Montr&eacute;al, Canada)</li>
-    <li><a href="http://polymorse.polymtl.ca/plow-2014b/">3rd PoLyMORSE Open Workshop (PLOW)</a>, October 14-16, 2014 (Montr&eacute;al, Canada)</li>
-    <li><a href="http://releng.polymtl.ca/RELENG2014/html/index.html">2nd International Workshop on Release Engineering (RELENG)</a>, April 11, 2014 (Mountain View, California, USA), graciously hosted by Google</li>
-    <li><a href="http://www.cser.ca">Consortium for Software Engineering Research (CSER) Spring 2013 Meeting</a>, June 17-18, 2013 (Montr&eacute;al, Canada)</li>
-    <li><a href="http://releng.polymtl.ca/RELENG2013/html/index.html">1st International Workshop on Release Engineering (RELENG)</a>, May 20, 2013 (San Francisco, California, USA), co-located with <a href="http://2013.icse-conferences.org">ICSE 2013</a></li>
-    <li><a href="http://msrcanada.org/msrvision2020/">MITACS MSR Vision 2020 Summer School</a>, August 20-24, 2012 (Kingston, Ontario, Canada)</li>
-    <li><a href="http://www.aosd.net/workshops/miss/2011/">1st Workshop on Modularity In Systems Software (MISS)</a>, March 22, 2011 (Porto de Galinhas, Pernambuco, Brazil), co-located with <a href="http://www.aosd.net/2011/index.php">AOSD 2011</a></li>
-    <li><a href="http://sailhome.cs.queensu.ca/mud/index.html">1st Workshop on Mining Unstructured Data (MUD)</a>, October 15th, 2010 (Boston, Massachusetts, USA), co-located with <a href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">WCRE 2010</a></li>
-    <li><a href="http://www.aosd.net/workshops/acp4is/2010/">9th Workshop on Aspects, Components, and Patterns for Infrastructure Software (ACP4IS)</a>, March 16, 2010 (Rennes, France), co-located with <a href="http://www.aosd.net/2010/index.php">AOSD 2010</a></li>
-    <li><a href="http://www.aosd.net/workshops/plate/2009/">1st Practices of Linking Aspect Technology and Evolution workshop (PLATE)</a>, March 3, 2009 (Charlottesville, Virginia, USA), co-located with <a href="http://www.aosd.net/2009/index.php">AOSD 2009</a></li>
-  </ul>
-</p><br/>
+        <h3>Chair:</h3>
+        <p>
+        <ul>
+            <li>Area co-chair (together with <a href="https://kblincoe.github.io/index.html">Kelly Blincoe</a>) for
+                Software Analytics of the <a href="https://conf.researchr.org/home/icse-2023">45th International
+                    Conference on Software Engineering (ICSE)</a>, 2023 (Melbourne, Australia)</li>
+            <li>Vision and Reflection co-chair</a> of the <a href="https://conf.researchr.org/home/msr-2022/">19th
+                    Working Conf. on Mining Software Repositories (MSR)</a>, May 22-23, 2022 (virtual)</li>
+            <li>PC co-chair (together with <a href="https://www.cs.fsu.edu/~shaiduc/">Sonia Haiduc</a>) of the <a
+                    href="https://conf.researchr.org/home/msr-2019">16th International Conference on Mining Software
+                    Repositories (MSR)</a>, 2019 (Montr&eacute;al, QC)</li>
+            <li>artifacts co-chair (together with <a href="http://amel.me">Amel Bennaceur</a>) of the <a
+                    href="http://esec-fse17.uni-paderborn.de">11th Joint Meeting of the European Software Engineering
+                    Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>,
+                September 6-8, 2017 (Paderborn, Germany)</li>
+            <li>PC co-chair (together with <a href="http://www.cs.wm.edu/~denys/">Denys Poshyvanyk</a>) of the <a
+                    href="http://icsme2016.github.io">32nd International Conference on Software Maintenance and
+                    Evolution (ICSME)</a>, 2016 (Raleigh, NC, USA)</li>
+            <li>post-PhD symposium co-chair (together with <a href="http://haroonmalik1.wix.com/haroon-malik">Haroon
+                    Malik</a> of the <a href="http://saner.inf.usi.ch/home">23rd International Conference on Software
+                    Analysis, Evolution and Reengineering (SANER)</a>, March, 2016 (Osaka, Japan)</li>
+            <li>PC co-chair (together with <a href="http://www.win.tue.nl/~aserebre/">Alexander Serebrenik</a>) of the
+                <a href="http://saner.soccerlab.polymtl.ca/doku.php?id=en:start">22nd International Conference on
+                    Software Analysis, Evolution and Reengineering (SANER)</a>, March 2-6, 2015 (Montr&eacute;al,
+                Canada)</li>
+            <li>tool demo co-chair (together with <a href="http://www.cs.fsu.edu/~shaiduc/">Sonia Haiduc</a>) of the <a
+                    href="https://dibt.unimol.it/ICPC15/Home.html">23rd International Conference on Program
+                    Comprehension (ICPC)</a>, May 18-19, 2015 (Florence, Italy)</li>
+            <li>session chair at the <a href="http://www.icsme.org/">30th IEEE Intl. Conf. on Software Maintenance and
+                    Evolution (ICSME)</a>, October 1-3, 2014 (Victoria, BC, Canada)</li>
+            <li>finance chair of the <a href="http://icpc2014.usask.ca/">22nd International Conference on Program
+                    Comprehension (ICPC)</a>, June 3-4, 2014 (Hyderabad, India)</li>
+            <li>session chair at the <a href="http://ansymo.ua.ac.be/csmr-wcre">Conference on Software Maintenance,
+                    Reengineering and Reverse Engineering (CSMR/WCRE)</a>, February 3-7, 2014 (Antwerp, Belgium)</li>
+            <li>PhD symposium co-chair (together with <a href="http://www.sts.tu-harburg.de/~schupp/">Sibylle
+                    Schupp</a>) of the <a href="http://ansymo.ua.ac.be/csmr-wcre">Conference on Software Maintenance,
+                    Reengineering and Reverse Engineering (CSMR/WCRE)</a>, February 3-7, 2014 (Antwerp, Belgium)</li>
+            <li>session chair at the <a href="https://www-927.ibm.com/ibm/cas/cascon/">2013 Conference of the Center for
+                    Advanced Studies on Collaborative Research (CASCON)</a>, November 18, 2013 (Markham, Ontario,
+                Canada)</li>
+            <li>ERA track co-chair (together with <a href="http://www.inf.usi.ch/phd/robbes/">Romain Robbes</a>) of the
+                <a href="http://icsm2013.tue.nl">29th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September
+                24-26, 2013 (Eindhoven, The Netherlands)</li>
+            <li>PC co-chair (together with <a href="http://www.cs.concordia.ca/~rilling/">Juergen Rilling</a>) of the <a
+                    href="http://www.ieee-scam.org/2013/">13th IEEE International Working Conference on Source Code
+                    Analysis and Manipulation (SCAM)</a>, September 22-23, 2013 (Eindhoven, The Netherlands)</li>
+            <li>session chair at the <a href="https://www-927.ibm.com/ibm/cas/cascon/">2012 Conference of the Center for
+                    Advanced Studies on Collaborative Research (CASCON)</a>, November 5-7, 2012 (Markham, Ontario,
+                Canada)</li>
+            <li>workshop co-chair (together with <a href="http://www.disi.unige.it/person/RiccaF/">Filippo Ricca</a>) of
+                the <a href="http://www.distat.unimol.it/wcre2012/">19th Working Conf. on Reverse Engineering
+                    (WCRE)</a>, October 15-18, 2012 (Kingston, ON)</li>
+            <li>tool demo co-chair (together with <a href="http://www.cs.usask.ca/~croy/">Chanchal Roy</a>) of the <a
+                    href="http://selab.fbk.eu/icsm2012/">28th IEEE International Conference on Software Maintenance
+                    (ICSM)</a>, September 23-28, 2012 (Riva del Garda, Italy)</li>
+            <li>PC chair of the <a href="https://sites.google.com/site/iwesep2011/">3rd International Workshop on
+                    Empirical Software Engineering in Practice (IWESEP)</a>, November 1, 2011 (Nara, Japan) [<a
+                    href="http://www.ustream.tv/channel/iwesep2011">videos</a>]</li>
+            <li>session chair at the <a href="http://www.cs.wm.edu/semeru/wcre2011/">18th Working Conf. on Reverse
+                    Engineering (WCRE)</a>, October 17-20, 2011 (Lero, Limerick, Ireland)</li>
+            <li>session chair at the <a href="http://www.cs.wm.edu/icsm2011/?page_id=281">ERA track</a> of the <a
+                    href="http://www.cs.wm.edu/icsm2011/">27th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>,
+                September 25-30, 2011 (Williamsburg, VA, US)</li>
+            <li>session chair at the <a href="http://icpc2011.cs.usask.ca/conf_site/Home.html">19th IEEE International
+                    Conference on Program Comprehension (ICPC)</a>, June 22-24, 2011 (Kingston, Ontario, Canada)</li>
+            <li>session chair at the <a href="http://www.cs.wm.edu/semeru/tefse2011/">6th International Workshop on
+                    Traceability in Emerging Forms of Software Engineering (TEFSE)</a>, May 23, 2011 (Honolulu, Hawaii,
+                USA)</li>
+            <li>session chair at the <a href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">17th Working Conf. on
+                    Reverse Engineering (WCRE)</a>, October 13-16, 2010 (Boston, Massachusetts, USA)</li>
+            <li>session chair at the <a href="http://icsm2010.upt.ro/">26th IEEE Intl. Conf. on Software Maintenance
+                    (ICSM)</a>, September 12-18, 2010 (Timi&#351;oara, Romania)</li>
+            <li>tool demo co-chair (together with <a
+                    href="http://swerl.tudelft.nl/bin/view/MartinPinzger/WebHome">Martin Pinzger</a>) of the <a
+                    href="http://web.soccerlab.polymtl.ca/wcre2009/">16th Working Conf. on Reverse Engineering
+                    (WCRE)</a>, October 13-16, 2009 (Lille, France)</li>
+        </ul>
+        </p><br />
 
-<h3>PC Member</h3>
-<p>
-  <ul>
-    <li><a href="https://conf.researchr.org/home/ase-2022">37th IEEE/ACM International Conference on Automated Software Engineering (ASE)</a>, September 26-October 1, 2022 (Ann Arbor, MI, USA) </li>
-    <li><a href="https://conf.researchr.org/home/icpc-2022">30th IEEE International Conference on Program Comprehension (ICPC)</a>, May 16-17, 2022 (virtual)</li>
-    <li><a href="https://conf.researchr.org/home/cain-2022">1st International Conference on AI Engineering -- Software Engineering for AI (CAIN)</a>, May 16-17, 2022 (virtual)</li>
-    <li><a href="https://luxsb.lu/international-conference-ai-ss-h/">1st International Conference on the relation between Artificial Intelligence, Social Sciences and Humanities</a>, October 1, 2021 (Zagreb, Croatia)</li>
-    <li><a href="https://icsme2021.github.io/cfp/DoctoralSymposium.html">Doctoral Symposium</a> track of the <a href="https://icsme2021.github.io/">37th IEEE International Conference on Software Maintenance and Evolution (ICSME)</a>, September 20-October 1, 2021 (virtual)</li>
-    <li><a href="http://www.ieee-scam.org/2021/">21st IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 27-28, 2021 (virtual)</li>
-    <li><a href="http://www.ieee-scam.org/2021/#cfpniertrack">New Ideas and Emerging Results (NIER)</a> track of the <a href="http://www.ieee-scam.org/2021">21st IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 27-28, 2021 (virtual)</li>
-    <li><a href="https://conf.researchr.org/home/wain-2021">1st Workshop on AI Engineering - Software Engineering for AI (WAIN)</a>, May 30-31, 2021 (virtual) </li>
-    <li><a href="https://soheal.github.io">4th International Workshop on Software Health (SoHeal)</a>, May 29, 2021 (virtual) </li>
-    <li><a href="https://conf.researchr.org/track/icse-2021/icse-2021-Student-Volunteers">Student Volunteer Mentor</a> of the <a href="https://conf.researchr.org/home/icse-2021">43rd International Conference on Software Engineering (ICSE)</a>, May 23-29, 2021 (virtual)</li>
-    <li><a href="https://conf.researchr.org/home/icpc-2021">29th IEEE International Conference on Program Comprehension (ICPC)</a>, May 18-21, 2021 (virtual)</li>
-    <li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc?">Mentor of the Shadow PC</a> of the <a href="https://2021.msrconf.org/">18th Working Conf. on Mining Software Repositories (MSR)</a>, May 17-19, 2021 (virtual)</li>
-    
-    <li><a href="https://2020.esec-fse.org/">28th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>, November 10-13, 2020 (virtual)</li>
+        <h3>Co-organizer:</h3>
+        <p>
+        <ul>
+            <li><a href="https://soheal.github.io">2nd International Workshop on Software Health (SoHeal)</a>, May 28,
+                2019 (Montr&eacute;al, Quebec), co-located with <a href="https://conf.researchr.org/home/icse-2019">ICSE
+                    2019</a></li>
+            <li><a href="https://semla.polymtl.ca">2nd Symposium on Software Engineering for Machine Learning
+                    Applications (SEMLA)</a>, May 23-24, 2019 (Montr&eacute;al, Quebec)</li>
+            <li><a href="https://semla2018.soccerlab.polymtl.ca">1st Symposium on Software Engineering for Machine
+                    Learning Applications (SEMLA)</a>, June 12-13, 2018 (Montr&eacute;al, Quebec)</li>
+            <li><a href="https://soheal.github.io/SoHeal2018/index.html">1st International Workshop on Software Health
+                    (SoHeal)</a>, May 27, 2018 (Gothenburg, Sweden), co-located with <a
+                    href="https://www.icse2018.org">ICSE 2018</a></li>
+            <li><a href="https://www.dagstuhl.de/de/programm/kalender/semhp/?semnr=18122">Dagstuhl Seminar on Automatic
+                    Quality Assurance and Release</a>, March 18-21, 2018 (Dagstuhl, Germany)</li>
+            <li><a href="https://devopseducators.github.io/index.html">Devops Educators Workshop</a>, November 19, 2016
+                (Seattle, WA, US)</li>
+            <li><a href="http://releng.polymtl.ca/RELENG2015/html/index.html">3rd International Workshop on Release
+                    Engineering (RELENG)</a>, May 19, 2015 (Florence, Italy), co-located with <a
+                    href="http://2015.icse-conferences.org">ICSE 2015</a></li>
+            <li><a href="http://polymorse.polymtl.ca/plow/">4th PoLyMORSE Open Workshop (PLOW)</a>, February 28, 2015
+                (Montr&eacute;al, Canada)</li>
+            <li><a href="http://polymorse.polymtl.ca/plow-2014b/">3rd PoLyMORSE Open Workshop (PLOW)</a>, October 14-16,
+                2014 (Montr&eacute;al, Canada)</li>
+            <li><a href="http://releng.polymtl.ca/RELENG2014/html/index.html">2nd International Workshop on Release
+                    Engineering (RELENG)</a>, April 11, 2014 (Mountain View, California, USA), graciously hosted by
+                Google</li>
+            <li><a href="http://www.cser.ca">Consortium for Software Engineering Research (CSER) Spring 2013
+                    Meeting</a>, June 17-18, 2013 (Montr&eacute;al, Canada)</li>
+            <li><a href="http://releng.polymtl.ca/RELENG2013/html/index.html">1st International Workshop on Release
+                    Engineering (RELENG)</a>, May 20, 2013 (San Francisco, California, USA), co-located with <a
+                    href="http://2013.icse-conferences.org">ICSE 2013</a></li>
+            <li><a href="http://msrcanada.org/msrvision2020/">MITACS MSR Vision 2020 Summer School</a>, August 20-24,
+                2012 (Kingston, Ontario, Canada)</li>
+            <li><a href="http://www.aosd.net/workshops/miss/2011/">1st Workshop on Modularity In Systems Software
+                    (MISS)</a>, March 22, 2011 (Porto de Galinhas, Pernambuco, Brazil), co-located with <a
+                    href="http://www.aosd.net/2011/index.php">AOSD 2011</a></li>
+            <li><a href="http://sailhome.cs.queensu.ca/mud/index.html">1st Workshop on Mining Unstructured Data
+                    (MUD)</a>, October 15th, 2010 (Boston, Massachusetts, USA), co-located with <a
+                    href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">WCRE 2010</a></li>
+            <li><a href="http://www.aosd.net/workshops/acp4is/2010/">9th Workshop on Aspects, Components, and Patterns
+                    for Infrastructure Software (ACP4IS)</a>, March 16, 2010 (Rennes, France), co-located with <a
+                    href="http://www.aosd.net/2010/index.php">AOSD 2010</a></li>
+            <li><a href="http://www.aosd.net/workshops/plate/2009/">1st Practices of Linking Aspect Technology and
+                    Evolution workshop (PLATE)</a>, March 3, 2009 (Charlottesville, Virginia, USA), co-located with <a
+                    href="http://www.aosd.net/2009/index.php">AOSD 2009</a></li>
+        </ul>
+        </p><br />
 
-    <li><a href="https://splc2020.net/"> 24th ACM International Systems and Software Product Line Conference (SPLC)</a>, October 19-23, 2020 (virtual)</li>
+        <h3>PC Member</h3>
+        <p>
+        <ul>
+            <li><a href="https://conf.researchr.org/home/ase-2022">37th IEEE/ACM International Conference on Automated
+                    Software Engineering (ASE)</a>, September 26-October 1, 2022 (Ann Arbor, MI, USA) </li>
+            <li><a href="https://conf.researchr.org/home/icpc-2022">30th IEEE International Conference on Program
+                    Comprehension (ICPC)</a>, May 16-17, 2022 (virtual)</li>
+            <li><a href="https://conf.researchr.org/home/cain-2022">1st International Conference on AI Engineering --
+                    Software Engineering for AI (CAIN)</a>, May 16-17, 2022 (virtual)</li>
+            <li><a href="https://luxsb.lu/international-conference-ai-ss-h/">1st International Conference on the
+                    relation between Artificial Intelligence, Social Sciences and Humanities</a>, October 1, 2021
+                (Zagreb, Croatia)</li>
+            <li><a href="https://icsme2021.github.io/cfp/DoctoralSymposium.html">Doctoral Symposium</a> track of the <a
+                    href="https://icsme2021.github.io/">37th IEEE International Conference on Software Maintenance and
+                    Evolution (ICSME)</a>, September 20-October 1, 2021 (virtual)</li>
+            <li><a href="http://www.ieee-scam.org/2021/">21st IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 27-28, 2021 (virtual)</li>
+            <li><a href="http://www.ieee-scam.org/2021/#cfpniertrack">New Ideas and Emerging Results (NIER)</a> track of
+                the <a href="http://www.ieee-scam.org/2021">21st IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 27-28, 2021 (virtual)</li>
+            <li><a href="https://conf.researchr.org/home/wain-2021">1st Workshop on AI Engineering - Software
+                    Engineering for AI (WAIN)</a>, May 30-31, 2021 (virtual) </li>
+            <li><a href="https://soheal.github.io">4th International Workshop on Software Health (SoHeal)</a>, May 29,
+                2021 (virtual) </li>
+            <li><a href="https://conf.researchr.org/track/icse-2021/icse-2021-Student-Volunteers">Student Volunteer
+                    Mentor</a> of the <a href="https://conf.researchr.org/home/icse-2021">43rd International Conference
+                    on Software Engineering (ICSE)</a>, May 23-29, 2021 (virtual)</li>
+            <li><a href="https://conf.researchr.org/home/icpc-2021">29th IEEE International Conference on Program
+                    Comprehension (ICPC)</a>, May 18-21, 2021 (virtual)</li>
+            <li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc?">Mentor of the Shadow PC</a> of the <a
+                    href="https://2021.msrconf.org/">18th Working Conf. on Mining Software Repositories (MSR)</a>, May
+                17-19, 2021 (virtual)</li>
 
-    <li><a href="http://www.ieee-scam.org/2020/#niercall">New Ideas and Emerging Results (NIER)</a> track of the <a href="http://www.ieee-scam.org/2020">20th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 27-28, 2020 (virtual)</li>
-    
-    <li><a href="http://2020.qudos-workshop.org/">6th International Workshop on Quality-Aware DevOps (QUDOS 2020), joint with the 5th Workshop on Continuous Software Engineering (CSE)</a>, September 15, 2020 (virtual), co-located with <a href="https://ecsa2020.disim.univaq.it/">ECSA 2020</a></li>
-    
-    <li><a href="https://affectre.github.io/2020/">3rd International Workshop on Affective Computing for Requirements Engineering (AffectRE)</a>, September 1, 2020 (virtual)</li>
+            <li><a href="https://2020.esec-fse.org/">28th ACM Joint European Software Engineering Conference and
+                    Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>, November 10-13, 2020 (virtual)
+            </li>
+
+            <li><a href="https://splc2020.net/"> 24th ACM International Systems and Software Product Line Conference
+                    (SPLC)</a>, October 19-23, 2020 (virtual)</li>
+
+            <li><a href="http://www.ieee-scam.org/2020/#niercall">New Ideas and Emerging Results (NIER)</a> track of the
+                <a href="http://www.ieee-scam.org/2020">20th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 27-28, 2020 (virtual)</li>
+
+            <li><a href="http://2020.qudos-workshop.org/">6th International Workshop on Quality-Aware DevOps (QUDOS
+                    2020), joint with the 5th Workshop on Continuous Software Engineering (CSE)</a>, September 15, 2020
+                (virtual), co-located with <a href="https://ecsa2020.disim.univaq.it/">ECSA 2020</a></li>
+
+            <li><a href="https://affectre.github.io/2020/">3rd International Workshop on Affective Computing for
+                    Requirements Engineering (AffectRE)</a>, September 1, 2020 (virtual)</li>
 
 
-    <li><a href="https://conf.researchr.org/track/icpc-2020/icpc-2020-era?">Early Research Achievements (ERA)</a> track of the <a href="https://conf.researchr.org/home/icpc-2020">28th IEEE International Conference on Program Comprehension (ICPC)</a>, July 13-15, 2020 (virtual)</li>
-    <li><a href="https://semotion.github.io/2020/">5th International Workshop on Emotion Awareness in Software Engineering (SEmotion)</a>, July 13, 2020 (virtual) </li>
-    <li><a href="https://soheal.github.io/SoHeal2020/index.html">3rd International Workshop on Software Health (SoHeal)</a>, July 13, 2020 (virtual) </li>
-    <li><a href="https://conf.researchr.org/home/icse-2020">42nd International Conference on Software Engineering (ICSE)</a>, July 7-11, 2020 (virtual)</li>
+            <li><a href="https://conf.researchr.org/track/icpc-2020/icpc-2020-era?">Early Research Achievements
+                    (ERA)</a> track of the <a href="https://conf.researchr.org/home/icpc-2020">28th IEEE International
+                    Conference on Program Comprehension (ICPC)</a>, July 13-15, 2020 (virtual)</li>
+            <li><a href="https://semotion.github.io/2020/">5th International Workshop on Emotion Awareness in Software
+                    Engineering (SEmotion)</a>, July 13, 2020 (virtual) </li>
+            <li><a href="https://soheal.github.io/SoHeal2020/index.html">3rd International Workshop on Software Health
+                    (SoHeal)</a>, July 13, 2020 (virtual) </li>
+            <li><a href="https://conf.researchr.org/home/icse-2020">42nd International Conference on Software
+                    Engineering (ICSE)</a>, July 7-11, 2020 (virtual)</li>
 
-    <li><a href="https://2020.msrconf.org/track/msr-2020-MSR-Awards?">Awards Committee</a> of the <a href="https://2020.msrconf.org/">17th Working Conf. on Mining Software Repositories (MSR)</a>, June 29-30, 2020 (virtual)</li>
-    
-    <li><a href="https://icsme2019.github.io">35th International Conference on Software Maintenance and Evolution (ICSME)</a>, October 2-4, 2019 (Cleveland, OH, US)</li>
-    <li><a href="http://www.ieee-scam.org/2019/">19th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 30-October 1, 2019 (Cleveland, OH, US)</li>
-    <li><a href="https://mast.informatik.uni-hamburg.de/affectre/">2nd International Workshop on Affective Computing for Requirements Engineering (AffectRE)</a>, September 23, 2019 (Jeju, South Korea)</li>
-    <li><a href="https://esec-fse19.ut.ee">27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>, August 28-30, 2019 (Tallinn, Estonia)</li>
-    <li><a href="http://appmarketanalytics.github.io">3rd International Workshop on App Market Analytics (WAMA)</a>, August 27, 2019 (Tallinn, Estonia), co-located with <a href="https://esec-fse19.ut.ee">ESEC/FSE 2019</a></li>
-    <li><a href="https://2019.icse-conferences.org/track/icse-2019-ACM-Student-Research">ACM Student Research Competition</a> at the <a href="https://2019.icse-conferences.org/home">40th International Conference on Software Engineering (ICSE)</a>, May 29-31, 2019 (Montr&eacute;al, Quebec)</li>
-    <li><a href="https://semotion.github.io/2019/">4th International Workshop on Emotion Awareness in Software Engineering (SEmotion)</a>, May 28, 2019 (Montr&eacute;al, Quebec) </li>
-    <li><a href="https://saner2019.github.io/index.html">26th International Conference on Software Analysis, Evolution and Reengineering (SANER)</a>, February 25-27, 2019 (Hangzhou, China)</li>
-    <li><a href="https://se.ewi.tudelft.nl/benevol2018/">2018 BElgian-NEtherlands software eVOLution symposium (BENEVOL)</a>, December 10-11, 2018 (Delft, The Netherlands)</li>              
-    <li><a href="https://iwesep2018.github.io">2018 Intl. Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, December 4, 2018 (Nara, Japan)</li>
-    <li><a href="https://conf.researchr.org/home/fse-2018">26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>, November 4-9, 2018 (Lake Buena Vista, FL, US)</li>
-    <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2018 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, October 29-November 1, 2018 (Markham, Ontario, Canada)</li>
-    <li><a href="https://paris.utdallas.edu/idear18/">IEEE International Workshop on Debugging and Repair (IDEAR)</a> at the <a href="http://2018.issre.net">29th IEEE International Symposium on Software Reliability Engineering (ISSRE)</a>, October 15, 2018 (Memphis, TN, US)</li>
-    <li><a href="https://mast.informatik.uni-hamburg.de/affectre/2018/index.html">1st International Workshop on Affective Computing for Requirements Engineering (AffectRE)</a>, August 21, 2018 (Banff, Alberta)</li>
-    <li><a href="http://collab.di.uniba.it/semotion/">3rd International Workshop on Emotion Awareness in Software Engineering (SEmotion)</a>, June 2, 2018 (Gothenburg, Sweden) </li>
-    <li><a href="https://www.icse2018.org/track/icse-2018-ACM-Student-Research-Competition">ACM Student Research Competition</a> at the <a href="https://www.icse2018.org/home">40th International Conference on Software Engineering (ICSE)</a>, May 30-June 1, 2018 (Gothenburg, Sweden)</li>
-    <li><a href="http://2018.msrconf.org/">15th Working Conf. on Mining Software Repositories (MSR)</a>, May 28-29, 2018 (Gothenburg, Sweden)</li>
-    <li><a href="http://www.es.mdh.se/icst2018/">11th IEEE Conference on Software Testing, Validation and Verification (ICST)</a>, April 9-13, 2018 (V&auml;steras, Sweden)</li>
-    <li><a href="http://ltb2018.eecs.yorku.ca">7th International Workshop on Load Testing and Benchmarking of Software Systems (LTB)</a>, April 10, 2018 (Berlin, Germany)</li>
-    <li><a href="http://saner.unimol.it/">25th International Conference on Software Analysis, Evolution and Reengineering (SANER)</a>, February 20-23, 2018 (Campobasso, Italy)</li>
-    <li><a href="http://ansymore.uantwerpen.be/events/benevol2017">2017 BElgian-NEtherlands software eVOLution symposium (BENEVOL)</a>, December 4-5, 2017 (Antwerp, Belgium)</li>  
-    <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2017 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, November 6-8, 2017 (Markham, Ontario, Canada)</li>            
-    <li><a href="https://icsme2017.github.io">33rd International Conference on Software Maintenance and Evolution (ICSME)</a>, September 17-23, 2017 (Shanghai, China)</li>
-    <li><a href="http://www.ieee-scam.org/2017/">17th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 17-18, 2017 (Shanghai, China)</li>
-    <li><a href="http://appmarketanalytics.github.io/2017/">2nd International Workshop on App Market Analytics (WAMA)</a>, September 5, 2017 (Paderborn, Germany), co-located with <a href="http://esec-fse17.uni-paderborn.de">ESEC/FSE 2017</a></li>
-    <li><a href="https://opensym.org/category/opensym-2017/">13th International Symposium on Open Collaboration (OpenSym)</a>, August 23-25, 2017 (Galway, Ireland)</li>
-    <li><a href="http://ease2017.bth.se">1st Evaluation and Assessment in Software Engineering Conference (EASE)</a>, June 15-16, 2017 (BTH - Karlskrona, Sweden)</li>
-    <li><a href="http://icse2017.gatech.edu">39th International Conference on Software Engineering (ICSE)</a>, May 24-26, 2017 (Buenos Aires, Argentina)</li>
-    <li><a href="http://icse2017.gatech.edu/?q=student_programs">ACM Student Research Competition</a> at the <a href="http://icse2017.gatech.edu">39th International Conference on Software Engineering (ICSE)</a>, May 24-26, 2017 (Buenos Aires, Argentina)</li>
-    <li><a href="http://www2.unibas.it/icpc2017/">Early Research Achievements (ERA)</a> track of the <a href="http://www2.unibas.it/icpc2017/">25th IEEE International Conference on Program Comprehension (ICPC)</a>, May 22-23, 2017 (Buenos Aires, Argentina)</li>
-    <li><a href="http://mobilesoftconf.org/2017/">4th IEEE/ACM International Conference on Mobile Software Engineering and Systems (MOBILESoft)</a>, May 22-23, 2017 (Buenos Aires, Argentina)</li>
-    <li><a href="http://2017.msrconf.org/">14th Working Conf. on Mining Software Repositories (MSR)</a>, May 20-21, 2017 (Buenos Aires, Argentina)</li>
-    <li><a href="https://iwesep2017.github.io">2017 Intl. Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, March 13, 2017 (Tokyo, Japan)</li>
-    <li><a href="http://saner.aau.at">24th International Conference on Software Analysis, Evolution and Reengineering (SANER)</a>, February 20-24, 2017 (Klagenfurt, Austria)</li>
-    <li><a href="https://appmarketanalytics.github.io/2016/">1st International Workshop on App Market Analytics (WAMA)</a>, November 14, 2016 (Seattle, WA, US), co-located with <a href="https://www.cs.ucdavis.edu/fse2016/">FSE 2016</a></li>
-    <li><a href="https://www.ualberta.ca/~dsaa16/">3rd IEEE International Conference on Data Science and Advanced Analytics (DSAA)</a>, October 17-19, 2016 (Montr&eacute;al, QC, Canada)</li>
-    <li><a href="http://www.ieee-scam.org/2016/">16th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, October 2-3, 2016 (Raleigh, NC, US)</li>
-    <li><a href="http://alarcos.esi.uclm.es/eseiw2016/esem/">10th International Symposium on Empirical Software Engineering and Measurement (ESEM)</a>, September 8-9, 2016 (Ciudad Real, Spain)</li>
-    <li><a href="http://www.opensym.org/os2016/">12th International Symposium on Open Collaboration (OpenSym)</a>, August 17-19, 2016 (Berlin, Germany)</li>
-    <li><a href="http://sattose.org/2016">Seminar series on Advanced Techniques and Tools for Software Evolution</a>, July 11-13, 2016 (Bergen, Norway)</li>
-    <li><a href="http://mobilesoftconf.org/2016/">3rd IEEE/ACM International Conference on Mobile Software Engineering and Systems (MOBILESoft)</a>, May, 2016 (Austin, Texas, US)</li>
-    <li><a href="http://lt2016.eecs.yorku.ca/">5th International Workshop on Load Testing of Large Software Systems (LT)</a>, March 2016 (Delft, The Netherlands), co-located with <a href="https://icpe2016.spec.org">ICPE 2016</a></li>
-    <li><a href="http://iwesep2016.naist.jp/">2016 Intl. Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, March 2016 (Osaka, Japan)</li>
-    <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">Emerging Technologies Track (ETT)</a> track of the <a href="https://www-927.ibm.com/ibm/cas/cascon/">2015 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, November 2-4, 2015 (Markham, Ontario, Canada)</li>
-    <li><a href="http://sysrun.haifa.il.ibm.com/hrl/mobiledeli2015/">3rd International Workshop on Mobile Development Lifecycle (MobileDeli)</a>, October 2015 (Pittsburgh, Pennsylvania, US), co-located with <a href="http://2015.splashcon.org/">SPLASH 2015</a></li>
-    <li><a href="http://eseiw.iscas.ac.cn/eseiw2015/esem/">9th International Symposium on Empirical Software Engineering and Measurement (ESEM)</a>, October 22-23, 2015 (Beijing, China)</li>
-    <li><a href="http://www.icsme.uni-bremen.de/">31st International Conference on Software Maintenance and Evolution (ICSME)</a>, September 29-October 1, 2015 (Bremen, Germany)</li>
-    <li><a href="http://www.icsme.uni-bremen.de/cfp_era.php">Early Research Achievements (ERA)</a> track of the <a href="http://www.icsme.uni-bremen.de/">31st International Conference on Software Maintenance and Evolution (ICSME)</a>, September 29-October 1, 2015 (Bremen, Germany)</li>
-    <li><a href="http://www.ieee-scam.org/2015/">15th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 27-28, 2015 (Bremen, Germany)</li>
-    <li><a href="http://iwpse15.libresoft.es/">14th Intl. Workshop on Principles of Software Evolution (IWPSE)</a>, September, 2015 (Bergamo, Italy), co-located with <a href="http://esec-fse15.dei.polimi.it">ESEC/FSE 2015</a></li>
-    <li><a href="http://ssrg.nicta.com.au/Events/conferences/dsso-15/">2nd Intl. Workshop on Dependability and Security of System Operation (DSSO)</a>, September 28, 2015 (Montr&eacute;al, QC, Canada), co-located with <a href="http://srds2015.cs.mcgill.ca">SRDS 2015</a></li>
-    <li><a href="http://2015.icse-conferences.org/src">ACM Student Research Competition at the 37th International Conference on Software Engineering (ICSE)</a>, May 16-24, 2015 (Florence, Italy)</li>
-    <li><a href="http://2015.msrconf.org/">12th Working Conf. on Mining Software Repositories (MSR)</a>, May 16-17, 2015 (Florence, Italy)</li>
-    <li><a href="http://www.acm.org/conferences/sac/sac2015/">30th ACM/SIGAPP Symposium On Applied Computing (SAC)</a>, April 13-17, 2015 (Salamanca, Spain)</li>
-    <li><a href="http://www.softwareanalytics.ca">1st Intl. Workshop on Software Analytics (SWAN)</a>, March 2, 2015 (Montr&eacute;al, Canada), co-located with <a href="http://saner.polymtl.ca/">SANER 2015</a></li>
-    <li><a href="http://lt2015.eecs.yorku.ca/">4th International Workshop on Load Testing of Large Software Systems (LT)</a>, January 31, 2015 (Austin, Texas, US), co-located with <a href="http://icpe2015.ipd.kit.edu/">ICPE 2015</a></li>
-    <li><a href="http://iwesep2014.naist.jp/">2014 Intl. Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, November 12-13, 2014 (Osaka, Japan)</li>
-    <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2014 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, November 3-5, 2014 (Markham, Ontario, Canada)</li>
-    <li><a href="http://sysrun.haifa.il.ibm.com/hrl/mobiledeli2014/events.shtml">2nd International Workshop on Mobile Development Lifecycle (MobileDeli)</a>, October 2014 (Portland, Oregon, US), co-located with <a href="http://2014.splashcon.org/">SPLASH 2014</a></li>
-    <li><a href="http://www.icsme.org/">30th International Conference on Software Maintenance and Evolution (ICSME)</a>, September 28-October 3, 2014 (Victoria, BC, Canada)</li>
-    <li><a href="http://www.icsme.org/call-for-papers/era-track-cfp">Early Research Achievements (ERA)</a> track of the <a href="http://www.icsme.org/">30th International Conference on Software Maintenance and Evolution (ICSME)</a>, September 28-October 3, 2014 (Victoria, BC, Canada)</li>
-    <li><a href="http://www.icsme.org/call-for-papers/tool-demo-track-cfp">Tool demonstration</a> track of the <a href="http://www.icsme.org/">30th International Conference on Software Maintenance and Evolution (ICSME)</a>, September 28-October 3, 2014 (Victoria, BC, Canada)</li>
-    <li><a href="http://www.ieee-scam.org/2014/">14th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 28-29, 2014 (Victoria, BC, Canada)</li>
-    <li><a href="http://www.ssrg.nicta.com.au/conferences/dsso-14/">1st Intl. Workshop on Dependability and Security of System Operation (DSSO)</a>, June 23, 2014 (Atlanta, GA, US), co-located with <a href="http://www.dsn.org/">DSN 2014</a></li>
-    <li><a href="http://icpc2014.usask.ca/">22nd IEEE International Conference on Program Comprehension (ICPC)</a>, June 2-3, 2014 (Hyderabad, India)</li>
-    <li><a href="http://2014.msrconf.org/">11th Working Conf. on Mining Software Repositories (MSR)</a>, May 31-June 1, 2014 (Hyderabad, India)</li>
-    <li><a href="http://ttc2014.ucd.ie">2nd Intl. Workshop on Testing The Cloud (TTC)</a>, April 4, 2014 (Cleveland, Ohio, US), co-located with <a href="https://sites.google.com/site/icst2014/">ICST 2014</a></li>
-    <li><a href="http://lt2014.eecs.yorku.ca/">3rd International Workshop on Load Testing of Large Software Systems (LT)</a>, March 22, 2014 (Dublin, Ireland), co-located with <a href="http://icpe2014.ipd.kit.edu/">ICPE 2014</a></li>
-    <li><a href="http://ansymo.ua.ac.be/csmr-wcre">Joint meeting of the European Conference on Software Maintenance and Reengineering and The Working Conference on Reverse Engineering (CSMR-18/WCRE-21)</a>, February 3-6, 2014 (Antwerp, Belgium)</li>
-    <li><a href="http://ansymo.ua.ac.be/csmr-wcre">Tool demonstration track of the joint meeting of the European Conference on Software Maintenance and Reengineering and The Working Conference on Reverse Engineering (CSMR-18/WCRE-21)</a>, February 3-6, 2014 (Antwerp, Belgium)</li>
-    <li><a href="http://cscw.acm.org/">17th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW)</a>, February 15-19, 2014 (Baltimore, MD, USA)</li>
-    <li><a href="https://sites.google.com/site/iwesep2013/">2013 Intl. Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, December 2, 2013 (Bangkok, Thailand)</li>
-    <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2013 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, November 18-20, 2013 (Markham, Ontario, Canada)</li>
-    <li><a href="http://wcre.wikidot.com/2013/">20th Working Conf. on Reverse Engineering (WCRE)</a>, October 14-17, 2013 (Koblenz, Germany)</li>
-    <li><a href="http://iwpse13.libresoft.es/">13th Intl. Workshop on Principles of Software Evolution (IWPSE)</a>, August 19-20, 2013 (Saint Petersburg, Russia), co-located with <a href="http://esec-fse.inf.ethz.ch">ESEC/FSE 2013</a></li>
-    <li><a href="http://ttc2013.ucd.ie">1st Intl. Workshop on Testing The Cloud (TTC)</a>, July 15, 2013 (Lugano, Switzerland), co-located with <a href="http://issta2013.inf.usi.ch/">ISSTA 2013</a></li>
-    <li><a href="http://www.ing.unisannio.it/icpc2013/">21st IEEE International Conference on Program Comprehension (ICPC)</a>, May 20-21, 2013 (San Francisco, CA, USA)</li>
-    <li><a href="http://2013.msrconf.org/">10th Working Conf. on Mining Software Repositories (MSR)</a>, May 18-19, 2013 (San Francisco, CA, USA)</li>
-    <li><a href="http://csmr2013.disi.unige.it/submissions.php#ERA-papers">Early Research Achievements (ERA)</a> track of the <a href="http://csmr2013.disi.unige.it/index.php">17th European Conference on Software Maintenance and Reengineering (CSMR)</a>, March 5-8, 2013 (Genova, Italy)</li>
-    <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2012 Conference of the Center for Advanced Studies on Collaborative Research (CASCON)</a>, November 5-7, 2012 (Markham, Ontario, Canada)</li>
-    <li><a href="https://sites.google.com/site/iwesep2012/">2012 Intl. Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, October 26-27, 2012 (Osaka, Japan)</li>
-    <li><a href="http://www.distat.unimol.it/wcre2012/">19th Working Conf. on Reverse Engineering (WCRE)</a>, October 15-18, 2012 (Kingston, Ontario, Canada)</li>
-    <li><a href="http://selab.fbk.eu/icsm2012/index.php?p=era_track">Early Research Achievements (ERA)</a> track of the <a href="http://selab.fbk.eu/icsm2012/">28th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September 23-30, 2012 (Riva del Garda, Trento, Italy)</li>
-    <li><a href="http://scam2012.cs.usask.ca/">12th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 23-24, 2012 (Riva del Garda, Trento, Italy)</li>
-    <li><a href="http://icpc12.sosy-lab.org/">20th IEEE International Conference on Program Comprehension (ICPC)</a>, June 11-13, 2012 (Passau, Germany)</li>
-    <li><a href="http://2012.msrconf.org/">9th Working Conf. on Mining Software Repositories (MSR)</a>, June 2-3, 2012 (Zurich, Switzerland)</li>
-    <li><a href="http://www.ifi.uzh.ch/icse2012/call-for-contributions/posters-and-informal-demonstrations/">Poster and Informal Tool Demonstrations track of the 2012 International Conference on Software Engineering (ICSE)</a>, June 2-9, 2012 (Zurich, Switzerland)</li>
-    <li><a href="http://sailhome.cs.queensu.ca/lt2012/"> 1st International Workshop on Load Testing of Large Software Systems (LT)</a>, April 17, 2012 (Montr&eacute;al, QC, Canada), co-located with <a href="http://icst2012.soccerlab.polymtl.ca/Content/home/index.php?language=english">ICST 2012</a></li>
-    <li><a href="http://www.aosd.net/workshops/miss/2012/">2nd Workshop on Modularity In Systems Software (MISS)</a>, March 27, 2012 (Potsdam, Germany), co-located with <a href="http://www.aosd.net/2012/index.php">AOSD 2012</a></li>
-    <li><a href="http://malets11.doc.ic.ac.uk/">International Workshop on Machine Learning Technologies in Software Engineering (MALETS)</a>, November 12, 2011 (Lawrence, KS, USA)</li>
-    <li><a href="http://www.cs.wm.edu/semeru/wcre2011/">18th Working Conf. on Reverse Engineering (WCRE)</a>, October 17-21, 2011 (Limerick, Republic of Ireland)</li>
-    <li>tool demo track of the <a href="http://www.cs.wm.edu/semeru/wcre2011/">18th Working Conf. on Reverse Engineering (WCRE)</a>, October 17-21, 2011 (Limerick, Republic of Ireland)</li>
-    <li><a href="http://www.pleiad.cl/iwpse-evol/">12th Intl. Workshop on Principles of Software Evolution and
-      7th ERCIM Workshop on Software Evolution (IWPSE/EVOL)</a>, September 5-6, 2011 (Szeged, Hungary)</li>
-    <li><a href="http://www2011.ieee-scam.org/">11th IEEE Intl. Working Conf. on Source Code Analysis and Manipulation (SCAM)</a>, September 25-26, 2011 (Williamsburg, VA, USA)</li>
-    <li><a href="http://www.cs.wm.edu/icsm2011/?page_id=281">Early Research Achievements (ERA)</a> track of the <a href="http://www.cs.wm.edu/icsm2011/">27th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September 25-October 1, 2011 (Williamsburg, VA, USA)</li>
-    <li>tool demo track of the <a href="http://2011.esec-fse.org/">8th joint meeting of the European Software Engineering Conf. and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>, September 5-9, 2011 (Szeged, Hungary)</li>
-    <li><a href="http://iwesep.wordpress.com/">2010 Intl. Workshop on Empirical Software Engineering in Practice (IWESEP)</a>, December 7-8, 2010 (Nara, Japan)</li>
-    <li><a href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">17th Working Conf. on Reverse Engineering (WCRE)</a>, October 13-16, 2010 (Boston, Massachusetts, USA)</li>
-    <li>tool demo track of the <a href="http://soft.vub.ac.be/ase2010/">25th IEEE/ACM Intl. Conf. on Automated Software Engineering (ASE)</a>, September 20-24, 2010 (Antwerp, Belgium)</li>
-    <li><a href="http://ssel.vub.ac.be/iwpse-evol/start">4th joint Intl. Workshop on Principles of Software Evolution and ERCIM Workshop on Software Evolution and Evolvability (IWPSE/EVOL)</a>, September 20-21, 2010 (Antwerp, Belgium)</li>
-    <li><a href="http://icsm2010.upt.ro/calls/era">Early Research Achievements (ERA)</a> track of the <a href="http://icsm2010.upt.ro/">26th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September 12-18, 2010 (Timi&#351;oara, Romania)</li>
-    <li><a href="http://aosd.net/workshops/acp4is/2009/">8th Workshop on Aspects, Components, and Patterns for Infrastructure Software (ACP4IS)</a>, March 2, 2009 (Charlottesville, Virginia, USA). Co-located with <a href="http://www.aosd.net/2009/index.php">AOSD 2009</a></li>
-    <li><a href="http://swerl.tudelft.nl/wcre2008/index.html">15th Working Conf. on Reverse Engineering (WCRE)</a>, October 15-18, 2008 (Antwerp, Belgium)</li>
-    <li><a href="http://aosd.net/workshops/acp4is/2008/">7th Workshop on Aspects, Components, and Patterns for Infrastructure Software (ACP4IS)</a>, March 31, 2008 (Brussels, Belgium). Co-located with <a href="http://www.aosd.net/2008/index.php">AOSD 2008</a></li>
-  </ul></p><br/>
+            <li><a href="https://2020.msrconf.org/track/msr-2020-MSR-Awards?">Awards Committee</a> of the <a
+                    href="https://2020.msrconf.org/">17th Working Conf. on Mining Software Repositories (MSR)</a>, June
+                29-30, 2020 (virtual)</li>
 
-  <h3>Reviewer for:</h3>
-  
-  <p>
-    <ul>
-      <li><a href="http://www.springer.com/computer/swe/journal/10664">Springer Empirical Software Engineering</a> (EMSE)</li>
-      <li><a href="http://www.computer.org/portal/web/tse">IEEE Transactions on Software Engineering</a> (TSE)</li>
-      <li><a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/505732/description#description">Elsevier Journal of Systems and Software</a> (JSS)</li>
-      <li><a href="http://www.computer.org/web/computingnow/software">IEEE Software</a></li>
-      <li><a href="https://cacm.acm.org">Communications of the ACM</a> (CACM)</li>
-      <li><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-0618">Wiley Journal of Software Maintenance and Evolution</a> (JSME)</li>
-      <li><a href="http://ees.elsevier.com/infsof/">Elsevier Information and Software Technology</a> (IST)</li>
-      <li><a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/505623/description#description">Elsevier Science of Computer Programming</a> (SCP)</li>
-      <li><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-1689?systemMessage=Wiley+Online+Library+will+be+disrupted+Saturday%2C+15+March+from+10%3A00-12%3A00+GMT+%2806%3A00-08%3A00+EDT%29+for+essential+maintenance">Wiley Software Testing, Verification and Reliability</a> (STVR)</li>
-      <li><a href="http://link.springer.com/journal/11219/">Springer Software Quality Journal</a> (SQJ)</li>
-      <li><a href="https://onlinelibrary.wiley.com/journal/1097024x">Wiley Software: Practice and Experience</a> (SPE)</li>
-      <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755">IEEE Transactions on Mobile Computing</a> (TMC)</li>
-      <li><a href="http://digital-library.theiet.org/content/journals/iet-sen/">IET Software</a> (IET)</li>
-      <li><a href="http://sttt.cs.uni-dortmund.de/">Intl. journal on Software Tools for Technology Transfer</a> (STTT)</li>
-      <li><a href="https://www.journals.elsevier.com/computer-standards-and-interfaces">Elsevier Computer Standards & Interfaces</a> (CSI)</li>
-      <li><a href="http://www.jot.fm/">Journal of Object Technology</a> (JOT)</li>
-      <li><a href="http://www.springer.com/computer/lncs?SGWID=0-164-2-109318-0/">Springer LNCS Transactions on Aspect-Oriented Software Development</a> (TAOSD)</li>
-      <li><a href="http://www.biomedcentral.com/bmcmedinformdecismak/">BMC Medical Informatics and Decision Making</a></li>
-      <li><a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/Grants-Subs/DGIGP-PSIGP_eng.asp">NSERC Discovery Grant</a> program</li>
-      <li><a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/RPP-PP/CRD-RDC_eng.asp">NSERC Collaborative Research and Development Grants</a> program</li>
-      <li><a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/RPP-PP/SPG-SPS_eng.asp">NSERC Strategic Partnership Grants</a> program</li>
-      <li><a href="https://www.mitacs.ca/en/programs/accelerate">MITACS Accelerate</a> program</li>
-      <li><a href="http://www.nsf.gov/">NSF</a> review panel</li>
-      <li><a href="http://www.nwo.nl/en/funding/our-funding-instruments/nwo/free-competition/index.html">NWO Free Competition Grant</a> program</li>
-      <li><a href="http://www.snf.ch/">Swiss National Science Foundation</a> </li>
-      <li><a href="https://www.conicyt.cl/fondecyt/sobre-fondecyt/que-es-fondecyt/">Fondo Nacional de Desarrollo Cient&iacute;fico y Tecnol&oacute;gico (Fondecyt)</a> </li>
-      <li><a href="https://www.hrzz.hr/default.aspx?id=1166">Croatian Science Foundation Installation Research Projects program</a></li>
-    </ul>
-  </p><br/>
+            <li><a href="https://icsme2019.github.io">35th International Conference on Software Maintenance and
+                    Evolution (ICSME)</a>, October 2-4, 2019 (Cleveland, OH, US)</li>
+            <li><a href="http://www.ieee-scam.org/2019/">19th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 30-October 1, 2019 (Cleveland, OH, US)</li>
+            <li><a href="https://mast.informatik.uni-hamburg.de/affectre/">2nd International Workshop on Affective
+                    Computing for Requirements Engineering (AffectRE)</a>, September 23, 2019 (Jeju, South Korea)</li>
+            <li><a href="https://esec-fse19.ut.ee">27th ACM Joint European Software Engineering Conference and Symposium
+                    on the Foundations of Software Engineering (ESEC/FSE)</a>, August 28-30, 2019 (Tallinn, Estonia)
+            </li>
+            <li><a href="http://appmarketanalytics.github.io">3rd International Workshop on App Market Analytics
+                    (WAMA)</a>, August 27, 2019 (Tallinn, Estonia), co-located with <a
+                    href="https://esec-fse19.ut.ee">ESEC/FSE 2019</a></li>
+            <li><a href="https://2019.icse-conferences.org/track/icse-2019-ACM-Student-Research">ACM Student Research
+                    Competition</a> at the <a href="https://2019.icse-conferences.org/home">40th International
+                    Conference on Software Engineering (ICSE)</a>, May 29-31, 2019 (Montr&eacute;al, Quebec)</li>
+            <li><a href="https://semotion.github.io/2019/">4th International Workshop on Emotion Awareness in Software
+                    Engineering (SEmotion)</a>, May 28, 2019 (Montr&eacute;al, Quebec) </li>
+            <li><a href="https://saner2019.github.io/index.html">26th International Conference on Software Analysis,
+                    Evolution and Reengineering (SANER)</a>, February 25-27, 2019 (Hangzhou, China)</li>
+            <li><a href="https://se.ewi.tudelft.nl/benevol2018/">2018 BElgian-NEtherlands software eVOLution symposium
+                    (BENEVOL)</a>, December 10-11, 2018 (Delft, The Netherlands)</li>
+            <li><a href="https://iwesep2018.github.io">2018 Intl. Workshop on Empirical Software Engineering in Practice
+                    (IWESEP)</a>, December 4, 2018 (Nara, Japan)</li>
+            <li><a href="https://conf.researchr.org/home/fse-2018">26th ACM Joint European Software Engineering
+                    Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</a>, November 4-9,
+                2018 (Lake Buena Vista, FL, US)</li>
+            <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2018 Conference of the Center for Advanced Studies on
+                    Collaborative Research (CASCON)</a>, October 29-November 1, 2018 (Markham, Ontario, Canada)</li>
+            <li><a href="https://paris.utdallas.edu/idear18/">IEEE International Workshop on Debugging and Repair
+                    (IDEAR)</a> at the <a href="http://2018.issre.net">29th IEEE International Symposium on Software
+                    Reliability Engineering (ISSRE)</a>, October 15, 2018 (Memphis, TN, US)</li>
+            <li><a href="https://mast.informatik.uni-hamburg.de/affectre/2018/index.html">1st International Workshop on
+                    Affective Computing for Requirements Engineering (AffectRE)</a>, August 21, 2018 (Banff, Alberta)
+            </li>
+            <li><a href="http://collab.di.uniba.it/semotion/">3rd International Workshop on Emotion Awareness in
+                    Software Engineering (SEmotion)</a>, June 2, 2018 (Gothenburg, Sweden) </li>
+            <li><a href="https://www.icse2018.org/track/icse-2018-ACM-Student-Research-Competition">ACM Student Research
+                    Competition</a> at the <a href="https://www.icse2018.org/home">40th International Conference on
+                    Software Engineering (ICSE)</a>, May 30-June 1, 2018 (Gothenburg, Sweden)</li>
+            <li><a href="http://2018.msrconf.org/">15th Working Conf. on Mining Software Repositories (MSR)</a>, May
+                28-29, 2018 (Gothenburg, Sweden)</li>
+            <li><a href="http://www.es.mdh.se/icst2018/">11th IEEE Conference on Software Testing, Validation and
+                    Verification (ICST)</a>, April 9-13, 2018 (V&auml;steras, Sweden)</li>
+            <li><a href="http://ltb2018.eecs.yorku.ca">7th International Workshop on Load Testing and Benchmarking of
+                    Software Systems (LTB)</a>, April 10, 2018 (Berlin, Germany)</li>
+            <li><a href="http://saner.unimol.it/">25th International Conference on Software Analysis, Evolution and
+                    Reengineering (SANER)</a>, February 20-23, 2018 (Campobasso, Italy)</li>
+            <li><a href="http://ansymore.uantwerpen.be/events/benevol2017">2017 BElgian-NEtherlands software eVOLution
+                    symposium (BENEVOL)</a>, December 4-5, 2017 (Antwerp, Belgium)</li>
+            <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2017 Conference of the Center for Advanced Studies on
+                    Collaborative Research (CASCON)</a>, November 6-8, 2017 (Markham, Ontario, Canada)</li>
+            <li><a href="https://icsme2017.github.io">33rd International Conference on Software Maintenance and
+                    Evolution (ICSME)</a>, September 17-23, 2017 (Shanghai, China)</li>
+            <li><a href="http://www.ieee-scam.org/2017/">17th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 17-18, 2017 (Shanghai, China)</li>
+            <li><a href="http://appmarketanalytics.github.io/2017/">2nd International Workshop on App Market Analytics
+                    (WAMA)</a>, September 5, 2017 (Paderborn, Germany), co-located with <a
+                    href="http://esec-fse17.uni-paderborn.de">ESEC/FSE 2017</a></li>
+            <li><a href="https://opensym.org/category/opensym-2017/">13th International Symposium on Open Collaboration
+                    (OpenSym)</a>, August 23-25, 2017 (Galway, Ireland)</li>
+            <li><a href="http://ease2017.bth.se">1st Evaluation and Assessment in Software Engineering Conference
+                    (EASE)</a>, June 15-16, 2017 (BTH - Karlskrona, Sweden)</li>
+            <li><a href="http://icse2017.gatech.edu">39th International Conference on Software Engineering (ICSE)</a>,
+                May 24-26, 2017 (Buenos Aires, Argentina)</li>
+            <li><a href="http://icse2017.gatech.edu/?q=student_programs">ACM Student Research Competition</a> at the <a
+                    href="http://icse2017.gatech.edu">39th International Conference on Software Engineering (ICSE)</a>,
+                May 24-26, 2017 (Buenos Aires, Argentina)</li>
+            <li><a href="http://www2.unibas.it/icpc2017/">Early Research Achievements (ERA)</a> track of the <a
+                    href="http://www2.unibas.it/icpc2017/">25th IEEE International Conference on Program Comprehension
+                    (ICPC)</a>, May 22-23, 2017 (Buenos Aires, Argentina)</li>
+            <li><a href="http://mobilesoftconf.org/2017/">4th IEEE/ACM International Conference on Mobile Software
+                    Engineering and Systems (MOBILESoft)</a>, May 22-23, 2017 (Buenos Aires, Argentina)</li>
+            <li><a href="http://2017.msrconf.org/">14th Working Conf. on Mining Software Repositories (MSR)</a>, May
+                20-21, 2017 (Buenos Aires, Argentina)</li>
+            <li><a href="https://iwesep2017.github.io">2017 Intl. Workshop on Empirical Software Engineering in Practice
+                    (IWESEP)</a>, March 13, 2017 (Tokyo, Japan)</li>
+            <li><a href="http://saner.aau.at">24th International Conference on Software Analysis, Evolution and
+                    Reengineering (SANER)</a>, February 20-24, 2017 (Klagenfurt, Austria)</li>
+            <li><a href="https://appmarketanalytics.github.io/2016/">1st International Workshop on App Market Analytics
+                    (WAMA)</a>, November 14, 2016 (Seattle, WA, US), co-located with <a
+                    href="https://www.cs.ucdavis.edu/fse2016/">FSE 2016</a></li>
+            <li><a href="https://www.ualberta.ca/~dsaa16/">3rd IEEE International Conference on Data Science and
+                    Advanced Analytics (DSAA)</a>, October 17-19, 2016 (Montr&eacute;al, QC, Canada)</li>
+            <li><a href="http://www.ieee-scam.org/2016/">16th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, October 2-3, 2016 (Raleigh, NC, US)</li>
+            <li><a href="http://alarcos.esi.uclm.es/eseiw2016/esem/">10th International Symposium on Empirical Software
+                    Engineering and Measurement (ESEM)</a>, September 8-9, 2016 (Ciudad Real, Spain)</li>
+            <li><a href="http://www.opensym.org/os2016/">12th International Symposium on Open Collaboration
+                    (OpenSym)</a>, August 17-19, 2016 (Berlin, Germany)</li>
+            <li><a href="http://sattose.org/2016">Seminar series on Advanced Techniques and Tools for Software
+                    Evolution</a>, July 11-13, 2016 (Bergen, Norway)</li>
+            <li><a href="http://mobilesoftconf.org/2016/">3rd IEEE/ACM International Conference on Mobile Software
+                    Engineering and Systems (MOBILESoft)</a>, May, 2016 (Austin, Texas, US)</li>
+            <li><a href="http://lt2016.eecs.yorku.ca/">5th International Workshop on Load Testing of Large Software
+                    Systems (LT)</a>, March 2016 (Delft, The Netherlands), co-located with <a
+                    href="https://icpe2016.spec.org">ICPE 2016</a></li>
+            <li><a href="http://iwesep2016.naist.jp/">2016 Intl. Workshop on Empirical Software Engineering in Practice
+                    (IWESEP)</a>, March 2016 (Osaka, Japan)</li>
+            <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">Emerging Technologies Track (ETT)</a> track of the <a
+                    href="https://www-927.ibm.com/ibm/cas/cascon/">2015 Conference of the Center for Advanced Studies on
+                    Collaborative Research (CASCON)</a>, November 2-4, 2015 (Markham, Ontario, Canada)</li>
+            <li><a href="http://sysrun.haifa.il.ibm.com/hrl/mobiledeli2015/">3rd International Workshop on Mobile
+                    Development Lifecycle (MobileDeli)</a>, October 2015 (Pittsburgh, Pennsylvania, US), co-located with
+                <a href="http://2015.splashcon.org/">SPLASH 2015</a></li>
+            <li><a href="http://eseiw.iscas.ac.cn/eseiw2015/esem/">9th International Symposium on Empirical Software
+                    Engineering and Measurement (ESEM)</a>, October 22-23, 2015 (Beijing, China)</li>
+            <li><a href="http://www.icsme.uni-bremen.de/">31st International Conference on Software Maintenance and
+                    Evolution (ICSME)</a>, September 29-October 1, 2015 (Bremen, Germany)</li>
+            <li><a href="http://www.icsme.uni-bremen.de/cfp_era.php">Early Research Achievements (ERA)</a> track of the
+                <a href="http://www.icsme.uni-bremen.de/">31st International Conference on Software Maintenance and
+                    Evolution (ICSME)</a>, September 29-October 1, 2015 (Bremen, Germany)</li>
+            <li><a href="http://www.ieee-scam.org/2015/">15th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 27-28, 2015 (Bremen, Germany)</li>
+            <li><a href="http://iwpse15.libresoft.es/">14th Intl. Workshop on Principles of Software Evolution
+                    (IWPSE)</a>, September, 2015 (Bergamo, Italy), co-located with <a
+                    href="http://esec-fse15.dei.polimi.it">ESEC/FSE 2015</a></li>
+            <li><a href="http://ssrg.nicta.com.au/Events/conferences/dsso-15/">2nd Intl. Workshop on Dependability and
+                    Security of System Operation (DSSO)</a>, September 28, 2015 (Montr&eacute;al, QC, Canada),
+                co-located with <a href="http://srds2015.cs.mcgill.ca">SRDS 2015</a></li>
+            <li><a href="http://2015.icse-conferences.org/src">ACM Student Research Competition at the 37th
+                    International Conference on Software Engineering (ICSE)</a>, May 16-24, 2015 (Florence, Italy)</li>
+            <li><a href="http://2015.msrconf.org/">12th Working Conf. on Mining Software Repositories (MSR)</a>, May
+                16-17, 2015 (Florence, Italy)</li>
+            <li><a href="http://www.acm.org/conferences/sac/sac2015/">30th ACM/SIGAPP Symposium On Applied Computing
+                    (SAC)</a>, April 13-17, 2015 (Salamanca, Spain)</li>
+            <li><a href="http://www.softwareanalytics.ca">1st Intl. Workshop on Software Analytics (SWAN)</a>, March 2,
+                2015 (Montr&eacute;al, Canada), co-located with <a href="http://saner.polymtl.ca/">SANER 2015</a></li>
+            <li><a href="http://lt2015.eecs.yorku.ca/">4th International Workshop on Load Testing of Large Software
+                    Systems (LT)</a>, January 31, 2015 (Austin, Texas, US), co-located with <a
+                    href="http://icpe2015.ipd.kit.edu/">ICPE 2015</a></li>
+            <li><a href="http://iwesep2014.naist.jp/">2014 Intl. Workshop on Empirical Software Engineering in Practice
+                    (IWESEP)</a>, November 12-13, 2014 (Osaka, Japan)</li>
+            <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2014 Conference of the Center for Advanced Studies on
+                    Collaborative Research (CASCON)</a>, November 3-5, 2014 (Markham, Ontario, Canada)</li>
+            <li><a href="http://sysrun.haifa.il.ibm.com/hrl/mobiledeli2014/events.shtml">2nd International Workshop on
+                    Mobile Development Lifecycle (MobileDeli)</a>, October 2014 (Portland, Oregon, US), co-located with
+                <a href="http://2014.splashcon.org/">SPLASH 2014</a></li>
+            <li><a href="http://www.icsme.org/">30th International Conference on Software Maintenance and Evolution
+                    (ICSME)</a>, September 28-October 3, 2014 (Victoria, BC, Canada)</li>
+            <li><a href="http://www.icsme.org/call-for-papers/era-track-cfp">Early Research Achievements (ERA)</a> track
+                of the <a href="http://www.icsme.org/">30th International Conference on Software Maintenance and
+                    Evolution (ICSME)</a>, September 28-October 3, 2014 (Victoria, BC, Canada)</li>
+            <li><a href="http://www.icsme.org/call-for-papers/tool-demo-track-cfp">Tool demonstration</a> track of the
+                <a href="http://www.icsme.org/">30th International Conference on Software Maintenance and Evolution
+                    (ICSME)</a>, September 28-October 3, 2014 (Victoria, BC, Canada)</li>
+            <li><a href="http://www.ieee-scam.org/2014/">14th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 28-29, 2014 (Victoria, BC, Canada)</li>
+            <li><a href="http://www.ssrg.nicta.com.au/conferences/dsso-14/">1st Intl. Workshop on Dependability and
+                    Security of System Operation (DSSO)</a>, June 23, 2014 (Atlanta, GA, US), co-located with <a
+                    href="http://www.dsn.org/">DSN 2014</a></li>
+            <li><a href="http://icpc2014.usask.ca/">22nd IEEE International Conference on Program Comprehension
+                    (ICPC)</a>, June 2-3, 2014 (Hyderabad, India)</li>
+            <li><a href="http://2014.msrconf.org/">11th Working Conf. on Mining Software Repositories (MSR)</a>, May
+                31-June 1, 2014 (Hyderabad, India)</li>
+            <li><a href="http://ttc2014.ucd.ie">2nd Intl. Workshop on Testing The Cloud (TTC)</a>, April 4, 2014
+                (Cleveland, Ohio, US), co-located with <a href="https://sites.google.com/site/icst2014/">ICST 2014</a>
+            </li>
+            <li><a href="http://lt2014.eecs.yorku.ca/">3rd International Workshop on Load Testing of Large Software
+                    Systems (LT)</a>, March 22, 2014 (Dublin, Ireland), co-located with <a
+                    href="http://icpe2014.ipd.kit.edu/">ICPE 2014</a></li>
+            <li><a href="http://ansymo.ua.ac.be/csmr-wcre">Joint meeting of the European Conference on Software
+                    Maintenance and Reengineering and The Working Conference on Reverse Engineering
+                    (CSMR-18/WCRE-21)</a>, February 3-6, 2014 (Antwerp, Belgium)</li>
+            <li><a href="http://ansymo.ua.ac.be/csmr-wcre">Tool demonstration track of the joint meeting of the European
+                    Conference on Software Maintenance and Reengineering and The Working Conference on Reverse
+                    Engineering (CSMR-18/WCRE-21)</a>, February 3-6, 2014 (Antwerp, Belgium)</li>
+            <li><a href="http://cscw.acm.org/">17th ACM Conference on Computer Supported Cooperative Work and Social
+                    Computing (CSCW)</a>, February 15-19, 2014 (Baltimore, MD, USA)</li>
+            <li><a href="https://sites.google.com/site/iwesep2013/">2013 Intl. Workshop on Empirical Software
+                    Engineering in Practice (IWESEP)</a>, December 2, 2013 (Bangkok, Thailand)</li>
+            <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2013 Conference of the Center for Advanced Studies on
+                    Collaborative Research (CASCON)</a>, November 18-20, 2013 (Markham, Ontario, Canada)</li>
+            <li><a href="http://wcre.wikidot.com/2013/">20th Working Conf. on Reverse Engineering (WCRE)</a>, October
+                14-17, 2013 (Koblenz, Germany)</li>
+            <li><a href="http://iwpse13.libresoft.es/">13th Intl. Workshop on Principles of Software Evolution
+                    (IWPSE)</a>, August 19-20, 2013 (Saint Petersburg, Russia), co-located with <a
+                    href="http://esec-fse.inf.ethz.ch">ESEC/FSE 2013</a></li>
+            <li><a href="http://ttc2013.ucd.ie">1st Intl. Workshop on Testing The Cloud (TTC)</a>, July 15, 2013
+                (Lugano, Switzerland), co-located with <a href="http://issta2013.inf.usi.ch/">ISSTA 2013</a></li>
+            <li><a href="http://www.ing.unisannio.it/icpc2013/">21st IEEE International Conference on Program
+                    Comprehension (ICPC)</a>, May 20-21, 2013 (San Francisco, CA, USA)</li>
+            <li><a href="http://2013.msrconf.org/">10th Working Conf. on Mining Software Repositories (MSR)</a>, May
+                18-19, 2013 (San Francisco, CA, USA)</li>
+            <li><a href="http://csmr2013.disi.unige.it/submissions.php#ERA-papers">Early Research Achievements (ERA)</a>
+                track of the <a href="http://csmr2013.disi.unige.it/index.php">17th European Conference on Software
+                    Maintenance and Reengineering (CSMR)</a>, March 5-8, 2013 (Genova, Italy)</li>
+            <li><a href="https://www-927.ibm.com/ibm/cas/cascon/">2012 Conference of the Center for Advanced Studies on
+                    Collaborative Research (CASCON)</a>, November 5-7, 2012 (Markham, Ontario, Canada)</li>
+            <li><a href="https://sites.google.com/site/iwesep2012/">2012 Intl. Workshop on Empirical Software
+                    Engineering in Practice (IWESEP)</a>, October 26-27, 2012 (Osaka, Japan)</li>
+            <li><a href="http://www.distat.unimol.it/wcre2012/">19th Working Conf. on Reverse Engineering (WCRE)</a>,
+                October 15-18, 2012 (Kingston, Ontario, Canada)</li>
+            <li><a href="http://selab.fbk.eu/icsm2012/index.php?p=era_track">Early Research Achievements (ERA)</a> track
+                of the <a href="http://selab.fbk.eu/icsm2012/">28th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>,
+                September 23-30, 2012 (Riva del Garda, Trento, Italy)</li>
+            <li><a href="http://scam2012.cs.usask.ca/">12th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 23-24, 2012 (Riva del Garda, Trento, Italy)</li>
+            <li><a href="http://icpc12.sosy-lab.org/">20th IEEE International Conference on Program Comprehension
+                    (ICPC)</a>, June 11-13, 2012 (Passau, Germany)</li>
+            <li><a href="http://2012.msrconf.org/">9th Working Conf. on Mining Software Repositories (MSR)</a>, June
+                2-3, 2012 (Zurich, Switzerland)</li>
+            <li><a href="http://www.ifi.uzh.ch/icse2012/call-for-contributions/posters-and-informal-demonstrations/">Poster
+                    and Informal Tool Demonstrations track of the 2012 International Conference on Software Engineering
+                    (ICSE)</a>, June 2-9, 2012 (Zurich, Switzerland)</li>
+            <li><a href="http://sailhome.cs.queensu.ca/lt2012/"> 1st International Workshop on Load Testing of Large
+                    Software Systems (LT)</a>, April 17, 2012 (Montr&eacute;al, QC, Canada), co-located with <a
+                    href="http://icst2012.soccerlab.polymtl.ca/Content/home/index.php?language=english">ICST 2012</a>
+            </li>
+            <li><a href="http://www.aosd.net/workshops/miss/2012/">2nd Workshop on Modularity In Systems Software
+                    (MISS)</a>, March 27, 2012 (Potsdam, Germany), co-located with <a
+                    href="http://www.aosd.net/2012/index.php">AOSD 2012</a></li>
+            <li><a href="http://malets11.doc.ic.ac.uk/">International Workshop on Machine Learning Technologies in
+                    Software Engineering (MALETS)</a>, November 12, 2011 (Lawrence, KS, USA)</li>
+            <li><a href="http://www.cs.wm.edu/semeru/wcre2011/">18th Working Conf. on Reverse Engineering (WCRE)</a>,
+                October 17-21, 2011 (Limerick, Republic of Ireland)</li>
+            <li>tool demo track of the <a href="http://www.cs.wm.edu/semeru/wcre2011/">18th Working Conf. on Reverse
+                    Engineering (WCRE)</a>, October 17-21, 2011 (Limerick, Republic of Ireland)</li>
+            <li><a href="http://www.pleiad.cl/iwpse-evol/">12th Intl. Workshop on Principles of Software Evolution and
+                    7th ERCIM Workshop on Software Evolution (IWPSE/EVOL)</a>, September 5-6, 2011 (Szeged, Hungary)
+            </li>
+            <li><a href="http://www2011.ieee-scam.org/">11th IEEE Intl. Working Conf. on Source Code Analysis and
+                    Manipulation (SCAM)</a>, September 25-26, 2011 (Williamsburg, VA, USA)</li>
+            <li><a href="http://www.cs.wm.edu/icsm2011/?page_id=281">Early Research Achievements (ERA)</a> track of the
+                <a href="http://www.cs.wm.edu/icsm2011/">27th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>,
+                September 25-October 1, 2011 (Williamsburg, VA, USA)</li>
+            <li>tool demo track of the <a href="http://2011.esec-fse.org/">8th joint meeting of the European Software
+                    Engineering Conf. and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
+                    (ESEC/FSE)</a>, September 5-9, 2011 (Szeged, Hungary)</li>
+            <li><a href="http://iwesep.wordpress.com/">2010 Intl. Workshop on Empirical Software Engineering in Practice
+                    (IWESEP)</a>, December 7-8, 2010 (Nara, Japan)</li>
+            <li><a href="http://web.soccerlab.polymtl.ca/wcre2010/index.html">17th Working Conf. on Reverse Engineering
+                    (WCRE)</a>, October 13-16, 2010 (Boston, Massachusetts, USA)</li>
+            <li>tool demo track of the <a href="http://soft.vub.ac.be/ase2010/">25th IEEE/ACM Intl. Conf. on Automated
+                    Software Engineering (ASE)</a>, September 20-24, 2010 (Antwerp, Belgium)</li>
+            <li><a href="http://ssel.vub.ac.be/iwpse-evol/start">4th joint Intl. Workshop on Principles of Software
+                    Evolution and ERCIM Workshop on Software Evolution and Evolvability (IWPSE/EVOL)</a>, September
+                20-21, 2010 (Antwerp, Belgium)</li>
+            <li><a href="http://icsm2010.upt.ro/calls/era">Early Research Achievements (ERA)</a> track of the <a
+                    href="http://icsm2010.upt.ro/">26th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September
+                12-18, 2010 (Timi&#351;oara, Romania)</li>
+            <li><a href="http://aosd.net/workshops/acp4is/2009/">8th Workshop on Aspects, Components, and Patterns for
+                    Infrastructure Software (ACP4IS)</a>, March 2, 2009 (Charlottesville, Virginia, USA). Co-located
+                with <a href="http://www.aosd.net/2009/index.php">AOSD 2009</a></li>
+            <li><a href="http://swerl.tudelft.nl/wcre2008/index.html">15th Working Conf. on Reverse Engineering
+                    (WCRE)</a>, October 15-18, 2008 (Antwerp, Belgium)</li>
+            <li><a href="http://aosd.net/workshops/acp4is/2008/">7th Workshop on Aspects, Components, and Patterns for
+                    Infrastructure Software (ACP4IS)</a>, March 31, 2008 (Brussels, Belgium). Co-located with <a
+                    href="http://www.aosd.net/2008/index.php">AOSD 2008</a></li>
+        </ul>
+        </p><br />
 
-  <h3>Other:</h3>
-  <p>
-    <ul>
-      <li>Associate editor of the <a href="https://www.journals.elsevier.com/journal-of-systems-and-software/">Journal of Systems and Software (JSS)</a></li>
-      <li>Member of the editorial board of the <a href="https://link.springer.com/journal/10664">Journal on Empirical Software Engineering (EMSE)</a></li>
-      <li>Member of the editorial board of the <a href="https://www.journals.elsevier.com/information-and-software-technology/">Journal on Information and Software Technology (IST)</a></li>
-      <li>Member of the steering committee of the <a href="http://msrconf.org/">International Conference on Mining Software Repositories (MSR)</a></li>
-      <li>Former member of the steering committee of the <a href="http://saner.aau.at/">IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)</a>, 2015-2017</li>
-      <li>Member of the steering committee of the <a href="http://releng.polymtl.ca">International Workshop on Release Engineering (RELENG)</a></li>
-      <li>Member of the steering committee of the <a href="http://sback.it/mud2014/">International Workshop on Mining Unstructured Data (MUD)</a></li>
-      <li>Panel member at the <a href="http://www.cs.wm.edu/icsm2011/?page_id=291">mid-career doctoral symposium</a> of the <a href="http://www.cs.wm.edu/icsm2011/">27th IEEE Intl. Conf. on Software Maintenance (ICSM)</a>, September 25-30, 2011 (Williamsburg, VA, US)</li>
-    </ul>
-    </p><br/>
+        <h3>Reviewer for:</h3>
+
+        <p>
+        <ul>
+            <li><a href="http://www.springer.com/computer/swe/journal/10664">Springer Empirical Software Engineering</a>
+                (EMSE)</li>
+            <li><a href="http://www.computer.org/portal/web/tse">IEEE Transactions on Software Engineering</a> (TSE)
+            </li>
+            <li><a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/505732/description#description">Elsevier
+                    Journal of Systems and Software</a> (JSS)</li>
+            <li><a href="http://www.computer.org/web/computingnow/software">IEEE Software</a></li>
+            <li><a href="https://cacm.acm.org">Communications of the ACM</a> (CACM)</li>
+            <li><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-0618">Wiley Journal of Software
+                    Maintenance and Evolution</a> (JSME)</li>
+            <li><a href="http://ees.elsevier.com/infsof/">Elsevier Information and Software Technology</a> (IST)</li>
+            <li><a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/505623/description#description">Elsevier
+                    Science of Computer Programming</a> (SCP)</li>
+            <li><a
+                    href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-1689?systemMessage=Wiley+Online+Library+will+be+disrupted+Saturday%2C+15+March+from+10%3A00-12%3A00+GMT+%2806%3A00-08%3A00+EDT%29+for+essential+maintenance">Wiley
+                    Software Testing, Verification and Reliability</a> (STVR)</li>
+            <li><a href="http://link.springer.com/journal/11219/">Springer Software Quality Journal</a> (SQJ)</li>
+            <li><a href="https://onlinelibrary.wiley.com/journal/1097024x">Wiley Software: Practice and Experience</a>
+                (SPE)</li>
+            <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755">IEEE Transactions on Mobile
+                    Computing</a> (TMC)</li>
+            <li><a href="http://digital-library.theiet.org/content/journals/iet-sen/">IET Software</a> (IET)</li>
+            <li><a href="http://sttt.cs.uni-dortmund.de/">Intl. journal on Software Tools for Technology Transfer</a>
+                (STTT)</li>
+            <li><a href="https://www.journals.elsevier.com/computer-standards-and-interfaces">Elsevier Computer
+                    Standards & Interfaces</a> (CSI)</li>
+            <li><a href="http://www.jot.fm/">Journal of Object Technology</a> (JOT)</li>
+            <li><a href="http://www.springer.com/computer/lncs?SGWID=0-164-2-109318-0/">Springer LNCS Transactions on
+                    Aspect-Oriented Software Development</a> (TAOSD)</li>
+            <li><a href="http://www.biomedcentral.com/bmcmedinformdecismak/">BMC Medical Informatics and Decision
+                    Making</a></li>
+            <li><a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/Grants-Subs/DGIGP-PSIGP_eng.asp">NSERC
+                    Discovery Grant</a> program</li>
+            <li><a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/RPP-PP/CRD-RDC_eng.asp">NSERC Collaborative
+                    Research and Development Grants</a> program</li>
+            <li><a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/RPP-PP/SPG-SPS_eng.asp">NSERC Strategic
+                    Partnership Grants</a> program</li>
+            <li><a href="https://www.mitacs.ca/en/programs/accelerate">MITACS Accelerate</a> program</li>
+            <li><a href="http://www.nsf.gov/">NSF</a> review panel</li>
+            <li><a href="http://www.nwo.nl/en/funding/our-funding-instruments/nwo/free-competition/index.html">NWO Free
+                    Competition Grant</a> program</li>
+            <li><a href="http://www.snf.ch/">Swiss National Science Foundation</a> </li>
+            <li><a href="https://www.conicyt.cl/fondecyt/sobre-fondecyt/que-es-fondecyt/">Fondo Nacional de Desarrollo
+                    Cient&iacute;fico y Tecnol&oacute;gico (Fondecyt)</a> </li>
+            <li><a href="https://www.hrzz.hr/default.aspx?id=1166">Croatian Science Foundation Installation Research
+                    Projects program</a></li>
+        </ul>
+        </p><br />
+
+        <h3>Other:</h3>
+        <p>
+        <ul>
+            <li>Associate editor of the <a
+                    href="https://www.journals.elsevier.com/journal-of-systems-and-software/">Journal of Systems and
+                    Software (JSS)</a></li>
+            <li>Member of the editorial board of the <a href="https://link.springer.com/journal/10664">Journal on
+                    Empirical Software Engineering (EMSE)</a></li>
+            <li>Member of the editorial board of the <a
+                    href="https://www.journals.elsevier.com/information-and-software-technology/">Journal on Information
+                    and Software Technology (IST)</a></li>
+            <li>Member of the steering committee of the <a href="http://msrconf.org/">International Conference on Mining
+                    Software Repositories (MSR)</a></li>
+            <li>Former member of the steering committee of the <a href="http://saner.aau.at/">IEEE International
+                    Conference on Software Analysis, Evolution and Reengineering (SANER)</a>, 2015-2017</li>
+            <li>Member of the steering committee of the <a href="http://releng.polymtl.ca">International Workshop on
+                    Release Engineering (RELENG)</a></li>
+            <li>Member of the steering committee of the <a href="http://sback.it/mud2014/">International Workshop on
+                    Mining Unstructured Data (MUD)</a></li>
+            <li>Panel member at the <a href="http://www.cs.wm.edu/icsm2011/?page_id=291">mid-career doctoral
+                    symposium</a> of the <a href="http://www.cs.wm.edu/icsm2011/">27th IEEE Intl. Conf. on Software
+                    Maintenance (ICSM)</a>, September 25-30, 2011 (Williamsburg, VA, US)</li>
+        </ul>
+        </p><br />
 
         <h1><a name="invited">Invited Talks:</a></h1>
-    <p>
-      <ul>
-        <li>Release Engineering in the AI World, inaugural distinguished seminar at the <a href="https://www.concordia.ca/research/software-engineering-research-centre-serc.html/">Software Engineering Research Centre</a>, Concordia University, July 7, 2021 (virtual). <span style="color: black; font-weight: bold">[<a href="https://www.youtube.com/watch?v=Xi_GtguXm0I">video recording</a>]</span></li>
-        <li>Release Engineering in an AI World, Invited lecture in Software Engineering for AI-Enabled Systems, grad course at the <a href="https://ics.unisg.ch/">Institute of Computer Science</a>, University of Sankt-Gallen (Switzerland), April 23, 2021 (virtual).</li>
-        <li>Release Engineering in an AI World, Invited lecture at the <a href="https://www.eventbrite.ca/e/software-engineering-for-machine-learning-apps-from-code-to-production-tickets-84613963643#">IVADO-SEMLA School on Software Engineering for Machine Learning Applications: From Code to Production</a>, March 5, 2020 (Montr&eacute;al, QC).</li>
-        <li><a href="https://www.slideshare.net/bramadams/data-science-empirical-se-and-software-analytics-its-a-family-affair">Data Science, Empirical SE and Software Analytics: It’s a Family Affair!</a>, Invited talk at the <a href="http://eseiw2018.wixsite.com/iasese">15th International Advanced School on Empirical Software Engineering (IASESE)</a>, October 10, 2018 (Oulu, Finland).</li>
-      <li><a href="publications/2017/VSS.pdf">To Build or Not to Build - The Build Lifecycle of a Commit</a>, Keynote at the <a href="https://vss.swa.univie.ac.at/2017/">1st Vienna Software Seminar (VSS) on the Relation of Software Architecture and DevOps/Continuous Delivery</a>, December 18, 2017 (Vienna, Austria).</li>
-      <li>Modern Release Engineering in a Nutshell -- Why Researchers should Care, Invited talk at the <a href="https://uwaterloo.ca/electrical-computer-engineering/">Department of Electrical and Computer Engineering</a>, University of Waterloo, April 26, 2016 (Waterloo, ON).</li>
-      <li>How NOT to Analyze your Release Process ... with Suggestions!, Invited talk at <a href="http://www.3tu-bsr.nl/doku.php?id=bsr-ws2016:start">BSR Winter School</a>, October 26, 2016 (Ede, The Netherlands).</li>
-      <li><a href="http://inforte.jyu.fi/events/mining_sw_repositories">Mining Software Repositories</a>, Inforte lectures at <a href="http://www.oulu.fi/itee/">Faculty of Information Technology and Electrical Engineering ITEE</a>, University of Oulu, October 24, 2016 (Oulu, Finland).</li>    
-      <li><a href="http://www.crim.ca/fr/evenements/seminaire-r-d-tu-rigoles-ou-quoi-notre-qualite-logicielle-a-ete-detruite-par-l-ingenieur-de-la-mise-en-production">Tu rigoles ou quoi? Notre qualit&eacute; logicielle a &eacute;t&eacute; d&eacute;truite par… l’ing&eacute;nieur de la mise en production?!</a>, Seminar at CRIM, January 16, 2016 (Montr&eacute;al, Canada).</li>
-      <li>Reproducing Context-sensitive Crashes of Mobile Apps using Crowdsourced Monitoring, Invited talk at <a href="http://shonan.nii.ac.jp/seminar/070/">NII Shonan Meeting on "Mobile App Store Analytics"</a>, October 19, 2015 (Tokyo, Japan).</li>
-      <li>Lessons Learned from the International Workshop on Release Engineering, ACM SIGSOFT webinar with Foutse Khomh, December 18th, 2015.&nbsp;(<a href="https://www.youtube.com/embed/RkEpxvzlLWQ?list=PLn0nrSd4xjjZa4KDqFBCMOnk52CItWqyU">video</a>)</li>
-      <li>On Building and Delivering Software, Guest lecture at <a href="http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/">Arie van Deursen's Software Architecture course</a>, March 20th, 2015 (TU Delft, Netherlands).</li>
-      <li>So, you are saying that our software quality was screwed up by … the release engineer?!, Invited talk at <a href="http://www.open.ac.uk/postgraduate/research-degrees/research-areas/computing-and-communications">Department of Computing and Communications, Open University</a>, October 30, 2014 (Milton Keynes, UK).</li>
-      <li>Mobile Apps: Research Challenges, Invited talk (with <a href="http://research.cs.queensu.ca/~ahmed/home/">Ahmed E. Hassan</a>) at <a href="http://crest.cs.ucl.ac.uk/cow/36/">the 36th CREST Open Workshop on "App Store Analysis"</a>, October 27-28, 2014 (London, UK).</li>
-      <li>Emotion Mining for Software Developers, Dagstuhl Seminar 14261 on Software Development Analytics, Internationales Begegnungs- und Forschungszentrum f&uuml;r Informatik (IBFI), July 22-27, 2014 (Schloss Dagstuhl, Germany).</li>
-      <li>So, you are saying that our software quality was screwed up by … the release engineer?!, Keynote at <a href="http://informatique.umons.ac.be/genlog/benevol2013">BElgian-NEtherlands software eVOLution symposium (BENEVOL)</a>, December 16, 2013 (Mons, Belgium).</li>
-      <li>So, you are saying that our software quality was screwed up by … the release engineer?!, Invited talk at <a href="http://msrsummit2013.se-naist.jp/">MSR Asia Summit</a>, October 28, 2013 (Kyoto, Japan).</li>
-      <li>On Rapid Releases and Software Testing, Invited talk at <a href="http://shonan.nii.ac.jp/seminar/037/">NII Shonan Meeting on "Software Analytics: Principles and Practice"</a>, October 21, 2013 (Tokyo, Japan).</li>
-      <li>Big data dans mon portable?!, Invited talk at <a href="http://www.polymtl.ca/recherche/journee_12/">12i&egrave;me Journ&eacute;e de la Recherche</a>, May 30, 2013 (Montr&eacute;al, Canada).&nbsp;(<a href="http://mcis.cs.queensu.ca/publications/2013/bigdata.pdf">presentation</a>)</li>
-      <li>Tu rigoles ou quoi? Notre qualit&eacute; logicielle a &eacute;t&eacute; d&eacute;truite par… l’ing&eacute;nieur de la mise en production?!, Seminar at LATECE, UQAM, March 20, 2013 (Montr&eacute;al, Canada).&nbsp;(<a href="http://www.latece.uqam.ca/ai1ec_event/seminaire-bram-adams-polythechnique/?instance_id&doing_wp_cron=1401737923">video</a>)</li>
-      <li>On Release Engineering and Developer Productivity, <a href="http://www.ifi.uzh.ch/seal/events/ASDS-2013.html">Symposium on Augmenting Software Developer Support to Improve Productivity (ASDS)</a>, March 10-15, 2013 (Monte Verit&agrave;, Ascona, Switzerland).</li>
-      <li>So, you are saying that our software quality was screwed up by ... the release engineer?!, Keynote at the <a href="http://sqm2013.sig.eu">7th International Workshop on Software Quality and Maintainability (SQM)</a>, March 5, 2013 (Genova, Italy).</li>
-      <li>Software Release Engineering, Technical briefing at the <a href="https://files.ifi.uzh.ch/icseweb/">34th International Conference on Software Engineering (ICSE)</a>, June 5, 2012 (Zurich, Austria).</li>
-      <li><a href="http://mcis.cs.queensu.ca/publications/2011/keynote_bram.pdf">On Software Release Engineering</a>, Keynote at the Consortium for Software Engineering Research (CSER) Fall 2011 Meeting, Nov. 6, 2011 (Toronto, ON, Canada).</li>
-      <li>Lectures on Machine Learning in Practice, <a href="http://pased.soccerlab.polymtl.ca/index.php">Canadian Summer School on Practical Analyses of Software Engineering Data (PASED)</a>, &Eacute;cole Polytechnique, June 20, 2011 (Montr&eacute;al, QC, Canada).</li>
-      <li>Concern Mining Through Statistical Analysis of Historical Software Information, School Seminar, <a href="http://www.cs.queensu.ca/">School of Computing</a>, Oct. 1, 2009 (<a href="http://www.queensu.ca/">Queen's University</a>).</li>
-      <li>Co-evolution of Source Code and the Build System - Impact on the Introduction of AOSD in Legacy Systems, School Seminar, <a href="http://www.cs.queensu.ca/">School of Computing</a>, Oct. 24, 2008 (<a href="http://www.queensu.ca/">Queen's University</a>).</li>
-      <li>Correctness Trumps Efficiency, Seminar at ADAM team, INRIA, Dec. 3, 2007 (Lille, France).</li>
-      <li>Face-off: AOP+LMP vs. legacy software, Dagstuhl Seminar 06302 on Aspects For Legacy Applications, Internationales Begegnungs- und Forschungszentrum f&uuml;r Informatik (IBFI), July 26-29, 2006 (Schloss Dagstuhl, Germany).</li>
-    </ul>
-</p><br/>
+        <p>
+        <ul>
+            <li>Release Engineering in the AI World, inaugural distinguished seminar at the <a
+                    href="https://www.concordia.ca/research/software-engineering-research-centre-serc.html/">Software
+                    Engineering Research Centre</a>, Concordia University, July 7, 2021 (virtual). <span
+                    style="color: black; font-weight: bold">[<a href="https://www.youtube.com/watch?v=Xi_GtguXm0I">video
+                        recording</a>]</span></li>
+            <li>Release Engineering in an AI World, Invited lecture in Software Engineering for AI-Enabled Systems, grad
+                course at the <a href="https://ics.unisg.ch/">Institute of Computer Science</a>, University of
+                Sankt-Gallen (Switzerland), April 23, 2021 (virtual).</li>
+            <li>Release Engineering in an AI World, Invited lecture at the <a
+                    href="https://www.eventbrite.ca/e/software-engineering-for-machine-learning-apps-from-code-to-production-tickets-84613963643#">IVADO-SEMLA
+                    School on Software Engineering for Machine Learning Applications: From Code to Production</a>, March
+                5, 2020 (Montr&eacute;al, QC).</li>
+            <li><a
+                    href="https://www.slideshare.net/bramadams/data-science-empirical-se-and-software-analytics-its-a-family-affair">Data
+                    Science, Empirical SE and Software Analytics: It’s a Family Affair!</a>, Invited talk at the <a
+                    href="http://eseiw2018.wixsite.com/iasese">15th International Advanced School on Empirical Software
+                    Engineering (IASESE)</a>, October 10, 2018 (Oulu, Finland).</li>
+            <li><a href="publications/2017/VSS.pdf">To Build or Not to Build - The Build Lifecycle of a Commit</a>,
+                Keynote at the <a href="https://vss.swa.univie.ac.at/2017/">1st Vienna Software Seminar (VSS) on the
+                    Relation of Software Architecture and DevOps/Continuous Delivery</a>, December 18, 2017 (Vienna,
+                Austria).</li>
+            <li>Modern Release Engineering in a Nutshell -- Why Researchers should Care, Invited talk at the <a
+                    href="https://uwaterloo.ca/electrical-computer-engineering/">Department of Electrical and Computer
+                    Engineering</a>, University of Waterloo, April 26, 2016 (Waterloo, ON).</li>
+            <li>How NOT to Analyze your Release Process ... with Suggestions!, Invited talk at <a
+                    href="http://www.3tu-bsr.nl/doku.php?id=bsr-ws2016:start">BSR Winter School</a>, October 26, 2016
+                (Ede, The Netherlands).</li>
+            <li><a href="http://inforte.jyu.fi/events/mining_sw_repositories">Mining Software Repositories</a>, Inforte
+                lectures at <a href="http://www.oulu.fi/itee/">Faculty of Information Technology and Electrical
+                    Engineering ITEE</a>, University of Oulu, October 24, 2016 (Oulu, Finland).</li>
+            <li><a
+                    href="http://www.crim.ca/fr/evenements/seminaire-r-d-tu-rigoles-ou-quoi-notre-qualite-logicielle-a-ete-detruite-par-l-ingenieur-de-la-mise-en-production">Tu
+                    rigoles ou quoi? Notre qualit&eacute; logicielle a &eacute;t&eacute; d&eacute;truite par…
+                    l’ing&eacute;nieur de la mise en production?!</a>, Seminar at CRIM, January 16, 2016
+                (Montr&eacute;al, Canada).</li>
+            <li>Reproducing Context-sensitive Crashes of Mobile Apps using Crowdsourced Monitoring, Invited talk at <a
+                    href="http://shonan.nii.ac.jp/seminar/070/">NII Shonan Meeting on "Mobile App Store Analytics"</a>,
+                October 19, 2015 (Tokyo, Japan).</li>
+            <li>Lessons Learned from the International Workshop on Release Engineering, ACM SIGSOFT webinar with Foutse
+                Khomh, December 18th, 2015.&nbsp;(<a
+                    href="https://www.youtube.com/embed/RkEpxvzlLWQ?list=PLn0nrSd4xjjZa4KDqFBCMOnk52CItWqyU">video</a>)
+            </li>
+            <li>On Building and Delivering Software, Guest lecture at <a
+                    href="http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/">Arie van
+                    Deursen's Software Architecture course</a>, March 20th, 2015 (TU Delft, Netherlands).</li>
+            <li>So, you are saying that our software quality was screwed up by … the release engineer?!, Invited talk at
+                <a
+                    href="http://www.open.ac.uk/postgraduate/research-degrees/research-areas/computing-and-communications">Department
+                    of Computing and Communications, Open University</a>, October 30, 2014 (Milton Keynes, UK).</li>
+            <li>Mobile Apps: Research Challenges, Invited talk (with <a
+                    href="http://research.cs.queensu.ca/~ahmed/home/">Ahmed E. Hassan</a>) at <a
+                    href="http://crest.cs.ucl.ac.uk/cow/36/">the 36th CREST Open Workshop on "App Store Analysis"</a>,
+                October 27-28, 2014 (London, UK).</li>
+            <li>Emotion Mining for Software Developers, Dagstuhl Seminar 14261 on Software Development Analytics,
+                Internationales Begegnungs- und Forschungszentrum f&uuml;r Informatik (IBFI), July 22-27, 2014 (Schloss
+                Dagstuhl, Germany).</li>
+            <li>So, you are saying that our software quality was screwed up by … the release engineer?!, Keynote at <a
+                    href="http://informatique.umons.ac.be/genlog/benevol2013">BElgian-NEtherlands software eVOLution
+                    symposium (BENEVOL)</a>, December 16, 2013 (Mons, Belgium).</li>
+            <li>So, you are saying that our software quality was screwed up by … the release engineer?!, Invited talk at
+                <a href="http://msrsummit2013.se-naist.jp/">MSR Asia Summit</a>, October 28, 2013 (Kyoto, Japan).</li>
+            <li>On Rapid Releases and Software Testing, Invited talk at <a
+                    href="http://shonan.nii.ac.jp/seminar/037/">NII Shonan Meeting on "Software Analytics: Principles
+                    and Practice"</a>, October 21, 2013 (Tokyo, Japan).</li>
+            <li>Big data dans mon portable?!, Invited talk at <a
+                    href="http://www.polymtl.ca/recherche/journee_12/">12i&egrave;me Journ&eacute;e de la Recherche</a>,
+                May 30, 2013 (Montr&eacute;al, Canada).&nbsp;(<a
+                    href="http://mcis.cs.queensu.ca/publications/2013/bigdata.pdf">presentation</a>)</li>
+            <li>Tu rigoles ou quoi? Notre qualit&eacute; logicielle a &eacute;t&eacute; d&eacute;truite par…
+                l’ing&eacute;nieur de la mise en production?!, Seminar at LATECE, UQAM, March 20, 2013 (Montr&eacute;al,
+                Canada).&nbsp;(<a
+                    href="http://www.latece.uqam.ca/ai1ec_event/seminaire-bram-adams-polythechnique/?instance_id&doing_wp_cron=1401737923">video</a>)
+            </li>
+            <li>On Release Engineering and Developer Productivity, <a
+                    href="http://www.ifi.uzh.ch/seal/events/ASDS-2013.html">Symposium on Augmenting Software Developer
+                    Support to Improve Productivity (ASDS)</a>, March 10-15, 2013 (Monte Verit&agrave;, Ascona,
+                Switzerland).</li>
+            <li>So, you are saying that our software quality was screwed up by ... the release engineer?!, Keynote at
+                the <a href="http://sqm2013.sig.eu">7th International Workshop on Software Quality and Maintainability
+                    (SQM)</a>, March 5, 2013 (Genova, Italy).</li>
+            <li>Software Release Engineering, Technical briefing at the <a href="https://files.ifi.uzh.ch/icseweb/">34th
+                    International Conference on Software Engineering (ICSE)</a>, June 5, 2012 (Zurich, Austria).</li>
+            <li><a href="http://mcis.cs.queensu.ca/publications/2011/keynote_bram.pdf">On Software Release
+                    Engineering</a>, Keynote at the Consortium for Software Engineering Research (CSER) Fall 2011
+                Meeting, Nov. 6, 2011 (Toronto, ON, Canada).</li>
+            <li>Lectures on Machine Learning in Practice, <a href="http://pased.soccerlab.polymtl.ca/index.php">Canadian
+                    Summer School on Practical Analyses of Software Engineering Data (PASED)</a>, &Eacute;cole
+                Polytechnique, June 20, 2011 (Montr&eacute;al, QC, Canada).</li>
+            <li>Concern Mining Through Statistical Analysis of Historical Software Information, School Seminar, <a
+                    href="http://www.cs.queensu.ca/">School of Computing</a>, Oct. 1, 2009 (<a
+                    href="http://www.queensu.ca/">Queen's University</a>).</li>
+            <li>Co-evolution of Source Code and the Build System - Impact on the Introduction of AOSD in Legacy Systems,
+                School Seminar, <a href="http://www.cs.queensu.ca/">School of Computing</a>, Oct. 24, 2008 (<a
+                    href="http://www.queensu.ca/">Queen's University</a>).</li>
+            <li>Correctness Trumps Efficiency, Seminar at ADAM team, INRIA, Dec. 3, 2007 (Lille, France).</li>
+            <li>Face-off: AOP+LMP vs. legacy software, Dagstuhl Seminar 06302 on Aspects For Legacy Applications,
+                Internationales Begegnungs- und Forschungszentrum f&uuml;r Informatik (IBFI), July 26-29, 2006 (Schloss
+                Dagstuhl, Germany).</li>
+        </ul>
+        </p><br />
 
 
-    	     <h1><a name="press">Press:</a></h1>
-	     <p>
-    <ul>     
-      <li><a href="https://www.youtube.com/watch?v=yQqt6mH09fg">Big Data @ Campus Montr&eacute;al</a> (also <a href="https://www.youtube.com/watch?v=yMIe-fTFqnk">in French</a>), commercial, September, 2014.</li>
-      	       <li><a href="http://campus-montreal.ca/en/talent-gallery/bram-adams/">What would your world cup aspirations be?</a>, Campus Montr&eacute;al Talent Gallery, September, 2014.</li>
-	       <li><a href="http://affaires.lapresse.ca/portfolio/mobilite-pour-pme/201306/05/01-4657942-super-moteur-de-recherche-pour-pme.php">Super moteur de recherche pour PME</a>, interview with Guy Paquin of La Presse, June 5, 2013.</li>
-	       <li><a href="http://affaires.lapresse.ca/cv/201209/10/01-4572598-globalink-ouvre-montreal-sur-le-monde.php">Globalink ouvre Montr&eacute;al sur le monde</a>, interview with Martine Letarte of La Presse, September 10, 2012.</li>       
-	       </ul></p>
-	       <br/>
-	       	       <br/>
+        <h1><a name="press">Press:</a></h1>
+        <p>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=yQqt6mH09fg">Big Data @ Campus Montr&eacute;al</a> (also <a
+                    href="https://www.youtube.com/watch?v=yMIe-fTFqnk">in French</a>), commercial, September, 2014.</li>
+            <li><a href="http://campus-montreal.ca/en/talent-gallery/bram-adams/">What would your world cup aspirations
+                    be?</a>, Campus Montr&eacute;al Talent Gallery, September, 2014.</li>
+            <li><a
+                    href="http://affaires.lapresse.ca/portfolio/mobilite-pour-pme/201306/05/01-4657942-super-moteur-de-recherche-pour-pme.php">Super
+                    moteur de recherche pour PME</a>, interview with Guy Paquin of La Presse, June 5, 2013.</li>
+            <li><a href="http://affaires.lapresse.ca/cv/201209/10/01-4572598-globalink-ouvre-montreal-sur-le-monde.php">Globalink
+                    ouvre Montr&eacute;al sur le monde</a>, interview with Martine Letarte of La Presse, September 10,
+                2012.</li>
+        </ul>
+        </p>
+        <br />
+        <br />
 
-    
-    	     </div>
+
+    </div>
 
 
 
-                 <div class="sidebar">
+    <div class="sidebar">
 
         <div class="subnav">
-  <h5>Jump to ...</h5>
-<p>
-  <ul>
-      <li><a href="#inter">Research Interests</a></li>
-  <li><a href="#award">Awards</a></li>
-  <li><a href="#act">Academic Service</a></li>
-  <li><a href="#invited">Invited Talks</a></li>
-  <li><a href="#press">Press</a></li>
-  </ul>
-</p>
-    <br/>
-    <br/>
-<h5>About Me</h5>
-<p>
-  <a href="http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=kingston+barrie+street&sll=44.229232,-76.490169&sspn=0,359.995872&ie=UTF8&radius=0.1&rq=1&ev=zi&hq=kingston+barrie+street&hnear=&ll=44.229318,-76.490472&spn=0,359.99485&t=h&z=19&layer=c&cbll=44.229232,-76.490169&panoid=9tsknL8oiOhB3SDDxusjvA&cbp=12,341.28,,1,12.1"><img src="images/me2.jpg" border="1" alt=""?></a><br/><br/>
-  I am an associate professor at <a href="https://www.cs.queensu.ca/">the School of Computing</a> (<a href="https://www.queensu.ca/">Queen's University</a>) where I head the <a href="http://mcis.polymtl.ca/">MCIS Lab on Maintenance, Construction and Intelligence</a>.</p>
-  <p>My research interests vary from release engineering, mining software repositories and green software in particular, to software evolution and reverse-engineering in general.</p>
-  <p><a href="join.html">Contact me!</a>
-  </p>
+            <h5>Jump to ...</h5>
+            <p>
+            <ul>
+                <li><a href="#inter">Research Interests</a></li>
+                <li><a href="#award">Awards</a></li>
+                <li><a href="#act">Academic Service</a></li>
+                <li><a href="#invited">Invited Talks</a></li>
+                <li><a href="#press">Press</a></li>
+            </ul>
+            </p>
+            <br />
+            <br />
+            <h5>About Me</h5>
+            <p>
+                <a
+                    href="http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=kingston+barrie+street&sll=44.229232,-76.490169&sspn=0,359.995872&ie=UTF8&radius=0.1&rq=1&ev=zi&hq=kingston+barrie+street&hnear=&ll=44.229318,-76.490472&spn=0,359.99485&t=h&z=19&layer=c&cbll=44.229232,-76.490169&panoid=9tsknL8oiOhB3SDDxusjvA&cbp=12,341.28,,1,12.1"><img
+                        src="images/me2.jpg" border="1" alt="" ?></a><br /><br />
+                I am an associate professor at <a href="https://www.cs.queensu.ca/">the School of Computing</a> (<a
+                    href="https://www.queensu.ca/">Queen's University</a>) where I head the <a
+                    href="http://mcis.polymtl.ca/">MCIS Lab on Maintenance, Construction and Intelligence</a>.
+            </p>
+            <p>My research interests vary from release engineering, mining software repositories and green software in
+                particular, to software evolution and reverse-engineering in general.</p>
+            <p><a href="join.html">Contact me!</a>
+            </p>
         </div>
-      </div>
+    </div>
