@@ -1,3 +1,4 @@
+<!-- -*- engine:liquid -*- -->
 {% if page.url != "/index.html" %}
    <div id="breadcrumb">
     <ul>
