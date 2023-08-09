@@ -27,8 +27,8 @@
 </div>
 <div class="main-container">
   <div id="sub-headline">    
-    <div class="tagline_left"><p id="tagline2">Email: <script type='text/javascript'>var a = new Array('gmail.com','lab.mcis@');document.write("<a href='mailto:"+a[1]+a[0]+"'>"+a[1]+a[0]+"</a>");</script>
-    <noscript><a href="mailto:lab DOT mcis WHAT gmail DOT com">lab DOT mcis WHAT gmail DOT com</a><i>(DOT=. and WHAT=@)</i></noscript></p></div>
+    <div class="tagline_left"><p id="tagline2">Email: <script type='text/javascript'>var a = new Array('queensu.ca','bram.adams@');document.write("<a href='mailto:"+a[1]+a[0]+"'>"+a[1]+a[0]+"</a>");</script>
+    <noscript><a href="mailto:bram DOT adams WHAT queensu DOT ca">bram DOT adams WHAT queensu DOT ca</a><i>(DOT=. and WHAT=@)</i></noscript></p></div>
 <!--    <div class="tagline_right">
       <form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
 	<fieldset>
