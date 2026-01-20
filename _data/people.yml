@@ -1,0 +1,222 @@
+faculty:
+  - name: Dr. Bram Adams
+    role: Professor
+    image: images/me2023_wide.jpg
+    url: bram.html
+
+students:
+  - name: Adekunle Ajibode
+    role: PhD student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/Adekunle.png
+  - name: Mahmoud Ayyad
+    role: PhD student
+    supervisor: [Dr. Ying Zou]
+
+  - name: Aaditya Bhatia
+    role: PhD student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/AadityaBhatia.jpg
+  - name: Robyn Elliott
+    role: PhD student
+    supervisor: [Dr. Mariam Guizani]
+
+  - name: Lin Geng
+    role: Master's student
+    supervisor: [Dr. Sidney Givigi]
+    image: https://sailresearch.github.io/sail-website/img/members/allen.jpeg
+  - name: Mohammed Mehedi Hasan
+    role: PhD student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/mehedi.jpg
+  - name: James Jewitt
+    role: PhD student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/james_jewitt.png
+  - name: Hao Li
+    role: Postdoc
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/haoli.jpg
+    url: https://leo-lihao.github.io/
+  - name: Marcos Macedo
+    role: PhD student
+    supervisor: [Dr. Yuan Tian]
+
+  - name: Luis Rivera-Wong
+    role: Master's student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/luis.jpeg
+    url: https://www.linkedin.com/in/luis-rivera-wong/
+  - name: Oussama Ben Sghaier
+    role: Postdoc
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/oussamasghaier.jpeg
+    url: https://oussamasghaier.github.io/
+  - name: Yu Shi
+    role: PhD student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/yu-shi.png
+  - name: Jiho Shin
+    role: Postdoc
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/jihoshin.jpeg
+    url: https://sites.google.com/view/jiho-shin
+  - name: Zehao Wang
+    role: Postdoc
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/zehao.jpeg
+    url: https://zehaowang00.github.io/
+  - name: Zhimin Zhao
+    role: PhD student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/ZhiminZhao.jpg
+    url: https://zhimin-z.github.io/
+  - name: Suzhen Zhong
+    role: Master's student
+    supervisor: [Dr. Ying Zou]
+
+
+alumni:
+  - name: Maryam Abedi
+    role: Master's
+    supervisor: [Dr. Jinghui Cheng]
+    image: images/maryam.jpeg
+  - name: Rahul Bajaj
+    role: Master's
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: images/rahul.jpeg
+    url: https://www.linkedin.com/in/rahulbajaj0509
+  - name: Abdul Ali Bangash
+    role: Postdoc
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/AbdulAli.jpeg
+    url: http://abdulali.github.io/
+  - name: Vincent Boisselle
+    role: Master's
+    supervisor: [Dr. Alexandre Petrenko]
+    image: images/vincent.jpg
+    url: https://www.linkedin.com/in/vincentboisselle
+  - name: Mathieu Bollen
+    role: Master's
+    supervisor: [Dr. Naji Habra]
+    image: images/mathieu.png
+    url: https://www.linkedin.com/in/mathieu-bollen-452a1281/
+  - name: Yihao Chen
+    role: Master's
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/YihaoChen.jpg
+  - name: Alexandre Courouble
+    role: Master's
+    image: images/alex.jpg
+    url: https://www.linkedin.com/in/alexcourouble/
+  - name: Giuseppe Destefanis
+    role: postdoc
+    supervisor: [Dr. Alexandre Petrenko]
+    image: images/giuseppe.jpeg
+    url: https://www.brunel.ac.uk/people/giuseppe-destefanis
+  - name: Amir Ebrahimi
+    role: PhD
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/Amir_2020.jpg
+  - name: Ellis E. Eghan
+    role: postdoc
+    image: images/ellis.jpeg
+    url: https://elliseghan.github.io/
+  - name: Emad Fallahzadeh
+    role: Postdoc
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/emadf.png
+  - name: Eduardo Fernandes
+    role: Postdoc
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/EduardoFernandes.jpg
+    url: https://scholar.google.com/citations?user=bPnuCiMAAAAJ
+  - name: Isabella Ferreira
+    role: PhD
+    supervisor: [Dr. Jinghui Cheng]
+    image: images/isabella.jpeg
+    url: https://www.linkedin.com/in/isabellaferreira
+  - name: Armstrong Foundjem
+    role: PhD
+    image: images/armstrong.jpeg
+    url: https://www.linkedin.com/in/foundjem
+  - name: Manel Grichi
+    role: PhD
+    image: images/manel.jpeg
+    url: https://www.linkedin.com/in/manel-grichi
+  - name: Yujuan Jiang
+    role: PhD
+    image: images/jojo_small.jpeg
+    url: https://yujuanjiang.wordpress.com/
+  - name: Divya Kamath
+    role: Master's
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sail.cs.queensu.ca/img/members/DivyaKamath.jpg
+    url: https://www.linkedin.com/in/divyamkamath/
+  - name: Ernesto Lang
+    role: Master's
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sail.cs.queensu.ca/img/members/ErnestoOreamuno.jpg
+    url: https://github.com/Elang89
+  - name: Jiahuei Lin
+    role: PhD
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/Jiahuei_2019.jpg
+  - name: Akshat Malik
+    role: Master's
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/AkshatMalik.jpeg
+    url: https://www.linkedin.com/in/akshat-malik/
+  - name: Shane McIntosh
+    role: PhD
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: images/shane.jpeg
+    url: http://shanemcintosh.org/
+  - name: Parisa Moslehi
+    role: PhD
+    supervisor: [Dr. Juergen Rilling]
+    image: images/parisa.jpg
+    url: https://www.linkedin.com/in/parisamoslehi
+  - name: Doriane Olewicki
+    role: Master's & PhD
+    image: images/doriane.jpeg
+    url: https://olewicki.github.io/
+  - name: Harshkumar Patel
+    role: Master's
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/harsh.png
+    url: https://www.linkedin.com/in/harsh8398/
+  - name: Javier Rosales Tovar
+    role: Master's
+    image: images/javier.jpeg
+    url: https://www.linkedin.com/in/javier-rosales-tovar-7b656420
+  - name: Mohammed Sayagh
+    role: PhD
+    image: images/mohammed.jpeg
+    url: https://msayagh.github.io/
+  - name: Parastou Tourani
+    role: PhD
+    image: images/parastou.png
+    url: https://www.linkedin.com/in/parastou-tourani-40a9306
+  - name: Vivek Varadharajan
+    role: PhD
+    supervisor: [Dr. Giovanni Beltrame]
+
+  - name: Shivashree Vysali
+    role: Master's
+    supervisor: [Dr. Shane McIntosh]
+    image: images/shivashree.jpeg
+    url: https://www.linkedin.com/in/vysali
+  - name: Mohamed Yassin
+    role: postdoc
+
+    url: https://scholar.google.com/citations?user=ktncW8YAAAAJ&hl=en
+  - name: Shenyu Zheng
+    role: Master's
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: https://sailresearch.github.io/sail-website/img/members/ShenyuZheng.jpg
+  - name: Mahdis Zolfagharinia
+    role: Master's
+    supervisor: [Dr. Yann-Gaël Guéhéneuc]
+    image: images/mahdis.jpg
+    url: https://dblp.org/pid/202/1467.html
