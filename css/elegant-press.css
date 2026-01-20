@@ -3285,6 +3285,8 @@ article.latestgallery p {
     width: 275px;
     /* Adjusted to 275px with border-box to strictly fit 3 per row (Total ~865px vs 902px avail) */
     box-sizing: border-box;
+    min-height: 160px;
+    /* Added min-height to match faculty/student card heights */
     margin-bottom: 20px;
     background: #f9f9f9;
     border: 1px solid #ddd;
@@ -3300,8 +3302,8 @@ article.latestgallery p {
 }
 
 .person-img img {
-    max-width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 50%;
     /* Optional: make images round-ish */

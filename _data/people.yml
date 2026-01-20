@@ -12,7 +12,7 @@ students:
   - name: Mahmoud Ayyad
     role: PhD student
     supervisor: [Dr. Ying Zou]
-
+    image: images/mahmoud_ayyad.jpg
   - name: Aaditya Bhatia
     role: PhD student
     supervisor: [Dr. Ahmed E. Hassan]
@@ -20,7 +20,7 @@ students:
   - name: Robyn Elliott
     role: PhD student
     supervisor: [Dr. Mariam Guizani]
-
+    image: images/robyn_elliott.jpeg
   - name: Lin Geng
     role: Master's student
     supervisor: [Dr. Sidney Givigi]
@@ -41,7 +41,8 @@ students:
   - name: Marcos Macedo
     role: PhD student
     supervisor: [Dr. Yuan Tian]
-
+    image: images/marcos_macedo.jpeg
+    url: https://marcosmacedo.github.io/
   - name: Luis Rivera-Wong
     role: Master's student
     supervisor: [Dr. Ahmed E. Hassan]
@@ -74,7 +75,7 @@ students:
   - name: Suzhen Zhong
     role: Master's student
     supervisor: [Dr. Ying Zou]
-
+    image: images/suzhen_zhong.jpg
 
 alumni:
   - name: Maryam Abedi
@@ -110,7 +111,7 @@ alumni:
     image: images/alex.jpg
     url: https://www.linkedin.com/in/alexcourouble/
   - name: Giuseppe Destefanis
-    role: postdoc
+    role: Postdoc
     supervisor: [Dr. Alexandre Petrenko]
     image: images/giuseppe.jpeg
     url: https://www.brunel.ac.uk/people/giuseppe-destefanis
@@ -119,7 +120,7 @@ alumni:
     supervisor: [Dr. Ahmed E. Hassan]
     image: https://sailresearch.github.io/sail-website/img/members/Amir_2020.jpg
   - name: Ellis E. Eghan
-    role: postdoc
+    role: Postdoc
     image: images/ellis.jpeg
     url: https://elliseghan.github.io/
   - name: Emad Fallahzadeh
@@ -201,7 +202,6 @@ alumni:
   - name: Vivek Varadharajan
     role: PhD
     supervisor: [Dr. Giovanni Beltrame]
-
   - name: Shivashree Vysali
     role: Master's
     supervisor: [Dr. Shane McIntosh]
@@ -209,7 +209,6 @@ alumni:
     url: https://www.linkedin.com/in/vysali
   - name: Mohamed Yassin
     role: postdoc
-
     url: https://scholar.google.com/citations?user=ktncW8YAAAAJ&hl=en
   - name: Shenyu Zheng
     role: Master's
