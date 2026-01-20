@@ -2949,9 +2949,16 @@ article.latestgallery p {
     width: 90%;
 }
 
+.main-container header {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
 .main-container header img.logo {
     position: absolute;
-    left: 12%;
+    left: 0px;
+    top: 5px;
 }
 
 .highlight {
@@ -3342,6 +3349,19 @@ article.latestgallery p {
         width: 100%;
         /* Fluid width */
         padding: 10px 0;
+    }
+
+    .main-container header {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-container header img.logo {
+        position: relative;
+        left: auto;
+        top: auto;
+        display: block;
+        margin: 0 auto 10px auto;
     }
 
     .content,
