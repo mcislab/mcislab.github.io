@@ -659,13 +659,13 @@ header p {
 }
 
 .grid .latestgallery h2 {
-    margin-left: 50px;
+    margin-left: 0;
     text-align: center
 }
 
 .grid .latestgallery_left h2 {
     margin-left: 0;
-    text-align: left;
+    text-align: center;
     border-bottom: none;
     font-size: 18px;
     padding-bottom: 0;
@@ -2960,10 +2960,12 @@ div.portfolio table tbody td {
     font-weight: bold;
 }
 
-article.latestgallery p {
-    left: 12%;
+article.latestgallery p,
+article.latestgallery_left p {
     position: relative;
     width: 90%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .main-container header {
@@ -3433,5 +3435,35 @@ article.latestgallery p {
 
     .nav li:hover ul {
         display: block;
+    }
+
+    /* Footer columns full width on mobile */
+    /* Footer columns center aligned on mobile */
+    .grid .latestgallery_left,
+    .grid .latestgallery {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .grid .latestgallery {
+        margin-top: 20px;
+    }
+
+    .grid .latestgallery h2,
+    .grid .latestgallery_left h2 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    article.latestgallery p,
+    article.latestgallery_left p {
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
