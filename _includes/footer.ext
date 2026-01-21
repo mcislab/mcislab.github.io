@@ -3,34 +3,21 @@
     <div class="calloutcontainer"> 
         <div class="container_12"> 
             <div class="grid"> 
-                 <!--<article class="footbox">
-      <h2>Latest News</h2>
-      <ul>
-        <li><a href="news.html#may01_14">MSR 2014 Distinguished Paper Award!</a><br/>
-         Our paper on <a href="http://sail.cs.queensu.ca/Downloads/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf">The Impact of Code Review Coverage and Code Review Participation on Software Quality ...</a>
-		</li>
-        <li><a href="news.html#april29_14">MAKAO 1.8, Major Revamp!</a><br/>
-        Are you struggling with your Makefiles? Fear not, <a href="makao.html">version 1.8 of MAKAO</a> will make analysis of your build system as streamlined as never before! ...
-		</li>
-       </ul>
-    </article>-->
-    <article class="footbox last">
-	      <a class="twitter-timeline"  href="https://twitter.com/mcis_lab"  data-widget-id="364476197008199680">Tweets by @mcis_lab</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </article>
-  <article class="latestgallery">
+    <article class="latestgallery_left">
       <h2>Latest Work</h2>
-      <p>
-           FERREIRA, I., CHENG, J. and ADAMS, B. (2021). <a href="https://cscw.acm.org/2021/">The &ldquo;Shut the f**k up&rdquo; Phenomenon: Characterizing Incivility in Open Source Code Review Discussions</a>, in Proceedings of the 24th ACM Conference on Computer-Supported Cooperative Work and Social Computing, CSCW (virtual), to appear.&nbsp;<a href="publications/2021/cscw.bib"><i>BibTeX</i></a>
+      {% for paper in site.data.latest_papers limit:2 %}
+          <p>
+           {{ paper.authors }} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
          </p><br/>
-         <p>
-           FOUNDJEM, A., EGHAN, E.E. and ADAMS, B. (2021). <a href="publications/2021/icse_armstrong.pdf">Onboarding vs. Diversity, Productivity and Quality -- Empirical Study of the OpenStack Ecosystem</a>, in Proceedings of the 43rd International Conference on Software Engineering, ICSE (Madrid, Spain), to appear. (Acceptance ratio: 138/602=22.92%)&nbsp;<a href="publications/2021/icse_armstrong.bib"><i>BibTeX</i></a>
+      {% endfor %}
+    </article>
+
+    <article class="latestgallery">
+      {% for paper in site.data.latest_papers offset:2 limit:2 %}
+          <p>
+           {{ paper.authors }} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
          </p><br/>
-         <p>BARRAK, A., EGHAN, E., ADAMS, B., and KHOMH, F. (2021). <a href="publications/2021/jss_amine.pdf">Why do Builds Fail? - A Conceptual Replication Study</a>, Journal of Software and Systems (JSS), Elsevier, to appear.&nbsp;<a href="publications/2021/jss_amine.bib"><i>BibTeX</i></a></p><br/>
-                  <p>
-           BARRAK, A., EGHAN, E.E. and ADAMS, B. (2021). <a href="publications/2021/saner.pdf">On the Co-evolution of ML Pipelines and Source Code - Empirical Study of DVC Projects</a>, in Proceedings of the 28th IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER (Hawaii, USA), to appear. (Acceptance ratio: 42/165=25%)&nbsp;<a href="publications/2021/saner.bib"><i>BibTeX</i></a>
-         </p>
-      </ul>
+      {% endfor %}
     </article>
     
             <div class="clear"></div> 

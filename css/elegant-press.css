@@ -642,17 +642,34 @@ header p {
     text-align: center
 }
 
+.grid .latestgallery_left {
+    display: block;
+    float: left;
+    width: 420px;
+    margin: 0;
+    padding: 0
+}
+
 .grid .latestgallery {
     display: block;
     float: right;
     width: 420px;
-    margin: 0;
+    margin: 32px 0 0 0;
     padding: 0
 }
 
 .grid .latestgallery h2 {
     margin-left: 50px;
     text-align: center
+}
+
+.grid .latestgallery_left h2 {
+    margin-left: 0;
+    text-align: left;
+    border-bottom: none;
+    font-size: 18px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .grid .latestgallery li {
