@@ -37,14 +37,12 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
     <div id="featured">
       <ul>
         <li>
-          <h5>Build Maintenance</h5>
-          <p class="imgholder"><img src="images/bulldozer.jpg" width="210" height="90" alt="" /></p>
-          <p>Did you know that build files like makefiles, ant files and configuration files change relatively
-            more than source code files do? And did you know that in <b>up to 27% of the work items</b> in
-            which a source code file is changed, a build file needs to be updated?</p>
-          <p class="readmore"><a
-              href="http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf">Check
-              out our ICSE 2011 paper &raquo;</a></p>
+          <h5>InterTrans Code Translation</h5>
+          <p class="imgholder"><img src="images/intertrans-sidebar.png" width="210" height="90" alt="InterTrans" /></p>
+          <p>Did you know that leveraging **intermediate translations** across programming languages can bridge
+            syntactic gaps and boost LLM translation accuracy by up to 43.3%? <b>Check out our ICSE 2025 paper
+              &raquo;</b></p>
+          <p class="readmore"><a href="https://arxiv.org/abs/2411.01063">Read more &raquo;</a></p>
         </li>
       </ul>
     </div>
@@ -52,14 +50,13 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
     <div id="featured">
       <ul>
         <li>
-          <h5>Release Engineering</h5>
-          <p class="imgholder"><img src="images/jam.jpg" width="210" height="90" alt="" /></p>
-          <p>What is release engineering and which activities need to be performed? What are <b>today's
-              challenges</b> for the build and integration phases of release engineering? How does our
-            work fit with these challenges?</p>
-          <p class="readmore"><a
-              href="http://www.slideshare.net/bramadams/on-software-release-engineering-bram-adams">Check
-              out our ICSE 2012 technical briefing on release engineering &raquo;</a></p>
+          <h5>LLM Output Biases</h5>
+          <p class="imgholder"><img src="images/output-format-sidebar.png" width="210" height="90"
+              alt="Output Biases" /></p>
+          <p>Did you know that **up to 73% of LLM translation outputs** contain non-code elements that bias evaluation?
+            We propose strategies to extract clean code for reliable assessment. <b>Check out our EMSE 2026 paper
+              &raquo;</b></p>
+          <p class="readmore"><a href="https://arxiv.org/abs/2403.17214">Read more &raquo;</a></p>
         </li>
       </ul>
     </div>
@@ -67,15 +64,89 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
     <div id="featured">
       <ul>
         <li>
-          <h5>Concern Mining</h5>
-          <p class="imgholder"><img src="images/rubicub.jpg" width="210" height="90" alt="" /></p>
-          <p>Mining a software system to identify the concerns crosscutting it is tedious. Most of the
-            existing tools only return a set of function names, cannot deal with noise in identifier names,
-            and merely yield a set of words without any structure. We propose to <b>use the system's
-              development history</b> to address these three shortcomings.</p>
-          <p class="readmore"><a
-              href="http://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf">Check
-              out our ICSE 2010 paper &raquo;</a></p>
+          <h5>Leaderboard Smells</h5>
+          <p class="imgholder"><img src="images/lbops-smells-sidebar.png" width="210" height="90" alt="LBOps" /></p>
+          <p>Did you know that we identified **eight unique types of leaderboard smells**? Identifying these pitfalls
+            helps stakeholders perform more transparent foundation model selection. <b>Check out our TSE 2025 paper
+              &raquo;</b></p>
+          <p class="readmore"><a href="https://arxiv.org/abs/2407.04065">Read more &raquo;</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="featured">
+      <ul>
+        <li>
+          <h5>Code Review Prediction</h5>
+          <p class="imgholder"><img src="images/code-review-sidebar.png" width="210" height="90" alt="Code Review" />
+          </p>
+          <p>Did you know that re-ordering files in a patch can increase **file-level hot-spot recall by 8%**?
+            Predicting where comments are likely helps reviewers focus their effort. <b>Check out our FSE 2024 paper
+              &raquo;</b></p>
+          <p class="readmore"><a href="https://arxiv.org/abs/2404.10703">Read more &raquo;</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="featured">
+      <ul>
+        <li>
+          <h5>ML Model Recycling</h5>
+          <p class="imgholder"><img src="images/model-recycling-sidebar.png" width="210" height="90"
+              alt="Model Recycling" /></p>
+          <p>Did you know that **recycling old ML models** instead of discarding them can significantly lower the
+            computational footprint and cost of AI development? <b>Check out our EMSE 2024 paper &raquo;</b></p>
+          <p class="readmore"><a href="publications/2024/emse_harsh.pdf">Read more &raquo;</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="featured">
+      <ul>
+        <li>
+          <h5>ML Asset Management</h5>
+          <p class="imgholder"><img src="images/featured1.jpg" width="210" height="90" alt="Asset Mgmt" /></p>
+          <p>Did you know that **model versioning and data traceability** are the primary pain points for developers in
+            ML asset management? We analyzed 15,000+ posts to identify key challenges. <b>Check out our EMSE 2024 paper
+              &raquo;</b></p>
+          <p class="readmore"><a href="https://arxiv.org/abs/2402.15990">Read more &raquo;</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="featured">
+      <ul>
+        <li>
+          <h5>Unreproducible Builds</h5>
+          <p class="imgholder"><img src="images/featured2.jpg" width="210" height="90" alt="Unreproducible" /></p>
+          <p>Did you know that we are investigating how much **build unreproducibility is caused by external ecosystem
+            dependencies** rather than the project's own codebase? <b>Check out our EMSE 2024 paper &raquo;</b></p>
+          <p class="readmore"><a href="publications/2024/emse_rahul.pdf">Read more &raquo;</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="featured">
+      <ul>
+        <li>
+          <h5>ML Pipeline Taxonomy</h5>
+          <p class="imgholder"><img src="images/featured3.jpg" width="210" height="90" alt="Pipeline Taxonomy" /></p>
+          <p>Did you know that we extended the taxonomy of code changes with **15 new categories specific to ML
+            pipelines**, including parameter tuning and data pre-processing? <b>Check out our EMSE 2023 paper
+              &raquo;</b></p>
+          <p class="readmore"><a href="https://arxiv.org/abs/2203.11365">Read more &raquo;</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="featured">
+      <ul>
+        <li>
+          <h5>Build Batching for CI</h5>
+          <p class="imgholder"><img src="images/featured1.jpg" width="210" height="90" alt="Build Batching" /></p>
+          <p>Did you know that dynamic build batching can **save over 20% of CI resources** while identifying build
+            failures faster than traditional heuristics? <b>Check out our EMSE 2025 paper &raquo;</b></p>
+          <p class="readmore"><a href="publications/2025/emse_divya_light.pdf">Read more &raquo;</a></p>
         </li>
       </ul>
     </div>
@@ -88,67 +159,73 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
     <br />
     <h3>Journal</h3>
     <ul>
-        <li>
-            LI, H., MASRI, H., C&#212;GO, F.R., BANGASH, A.A., ADAMS, B. and HASSAN, A.E. (2026). <a
-                href="https://arxiv.org/abs/2509.12421">Understanding Prompt
-                Management in GitHub Repositories: A Call for Best Practices</a>, IEEE Software, IEEE,
-            to appear.&nbsp;<a href="publications/2026/ieeesw-hicham.bib"><i>BibTeX</i></a>
-        </li>
-                <li>BHATIA, A., KHOMH, F., ADAMS, B. and HASSAN, A.E. (2026). <a href="https://arxiv.org/abs/2311.12019">An Empirical
-                Study of Self-Admitted Technical Debt in Machine Learning Software</a>,
-            Transactions on Software
-            Engineering and Methodology (TOSEM), ACM, to appear.&nbsp;<a
-                href="publications/2026/tosem_aadi.bib"><i>BibTeX</i></a></li>    
-        <li>MACEDO, M., TIAN, Y., C&#212;GO, F.R. and ADAMS, B. (2026). <a href="https://arxiv.org/abs/2403.17214">Output
-                Format
-                Biases in the Evaluation of Large Language Models for Code Translation</a>, Empirical Software Engineering, 31(41), Springer.&nbsp;<a href="publications/2026/emse_output.bib"><i>BibTeX</i></a>
-        </li>
-                <li>SINGH, J., FALLAHZADEH, E., ADAMS, B. and HASSAN, A.E. (2025). <a href="publications/2026/emse_blackbox.pdf">On
-                        the
-                        Impact of Black-box Deployment Strategies for Edge AI on
-                        Latency and Model Performance - Empirical Study on ONNX</a>, Empirical Software Engineering, Springer, to
-                    appear.&nbsp;<a href="publications/2026/emse_blackbox.bib"><i>BibTeX</i></a>
-                </li>
-                </ul>
+      <li>
+        LI, H., MASRI, H., C&#212;GO, F.R., BANGASH, A.A., ADAMS, B. and HASSAN, A.E. (2026). <a
+          href="https://arxiv.org/abs/2509.12421">Understanding Prompt
+          Management in GitHub Repositories: A Call for Best Practices</a>, IEEE Software, IEEE,
+        to appear.&nbsp;<a href="publications/2026/ieeesw-hicham.bib"><i>BibTeX</i></a>
+      </li>
+      <li>BHATIA, A., KHOMH, F., ADAMS, B. and HASSAN, A.E. (2026). <a href="https://arxiv.org/abs/2311.12019">An
+          Empirical
+          Study of Self-Admitted Technical Debt in Machine Learning Software</a>,
+        Transactions on Software
+        Engineering and Methodology (TOSEM), ACM, to appear.&nbsp;<a
+          href="publications/2026/tosem_aadi.bib"><i>BibTeX</i></a></li>
+      <li>MACEDO, M., TIAN, Y., C&#212;GO, F.R. and ADAMS, B. (2026). <a href="https://arxiv.org/abs/2403.17214">Output
+          Format
+          Biases in the Evaluation of Large Language Models for Code Translation</a>, Empirical Software Engineering,
+        31(41), Springer.&nbsp;<a href="publications/2026/emse_output.bib"><i>BibTeX</i></a>
+      </li>
+      <li>SINGH, J., FALLAHZADEH, E., ADAMS, B. and HASSAN, A.E. (2025). <a
+          href="publications/2026/emse_blackbox.pdf">On
+          the
+          Impact of Black-box Deployment Strategies for Edge AI on
+          Latency and Model Performance - Empirical Study on ONNX</a>, Empirical Software Engineering, Springer, to
+        appear.&nbsp;<a href="publications/2026/emse_blackbox.bib"><i>BibTeX</i></a>
+      </li>
+    </ul>
     <br />
-    </div>
+  </div>
 
   <div class="content">
     <h2><a name="2025"></a>2025</h2>
     <br />
     <h3>Journal</h3>
     <ul>
-    <li>
+      <li>
         ZHENG, S., ADAMS, B. and HASSAN, A.E. (2025). <a href="publications/2025/ieeesw-shenyu.pdf">On Build
-            Hermeticity in
-            Bazel-based Build
-            Systems</a>, IEEE Software, Vol. 42, pp. 55-63, IEEE.&nbsp;<a href="publications/2025/ieeesw-shenyu.bib"><i>BibTeX</i></a>
-    </li>
-    <li>AJIBODE, A., BANGASH, A.A., C&#212;GO, F.R., ADAMS, B. and HASSAN, A.E. (2025). <a
-            href="publications/2025/emse_semver.pdf">Towards Semantic Versioning of Open Pre-trained Language Model Releases
-            on Hugging Face</a>, Empirical Software Engineering, 30(3), Springer.&nbsp;<a
-            href="publications/2025/emse_semver.bib"><i>BibTeX</i></a>
-    </li>
-    <li>ZHAO, Z., BANGASH, A.A., C&#212;GO, F.R., ADAMS, B. and HASSAN, A.E. (2025). <a
-            href="https://arxiv.org/abs/2407.04065">On the Workflows and Smells of Leaderboard Operations (LBOps): An
-            Exploratory Study of Foundation Model Leaderboards</a>, Transactions on Software Engineering
+          Hermeticity in
+          Bazel-based Build
+          Systems</a>, IEEE Software, Vol. 42, pp. 55-63, IEEE.&nbsp;<a
+          href="publications/2025/ieeesw-shenyu.bib"><i>BibTeX</i></a>
+      </li>
+      <li>AJIBODE, A., BANGASH, A.A., C&#212;GO, F.R., ADAMS, B. and HASSAN, A.E. (2025). <a
+          href="publications/2025/emse_semver.pdf">Towards Semantic Versioning of Open Pre-trained Language Model
+          Releases
+          on Hugging Face</a>, Empirical Software Engineering, 30(3), Springer.&nbsp;<a
+          href="publications/2025/emse_semver.bib"><i>BibTeX</i></a>
+      </li>
+      <li>ZHAO, Z., BANGASH, A.A., C&#212;GO, F.R., ADAMS, B. and HASSAN, A.E. (2025). <a
+          href="https://arxiv.org/abs/2407.04065">On the Workflows and Smells of Leaderboard Operations (LBOps): An
+          Exploratory Study of Foundation Model Leaderboards</a>, Transactions on Software Engineering
         (TSE), 51(4), p.929-946, IEEE.&nbsp;<a href="publications/2025/tse_jimmy.bib"><i>BibTeX</i></a>
-    </li>    
-    <li>EBRAHIMI, A., ADAMS, B., OLIVA, G.A. and HASSAN, A.E. (2025). <a href="https://arxiv.org/abs/2501.00674">UPC
+      </li>
+      <li>EBRAHIMI, A., ADAMS, B., OLIVA, G.A. and HASSAN, A.E. (2025). <a href="https://arxiv.org/abs/2501.00674">UPC
           Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum</a>, Empirical
         Software
         Engineering, 30(3), Springer.&nbsp;<a href="publications/2025/emse_amir_sentinel.bib"><i>BibTeX</i></a>
-    </li>
-    <li>KAMATH, D.M., ADAMS, B. and HASSAN, A.E. (2025). <a href="publications/2025/emse_divya_light.pdf">Lightweight
-            Dynamic Build Batching Algorithms for Continuous Integration</a>, Empirical Software
+      </li>
+      <li>KAMATH, D.M., ADAMS, B. and HASSAN, A.E. (2025). <a href="publications/2025/emse_divya_light.pdf">Lightweight
+          Dynamic Build Batching Algorithms for Continuous Integration</a>, Empirical Software
         Engineering, 30(2), Springer.&nbsp;<a href="publications/2025/emse_divya_light.bib"><i>BibTeX</i></a></li>
-    <li>FALLAHZADEH, E., RIGBY, P.C. and ADAMS, B. (2025). <a href="publications/2025/emse_scale.pdf">Contrasting Test
-            Selection, Prioritization, and Batch Testing at Scale</a>, Empirical Software
+      <li>FALLAHZADEH, E., RIGBY, P.C. and ADAMS, B. (2025). <a href="publications/2025/emse_scale.pdf">Contrasting Test
+          Selection, Prioritization, and Batch Testing at Scale</a>, Empirical Software
         Engineering, 30(1), Springer.&nbsp;<a href="publications/2025/emse_scale.bib"><i>BibTeX</i></a></li>
-    <li>
+      <li>
         PATEL, H., BOUCHER, D., FALLAHZADEH, E., HASSAN, A.E. and ADAMS, B. (2025). <a
           href="publications/2025/ieeesw-harsh.pdf">A State-of-the-practice Release-readiness
-          Checklist for Generative AI-based Software Products</a>, IEEE Software, 42(1), p.74-83, IEEE.&nbsp;<a href="publications/2025/ieeesw-harsh.bib"><i>BibTeX</i></a>
+          Checklist for Generative AI-based Software Products</a>, IEEE Software, 42(1), p.74-83, IEEE.&nbsp;<a
+          href="publications/2025/ieeesw-harsh.bib"><i>BibTeX</i></a>
       </li>
       <li>
         YASMIN, J., WANG, J., TIAN, Y., and ADAMS, B. (2025). <a href="https://arxiv.org/abs/2406.00180">An
@@ -160,7 +237,9 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
     <h3>Conference</h3>
     <ul>
       <li>
-        MACEDO, M., TIAN, Y., NIE, P., C&#212;GO, F.R. and ADAMS, B. (2025). <a href="https://arxiv.org/abs/2411.01063">InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation</a>, in Proceedings of the 47th International Conference
+        MACEDO, M., TIAN, Y., NIE, P., C&#212;GO, F.R. and ADAMS, B. (2025). <a
+          href="https://arxiv.org/abs/2411.01063">InterTrans: Leveraging Transitive Intermediate Translations to Enhance
+          LLM-based Code Translation</a>, in Proceedings of the 47th International Conference
         on Software Engineering, ICSE (Ottawa, ON), to appear. (Acceptance ratio:
         N/A)&nbsp;<a href="publications/2025/icse25.bib"><i>BibTeX</i></a>
       </li>
@@ -179,21 +258,22 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
     <br />
     <h3>Workshop</h3>
     <ul>
-    <li>MACEDO, M., TIAN, Y., and ADAMS, B. (2025). <a href="https://openreview.net/forum?id=9WHJuzjPJf">CodeTransEngine:
-            Ready-to-use Backend for
-            LLM-based Code Translation</a>, in Proceedings of the 3rd Workshop on Deep Learning for Code, DL4C
+      <li>MACEDO, M., TIAN, Y., and ADAMS, B. (2025). <a
+          href="https://openreview.net/forum?id=9WHJuzjPJf">CodeTransEngine:
+          Ready-to-use Backend for
+          LLM-based Code Translation</a>, in Proceedings of the 3rd Workshop on Deep Learning for Code, DL4C
         (Singapore).&nbsp;<a href="publications/2025/dl4c.bib"><i>BibTeX</i></a>
-    </li>
+      </li>
     </ul>
     <br /><br /><br /><br />
-    </div>
+  </div>
 
   <div class="content">
     <h2><a name="2024"></a>2024</h2>
     <br />
     <h3>Journal</h3>
     <ul>
-    <li>
+      <li>
         OREAMUNO, E.L., KHAN, R.F., BANGASH, A.A., STINSON, C. and ADAMS, B. (2024). <a
           href="publications/2024/ieeesw-ernesto.pdf">The
           State of Documentation Practices of Third-party Machine Learning Models and Datasets</a>, IEEE
@@ -252,7 +332,8 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
         OLEWICKI, D., HABCHI, S. and ADAMS, B. (2024). <a href="https://arxiv.org/abs/2404.10703">An empirical
           study on code
           review activity prediction and its impact in practice</a>, in Proceedings of the ACM
-        on Software Engineering (PACMSE), Issue FSE 2024 (Porto de Galinhas, Brazil), article nr. 99, p. 2238 - 2260. (Acceptance
+        on Software Engineering (PACMSE), Issue FSE 2024 (Porto de Galinhas, Brazil), article nr. 99, p. 2238 - 2260.
+        (Acceptance
         ratio: 121/483=25.1%)&nbsp;<a href="publications/2024/fse.bib"><i>BibTeX</i></a>
       </li>
       <li>
@@ -268,7 +349,8 @@ title: Research Results on Maintenance, Construction and Intelligence of Softwar
           style="color: black; font-weight: bold">(Distinguished Paper
           Award)</span>
       </li>
-      <li>MACEDO, M., TIAN, Y., C&#212;GO, F.R. and ADAMS, B. (2024). <a href="https://arxiv.org/abs/2403.17214">Exploring the
+      <li>MACEDO, M., TIAN, Y., C&#212;GO, F.R. and ADAMS, B. (2024). <a
+          href="https://arxiv.org/abs/2403.17214">Exploring the
           Impact
           of the Output Format on
           the Evaluation of Large Language Models for Code Translation</a>, in Proceedings of the 2024 Special
