@@ -560,7 +560,7 @@ header p {
 .sidebar #featured li p.imgholder {
     display: block;
     width: 210px;
-    height: 90px;
+    height: 158px;
     border: 1px solid #CCC;
     margin: 20px 0 15px;
     padding: 4px
@@ -1564,17 +1564,27 @@ table tbody tr.dark {
     padding: 30px 0 0
 }
 
-#home_featured2 img {
-    display: inline
-}
-
 #home_featured2 .imgholder {
     display: block;
-    width: 290px;
-    background: url(../images/image-frames.png) top left no-repeat;
-    height: 180px;
-    margin: 0;
-    padding: 9px
+    width: 210px;
+    height: 158px;
+    border: 1px solid #CCC;
+    margin: 0 auto 10px;
+    padding: 4px;
+    overflow: hidden;
+}
+
+#home_featured2 .imgholder a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#home_featured2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #home_featured2 li {
