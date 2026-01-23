@@ -1,2 +1,26 @@
 {% assign p = include.pub %}
-{% for author in p.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ p.year | default: site.data.current_year }}). <a href="{{ p.url }}">{{ p.title }}</a>{% if p.venue %}, {{ p.venue }}{% endif %}{% if p.address %} ({{ p.address }}){% endif %}{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.number %}({{ p.number }}){% endif %}{% if p.pages %}, p. {{ p.pages }}{% endif %}{% if p.publisher %}, {{ p.publisher }}{% endif %}{% if p.status %}, {{ p.status }}{% endif %}.{% if p.acceptance_ratio %} (Acceptance ratio: {{ p.acceptance_ratio }}){% endif %}{% if p.award %}&nbsp;<span style="color: black; font-weight: bold">({{ p.award }})</span>{% endif %}{% if p.replication_package %}&nbsp;<span style="color: black; font-weight: bold">[<a href="{{ p.replication_package }}">replication package</a>]</span>{% endif %}{% if p.bibtex %}&nbsp;<a href="{{ p.bibtex }}"><i>BibTeX</i></a>{% endif %}
+{% for author in p.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ p.year | default: site.data.current_year }}). {% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}{% if p.venue %}, {{ p.venue }}{% endif %}{% if p.address %} ({{ p.address }}){% endif %}{% if p.volume %}, {{ p.volume }}{% if p.number %}({{ p.number }}){% endif %}{% endif %}{% if p.article_number %}, article nr. {{ p.article_number }}{% endif %}{% if p.pages %}{% unless p.article_number contains p.pages %}, p. {{ p.pages }}{% endunless %}{% endif %}{% if p.publisher %}, {{ p.publisher }}{% endif %}{% if p.status %}, {{ p.status }}{% endif %}.{% if p.acceptance_ratio %} (Acceptance ratio: {{ p.acceptance_ratio }}){% endif %}{% if p.awards or p.award %}&nbsp;<span style="color: black; font-weight: bold">(
+    {%- assign real_awards = "" -%}
+    {%- assign mention_urls = "" -%}
+    {%- if p.awards -%}
+        {%- for a in p.awards -%}
+            {%- if a contains "mentioned in " -%}
+                {%- assign link = a | split: "mentioned in " | last -%}
+                {%- capture mention_urls -%}{{ mention_urls }}{% if mention_urls != "" %}|{% endif %}{{ link }}{%- endcapture -%}
+            {%- else -%}
+                {%- capture real_awards -%}{{ real_awards }}{% if real_awards != "" %}, {% endif %}{{ a }}{%- endcapture -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- else -%}
+        {%- assign real_awards = p.award -%}
+    {%- endif -%}
+    {{- real_awards -}}
+    {%- if real_awards != "" and mention_urls != "" -%}, {% endif -%}
+    {%- if mention_urls != "" -%}
+        mentioned&nbsp;
+        {%- assign m_list = mention_urls | split: "|" -%}
+        {%- for url in m_list -%}
+            <a href="{{ url }}">here</a>{%- unless forloop.last -%}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{%- endunless -%}
+        {%- endfor -%}
+    {%- endif -%}
+)</span>{% endif %}{% if p.replication_package %}&nbsp;<span style="color: black; font-weight: bold">[<a href="{{ p.replication_package }}">{% if p.replication_package contains "youtube" or p.replication_package contains "video" %}video recording{% elsif p.replication_package contains "source" %}source code{% else %}replication package{% endif %}</a>]</span>{% endif %}{% if p.bibtex %}&nbsp;<a href="{{ p.bibtex }}"><i>BibTeX</i></a>{% endif %}

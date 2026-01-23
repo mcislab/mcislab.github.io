@@ -8,7 +8,8 @@
     - Bram Adams
     - Ahmed E. Hassan
     year: 2026
-    title: 'Understanding Prompt Management in GitHub Repositories: A Call for Best Practices'
+    title: 'Understanding Prompt Management in GitHub Repositories: A Call for Best
+      Practices'
     venue: IEEE Software
     publisher: IEEE
     status: to appear
@@ -20,7 +21,8 @@
     - Bram Adams
     - Ahmed E. Hassan
     year: 2026
-    title: An Empirical Study of Self-Admitted Technical Debt in Machine Learning Software
+    title: An Empirical Study of Self-Admitted Technical Debt in Machine Learning
+      Software
     venue: Transactions on Software Engineering and Methodology (TOSEM)
     publisher: ACM
     status: to appear
@@ -32,8 +34,9 @@
     - Filipe Roseiro Côgo
     - Bram Adams
     year: 2026
-    title: Output Format Biases in the Evaluation of Large Language Models for Code Translation
-    venue: Empirical Software Engineering
+    title: Output Format Biases in the Evaluation of Large Language Models for Code
+      Translation
+    venue: Empirical Software Engineering (EMSE)
     publisher: Springer
     volume: '31'
     number: '41'
@@ -45,8 +48,9 @@
     - Bram Adams
     - Ahmed E. Hassan
     year: 2025
-    title: On the Impact of Black-box Deployment Strategies for Edge AI on Latency and Model Performance - Empirical Study on ONNX
-    venue: Empirical Software Engineering
+    title: On the Impact of Black-box Deployment Strategies for Edge AI on Latency
+      and Model Performance - Empirical Study on ONNX
+    venue: Empirical Software Engineering (EMSE)
     publisher: Springer
     status: to appear
     url: publications/2026/emse_blackbox.pdf
@@ -72,8 +76,9 @@
     - Bram Adams
     - Ahmed E. Hassan
     year: 2025
-    title: Towards Semantic Versioning of Open Pre-trained Language Model Releases on Hugging Face
-    venue: Empirical Software Engineering
+    title: Towards Semantic Versioning of Open Pre-trained Language Model Releases
+      on Hugging Face
+    venue: Empirical Software Engineering (EMSE)
     volume: '30'
     number: '3'
     publisher: Springer
@@ -86,7 +91,8 @@
     - Bram Adams
     - Ahmed E. Hassan
     year: 2025
-    title: 'On the Workflows and Smells of Leaderboard Operations (LBOps): An Exploratory Study of Foundation Model Leaderboards'
+    title: 'On the Workflows and Smells of Leaderboard Operations (LBOps): An Exploratory
+      Study of Foundation Model Leaderboards'
     venue: Transactions on Software Engineering (TSE)
     volume: '51'
     number: '4'
@@ -100,8 +106,9 @@
     - Gustavo A. Oliva
     - Ahmed E. Hassan
     year: 2025
-    title: 'UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum'
-    venue: Empirical Software Engineering
+    title: 'UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy
+      Contracts in Ethereum'
+    venue: Empirical Software Engineering (EMSE)
     volume: '30'
     number: '3'
     publisher: Springer
@@ -113,7 +120,7 @@
     - Ahmed E. Hassan
     year: 2025
     title: Lightweight Dynamic Build Batching Algorithms for Continuous Integration
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
     volume: '30'
     number: '2'
     publisher: Springer
@@ -125,7 +132,7 @@
     - Bram Adams
     year: 2025
     title: Contrasting Test Selection, Prioritization, and Batch Testing at Scale
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
     volume: '30'
     number: '1'
     publisher: Springer
@@ -138,7 +145,8 @@
     - Ahmed E. Hassan
     - Bram Adams
     year: 2025
-    title: A State-of-the-practice Release-readiness Checklist for Generative AI-based Software Products
+    title: A State-of-the-practice Release-readiness Checklist for Generative AI-based
+      Software Products
     venue: IEEE Software
     volume: '42'
     number: '1'
@@ -152,7 +160,8 @@
     - Yuan Tian
     - Bram Adams
     year: 2025
-    title: 'An Empirical Study of Developers'' Challenges in Implementing Workflows as Code: A Case Study on Apache Airflow'
+    title: 'An Empirical Study of Developers'' Challenges in Implementing Workflows
+      as Code: A Case Study on Apache Airflow'
     venue: Journal of Software and Systems (JSS)
     volume: '219'
     publisher: Elsevier
@@ -166,8 +175,9 @@
     - Filipe Roseiro Côgo
     - Bram Adams
     year: 2025
-    title: 'InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation'
-    venue: in Proceedings of the 47th International Conference on Software Engineering, ICSE
+    title: 'InterTrans: Leveraging Transitive Intermediate Translations to Enhance
+      LLM-based Code Translation'
+    venue: in Proceedings of the 47th International Conference on Software Engineering (ICSE)
     address: Ottawa, ON
     status: to appear
     acceptance_ratio: N/A
@@ -178,9 +188,11 @@
     - Bram Adams
     - Coen De Roover
     year: 2025
-    title: 'Analysing Software Supply Chains of Infrastructure as Code: Extraction of Ansible Plugin Dependencies'
-    venue: in Proceedings of the 32nd IEEE International Conference on Software Analysis, Evolution and Reengineering, SANER
-    address: Montr&eacute;al, Canada
+    title: 'Analysing Software Supply Chains of Infrastructure as Code: Extraction
+      of Ansible Plugin Dependencies'
+    venue: in Proceedings of the 32nd International Conference on Software Analysis,
+      Evolution and Reengineering (SANER)
+    address: Montréal, Canada
     pages: 181-192
     publisher: IEEE
     acceptance_ratio: 52/225=23.21%
@@ -193,14 +205,15 @@
     - Bram Adams
     year: 2025
     title: 'CodeTransEngine: Ready-to-use Backend for LLM-based Code Translation'
-    venue: in Proceedings of the 3rd Workshop on Deep Learning for Code, DL4C
+    venue: in Proceedings of the 3rd Workshop on Deep Learning for Code (DL4C)
     address: Singapore
     url: https://openreview.net/forum?id=9WHJuzjPJf
     bibtex: publications/2025/dl4c.bib
 2024:
   journal:
   - year: 2024
-    title: The State of Documentation Practices of Third-party Machine Learning Models and Datasets
+    title: The State of Documentation Practices of Third-party Machine Learning Models
+      and Datasets
     url: publications/2024/ieeesw-ernesto.pdf
     bibtex: publications/2024/ieeesw-ernesto.bib
     authors:
@@ -215,7 +228,8 @@
     publisher: IEEE
     venue: IEEE Software
   - year: 2024
-    title: On Combining Commit Grouping and Build Skip Prediction to Reduce Redundant Continuous Integration Activity
+    title: On Combining Commit Grouping and Build Skip Prediction to Reduce Redundant
+      Continuous Integration Activity
     url: publications/2024/emse_divya_timeout.pdf
     bibtex: publications/2024/emse_divya_timeout.bib
     authors:
@@ -226,7 +240,7 @@
     volume: '29'
     number: '6'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2024
     title: Does Using Bazel Help Speed Up Continuous Integration Builds?
     url: https://arxiv.org/abs/2405.00796
@@ -238,7 +252,7 @@
     volume: '29'
     number: '5'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2024
     title: The impact of Concept drift and Data leakage on Log Level Prediction Models
     url: https://sail.cs.queensu.ca/data/pdfs/2024_The_Impact_of_Concept_Drift_and_Data_leakage_on_Log_Level_Prediction_Models.pdf
@@ -252,9 +266,10 @@
     volume: '29'
     number: '5'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2024
-    title: Post Deployment Recycling of Machine Learning Models - Don't Throw Away Your Old Models!
+    title: Post Deployment Recycling of Machine Learning Models - Don't Throw Away
+      Your Old Models!
     url: publications/2024/emse_harsh.pdf
     bibtex: publications/2024/emse_harsh.bib
     authors:
@@ -264,7 +279,7 @@
     volume: '29'
     number: '4'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2024
     title: A Large-Scale Exploratory Study on the Proxy Pattern in Ethereum
     url: https://sail.cs.queensu.ca/data/pdfs/2024_A_Large-Scale_Exploratory_Study_on_the_Proxy_Pattern_in_Ethereum.pdf
@@ -277,7 +292,7 @@
     volume: '29'
     number: '4'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2024
     title: An Empirical Study of Challenges in Machine Learning Asset Management
     url: https://arxiv.org/abs/2402.15990
@@ -291,9 +306,10 @@
     volume: '29'
     number: '4'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2024
-    title: 'Towards Graph-Anonymization of Software Analytics Data: Empirical Study on JIT Defect Prediction'
+    title: 'Towards Graph-Anonymization of Software Analytics Data: Empirical Study
+      on JIT Defect Prediction'
     url: publications/2024/emse_akshat_within.pdf
     bibtex: publications/2024/emse_akshat_within.bib
     authors:
@@ -303,7 +319,7 @@
     volume: '29'
     number: '4'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2024
     title: Image-based Communication on Social Coding Platforms
     url: https://arxiv.org/abs/2306.15851
@@ -316,7 +332,8 @@
     publisher: Wiley
     venue: 'Journal of Software: Evolution and Process (JSEP)'
   - year: 2024
-    title: 'Unreproducible builds: Time to fix, causes, and correlation with external ecosystem factors'
+    title: 'Unreproducible builds: Time to fix, causes, and correlation with external
+      ecosystem factors'
     url: publications/2024/emse_rahul.pdf
     bibtex: publications/2024/emse_rahul.bib
     authors:
@@ -327,10 +344,11 @@
     volume: '29'
     number: '1'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   conference:
   - year: 2024
-    title: An empirical study on code review activity prediction and its impact in practice
+    title: An empirical study on code review activity prediction and its impact in
+      practice
     url: https://arxiv.org/abs/2404.10703
     bibtex: publications/2024/fse.bib
     authors:
@@ -338,14 +356,14 @@
     - Sarra Habchi
     - Bram Adams
     acceptance_ratio: 121/483=25.1%
-    pages: '2238'
-    issue: FSE 2024
+    pages: 2238-2260
     article_number: '99'
     publisher: ACM
     address: Porto de Galinhas, Brazil
     venue: in Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024
   - year: 2024
-    title: 'On the Costs and Benefits of Adopting Lifelong Learning for Software Analytics: Empirical Study on Brown Build and Risk Prediction'
+    title: 'On the Costs and Benefits of Adopting Lifelong Learning for Software Analytics:
+      Empirical Study on Brown Build and Risk Prediction'
     url: https://arxiv.org/abs/2305.09824
     bibtex: publications/2024/seip.bib
     authors:
@@ -355,13 +373,16 @@
     - Mojtaba Faramarzi
     - Sarath Chandar
     - Bram Adams
-    award: Distinguished Paper Award
+    awards:
+    - Distinguished Paper Award
     acceptance_ratio: 45/120=37.5%
     pages: 275-286
     address: Lisbon, Portugal
-    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at the 46th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at
+      the 46th International Conference on Software Engineering (ICSE)
   - year: 2024
-    title: Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation
+    title: Exploring the Impact of the Output Format on the Evaluation of Large Language
+      Models for Code Translation
     url: https://arxiv.org/abs/2403.17214
     bibtex: publications/2024/forge.bib
     authors:
@@ -369,14 +390,18 @@
     - Yuan Tian
     - Filipe Roseiro Côgo
     - Bram Adams
-    award: Best Paper Award
+    awards:
+    - Best Paper Award
     acceptance_ratio: 8/16=50%
     pages: 57-68
-    venue: in Proceedings of the 2024 Special Event of AI Foundation Models and Software Engineering (FORGE)
+    venue: in Proceedings of the 2024 Special Event of AI Foundation Models and Software
+      Engineering (FORGE)
+    address: Lisbon
 2023:
   journal:
   - year: 2023
-    title: On the Coordination of Vulnerability Fixes - An Empirical Study of Practices from 13 CVE Numbering Authorities
+    title: On the Coordination of Vulnerability Fixes - An Empirical Study of Practices
+      from 13 CVE Numbering Authorities
     url: publications/2023/emse_justina_cna.pdf
     bibtex: publications/2023/emse_justina_cna.bib
     authors:
@@ -386,7 +411,7 @@
     volume: '28'
     number: '6'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2023
     title: 'A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization'
     url: publications/2023/tse_armstrong.pdf
@@ -412,9 +437,9 @@
     volume: '28'
     number: '5'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2023
-    title: On the Discoverability of npm Vulnerabilities in Node. js Projects
+    title: On the Discoverability of npm Vulnerabilities in Node.js Projects
     url: https://das.encs.concordia.ca/pdf/Alfadel_TOSEM2022.pdf
     bibtex: publications/2023/tosem_mahmoud.bib
     authors:
@@ -428,7 +453,8 @@
     publisher: ACM
     venue: Transactions on Software Engineering and Methodology (TOSEM)
   - year: 2023
-    title: 'Towards a change taxonomy for machine learning pipelines: Empirical study of ML pipelines and forks related to academic publications'
+    title: 'Towards a change taxonomy for machine learning pipelines: Empirical study
+      of ML pipelines and forks related to academic publications'
     url: https://arxiv.org/abs/2203.11365
     bibtex: publications/2023/emse_aadi.bib
     authors:
@@ -441,9 +467,10 @@
     volume: '28'
     number: '3'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2023
-    title: 'Vulnerability management in Linux distributions: An empirical study on Debian and Fedora'
+    title: 'Vulnerability management in Linux distributions: An empirical study on
+      Debian and Fedora'
     url: https://sail.cs.queensu.ca/data/pdfs/2023_Vulnerability_management_in_Linux_distributions.pdf
     bibtex: publications/2023/emse_justina.bib
     authors:
@@ -454,7 +481,7 @@
     volume: '28'
     number: '2'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   conference:
   - year: 2023
     title: 'IoPV: On Inconsistent Option Performance Variations'
@@ -471,7 +498,8 @@
     acceptance_ratio: 60/465=12.9%
     pages: 845-857
     address: San Francisco, USA
-    venue: in Proceedings of the 31st Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ESEC/FSE
+    venue: in Proceedings of the 31st Joint European Software Engineering Conference
+      and Symposium on the Foundations of Software Engineering (ESEC/FSE)
   - year: 2023
     title: Understanding the Time to First Response In GitHub Pull Requests
     url: https://arxiv.org/abs/2304.08426
@@ -485,7 +513,8 @@
     acceptance_ratio: 43/115=37.4%
     pages: 1-11
     address: Melbourne, Australia
-    venue: in Proceedings of the 20th International Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 20th International Conference on Mining Software
+      Repositories (MSR)
   other:
   - year: 2023
     title: Foreword
@@ -493,11 +522,14 @@
     authors:
     - Bram Adams
     publisher: Springer
-    venue: 'of Software Ecosystems: Tooling and Analytics'
+    venue: 'in Software Ecosystems: Tooling and Analytics, edited by Tom Mens, Coen
+      De Roover and Anthony Cleve, 1st ed.'
+    pages: vii-ix
 2022:
   journal:
   - year: 2022
-    title: Upstream Bug Management in Linux Distributions - An Empirical Study of Debian and Fedora Practices
+    title: Upstream Bug Management in Linux Distributions - An Empirical Study of
+      Debian and Fedora Practices
     url: https://sail.cs.queensu.ca/data/pdfs/2022_Upstream_bug_management_in_Linux_distributions.pdf
     bibtex: publications/2022/emse_upstream.bib
     authors:
@@ -508,7 +540,7 @@
     volume: '27'
     number: '134'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2022
     title: A mixed-methods analysis of micro-collaborative coding practices in OpenStack
     url: publications/2022/emse_micro.pdf
@@ -521,9 +553,10 @@
     volume: '27'
     number: '120'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
   - year: 2022
-    title: 'There''s no Such Thing as a Free Lunch: Lessons Learned from Exploring the Overhead Introduced by the Greenkeeper Dependency Bot in Npm'
+    title: 'There''s no Such Thing as a Free Lunch: Lessons Learned from Exploring
+      the Overhead Introduced by the Greenkeeper Dependency Bot in Npm'
     url: https://sail.cs.queensu.ca/data/pdfs/2023_Theres_no_Such_Thing_as_a_Free_Lunch_Lessons_Learned_from_Exploring_the_Overhead_Introduced_by_the_Greenkeeper_Dependency_Bot_in_Npm.pdf
     bibtex: publications/2022/tosem_ben.bib
     authors:
@@ -537,7 +570,8 @@
     publisher: ACM
     venue: Transactions on Software Engineering and Methodology (TOSEM)
   - year: 2022
-    title: A user survey on the adoption of crowd-based software engineering instructional screencasts by the new generation of software developers
+    title: A user survey on the adoption of crowd-based software engineering instructional
+      screencasts by the new generation of software developers
     url: https://www.researchgate.net/publication/356560172_A_user_survey_on_the_adoption_of_crowd-based_software_engineering_instructional_screencasts_by_the_new_generation_of_software_developers
     bibtex: publications/2022/jss_parisa.bib
     authors:
@@ -546,6 +580,8 @@
     - Bram Adams
     publisher: Elsevier
     venue: Journal of Software and Systems (JSS)
+    volume: '185'
+    number: C
   - year: 2022
     title: Toward Using Package Centrality Trend to Identify Packages in Decline
     url: https://arxiv.org/abs/2107.10168
@@ -563,7 +599,8 @@
     publisher: IEEE
     venue: Transactions on Engineering Management (TEM)
   - year: 2022
-    title: 'On the Untriviality of Trivial Packages: An Empirical Study of npm JavaScript Packages'
+    title: 'On the Untriviality of Trivial Packages: An Empirical Study of npm JavaScript
+      Packages'
     url: https://das.encs.concordia.ca/pdf/atique_tse2021.pdf
     bibtex: publications/2022/tse_atique.bib
     authors:
@@ -591,7 +628,8 @@
     venue: Transactions on Software Engineering (TSE)
   conference:
   - year: 2022
-    title: On the Challenges of Migrating to Machine Learning Life Cycle Management Platforms
+    title: On the Challenges of Migrating to Machine Learning Life Cycle Management
+      Platforms
     url: https://dl.acm.org/doi/abs/10.5555/3566055.3566061
     bibtex: publications/2023/cascon_aquilas.bib
     authors:
@@ -600,7 +638,9 @@
     - Dimitry Fumtim Silatchom Kamga
     - Bram Adams
     address: Markham, ON, Canada
-    venue: in Proceedings of the 32nd Annual International Conference on Computer Science and Software Engineering, CASCON x EVOKE 2022
+    venue: in Proceedings of the 32nd Annual International Conference on Computer
+      Science and Software Engineering (CASCON x EVOKE)
+    pages: 42-51
   - year: 2022
     title: Exploring trends and practices of forks in open-source software repositories
     url: https://enoei.github.io/papers/hadian2022forks.pdf
@@ -615,7 +655,9 @@
     - Bram Adams
     - Shurui Zhou
     address: Markham, ON, Canada
-    venue: in Proceedings of the 32nd Annual International Conference on Computer Science and Software Engineering, CASCON x EVOKE 2022
+    venue: in Proceedings of the 32nd Annual International Conference on Computer
+      Science and Software Engineering (CASCON x EVOKE)
+    pages: 120-129
   - year: 2022
     title: Towards Language-independent Brown Build Detection
     url: publications/2022/icse22.pdf
@@ -627,7 +669,8 @@
     acceptance_ratio: 197/751=26.23%
     pages: '2177'
     address: Pittsburgh, PA, USA
-    venue: in Proceedings of the 44th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 44th International Conference on Software Engineering (ICSE)
+    pages: 2177-2188
   - year: 2022
     title: How heated is it? Understanding GitHub locked issues
     url: https://arxiv.org/abs/2204.00155
@@ -639,7 +682,8 @@
     acceptance_ratio: 47/137=34.3%
     pages: 309-320
     address: Pittsburgh, PA, USA
-    venue: in Proceedings of the 19th International Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 19th International Conference on Mining Software
+      Repositories (MSR)
   other:
   - year: 2022
     title: Why Do Projects Join the Apache Software Foundation?
@@ -653,7 +697,8 @@
     acceptance_ratio: 17/39=43.59%
     pages: 161-171
     address: Pittsburgh, PA, USA
-    venue: in Proceedings of the Software Engineering in Society track at the 44th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the Software Engineering in Society track at the 44th
+      International Conference on Software Engineering (ICSE)
 2021:
   journal:
   - year: 2021
@@ -670,7 +715,8 @@
     publisher: Elsevier
     venue: Journal of Software and Systems (JSS)
   - year: 2021
-    title: A Qualitative Study of the Benefits and Costs of Logging from Developers' Perspectives
+    title: A Qualitative Study of the Benefits and Costs of Logging from Developers'
+      Perspectives
     url: https://sail.cs.queensu.ca/data/pdfs/TSE2020_QualitativeStudyOfTheBenefitsAndCostsOfLoggingFromDevelopersPerspectives.pdf
     bibtex: publications/2021/tse.bib
     authors:
@@ -682,8 +728,11 @@
     pages: 2858-2873
     publisher: IEEE
     venue: Transactions on Software Engineering (TSE)
+    volume: '47'
+    number: '12'
   - year: 2021
-    title: Evaluating the impact of falsely detected performance bug-inducing changes in JIT models
+    title: Evaluating the impact of falsely detected performance bug-inducing changes
+      in JIT models
     url: https://users.encs.concordia.ca/~shang/pubs/Quach2021_Article_EvaluatingTheImpactOfFalselyDe.pdf
     bibtex: publications/2021/emse_sophia.bib
     authors:
@@ -693,9 +742,12 @@
     - Yasutaka Kamei
     - Weiyi Shang
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '26'
+    number: '97'
   - year: 2021
-    title: 'Individual Differences Limit Predicting Well-being and Productivity Using Software Repositories: A Longitudinal Industrial Study'
+    title: 'Individual Differences Limit Predicting Well-being and Productivity Using
+      Software Repositories: A Longitudinal Industrial Study'
     url: https://arxiv.org/abs/2104.13713
     bibtex: publications/2021/emse_miikka.bib
     authors:
@@ -705,7 +757,9 @@
     - Marko Elovainio
     - Bram Adams
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '26'
+    number: '88'
   - year: 2021
     title: Release Synchronization in Software Ecosystems
     url: publications/2021/emse_armstrong.pdf
@@ -714,7 +768,9 @@
     - Armstrong Tita Foundjem
     - Bram Adams
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '26'
+    number: '34'
   - year: 2021
     title: An Exploratory Study on Machine Learning Model Stores
     url: https://arxiv.org/abs/1905.10677
@@ -726,9 +782,12 @@
     pages: 114-122
     publisher: IEEE
     venue: IEEE Software
+    volume: '38'
+    number: '1'
   conference:
   - year: 2021
-    title: 'The “Shut the f**k up” Phenomenon: Characterizing Incivility in Open Source Code Review Discussions'
+    title: 'The “Shut the f**k up” Phenomenon: Characterizing Incivility in Open Source
+      Code Review Discussions'
     url: https://arxiv.org/pdf/2108.09905v1.pdf
     bibtex: publications/2021/cscw.bib
     authors:
@@ -737,9 +796,14 @@
     - Bram Adams
     article_number: '353'
     publisher: ACM
-    venue: in Proceedings of the 24th ACM Conference on Computer-Supported Cooperative Work and Social Computing,  CSCW (virtual)
+    venue: in Proceedings of the 24th Conference on Computer-Supported Cooperative
+      Work and Social Computing (CSCW)
+    volume: '5'
+    pages: '35'
+    address: virtual
   - year: 2021
-    title: Onboarding vs. Diversity, Productivity and Quality -- Empirical Study of the OpenStack Ecosystem
+    title: Onboarding vs. Diversity, Productivity and Quality - Empirical Study of
+      the OpenStack Ecosystem
     url: publications/2021/icse_armstrong.pdf
     bibtex: publications/2021/icse_armstrong.bib
     authors:
@@ -749,7 +813,7 @@
     acceptance_ratio: 138/602=22.92%
     pages: 1033-1045
     address: Madrid, Spain
-    venue: in Proceedings of the 43rd International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 43rd International Conference on Software Engineering (ICSE)
   - year: 2021
     title: The Impacts of Sentiments and Tones in Community-Generated Issue Discussions
     url: https://arxiv.org/abs/2103.10615
@@ -760,9 +824,12 @@
     - Bram Adams
     acceptance_ratio: 10/38=26.32%
     address: Madrid, Spain
-    venue: in Proceedings of the 14th International Conference on Cooperative and Human Aspects of Software Engineering, CHASE
+    venue: in Proceedings of the 14th International Conference on Cooperative and
+      Human Aspects of Software Engineering (CHASE)
+    pages: 1-10
   - year: 2021
-    title: On the Co-evolution of ML Pipelines and Source Code - Empirical Study of DVC Projects
+    title: On the Co-evolution of ML Pipelines and Source Code - Empirical Study of
+      DVC Projects
     url: publications/2021/saner.pdf
     bibtex: publications/2021/saner.bib
     authors:
@@ -772,10 +839,12 @@
     acceptance_ratio: 42/165=25%
     publisher: IEEE
     address: Hawaii, USA
-    venue: in Proceedings of the 28th IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+    venue: in Proceedings of the 28th International Conference on Software Analysis,
+      Evolution, and Reengineering (SANER)
+    pages: 422-433
   other:
   - year: 2021
-    title: 'MSR4ML: Reconstructing artifact traceability in Machine Learning repositories'
+    title: 'MSR4ML: Reconstructing artifact traceability in Machine Learning repositories [short]'
     url: https://ieeexplore.ieee.org/document/9426012
     bibtex: publications/2021/saner_aquilas.bib
     authors:
@@ -786,7 +855,9 @@
     acceptance_ratio: 12/26=46%
     publisher: IEEE
     address: Hawaii, USA
-    venue: '[short], in Proceedings of the 28th IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER'
+    venue: 'in Proceedings of the 28th International Conference on Software
+      Analysis, Evolution, and Reengineering (SANER)'
+    pages: 536-540
 2020:
   journal:
   - year: 2020
@@ -799,8 +870,11 @@
     pages: 104-108
     publisher: IEEE
     venue: IEEE Software
+    volume: '37'
+    number: '5'
   - year: 2020
-    title: A Feature Location Approach for Mapping Application Features Extracted from Crowd-based Screencasts to Source Code
+    title: A Feature Location Approach for Mapping Application Features Extracted
+      from Crowd-based Screencasts to Source Code
     url: publications/2020/emse_parisa.pdf
     bibtex: publications/2020/emse_parisa.bib
     authors:
@@ -809,21 +883,25 @@
     - Juergen Rilling
     pages: 4873-4926
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '25'
   - year: 2020
     title: 'Swarm Relays: Distributed Self-Healing Ground-and-Air Connectivity Chains'
     url: http://www.arxiv.org/abs/1909.10496
     bibtex: publications/2020/iros.bib
     authors:
-    - VARADHARAJAN, V.S.
-    - ST-ONGE, D.
-    - ADAMS, B.
-    - BELTRAME, G.
+    - Vivek Shankar Varadharajan
+    - David St-Onge
+    - Bram Adams
+    - Giovanni Beltrame
     pages: 5347-5354
     publisher: IEEE
     venue: Robotics and Automation Letters
+    volume: '5'
+    number: '4'
   - year: 2020
-    title: 'Migrating a Software Factory to Design Thinking: Paying Attention to People and Mind-Sets'
+    title: 'Migrating a Software Factory to Design Thinking: Paying Attention to People
+      and Mind-Sets'
     url: https://corpus.ulaval.ca/jspui/handle/20.500.11794/37586
     bibtex: publications/2020/ieeesw_nolwen.bib
     authors:
@@ -834,9 +912,12 @@
     - Sylvie Bissonnette
     pages: 32-40
     publisher: IEEE
-    venue: special issue on Design Thinking
+    venue: IEEE Software (Special Issue on Design Thinking Software)
+    volume: '37'
+    number: '2'
   - year: 2020
-    title: Software Configuration Engineering in Practice - Interviews, Survey, and Systematic Literature Review
+    title: Software Configuration Engineering in Practice - Interviews, Survey, and
+      Systematic Literature Review
     url: publications/2020/tse.pdf
     bibtex: publications/2020/tse.bib
     authors:
@@ -846,6 +927,9 @@
     - Fabio Petrillo
     publisher: IEEE
     venue: Transactions on Software Engineering (TSE)
+    volume: '46'
+    number: '6'
+    pages: 646-673
   conference:
   - year: 2020
     title: On the Impact of Multi-language Development in Machine Learning Frameworks
@@ -858,9 +942,12 @@
     acceptance_ratio: 58/201=28.9%
     publisher: IEEE
     address: Adelaide, Australia
-    venue: in Proceedings of the 36th IEEE International Conference on Software Maintenance and Evolution, ICSME
+    venue: in Proceedings of the 36th International Conference on Software Maintenance
+      and Evolution (ICSME)
+    pages: 546-556
   - year: 2020
-    title: Analysis of Modern Release Engineering Topics - A Large-Scale Study using StackOverflow
+    title: Analysis of Modern Release Engineering Topics - A Large-Scale Study using
+      StackOverflow
     url: publications/2020/icsme_moses.pdf
     bibtex: publications/2020/icsme_moses.bib
     authors:
@@ -870,7 +957,9 @@
     acceptance_ratio: 58/201=28.9%
     publisher: IEEE
     address: Adelaide, Australia
-    venue: in Proceedings of the 36th IEEE International Conference on Software Maintenance and Evolution, ICSME
+    venue: in Proceedings of the 36th International Conference on Software Maintenance
+      and Evolution (ICSME)
+    pages: 104-114
   - year: 2020
     title: On the Impact of Inter-language Dependencies in Multi-language Systems
     url: publications/2020/qrs_manel.pdf
@@ -881,15 +970,18 @@
     - Fehmi Jaafar
     - Ellis Emmanuel Eghan
     - Bram Adams
-    award: Recommended to the IEEE Transactions on Reliability
+    awards:
+    - Recommended to the IEEE Transactions on Reliability
     acceptance_ratio: 36/125=28.8%
     publisher: IEEE
     address: Macau, China
-    venue: in Proceedings of the 2020 IEEE International Conference on Software Quality, Reliability and Security, QRS
+    venue: in Proceedings of the 2020 International Conference on Software Quality,
+      Reliability and Security (QRS)
 2019:
   journal:
   - year: 2019
-    title: A Comparison of Communication Tone and Responding Across Users and Developers in Two R Mailing Lists
+    title: A Comparison of Communication Tone and Responding Across Users and Developers
+      in Two R Mailing Lists
     url: publications/2019/ieeesw_marc.pdf
     bibtex: publications/2019/ieeesw_marc.bib
     authors:
@@ -897,7 +989,9 @@
     - Bram Adams
     pages: 46-50
     publisher: IEEE
-    venue: special issue on Sentiment and Emotion in Software Engineering
+    venue: IEEE Software (Special Issue on Sentiment and Emotion in Software Engineering)
+    volume: '36'
+    number: '5'
   - year: 2019
     title: 'SOUL: Data Sharing for Robot Swarms'
     url: https://unpaywall.org/10.1007%2Fs10514-019-09855-2
@@ -910,8 +1004,10 @@
     volume: '44'
     publisher: Springer
     venue: Autonomous Robots
+    pages: 377-394
   - year: 2019
-    title: A Study of Build Inflation in 30 Million CPAN Builds on 13 Perl Versions and 10 Operating Systems
+    title: A Study of Build Inflation in 30 Million CPAN Builds on 13 Perl Versions
+      and 10 Operating Systems
     url: publications/2019/emse_mahdis.pdf
     bibtex: publications/2019/emse_mahdis.bib
     authors:
@@ -920,7 +1016,8 @@
     - Yann-Gaël Guéhéneuc
     volume: '24'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    pages: 3933-3971
   - year: 2019
     title: 'cregit : Token-level Blame Information in git Version Control Repositories'
     url: https://github.com/dmgerman/papers/raw/master/to-appear/emse-cregit/cregit.pdf
@@ -931,9 +1028,12 @@
     - Kate Stewart
     volume: '24'
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    pages: 2725-2763
   - year: 2019
-    title: 'Towards solving social and technical problems in open source software ecosystems: Using cause-and-effect analysis to disentangle the causes of complex problems'
+    title: 'Towards solving social and technical problems in open source software
+      ecosystems: Using cause-and-effect analysis to disentangle the causes of complex
+      problems'
     url: https://ieeexplore.ieee.org/document/8491285
     bibtex: publications/2019/ieeesw.bib
     authors:
@@ -946,6 +1046,8 @@
     pages: 34-41
     publisher: IEEE
     venue: IEEE Software
+    volume: '36'
+    number: '1'
   conference:
   - year: 2019
     title: Understanding GCC Builtins to Develop Better Tools
@@ -958,9 +1060,12 @@
     - Hanspeter Mössenböck
     acceptance_ratio: 74/303=24.4%
     address: Tallinn, Estonia
-    venue: in Proceedings of the 27th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ESEC/FSE
+    venue: in Proceedings of the 27th Joint European Software Engineering Conference
+      and Symposium on the Foundations of Software Engineering (ESEC/FSE)
+    pages: 74-85
   - year: 2019
-    title: A Comparison of Bugs across the iOS and Android Platforms of Two Open Source Cross Platform Browser Apps
+    title: A Comparison of Bugs across the iOS and Android Platforms of Two Open Source
+      Cross Platform Browser Apps
     url: https://plg.uwaterloo.ca/~migod/papers/2019/mobileSoft2019.pdf
     bibtex: publications/2019/mobile.bib
     authors:
@@ -971,10 +1076,13 @@
     acceptance_ratio: X/Y=Z%
     publisher: IEEE
     address: Montréal, Canada
-    venue: in Proceedings of the 2019 IEEE/ACM International Conference on Mobile Software Engineering and Systems, MOBILESoft
+    venue: in Proceedings of the 2019 /ACM International Conference on Mobile Software
+      Engineering and Systems (MOBILESoft)
+    pages: 76-86
   workshop:
   - year: 2019
-    title: A Longitudinal Study on the Maintainers’ Sentiment of a Large Scale Open Source Ecosystem
+    title: A Longitudinal Study on the Maintainers’ Sentiment of a Large Scale Open
+      Source Ecosystem
     url: publications/2019/SEMotion_2019.pdf
     bibtex: publications/2019/semotion.bib
     authors:
@@ -984,11 +1092,13 @@
     - Bram Adams
     pages: 17-22
     address: Montréal, Canada
-    venue: in Proceedings of the 4th International Workshop on Emotional Awareness in Software Engineering, SEmotion
+    venue: in Proceedings of the 4th International Workshop on Emotional Awareness
+      in Software Engineering (SEmotion)
 2018:
   journal:
   - year: 2018
-    title: An Exploratory Qualitative and Quantitative Analysis of Emotions in Issue Report Comments of Open Source Systems
+    title: An Exploratory Qualitative and Quantitative Analysis of Emotions in Issue
+      Report Comments of Open Source Systems
     url: publications/2018/emse_alessandro.pdf
     bibtex: publications/2018/emse_alessandro.bib
     authors:
@@ -999,10 +1109,13 @@
     - Serge Demeyer
     pages: 521-564
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '23'
+    number: '1'
   conference:
   - year: 2018
-    title: Linking Software Repositories with Emotions and Work Well-Being using Experience Sampling
+    title: Linking Software Repositories with Emotions and Work Well-Being using Experience
+      Sampling
     url: https://arxiv.org/pdf/1808.05409.pdf
     bibtex: publications/2018/kuutila.bib
     authors:
@@ -1013,7 +1126,9 @@
     - Bram Adams
     acceptance_ratio: 30/140=21.4%
     address: Oulu, Finland
-    venue: in Proceedings of the 12th International Symposium on Empirical Software Engineering and Measurement, ESEM
+    venue: in Proceedings of the 12th International Symposium on Empirical Software
+      Engineering and Measurement (ESEM)
+    pages: 1-10
   - year: 2018
     title: The Open-Closed Principle of Modern Machine Learning Frameworks
     url: publications/2018/msr2.pdf
@@ -1024,7 +1139,9 @@
     - Bram Adams
     acceptance_ratio: 37/113=32.7%
     address: Gothenburg, Sweden
-    venue: in Proceedings of the 15th International Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 15th International Conference on Mining Software
+      Repositories (MSR)
+    pages: 353-363
   - year: 2018
     title: Feature Location using Crowd-based Screencasts
     url: publications/2018/msr1.pdf
@@ -1035,7 +1152,9 @@
     - Juergen Rilling
     acceptance_ratio: 37/113=32.7%
     address: Gothenburg, Sweden
-    venue: in Proceedings of the 15th International Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 15th International Conference on Mining Software
+      Repositories (MSR)
+    pages: 192-202
   - year: 2018
     title: Do programmers work at night or during weekend?
     url: https://arxiv.org/pdf/1802.05084.pdf
@@ -1047,7 +1166,8 @@
     - Bram Adams
     acceptance_ratio: 105/502=20.9%
     address: Gothenburg, Sweden
-    venue: in Proceedings of the 40th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 40th International Conference on Software Engineering (ICSE)
+    pages: 705-715
 2017:
   journal:
   - year: 2017
@@ -1060,11 +1180,14 @@
     - Bram Adams
     - Daniel M. Germán
     - Ahmed E. Hassan
-    pages: '3117'
+    pages: 3117-3148
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '22'
+    number: '6'
   - year: 2017
-    title: 'App Store 2.0: From Crowd Information to Actionable Feedback in Mobile Ecosystems'
+    title: 'App Store 2.0: From Crowd Information to Actionable Feedback in Mobile
+      Ecosystems'
     url: https://hal.inria.fr/hal-01406422/document
     bibtex: publications/2017/maria.bib
     authors:
@@ -1076,6 +1199,8 @@
     pages: 81-89
     publisher: IEEE
     venue: IEEE Software
+    volume: '34'
+    number: '2'
   - year: 2017
     title: Prioritizing Manual Test Cases in Rapid Release Environments
     url: http://sealab.cs.umanitoba.ca/wp-content/uploads/2016/07/Published.pdf
@@ -1087,10 +1212,13 @@
     - Bram Adams
     pages: 1-10
     publisher: Wiley
-    venue: Software Testing
+    venue: Software Testing, Verification and Reliability (STVR)
+    volume: '27'
+    number: '6'
   conference:
   - year: 2017
-    title: Does the Choice of Configuration Framework Matter for Developers? Empirical Study on 11 Java Configuration Frameworks
+    title: Does the Choice of Configuration Framework Matter for Developers? Empirical
+      Study on 11 Java Configuration Frameworks
     url: publications/2015/scam17.pdf
     bibtex: publications/2017/scam.bib
     authors:
@@ -1101,7 +1229,9 @@
     acceptance_ratio: 14/31=45%
     publisher: IEEE
     address: Shanghai, China
-    venue: in Proceedings of the 17th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+    venue: in Proceedings of the 17th International Working Conference on Source Code
+      Analysis and Manipulation (SCAM)
+    pages: 41-50
   - year: 2017
     title: On Cross-stack Configuration Errors
     url: publications/2017/icse.pdf
@@ -1113,9 +1243,11 @@
     replication_package: publications/2017/icse2017_data.zip
     acceptance_ratio: 68/398=17%
     address: Buenos Aires, Argentina
-    venue: in Proceedings of the 39th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 39th International Conference on Software Engineering (ICSE)
+    pages: 255-265
   - year: 2017
-    title: Do Not Trust Build Results at Face Value - An Empirical Study of 30 Million CPAN Builds
+    title: Do Not Trust Build Results at Face Value - An Empirical Study of 30 Million
+      CPAN Builds
     url: publications/2017/msr.pdf
     bibtex: publications/2017/msr.bib
     authors:
@@ -1124,7 +1256,9 @@
     - Yann-Gaël Guéhéneuc
     acceptance_ratio: 37/121=30.6%
     address: Buenos Aires, Argentina
-    venue: in Proceedings of the 14th International Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 14th International Conference on Mining Software
+      Repositories (MSR)
+    pages: 312-322
   - year: 2017
     title: 'Broadcast vs. Unicast Review Technology: Does it Matter?'
     url: http://swat.polymtl.ca/~foutsekh/docs/ICST-Tita.pdf
@@ -1136,7 +1270,9 @@
     acceptance_ratio: 36/135=27%
     publisher: IEEE
     address: Tokyo, Japan
-    venue: in Proceedings of the 10th IEEE International Conference on Software Testing, Verification and Validation, ICST
+    venue: in Proceedings of the 10th International Conference on Software Testing,
+      Verification and Validation (ICST)
+    pages: 219-229
   - year: 2017
     title: Code of Conduct in Open Source Projects
     url: publications/2017/saner.pdf
@@ -1148,10 +1284,12 @@
     acceptance_ratio: 34/135=25%
     publisher: IEEE
     address: Klagenfurt, Austria
-    venue: in Proceedings of the 24th IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+    venue: in Proceedings of the 24th International Conference on Software Analysis,
+      Evolution, and Reengineering (SANER)
+    pages: 24-33
   other:
   - year: 2017
-    title: Automated Performance Deviation Detection Across Software Versions Releases
+    title: Automated Performance Deviation Detection Across Software Versions Releases [short]
     url: publications/2017/qrs.pdf
     bibtex: publications/2017/qrs.bib
     authors:
@@ -1161,9 +1299,12 @@
     - Bram Adams
     publisher: IEEE
     address: Prague, Czech Republic
-    venue: '[short], in Proceedings of the 2017 IEEE International Conference on Software Quality, Reliability and Security, QRS'
+    venue: 'in Proceedings of the 2017 International Conference on Software
+      Quality, Reliability and Security (QRS)'
+    pages: 450-457
   - year: 2017
-    title: 'Abnormal working hours: effect of rapid releases and implications to work content'
+    title: 'Abnormal working hours: effect of rapid releases and implications to work
+      content [short]'
     url: https://pdfs.semanticscholar.org/6160/a7aa897e86cad0af47abfd4e9f95b77612b8.pdf
     bibtex: publications/2017/msr_claes.bib
     authors:
@@ -1172,7 +1313,9 @@
     - Miikka Kuutila
     - Bram Adams
     address: Buenos Aires, Argentina
-    venue: '[short], in Proceedings of the 14th International Conference on Mining Software Repositories, MSR'
+    venue: 'in Proceedings of the 14th International Conference on Mining
+      Software Repositories (MSR)'
+    pages: 243-247
 2016:
   journal:
   - year: 2016
@@ -1186,8 +1329,11 @@
     pages: 1061-1080
     publisher: Wiley
     venue: 'Journal of Software: Evolution and Process (JSEP)'
+    volume: '28'
+    number: '12'
   - year: 2016
-    title: An Exploratory Study of API Changes and Usages based on Apache and Eclipse Ecosystems
+    title: An Exploratory Study of API Changes and Usages based on Apache and Eclipse
+      Ecosystems
     url: publications/2016/emse_wei.pdf
     bibtex: publications/2016/emse15_wei.bib
     authors:
@@ -1198,7 +1344,9 @@
     - Giuliano Antoniol
     pages: 2366-2412
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '21'
+    number: '6'
   - year: 2016
     title: Identifying and Understanding Header File Hotspots in C/C++ Build Processes
     url: http://sail.cs.queensu.ca/data/pdfs/ASE_IdentifyingAndUnderstandingHeaderFileHotspotsInC,C++BuildProcesses.pdf
@@ -1212,6 +1360,7 @@
     number: '4'
     publisher: Springer
     venue: Automated Software Engineering
+    pages: 619-647
   - year: 2016
     title: What do programmers know about software energy consumption?
     url: https://peerj.com/preprints/886/
@@ -1223,8 +1372,12 @@
     - Ahmed E. Hassan
     publisher: IEEE
     venue: IEEE Software
+    volume: '33'
+    number: '3'
+    pages: 83-89
   - year: 2016
-    title: An Empirical Study of the Impact of Modern Code Review Practices on Software Quality
+    title: An Empirical Study of the Impact of Modern Code Review Practices on Software
+      Quality
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_AnEmpiricalStudyOfTheImpactOfModernCodeReviewPracticesOnSoftwareQuality.pdf
     bibtex: publications/2016/emse15_shane.bib
     authors:
@@ -1234,7 +1387,9 @@
     - Ahmed E. Hassan
     pages: 2146-2189
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '21'
+    number: '5'
   - year: 2016
     title: Examining the Rating System Used in Mobile App Stores
     url: https://cs.uwaterloo.ca/~m2nagapp/publications/pdfs/An-Examination-of-the-Current-Rating-System-used-in-Mobile-App-Stores.pdf
@@ -1248,8 +1403,12 @@
     - Ahmed E. Hassan
     publisher: IEEE
     venue: IEEE Software
+    volume: '33'
+    number: '6'
+    pages: 86-92
   - year: 2016
-    title: An Empirical Study of Integration Activities in Distributions of Open Source Software
+    title: An Empirical Study of Integration Activities in Distributions of Open Source
+      Software
     url: publications/2016/integration_oss_distribution.pdf
     bibtex: publications/2016/emse15_ryan.bib
     authors:
@@ -1258,7 +1417,11 @@
     - Ahmed E. Hassan
     - Daniel M. Germán
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '21'
+    number: '3'
+    pages: 960-1001
+    replication_package: https://mcislab.github.io/publications/2015/integration_oss_distribution_adams_et_al.zip
   - year: 2016
     title: Analyzing Ad Library Updates in Android Apps
     url: http://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnAdLibraryUpdatesInAndroidApps.pdf
@@ -1272,8 +1435,12 @@
     - Ahmed E. Hassan
     publisher: IEEE
     venue: IEEE Software
+    volume: '33'
+    number: '2'
+    pages: 74-80
   - year: 2016
-    title: 'Continuously Mining the Use of Distributed Version Control Systems: An empirical study of how Linux uses git'
+    title: 'Continuously Mining the Use of Distributed Version Control Systems: An
+      empirical study of how Linux uses git'
     url: https://sail.cs.queensu.ca/data/pdfs/2016_ContinuouslyMiningDistributedVersionControlSystems_AnEmpiricalStudyOfHowLinuxUsesGit.pdf
     bibtex: publications/2016/emse_daniel.bib
     authors:
@@ -1281,10 +1448,14 @@
     - Bram Adams
     - Ahmed E. Hassan
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '21'
+    number: '1'
+    pages: 260-299
   conference:
   - year: 2016
-    title: 'Experience Report: An Empirical Study of API Failures in OpenStack Cloud Environments'
+    title: 'Experience Report: An Empirical Study of API Failures in OpenStack Cloud
+      Environments'
     url: http://swat.polymtl.ca/~foutsekh/docs/issre_2016_Pooya.pdf
     bibtex: publications/2016/issre_pooya.bib
     authors:
@@ -1293,9 +1464,12 @@
     - Foutse Khomh
     acceptance_ratio: 45/130=34.6%
     address: Ottawa, ON
-    venue: in Proceedings of the 27th International Symposium on Software Reliability Engineering, ISSRE
+    venue: in Proceedings of the 27th International Symposium on Software Reliability
+      Engineering (ISSRE)
+    pages: 424-434
   - year: 2016
-    title: 'Does geographical distance effect distributed development teams: How aggregation bias in software artifacts causes contradicting findings'
+    title: 'Does geographical distance effect distributed development teams: How aggregation
+      bias in software artifacts causes contradicting findings'
     url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2016_DoesGeographicalDistanceEffectDistributedDevelopmentTeamsHowAggregationBiasInSoftwareArtifactsCausesContradictoryFindings.pdf
     bibtex: publications/2016/issre_thanh.bib
     authors:
@@ -1304,7 +1478,9 @@
     - Ahmed E. Hassan
     acceptance_ratio: 45/130=34.6%
     address: Ottawa, ON
-    venue: in Proceedings of the 27th International Symposium on Software Reliability Engineering, ISSRE
+    venue: in Proceedings of the 27th International Symposium on Software Reliability
+      Engineering (ISSRE)
+    pages: 412-423
   - year: 2016
     title: Energy Profiles of Java Collections Classes
     url: http://softwareprocess.es/pubs/hasan2016ICSE-Energy-Profiles-of-Java-Collections-Classes.pdf
@@ -1316,10 +1492,12 @@
     - Mohammed Sayagh
     - Bram Adams
     - Abram Hindle
-    award: ACM SIGSOFT Distinguished Paper Award
+    awards:
+    - ACM SIGSOFT Distinguished Paper Award
     acceptance_ratio: 101/530=19%
     address: Austin, TX, US
-    venue: in Proceedings of the 38th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 38th International Conference on Software Engineering (ICSE)
+    pages: 225-236
   - year: 2016
     title: On Mining Crowd-based Speech Documentation
     url: publications/2016/msr_parisa.pdf
@@ -1330,9 +1508,11 @@
     - Juergen Rilling
     acceptance_ratio: 36/103=27%
     address: Austin, TX
-    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories (MSR)
+    pages: 259-268
   - year: 2016
-    title: Mining Test Repositories for Automatic Detection of UI Performance Regressions in Android Apps
+    title: Mining Test Repositories for Automatic Detection of UI Performance Regressions
+      in Android Apps
     url: https://hal.inria.fr/hal-01280784
     bibtex: publications/2016/msrmaria.bib
     authors:
@@ -1342,9 +1522,11 @@
     - Lionel Seinturier
     acceptance_ratio: 36/103=27%
     address: Austin, TX
-    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories (MSR)
+    pages: 13-24
   - year: 2016
-    title: Mining Valence, Arousal, and Dominance - Possibilities for Detecting Burnout and Productivity?
+    title: Mining Valence, Arousal, and Dominance - Possibilities for Detecting Burnout
+      and Productivity?
     url: https://arxiv.org/pdf/1603.04287.pdf
     bibtex: publications/2016/msrmika.bib
     authors:
@@ -1355,7 +1537,8 @@
     - Marco Ortu
     acceptance_ratio: 36/103=27%
     address: Austin, TX
-    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories (MSR)
+    pages: 247-258
   - year: 2016
     title: 'Feature Toggles: A case study and survey'
     url: http://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf
@@ -1367,9 +1550,11 @@
     - Bram Adams
     acceptance_ratio: 36/103=27%
     address: Austin, TX
-    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories (MSR)
+    pages: 201-211
   - year: 2016
-    title: Reproducing Context-sensitive Crashes of Mobile Apps using Crowdsourced Monitoring
+    title: Reproducing Context-sensitive Crashes of Mobile Apps using Crowdsourced
+      Monitoring
     url: https://hal.inria.fr/hal-01276926
     bibtex: publications/2016/mobile.bib
     authors:
@@ -1380,18 +1565,22 @@
     acceptance_ratio: X/57=Y%
     publisher: IEEE
     address: Austin, TX, US
-    venue: in Proceedings of the 2016 IEEE/ACM International Conference on Mobile Software Engineering and Systems, MOBILESoft
+    venue: in Proceedings of the 2016 /ACM International Conference on Mobile Software
+      Engineering and Systems (MOBILESoft)
+    pages: 88-99
   - year: 2016
-    title: Modern Release Engineering in a Nutshell - Why Researchers should Care
+    title: Modern Release Engineering in a Nutshell - Why Researchers should Care [invited paper]
     url: publications/2016/fose.pdf
     bibtex: publications/2016/fose.bib
     authors:
     - Bram Adams
     - Shane McIntosh
-    award: '[video recording]'
+    replication_package: https://www.youtube.com/watch?v=HMtiGNGxXr4/
     publisher: IEEE
     address: Osaka, Japan
-    venue: 'in Leaders of Tomorrow: Future of Software Engineering, Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER'
+    venue: 'in Leaders of Tomorrow: Future of Software Engineering, Proceedings of
+      the 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)'
+    pages: 78-90
   - year: 2016
     title: Release Practices in Mobile Apps – Users and Developers Perception
     url: http://www.ucalgary.ca/mnayebi/files/mnayebi/saner-camera-ready_mbg.pdf
@@ -1403,9 +1592,12 @@
     acceptance_ratio: 52/140=37%
     publisher: IEEE
     address: Osaka, Japan
-    venue: in Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+    venue: in Proceedings of the 23rd International Conference on Software Analysis,
+      Evolution, and Reengineering (SANER)
+    pages: 552-562
   - year: 2016
-    title: 'Botched Releases: Do we Need to Roll Back? Empirical Study on a Commercial Web App'
+    title: 'Botched Releases: Do we Need to Roll Back? Empirical Study on a Commercial
+      Web App'
     url: publications/2016/saner_noureddine.pdf
     bibtex: publications/2016/saner_noureddine.bib
     authors:
@@ -1414,7 +1606,9 @@
     acceptance_ratio: 52/140=37%
     publisher: IEEE
     address: Osaka, Japan
-    venue: in Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+    venue: in Proceedings of the 23rd International Conference on Software Analysis,
+      Evolution, and Reengineering (SANER)
+    pages: 574-583
   - year: 2016
     title: The Impact of Human Discussions on Just-In-Time Quality Assurance
     url: publications/2016/saner_parastou.pdf
@@ -1425,20 +1619,24 @@
     acceptance_ratio: 52/140=37%
     publisher: IEEE
     address: Osaka, Japan
-    venue: in Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+    venue: in Proceedings of the 23rd International Conference on Software Analysis,
+      Evolution, and Reengineering (SANER)
+    replication_package: https://bitbucket.org/mikeschaekermann/replication-paper-tourani-adams
+    pages: 189-200
   thesis:
   - year: 2016
     title: On the Impact of Affect in Software Engineering
     url: publications/2016/thesis_parastou.pdf
     authors:
     - Parastou Tourani
-    venue: PhD thesis at GIGL
+    venue: PhD thesis at GIGL, Polytechnique Montreal
   - year: 2016
-    title: Mining Software Repositories for Release Engineers -- Empirical Studies on Integration and Infrastructure-as-Code
+    title: Mining Software Repositories for Release Engineers - Empirical Studies
+      on Integration and Infrastructure-as-Code
     url: publications/2016/thesis_jojo.pdf
     authors:
     - Yujuan Jiang
-    venue: PhD thesis at GIGL
+    venue: PhD thesis at GIGL, Polytechnique Montreal
   other:
   - year: 2016
     title: How the Release Process Impacts your Software Analytics
@@ -1446,17 +1644,20 @@
     bibtex: publications/2016/persp.bib
     authors:
     - Bram Adams
-    venue: chapter in <a href="https://www.amazon.com/Perspectives-Data-Science-Software-Engineering/dp/0128042060/ref=asap_bc?ie=UTF8">Perspectives on Data Science for Software Engineering</a>
+    venue: chapter in Perspectives on Data Science for Software Engineering, edited
+      by Tim Menzies, Laurie Williams and Tom Zimmermann
+    pages: 249-254
+    publisher: Morgan Kaufmann
   - year: 2016
-    title: Slides
+    title: Why You Should Be Teaching Deployment in Your Curriculum!
     url: http://paris.utdallas.edu/cseet16/slides/02-CSEE&T-2016-Panel-I.pdf
     authors:
     - Len Bass
     - Bram Adams
     - Chris Parnin
     - Lorin Hochstein
-    award: '[video recording]'
-    venue: '<span style="color: black; font-weight: bold">[<a href="http://paris.utdallas.edu/cseet16/video/02-CSEE&amp;T-2016-Panel-I.html">video recording</a>]</span>'
+    replication_package: http://paris.utdallas.edu/cseet16/video/02-CSEE&T-2016-Panel-I.html
+    venue: panel at the 29th IEEE Conference on Software Engineering Education and Training (CSEET)
   - year: 2016
     bibtex: publications/2016/ieeesw_round.bib
     authors:
@@ -1469,7 +1670,10 @@
     - Yasutaka Kamei
     - Ali Mesbah
     - Bram Adams
-    venue: ''
+    venue: IEEE Software
+    volume: '33'
+    number: '2'
+    pages: 99-104
   - year: 2016
     title: Who Needs Release and DevOps Engineers, and Why?
     url: publications/2016/csed.pdf
@@ -1479,11 +1683,14 @@
     - Bram Adams
     acceptance_ratio: 14/18=77.8%
     address: Austin, Texas
-    venue: in Proceedings of the International Workshop on Continuous Software Evolution and Delivery, CSED
+    venue: in Proceedings of the International Workshop on Continuous Software Evolution
+      and Delivery (CSED)
+    pages: 77-83
 2015:
   journal:
   - year: 2015
-    title: 'On Rapid Releases and Software Testing: A Case Study and a Semi-Systematic Literature Review'
+    title: 'On Rapid Releases and Software Testing: A Case Study and a Semi-Systematic
+      Literature Review'
     url: publications/2015/emsemika.pdf
     bibtex: publications/2015/emse_mika.bib
     authors:
@@ -1493,9 +1700,13 @@
     - Emelie Engström
     - Kai Petersen
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '20'
+    number: '5'
+    pages: 1384-1425
   - year: 2015
-    title: A Large-Scale Empirical Study of the Relationship Between Build Technology and Build Maintenance
+    title: A Large-Scale Empirical Study of the Relationship Between Build Technology
+      and Build Maintenance
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ALarge-ScaleEmpiricalStudyOfTheRelationshipBetweenBuildTechnologyAndBuildMaintenance.pdf
     bibtex: publications/2015/emse.bib
     authors:
@@ -1505,9 +1716,13 @@
     - Audris Mockus
     - Ahmed E. Hassan
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '20'
+    number: '6'
+    pages: 1587-1633
   - year: 2015
-    title: 'Understanding the Impact of Rapid Releases on Software Quality: The Case of Firefox'
+    title: 'Understanding the Impact of Rapid Releases on Software Quality: The Case
+      of Firefox'
     url: http://swat.polymtl.ca/~foutsekh/docs/EMSE-published-version.pdf
     bibtex: publications/2015/foutsemse.bib
     authors:
@@ -1516,9 +1731,13 @@
     - Tejinder Dhaliwal
     - Ying Zou
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '20'
+    number: '2'
+    pages: 336-373
   - year: 2015
-    title: Studying the Relationship Between Source Code Quality and Mobile Platform Dependence
+    title: Studying the Relationship Between Source Code Quality and Mobile Platform
+      Dependence
     url: http://sail.cs.queensu.ca/data/pdfs/SQJ_StudyingTheRelationshipBetweenSourceCodeQualityAndMobilePlatformDependence.pdf
     bibtex: publications/2015/syersqj.bib
     authors:
@@ -1528,8 +1747,12 @@
     - Ahmed E. Hassan
     publisher: Springer
     venue: Software Quality Journal (SQJ)
+    volume: '23'
+    number: '3'
+    pages: 485-508
   - year: 2015
-    title: The Practice and Future of Release Engineering - A Roundtable with Three Release Engineers
+    title: The Practice and Future of Release Engineering - A Roundtable with Three
+      Release Engineers
     url: http://online.qmags.com/ISW0315
     bibtex: publications/2015/roundtable.bib
     authors:
@@ -1539,10 +1762,12 @@
     - Tamara Marshall-Keim
     - Foutse Khomh
     - Kim Moir
-    award: '[interview with Davide Falessi]'
-    issue: on Release Engineering
+    replication_package: https://www.youtube.com/watch?v=O3cJQTZXAI8
     publisher: IEEE
-    venue: IEEE Software Special Issue on Release Engineering
+    venue: IEEE Software (Special Issue on Release Engineering)
+    volume: '32'
+    number: '2'
+    pages: 42-49
   - year: 2015
     title: Replicating and Re-evaluating the Theory of Relative Defect-Proneness
     url: http://sail.cs.queensu.ca/data/pdfs/TSE_ReplicatingAndRe-evaluatingTheTheoryOfRelativeDefect-Proneness.pdf
@@ -1554,8 +1779,12 @@
     - Ahmed E. Hassan
     publisher: IEEE
     venue: Transactions on Software Engineering (TSE)
+    volume: '41'
+    number: '2'
+    pages: 176-197
   - year: 2015
-    title: 'Management of community contributions: A case study on the Android and Linux software ecosystems'
+    title: 'Management of community contributions: A case study on the Android and
+      Linux software ecosystems'
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ManagementOfCommunityContributions-ACaseStudyOnTheAndroidAndLinuxSoftwareEcosystems.pdf
     bibtex: publications/2015/nicbetemse.bib
     authors:
@@ -1564,10 +1793,14 @@
     - Bram Adams
     - Daniel M. Germán
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '20'
+    number: '1'
+    pages: 252-289
   conference:
   - year: 2015
-    title: The Impact of Cross-Distribution Bug Duplicates, Empirical Study on Debian and Ubuntu
+    title: The Impact of Cross-Distribution Bug Duplicates, Empirical Study on Debian
+      and Ubuntu
     url: publications/2015/scam15_vincent.pdf
     bibtex: publications/2015/scam15b.bib
     authors:
@@ -1576,7 +1809,9 @@
     acceptance_ratio: 24/68=35%
     publisher: IEEE
     address: Bremen, Germany
-    venue: in Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+    venue: in Proceedings of the 15th International Working Conference on Source Code
+      Analysis and Manipulation (SCAM)
+    pages: 131-140
   - year: 2015
     title: Multi-layer Software Configuration - Empirical Study on Wordpress
     url: publications/2015/scam15_mohammed.pdf
@@ -1587,9 +1822,13 @@
     acceptance_ratio: 24/68=35%
     publisher: IEEE
     address: Bremen, Germany
-    venue: in Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+    venue: in Proceedings of the 15th International Working Conference on Source Code
+      Analysis and Manipulation (SCAM)
+    replication_package: http://mcis.polymtl.ca/~msayagh/Paper/SCAM15/LOC_vs_Options/
+    pages: 31-40
   - year: 2015
-    title: An Industrial Case Study on the Automated Detection of Performance Regressions in Heterogeneous Environments
+    title: An Industrial Case Study on the Automated Detection of Performance Regressions
+      in Heterogeneous Environments
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2015_AnIndustrialCaseStudyOnTheAutomatedDetectionOfPerformanceRegressionsInHeterogeneousEnvironments.pdf
     bibtex: publications/2015/seip.bib
     authors:
@@ -1599,12 +1838,16 @@
     - Ahmed E. Hassan
     - Ying Zou
     - Parminder Flora
-    award: IEEE Software Best Paper Award of the SEIP track
+    awards:
+    - IEEE Software Best Paper Award of the SEIP track
     acceptance_ratio: 23/102=22.5%
     address: Florence, Italy
-    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at the 37th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at
+      the 37th International Conference on Software Engineering (ICSE)
+    pages: 159-168
   - year: 2015
-    title: Make It Simple - An Empirical Analysis of GNU Make Feature Use in Open Source Projects
+    title: Make It Simple - An Empirical Analysis of GNU Make Feature Use in Open
+      Source Projects
     url: http://research.cs.queensu.ca/home/cordy/Papers/MCAA_ICPC15_Makefiles.pdf
     bibtex: publications/2015/icpc_doug.bib
     authors:
@@ -1615,7 +1858,8 @@
     acceptance_ratio: 23/73=31.5%
     publisher: IEEE
     address: Florence, Italy
-    venue: in Proceedings of the 23rd IEEE Intl. Conference on Program Comprehension, ICPC
+    venue: in Proceedings of the 23rd Intl. Conference on Program Comprehension (ICPC)
+    pages: 207-217
   - year: 2015
     title: Co-evolution of infrastructure and Source Code - An Empirical Study
     url: publications/2015/msrjojo.pdf
@@ -1623,12 +1867,14 @@
     authors:
     - Yujuan Jiang
     - Bram Adams
-    award: '[extended data set]'
+    replication_package: https://mcislab.github.io/publications/2015/msr15_extended_dataset.zip
     acceptance_ratio: 32/106=30%
     address: Florence, Italy
-    venue: in Proceedings of the 12th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 12th Working Conference on Mining Software Repositories (MSR)
+    pages: 45-55
   - year: 2015
-    title: Are Bullies more Productive? Empirical Study of Affectiveness vs. Issue Fixing Time
+    title: Are Bullies more Productive? Empirical Study of Affectiveness vs. Issue
+      Fixing Time
     url: publications/2015/msrmarco.pdf
     bibtex: publications/2015/msrmarco.bib
     authors:
@@ -1640,27 +1886,29 @@
     - Roberto Tonelli
     acceptance_ratio: 32/106=30%
     address: Florence, Italy
-    venue: in Proceedings of the 12th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 12th Working Conference on Mining Software Repositories (MSR)
+    pages: 303-313
   thesis:
   - year: 2015
     title: Automated Identification of Functional Problems in Flight Simulators
     url: publications/2015/thesis_vincent.pdf
     authors:
     - Vincent Boisselle
-    venue: Master's thesis at GIGL
+    venue: Master's thesis at GIGL, Polytechnique Montreal
   other:
   - year: 2015
     title: Lessons Learned from the International Workshop on Release Engineering
     url: publications/2015/webinar_releng.pdf
     authors:
-    - ADAMS, B.
-    - BELLOMO, S.
-    - KHOMH, F.
-    award: '[audio recording]'
+    - Bram Adams
+    - Stephany Bellomo
+    - Foutse Khomh
+    replication_package: https://www.youtube.com/watch?v=RkEpxvzlLWQ
     publisher: ACM
-    venue: ACM SIGSOFT webinar
+    venue: ACM SIGSOFT webinar, December 18, 2015
   - year: 2015
-    title: 'The JIRA Repository Dataset: Understanding Social Aspects of Software Development'
+    title: 'The JIRA Repository Dataset: Understanding Social Aspects of Software
+      Development [short]'
     url: publications/2015/ortu_promise.pdf
     bibtex: publications/2015/ortu_promise.bib
     authors:
@@ -1671,9 +1919,10 @@
     - Roberto Tonelli
     - Bram Adams
     address: Beijing, China
-    venue: '[short], in Proceedings of the 11th International Conference on Predictive Models and Data Analytics in Software Engineering, PROMISE'
+    venue: 'in Proceedings of the 11th International Conference on Predictive
+      Models and Data Analytics in Software Engineering (PROMISE)'
   - year: 2015
-    title: Inherent Characteristics of Traceability Artifacts - Less is More
+    title: Inherent Characteristics of Traceability Artifacts - Less is More [RE:Next! Track]
     url: publications/2015/re15next.pdf
     bibtex: publications/2015/re15next.bib
     authors:
@@ -1683,9 +1932,11 @@
     - Yann-Gaël Guéhéneuc
     publisher: IEEE
     address: Ottawa, Canada
-    venue: '[RE:Next! Track], in Proceedings of the 23rd IEEE International Requirements Engineering Conference, RE'
+    venue: 'in the Proceedings of the 23rd International Requirements
+      Engineering Conference (RE)'
+    pages: 196-201
   - year: 2015
-    title: A dataset of the activity of the git super-repository of Linux in 2012
+    title: A dataset of the activity of the git super-repository of Linux in 2012 [data showcase]
     url: http://sail.cs.queensu.ca/data/pdfs/msr-A-Dataset-of-the-Activity-of-the-Git-Super-repository-of-Linux%20in%202012.pdf
     bibtex: publications/2015/super_repo.bib
     authors:
@@ -1693,25 +1944,29 @@
     - Bram Adams
     - Ahmed E. Hassan
     address: Florence, Italy
-    venue: '[data showcase], in Proceedings of the 12th Working Conference on Mining Software Repositories, MSR'
+    venue: 'in Proceedings of the 12th Working Conference on Mining
+      Software Repositories (MSR)'
+    pages: 470-473
   - year: 2015
-    title: IEEE Software Special Issue on Release Engineering
+    title: IEEE Software (Special Issue on Release Engineering)
     url: http://online.qmags.com/ISW0315
     authors:
-    - ADAMS, B.
-    - BELLOMO, S.
-    - BIRD, C.
-    - KHOMH, F.
-    - MOIR, K.
+    - Bram Adams
+    - Stephany Bellomo
+    - Chris Bird
+    - Foutse Khomh
+    - Kim Moir
     publisher: IEEE
     venue: IEEE Software
+    volume: '32'
+    number: '2'
   - year: 2015
     title: 'The Bash Dashboard (Or: How to Use Bash for Data Analysis)'
     url: http://www.slideshare.net/bramadams/the-bash-dashboard-or
     authors:
-    - ADAMS, B.
+    - Bram Adams
     address: Montréal, Canada
-    venue: tutorial at the <a href="http://polymorse.polymtl.ca/plow-2015a/">4th PLOW workshop</a>, February 28, 2015
+    venue: tutorial at the 4th PLOW workshop, February 28, 2015
 2014:
   journal:
   - year: 2014
@@ -1727,6 +1982,9 @@
     - Ahmed E. Hassan
     publisher: IEEE
     venue: IEEE Software
+    volume: '31'
+    number: '6'
+    pages: 86-92
   - year: 2014
     title: A Large Scale Empirical Study on Software Reuse in Mobile Apps
     url: https://cs.uwaterloo.ca/~m2nagapp/publications/publications/A-Large-Scale-Empirical-Study-on-Software-Reuse-in-Mobile-Apps.html
@@ -1740,6 +1998,9 @@
     - Ahmed E. Hassan
     publisher: IEEE
     venue: IEEE Software
+    volume: '31'
+    number: '2'
+    pages: 78-86
   - year: 2014
     title: Studying Software Evolution Using Topic Models
     url: http://cs.queensu.ca/~sthomas/data/Thomas_2012_SCP.pdf
@@ -1751,8 +2012,12 @@
     - Dorothea Blostein
     publisher: Elsevier
     venue: Science of Computer Programming (SCP)
+    volume: '80'
+    number: part B
+    pages: 457-479
   - year: 2014
-    title: An Exploratory Study of the Evolution of Communicated Information about the Execution of Large Software Systems
+    title: An Exploratory Study of the Evolution of Communicated Information about
+      the Execution of Large Software Systems
     url: http://sail.cs.queensu.ca/data/pdfs/JSEP_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
     bibtex: publications/2014/jsme_ian.bib
     authors:
@@ -1764,10 +2029,14 @@
     - Mohamed Nasser
     - Parminder Flora
     publisher: Wiley
-    venue: 'Journal of Software: Evolution and Process'
+    venue: 'Journal of Software: Evolution and Process (JSME)'
+    volume: '26'
+    number: '1'
+    pages: 3-26
   conference:
   - year: 2014
-    title: Monitoring Sentiment in Open Source Mailing Lists - Exploratory Study on the Apache Ecosystem
+    title: Monitoring Sentiment in Open Source Mailing Lists - Exploratory Study on
+      the Apache Ecosystem
     url: publications/2014/cascon14.pdf
     bibtex: publications/2014/cascon.bib
     authors:
@@ -1776,7 +2045,9 @@
     - Bram Adams
     acceptance_ratio: 19/56=33.9%
     address: Markham, ON, Canada
-    venue: in Proceedings of the 2014 Conference of the Center for Advanced Studies on Collaborative Research, CASCON
+    venue: in Proceedings of the 2014 Conference of the Center for Advanced Studies
+      on Collaborative Research (CASCON)
+    pages: 34-44
   - year: 2014
     title: Why do Automated Builds Break? An Empirical Study
     url: publications/2014/icsm14_noureddine.pdf
@@ -1788,7 +2059,8 @@
     acceptance_ratio: 40/210=19%
     publisher: IEEE
     address: Victoria, BC
-    venue: in Proceedings of the 30th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 30th International Conference on Software Maintenance (ICSM)
+    pages: 41-50
   - year: 2014
     title: Mining Co-Change Information to Understand when Build Changes are Necessary
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2014_MiningCo-ChangeInformationToUnderstandWhenBuildChangesAreNecessary.pdf
@@ -1801,7 +2073,8 @@
     acceptance_ratio: 40/210=19%
     publisher: IEEE
     address: Victoria, BC
-    venue: in Proceedings of the 30th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 30th International Conference on Software Maintenance (ICSM)
+    pages: 241-250
   - year: 2014
     title: Supplementary Bug Fixes vs. Re-opened Bugs
     url: http://swat.polymtl.ca/~foutsekh/docs/suppl_reop.pdf
@@ -1813,9 +2086,12 @@
     acceptance_ratio: 26/82=31.7%
     publisher: IEEE
     address: Victoria, BC, Canada
-    venue: in Proceedings of the 14th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+    venue: in Proceedings of the 14th International Working Conference on Source Code
+      Analysis and Manipulation (SCAM)
+    pages: 205-214
   - year: 2014
-    title: A Qualitative Analysis of Software Build System Changes and Build Ownership Styles
+    title: A Qualitative Analysis of Software Build System Changes and Build Ownership
+      Styles
     url: publications/2014/esem14mini.pdf
     bibtex: publications/2014/esemmini.bib
     authors:
@@ -1825,7 +2101,8 @@
     acceptance_ratio: 23/123=19%
     article_number: '29'
     address: Torino, Italy
-    venue: in Proceedings of the 8th International Symposium on Empirical Software Engineering and Measurement, ESEM
+    venue: in Proceedings of the 8th International Symposium on Empirical Software
+      Engineering and Measurement (ESEM)
   - year: 2014
     title: Tracing Back the History of Commits in Low-tech Reviewing Environments
     url: publications/2014/esem14jojo.pdf
@@ -1838,9 +2115,11 @@
     acceptance_ratio: 23/123=19%
     article_number: '51'
     address: Torino, Italy
-    venue: in Proceedings of the 8th International Symposium on Empirical Software Engineering and Measurement, ESEM
+    venue: in Proceedings of the 8th International Symposium on Empirical Software
+      Engineering and Measurement (ESEM)
   - year: 2014
-    title: Collecting and Leveraging a Benchmark of Build System Clones to Aid in Quality Assessments
+    title: Collecting and Leveraging a Benchmark of Build System Clones to Aid in
+      Quality Assessments
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2014_CollectingAndLeveragingABenchmarkOfBuildSystemClonesToAidInQualityAssessments.pdf
     bibtex: publications/2014/seip.bib
     authors:
@@ -1852,12 +2131,16 @@
     - Ahmed E. Hassan
     - Brigitte Haupt
     - Christian Wagner
-    award: '[mentioned in this blog post]'
     acceptance_ratio: 25/117=21.4%
     address: Hyderabad, India
-    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at the 36th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at
+      the 36th International Conference on Software Engineering (ICSE)
+    pages: 145-154
+    awards:
+    - mentioned in https://web.archive.org/web/20180822150516/https://www.cqse.eu/en/blog/buildsystem-clone-benchmark/
   - year: 2014
-    title: Do Developers Feel Emotions? An Exploratory Analysis of Emotions in Software Artifacts
+    title: Do Developers Feel Emotions? An Exploratory Analysis of Emotions in Software
+      Artifacts
     url: http://alessandromurgia.files.wordpress.com/2014/03/emotionanalysis.pdf
     bibtex: publications/2014/msralex.bib
     authors:
@@ -1867,9 +2150,11 @@
     - Marco Ortu
     acceptance_ratio: 29/85=34%
     address: Hyderabad, India
-    venue: in Proceedings of the 11th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 11th Working Conference on Mining Software Repositories (MSR)
+    pages: 262-271
   - year: 2014
-    title: 'The Impact of Code Review Coverage and Code Review Participation on Software Quality: A Case Study of the Qt, VTK, and ITK Projects'
+    title: 'The Impact of Code Review Coverage and Code Review Participation on Software
+      Quality: A Case Study of the Qt, VTK, and ITK Projects'
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf
     bibtex: publications/2014/msrshane.bib
     authors:
@@ -1877,10 +2162,12 @@
     - Yasutaka Kamei
     - Bram Adams
     - Ahmed E. Hassan
-    award: Distinguished Paper Award
+    awards:
+    - Distinguished Paper Award
     acceptance_ratio: 29/85=34%
     address: Hyderabad, India
-    venue: in Proceedings of the 11th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 11th Working Conference on Mining Software Repositories (MSR)
+    pages: 192-201
   other:
   - year: 2014
     title: How much does this commit cost?
@@ -1890,12 +2177,18 @@
     - Bram Adams
     - Daniel M. Germán
     address: Mountain View, CA, US
-    venue: position paper at the 2nd International Workshop on Release Engineering, RELENG
+    venue: position paper at the 2nd International Workshop on Release Engineering (RELENG)
   - year: 2014
+    title: Improving the Integration Process of Large Software Systems [poster]
+    venue: 2nd International Workshop on Release Engineering (RELENG)
+    address: Mountain View, CA, US
     authors:
     - Yujuan Jiang
     - Bram Adams
   - year: 2014
+    title: Identifying Header File Hotspots in C/C++ Build Processes [poster]
+    venue: 2nd International Workshop on Release Engineering (RELENG)
+    address: Mountain View, CA, US
     authors:
     - Shane Mcintosh
     - Bram Adams
@@ -1913,7 +2206,10 @@
     - Bram Adams
     - Ahmed E. Hassan
     publisher: Elsevier
-    venue: Information and Software Technology
+    venue: Information and Software Technology (IST)
+    volume: '55'
+    number: '11'
+    pages: 1981-1993
   - year: 2013
     title: Studying Re-opened Bugs in Open Source Software
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_StudyingRe-openedBugsInOpenSourceSoftware.pdf
@@ -1928,7 +2224,9 @@
     - Ahmed E. Hassan
     - Ken-ichi Matsumoto
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '18'
+    pages: 1005-1042
   - year: 2013
     title: A Large-Scale Empirical Study of Just-In-Time Quality Assurance
     url: https://das.encs.concordia.ca/pdf/Kamei_TSE2013.pdf
@@ -1943,9 +2241,13 @@
     - Naoyasu Ubayashi
     publisher: IEEE
     venue: Transactions on Software Engineering (TSE)
+    volume: '39'
+    number: '6'
+    pages: 757-773
   conference:
   - year: 2013
-    title: 'Revisiting Prior Empirical Findings For Mobile Apps: An Empirical Case Study on the 15 Most Popular Open-Source Android Apps'
+    title: 'Revisiting Prior Empirical Findings For Mobile Apps: An Empirical Case
+      Study on the 15 Most Popular Open-Source Android Apps'
     url: https://cs.uwaterloo.ca/~m2nagapp/publications/publications/Revisiting-Prior-Empirical-Findings-For-Mobile-Apps-An-Empirical-Case-Study-on-the-15-Most-Popular-Open-Source-Android-Apps.html
     bibtex: publications/2013/cascon.bib
     authors:
@@ -1955,7 +2257,9 @@
     - Bram Adams
     acceptance_ratio: 25/70=35.7%
     address: Markham, ON, Canada
-    venue: in Proceedings of the 2013 Conference of the Center for Advanced Studies on Collaborative Research, CASCON
+    venue: in Proceedings of the 2013 Conference of the Center for Advanced Studies
+      on Collaborative Research (CASCON)
+    pages: 283-297
   - year: 2013
     title: On the Effect of Program Exploration on Maintenance Tasks
     url: http://swat.polymtl.ca/~foutsekh/docs/wcre13main-idm123-p-19100-submitted.pdf
@@ -1969,7 +2273,8 @@
     acceptance_ratio: 38/97=39%
     publisher: IEEE
     address: Koblenz, Germany
-    venue: in Proceedings of the 20th IEEE Working Conference on Reverse Engineering, WCRE
+    venue: in Proceedings of the 20th Working Conference on Reverse Engineering (WCRE)
+    pages: 391-400
   - year: 2013
     title: On Rapid Releases and Software Testing
     url: http://swat.polymtl.ca/~foutsekh/docs/PID2891705.pdf
@@ -1983,7 +2288,10 @@
     acceptance_ratio: 36/163=22%
     publisher: IEEE
     address: Eindhoven, The Netherlands
-    venue: in Proceedings of the 29th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 29th International Conference on Software Maintenance (ICSM)
+    awards:
+    - invited for special issue
+    pages: 20-29
   - year: 2013
     title: Assisting Big Data Analytics Developers When Cloud Deploying Hadoop Applications
     url: publications/2013/icse_ian.pdf
@@ -1995,10 +2303,12 @@
     - Bram Adams
     - Ahmed E. Hassan
     - Patrick Martin
-    award: ACM SIGSOFT Distinguished Paper Award
+    awards:
+    - ACM SIGSOFT Distinguished Paper Award
     acceptance_ratio: 85/461=18.5%
     address: San Francisco, CA, US
-    venue: in Proceedings of the 35th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 35th International Conference on Software Engineering (ICSE)
+    pages: 402-411
   - year: 2013
     title: Will My Patch Make It? And How Fast? - Case Study on the Linux Kernel
     url: publications/2013/msr_jojo.pdf
@@ -2010,7 +2320,8 @@
     replication_package: publications/2013/linux_patch_final.arff.gz
     acceptance_ratio: 31/81=38%
     address: San Francisco, CA, US
-    venue: in Proceedings of the 10th Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 10th Working Conference on Mining Software Repositories (MSR)
+    pages: 101-110
   - year: 2013
     title: 'Programming Language Ecosystems: the Evolution of R'
     url: http://sail.cs.queensu.ca/data/pdfs/CSMR2013_ProgrammingLanguageEcosystems_TheEvolutionOfR.pdf
@@ -2021,7 +2332,9 @@
     - Ahmed E. Hassan
     acceptance_ratio: 29/80=36.3%
     address: Genova, Italy
-    venue: in Proceedings of the 17th European Conference on Software Maintenance and Reengineering, CSMR
+    venue: in Proceedings of the 17th European Conference on Software Maintenance
+      and Reengineering (CSMR)
+    pages: 243-252
   - year: 2013
     bibtex: publications/2013/csmr_fehmi.bib
     authors:
@@ -2031,7 +2344,10 @@
     - Sylvia Hamel
     - Bram Adams
     acceptance_ratio: 29/80=36.3%
-    venue: ''
+    venue: in Proceedings of the 17th European Conference on Software Maintenance
+      and Reengineering (CSMR)
+    pages: 15-24
+    address: Genova
   - year: 2013
     bibtex: publications/2013/csmr_etienne.bib
     authors:
@@ -2040,7 +2356,10 @@
     - Yann-Gaël Guéhéneuc
     - Bram Adams
     acceptance_ratio: 29/80=36.3%
-    venue: ''
+    venue: in Proceedings of the 17th European Conference on Software Maintenance
+      and Reengineering (CSMR)
+    pages: 121-130
+    address: Genova
 2012:
   journal:
   - year: 2012
@@ -2053,6 +2372,9 @@
     - Ahmed E. Hassan
     publisher: Elsevier
     venue: Journal of Software and Systems (JSS)
+    volume: '85'
+    number: '10'
+    pages: 2318-2330
   - year: 2012
     title: On the Relationship between Comment Update Practices and Software Bugs
     url: http://sail.cs.queensu.ca/data/pdfs/JSS_OnTheRelationshipBetweenCommentUpdatePracticesAndSoftwareBugs.pdf
@@ -2064,8 +2386,12 @@
     - Ahmed E. Hassan
     publisher: Elsevier
     venue: Journal of Software and Systems (JSS)
+    volume: '85'
+    number: '10'
+    pages: 2293-2304
   - year: 2012
-    title: 'Using Pig as a Data Preparation Language for Large-Scale Mining Software Repositories Studies: An Experience Report'
+    title: 'Using Pig as a Data Preparation Language for Large-Scale Mining Software
+      Repositories Studies: An Experience Report'
     url: http://sail.cs.queensu.ca/data/pdfs/JSS_UsingPigAsADataPreparationLanguageForLarge-ScaleMiningSoftwareRepositoriesStudies_AnExperienceReport.pdf
     bibtex: publications/2012/jsspig12.bib
     authors:
@@ -2074,8 +2400,12 @@
     - Ahmed E. Hassan
     publisher: Elsevier
     venue: Journal of Software and Systems (JSS)
+    volume: '85'
+    number: '10'
+    pages: 2195-2204
   - year: 2012
-    title: An Empirical Study on Inconsistent Changes to Code Clones at the Release Level
+    title: An Empirical Study on Inconsistent Changes to Code Clones at the Release
+      Level
     url: http://sail.cs.queensu.ca/data/pdfs/SCP_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtTheReleaseLevel,ScienceOfComputerProgramming.pdf
     bibtex: publications/2012/scp.bib
     authors:
@@ -2087,6 +2417,9 @@
     - Ahmed E. Hassan
     publisher: Elsevier
     venue: Science of Computer Programming (SCP)
+    volume: '77'
+    number: '6'
+    pages: 760-776
   - year: 2012
     title: The Evolution of Java Build Systems
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_TheEvolutionOfJavaBuildSystems.pdf
@@ -2096,10 +2429,14 @@
     - Bram Adams
     - Ahmed E. Hassan
     publisher: Springer
-    venue: Empirical Software Engineering
+    venue: Empirical Software Engineering (EMSE)
+    volume: '17'
+    number: 4-5
+    pages: 578-608
   conference:
   - year: 2012
-    title: 'An Empirical Study of Build System Migrations in Practice: Case Studies on KDE and the Linux Kernel'
+    title: 'An Empirical Study of Build System Migrations in Practice: Case Studies
+      on KDE and the Linux Kernel'
     url: publications/2012/ICSM2012Roman.pdf
     bibtex: publications/2012/icsm_roman.bib
     authors:
@@ -2111,7 +2448,8 @@
     acceptance_ratio: 46/181=25%
     publisher: IEEE
     address: Riva del Garda, Italy
-    venue: in Proceedings of the 28th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 28th International Conference on Software Maintenance (ICSM)
+    pages: 160-169
   - year: 2012
     title: An Industrial Study on the Risk of Software Changes
     url: https://das.encs.concordia.ca/pdf/Shihab_FSE2012.pdf
@@ -2124,7 +2462,9 @@
     acceptance_ratio: 32/201=17%
     publisher: ACM
     address: Research Triangle Park, NC, US
-    venue: in Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering, FSE
+    venue: in Proceedings of the SIGSOFT 20th International Symposium on the Foundations
+      of Software Engineering (FSE)
+    pages: '62:1-62:11'
   - year: 2012
     title: Understanding Reuse in the Android Market
     url: http://sail.cs.queensu.ca/data/pdfs/ICPC2012_UnderstandingReuseInTheAndroidMarket.pdf
@@ -2134,13 +2474,14 @@
     - Meiyappan Nagappan
     - Bram Adams
     - Ahmed E. Hassan
-    award: '[mentioned in this blog post]'
     acceptance_ratio: 21/51=41%
     publisher: IEEE
     address: Passau, Germany
-    venue: in Proceedings of the 20th IEEE Intl. Conference on Program Comprehension, ICPC
+    venue: in Proceedings of the 20th Intl. Conference on Program Comprehension (ICPC)
+    pages: 113-122
   - year: 2012
-    title: Do Faster Releases Improve Software Quality? - An Empirical Case Study of Mozilla Firefox
+    title: Do Faster Releases Improve Software Quality? - An Empirical Case Study
+      of Mozilla Firefox
     url: publications/2012/MSR2012Foutse.pdf
     bibtex: publications/2012/msr12foutse.bib
     authors:
@@ -2148,11 +2489,14 @@
     - Tejinder Dhaliwal
     - Ying Zou
     - Bram Adams
-    award: '[mentioned in this blog post]'
+    awards:
+    - invited for special issue
+    - mentioned in https://neverworkintheory.org/2012/05/17/do-faster-releases-improve-software-quality.html
     acceptance_ratio: 18/64=28%
     publisher: IEEE
     address: Zurich, Switzerland
-    venue: in Proceedings of the 9th IEEE Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 9th Working Conference on Mining Software Repositories (MSR)
+    pages: 179-188
   - year: 2012
     title: A Qualitative Study on Performance Bugs
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2012_AQualitativeStudyOnPerformanceBugs.pdf
@@ -2161,13 +2505,16 @@
     - Shahed Zaman
     - Bram Adams
     - Ahmed E. Hassan
-    award: '[mentioned in this blog post]'
+    awards:
+    - mentioned in http://oerich.wordpress.com/2012/06/12/msr12-summary/
     acceptance_ratio: 18/64=28%
     publisher: IEEE
     address: Zurich, Switzerland
-    venue: in Proceedings of the 9th IEEE Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 9th Working Conference on Mining Software Repositories (MSR)
+    pages: 199-208
   - year: 2012
-    title: Automated Detection of Performance Regressions Using Statistical Process Control Techniques
+    title: Automated Detection of Performance Regressions Using Statistical Process
+      Control Techniques
     url: http://sail.cs.queensu.ca/data/pdfs/ICPE2012_AutomatedDetectionOfPerformanceRegressionsUsingStatisticalProcessControlTechniques.pdf
     bibtex: publications/2012/icpe.bib
     authors:
@@ -2177,7 +2524,9 @@
     - Ahmed E. Hassan
     publisher: ACM
     address: Boston, MA, US
-    venue: in Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering, ICPE
+    venue: in Proceedings of the 3rd /SPEC International Conference on Performance
+      Engineering (ICPE)
+    pages: 299-310
   other:
   - year: 2012
     title: Technical Briefing on Software Release Engineering
@@ -2186,7 +2535,7 @@
     - Bram Adams
     acceptance_ratio: 18/50=36%
     address: Zurich, Switzerland
-    venue: in Proceedings of the 34th International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 34th International Conference on Software Engineering (ICSE)
   - year: 2012
     authors:
     - Max Di Penta
@@ -2195,6 +2544,10 @@
     - Yann-Gaël Guéhéneuc
     - Bram Adams
     acceptance_ratio: 11/49=22.4%
+    title: 'Five Days of Empirical Software Engineering: The PASED Experience'
+    venue: in Proceedings of the Software Engineering Education Track at the 34th International Conference on Software Engineering (ICSE)
+    address: Zurich, Switzerland
+    pages: 1255-1258
   - year: 2012
     authors:
     - Rina Nagano
@@ -2204,6 +2557,10 @@
     - Kenji Hisazumi
     - Naoyasu Ubayashi
     - Akira Fukuda
+    title: Using the GPGPU for Large-Scale Mining Software Repositories Studies [poster]
+    venue: in Proceedings of the 34th International Conference on Software Engineering (ICSE)
+    address: Zurich, Switzerland
+    pages: 1435-1436
     acceptance_ratio: 8/22=36.4%
   - year: 2012
     title: A Large Scale Empirical Study on User-Centric Performance Analysis
@@ -2214,7 +2571,9 @@
     - Bram Adams
     - Ahmed E. Hassan
     address: Montréal, Canada
-    venue: in Proceedings of the industry track of the 5th International Conference on Software Testing, Verification and Validation, ICST
+    venue: in Proceedings of the industry track of the 5th International Conference
+      on Software Testing, Verification and Validation (ICST)
+    pages: 410-419
 2011:
   journal:
   - year: 2011
@@ -2229,6 +2588,9 @@
     - Robert Bowerman
     publisher: Wiley
     venue: Software - Practice and Experience
+    volume: '41'
+    number: '10'
+    pages: 1027-1048
   conference:
   - year: 2011
     title: Automatic Load Test Verification Using Control Charts
@@ -2241,9 +2603,11 @@
     - Ahmed E. Hassan
     acceptance_ratio: 54/180=30%
     address: Ho Chi Minh city, Vietnam
-    venue: in Proceedings of the 18th Asia-Pacific Software Engineering Conference, APSEC
+    venue: in Proceedings of the 18th Asia-Pacific Software Engineering Conference (APSEC)
+    pages: 282-289
   - year: 2011
-    title: An Exploratory Study of the Evolution of Communicated Information about the Execution of Large Software Systems
+    title: An Exploratory Study of the Evolution of Communicated Information about
+      the Execution of Large Software Systems
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2011_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
     bibtex: publications/2011/wcre_ian.bib
     authors:
@@ -2254,11 +2618,14 @@
     - Mike Godfrey
     - Mohamed Nasser
     - Parminder Flora
-    award: Best Paper Award
+    awards:
+    - Best Paper Award
+    - invited for special issue
     acceptance_ratio: 27/104=26%
     publisher: IEEE
     address: Lero, Limerick, Ireland
-    venue: in Proceedings of the 18th IEEE Working Conference on Reverse Engineering, WCRE
+    venue: in Proceedings of the 18th Working Conference on Reverse Engineering (WCRE)
+    pages: 335-344
   - year: 2011
     title: Identifying Performance Deviations in Thread Pools
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_IdentifyingPerformanceDeviationsInThreadPools.pdf
@@ -2270,9 +2637,11 @@
     acceptance_ratio: 36/127=28%
     publisher: IEEE
     address: Williamsburg, VA, US
-    venue: in Proceedings of the 27th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 27th International Conference on Software Maintenance (ICSM)
+    pages: 83-92
   - year: 2011
-    title: 'Exploring the Development of Micro-Apps: A Case Study on the BlackBerry and Android Platforms'
+    title: 'Exploring the Development of Micro-Apps: A Case Study on the BlackBerry
+      and Android Platforms'
     url: http://sail.cs.queensu.ca/data/pdfs/SCAM2011_ExploringTheDevelopmentOfMicro-Apps_ACaseStudyOnTheBlackBerryAndAndroidPlatforms.pdf
     bibtex: publications/2011/scam11and.bib
     authors:
@@ -2283,7 +2652,9 @@
     acceptance_ratio: 16/52=31%
     publisher: IEEE
     address: Williamsburg, VA, US
-    venue: in Proceedings of the 11th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+    venue: in Proceedings of the 11th International Working Conference on Source Code
+      Analysis and Manipulation (SCAM)
+    pages: 55-64
   - year: 2011
     title: Recovering a Balanced Overview of Topics in a Software Domain
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_RecoveringABalancedOverviewOfTopicsInASoftwareDomain.pdf
@@ -2296,7 +2667,9 @@
     acceptance_ratio: 16/52=31%
     publisher: IEEE
     address: Williamsburg, VA, US
-    venue: in Proceedings of the 11th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+    venue: in Proceedings of the 11th International Working Conference on Source Code
+      Analysis and Manipulation (SCAM)
+    pages: 135-144
   - year: 2011
     title: Using Indexed Sequence Diagrams to Recover the Behaviour of AJAX Applications
     url: http://sail.cs.queensu.ca/data/pdfs/WSE2011_UsingIndexedSequenceDiagramsToRecoverTheBehaviourOfAJAXApplications.pdf
@@ -2309,7 +2682,8 @@
     acceptance_ratio: 12/24=50%
     publisher: IEEE
     address: Williamsburg, VA, US
-    venue: in Proceedings of the 13th IEEE International Symposium on Web Systems Evolution, WSE
+    venue: in Proceedings of the 13th International Symposium on Web Systems Evolution (WSE)
+    pages: 1-10
   - year: 2011
     title: 'High-Impact Defects: A Study of Breakage and Surprise Defects'
     url: http://sail.cs.queensu.ca/data/pdfs/FSE2011_High-ImpactDefects_AStudyOfBreakageAndSurpriseDefects.pdf
@@ -2323,7 +2697,9 @@
     acceptance_ratio: 34/203=17%
     publisher: ACM
     address: Szeged, Hungary
-    venue: in Proceedings of the 8th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering, ESEC/FSE
+    venue: in Proceedings of the 8th joint meeting of the European Software Engineering
+      Conference and the SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)
+    pages: 300-310
   - year: 2011
     title: Modeling the Evolution of Topics in Historical Software Repositories
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_ModelingTheEvolutionOfTopicsInSourceCodeHistories.pdf
@@ -2336,7 +2712,8 @@
     acceptance_ratio: 20/61=33%
     publisher: IEEE
     address: Waikiki, Honolulu, Hawaii
-    venue: in Proceedings of the 8th IEEE Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 8th Working Conference on Mining Software Repositories (MSR)
+    pages: 173-182
   - year: 2011
     title: 'Security vs Performance bugs: A Case Study on Firefox'
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2011_SecurityVersusPerformanceBugs_ACaseStudyOnFirefox.pdf
@@ -2348,7 +2725,8 @@
     acceptance_ratio: 20/61=33%
     publisher: IEEE
     address: Waikiki, Honolulu, Hawaii
-    venue: in Proceedings of the 8th IEEE Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 8th Working Conference on Mining Software Repositories (MSR)
+    pages: 93-102
   - year: 2011
     title: An Empirical Study of Build Maintenance Effort
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf
@@ -2359,10 +2737,15 @@
     - Yasutaka Kamei
     - Thanh Nguyen
     - Ahmed E. Hassan
-    award: '[mentioned in this SE Podcast and these blog posts]'
+    awards:
+    - mentioned in https://stackoverflow.blog/2011/06/22/se-podcast-09/
+    - mentioned in http://relengofthenerds.blogspot.com/2011/08/research-release-engineering-and-roi.html
+    - mentioned in https://neverworkintheory.org/2011/08/09/an-empirical-study-of-build-maintenance-effort.html
+    - mentioned in https://softwareengineering.stackexchange.com/questions/106269/how-much-effort-goes-into-maintaining-a-build-system
     acceptance_ratio: 62/441=14%
     address: Waikiki, Honolulu, Hawaii
-    venue: in Proceedings of the 33rd International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 33rd International Conference on Software Engineering (ICSE)
+    pages: 141-150
   other:
   - year: 2011
     title: Modeling the Performance of Ultra-Large-Scale Systems Using Layered Simulations
@@ -2376,12 +2759,14 @@
     - Ying Zou
     - Kim Martin
     - Parminder Flora
-    acceptance_ratio: (8+18
     publisher: IEEE
     address: Williamsburg, VA, US
-    venue: in Proceedings of the 2011 IEEE International Workshop on the Maintenance and Evolution of Service-Oriented and Cloud-Based Systems, MESOCA
+    venue: in Proceedings of the 2011 International Workshop on the Maintenance and
+      Evolution of Service-Oriented and Cloud-Based Systems (MESOCA)
+    pages: 10 p.
   - year: 2011
-    title: A Lightweight Approach to Uncover Technical Information in Unstructured Data
+    title: A Lightweight Approach to Uncover Technical Information in Unstructured
+      Data [short]
     url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_ALightweightApproachToUncoverTechnicalInformationInUnstructuredData.pdf
     bibtex: publications/2011/icpc11nic.bib
     authors:
@@ -2389,35 +2774,41 @@
     - Bram Adams
     - Ahmed E. Hassan
     - Michel Smidt
-    acceptance_ratio: (8+18
+    acceptance_ratio: (8+18)/73=36%
     publisher: IEEE
     address: Kingston, ON, Canada
-    venue: '[short], in Proceedings of the 19th IEEE International Conference on Program Comprehension, ICPC'
+    venue: 'in Proceedings of the 19th International Conference on Program
+      Comprehension (ICPC)'
+    pages: 185-188
   - year: 2011
-    title: Industrial Case Study on Supporting the Comprehension of System Behaviour Under Load
+    title: Industrial Case Study on Supporting the Comprehension of System Behaviour
+      Under Load [poster]
     url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_IndustrialCaseStudyOnSupportingTheComprehensionOfSystemBehaviourUnderLoad.pdf
     bibtex: publications/2011/icpc11mark.bib
     authors:
     - Mark D. Syer
     - Bram Adams
     - Ahmed E. Hassan
-    acceptance_ratio: (4+8+18
+    acceptance_ratio: (4+8+18)/73=41%
     publisher: IEEE
     address: Kingston, ON, Canada
-    venue: '[poster], in Proceedings of the 19th IEEE International Conference on Program Comprehension, ICPC'
+    venue: 'in Proceedings of the 19th International Conference on Program
+      Comprehension (ICPC)'
+    pages: 215-216
   - year: 2011
     title: Proceedings of the 1st workshop on Modularity in systems software (MISS)
     url: http://portal.acm.org/citation.cfm?id=1960518
     authors:
-    - ADAMS, B.
-    - HAUPT, M.
-    - LORENZ, D. H.
-    - WOHLSTADTER E.
-    venue: 'ISBN-ISSN: 978-1-4503-0647-8'
+    - Bram Adams
+    - Michael Haupt
+    - David H. Lorenz
+    - Eric Wohlstadter
+    venue: 'ISBN-ISSN: 978-1-4503-0647-8, Porto de Galinhas, Brazil, March 2011'
 2010:
   journal:
   - year: 2010
-    title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory Study'
+    title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory
+      Study'
     url: http://dx.doi.org/10.1007/978-3-642-14888-0_9
     bibtex: publications/2010/kcsd.bib
     authors:
@@ -2427,9 +2818,12 @@
     - Ahmed E. Hassan
     publisher: Springer
     venue: Lecture Notes in Computer Science (LNCS)
+    volume: '6284'
+    pages: 91-103
   conference:
   - year: 2010
-    title: Pinpointing the Subsystems Responsible for the Performance Deviations in a Load Test
+    title: Pinpointing the Subsystems Responsible for the Performance Deviations in
+      a Load Test
     url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2010_PinpointingTheSubsystemsResponsibleForThePerformanceDeviationsInALoadTest.pdf
     bibtex: publications/2010/issre10.bib
     authors:
@@ -2439,7 +2833,9 @@
     acceptance_ratio: 40/130=31%
     publisher: IEEE
     address: San Jose, CA, US
-    venue: in Proceedings of the 21st IEEE International Symposium on Software Reliability Engineering, ISSRE
+    venue: in Proceedings of the 21st International Symposium on Software Reliability
+      Engineering (ISSRE)
+    pages: 201-210
   - year: 2010
     title: A Case Study of Bias in Bug-Fix Datasets
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_ACaseStudyOfBiasInBug-FixDatasets.pdf
@@ -2450,7 +2846,8 @@
     - Ahmed E. Hassan
     acceptance_ratio: 21/67=31%
     address: Boston, MA, US
-    venue: in Proceedings of the 17th Working Conference on Reverse Engineering, WCRE
+    venue: in Proceedings of the 17th Working Conference on Reverse Engineering (WCRE)
+    pages: 259-268
   - year: 2010
     title: 'Why are Bugs Re-opened: A Case Study on the Eclipse Project'
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_PredictingRe-openedBugs_ACaseStudyOnTheEclipseProject.pdf
@@ -2466,7 +2863,10 @@
     - Ken-ichi Matsumoto
     acceptance_ratio: 21/67=31%
     address: Boston, MA, US
-    venue: in Proceedings of the 17th Working Conference on Reverse Engineering, WCRE
+    venue: in Proceedings of the 17th Working Conference on Reverse Engineering (WCRE)
+    pages: 249-258
+    awards:
+    - invited for special issue
   - year: 2010
     title: Studying the Impact of Clones on Software Defects
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_StudyingTheImpactOfClonesOnSoftwareDefects.pdf
@@ -2480,9 +2880,11 @@
     - Ying Zou
     acceptance_ratio: 21/67=31%
     address: Boston, MA, US
-    venue: in Proceedings of the 17th Working Conference on Reverse Engineering, WCRE
+    venue: in Proceedings of the 17th Working Conference on Reverse Engineering (WCRE)
+    pages: 13-21
   - year: 2010
-    title: An Experience Report on Scaling Tools for Mining Software Repositories Using MapReduce
+    title: An Experience Report on Scaling Tools for Mining Software Repositories
+      Using MapReduce
     url: http://sail.cs.queensu.ca/data/pdfs/ASE2010_AnExperienceReportOnScalingToolsForMiningSoftwareRepositoriesUsingMapReduce.pdf
     bibtex: publications/2010/ase10.bib
     authors:
@@ -2492,7 +2894,9 @@
     acceptance_ratio: 34/191=18%
     publisher: IEEE
     address: Antwerp, Belgium
-    venue: in Proceedings of the 25th IEEE/ACM International Conference on Automated Software Engineering, ASE
+    venue: in Proceedings of the 25th /ACM International Conference on Automated Software
+      Engineering (ASE)
+    pages: 275-284
   - year: 2010
     title: Studying the impact of dependency network measures on software quality
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_StudyingTheimpactOfdependencynetworkmeasuresOnsoftwarequality.pdf
@@ -2504,7 +2908,8 @@
     acceptance_ratio: 36/133=27%
     publisher: IEEE
     address: Timişoara, Romania
-    venue: in Proceedings of the 26th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 26th International Conference on Software Maintenance (ICSM)
+    pages: 1-10
   - year: 2010
     title: Revisiting Common Bug Prediction Findings Using Effort Aware Models
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_RevisitingCommonBugPredictionFindingsUsingEffort-AwareModels.pdf
@@ -2519,7 +2924,8 @@
     acceptance_ratio: 36/133=27%
     publisher: IEEE
     address: Timişoara, Romania
-    venue: in Proceedings of the 26th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 26th International Conference on Software Maintenance (ICSM)
+    pages: 1-10
   - year: 2010
     title: Validating the Use of Topic Models for Software Evolution
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf
@@ -2529,13 +2935,18 @@
     - Bram Adams
     - Ahmed E. Hassan
     - Dorothea Blostein
-    award: Most Influential Paper Award
+    awards:
+    - Most Influential Paper Award
+    - invited for special issue
     acceptance_ratio: 17/44=39%
     publisher: IEEE
     address: Timişoara, Romania
-    venue: in Proceedings of the 10th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+    venue: in Proceedings of the 10th International Working Conference on Source Code
+      Analysis and Manipulation (SCAM)
+    pages: 55-64
   - year: 2010
-    title: 'Understanding the Impact of Code and Process Metrics on Post-release Defects: A Case Study on the Eclipse Project'
+    title: 'Understanding the Impact of Code and Process Metrics on Post-release Defects:
+      A Case Study on the Eclipse Project'
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE2010_UnderstandingTheImpactOfCodeAndProcessMetricsOnPost-releaseDefects_ACaseStudyOnTheEclipseProject.pdf
     bibtex: publications/2010/esem10.bib
     authors:
@@ -2547,9 +2958,11 @@
     acceptance_ratio: 30/102=29%
     article_number: '4'
     address: Bolzano-Bozen, Italy
-    venue: in Proceedings of the 4th International Symposium on Empirical Software Engineering and Measurement, ESEM
+    venue: in Proceedings of the th International Symposium on Empirical Software
+      Engineering and Measurement (ESEM)
   - year: 2010
-    title: Using Load Tests To Automatically Compare the Subsystems of a Large Enterprise System
+    title: Using Load Tests To Automatically Compare the Subsystems of a Large Enterprise
+      System
     url: http://sail.cs.queensu.ca/data/pdfs/COMPSAC2010_UsingLoadTestsToAutomaticallyCompareTheSubsystemsOfALargeEnterpriseSystem.pdf
     bibtex: publications/2010/compsac10.bib
     authors:
@@ -2559,9 +2972,11 @@
     acceptance_ratio: 20%
     publisher: IEEE
     address: Seoul, South Korea
-    venue: in Proceedings of the 34th Annual IEEE COMPuter Software and Applications Conference, COMPSAC
+    venue: in Proceedings of the 34th Annual COMPuter Software and Applications Conference (COMPSAC)
+    pages: 117-126
   - year: 2010
-    title: Mining Performance Regression Testing Repositories for Automated Performance Analysis
+    title: Mining Performance Regression Testing Repositories for Automated Performance
+      Analysis
     url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_MiningPerformanceRegressionTestingRepositoriesForAutomatedPerformanceAnalysis.pdf
     bibtex: publications/2010/qsic10derek.bib
     authors:
@@ -2573,7 +2988,8 @@
     - Parminder Flora
     acceptance_ratio: 20/121=16.5%
     address: Zhangjiajie, China
-    venue: in Proceedings of the 10th International Conference on Quality Software, QSIC
+    venue: in Proceedings of the 10th International Conference on Quality Software (QSIC)
+    pages: 32-41
   - year: 2010
     title: Prioritizing Unit Test Creation for Test-Driven Maintenance of Legacy Systems
     url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_PrioritizingUnitTestCreationForTest-DrivenMaintenanceOfLegacySystems.pdf
@@ -2586,7 +3002,10 @@
     - Robert Bowerman
     acceptance_ratio: 20/121=16.5%
     address: Zhangjiajie, China
-    venue: in Proceedings of the 10th International Conference on Quality Software, QSIC
+    venue: in Proceedings of the 10th International Conference on Quality Software (QSIC)
+    pages: 132-141
+    awards:
+    - invited for special issue
   - year: 2010
     title: The Evolution of ANT Build Systems
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf
@@ -2598,7 +3017,10 @@
     acceptance_ratio: 16/51=31.4%
     publisher: IEEE
     address: Cape Town, South Africa
-    venue: in Proceedings of the 7th IEEE Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 7th Working Conference on Mining Software Repositories (MSR)
+    awards:
+    - invited for special issue
+    pages: 42-51
   - year: 2010
     title: Should I contribute to this discussion?
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_ShouldIContributeToThisDiscussion_.pdf
@@ -2612,7 +3034,8 @@
     acceptance_ratio: 16/51=31.4%
     publisher: IEEE
     address: Cape Town, South Africa
-    venue: in Proceedings of the 7th IEEE Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 7th Working Conference on Mining Software Repositories (MSR)
+    pages: 181-190
   - year: 2010
     title: Identifying Crosscutting Concerns Using Historical Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf
@@ -2623,9 +3046,11 @@
     - Ahmed E. Hassan
     acceptance_ratio: 52/380=13.7%
     address: Cape Town, South Africa
-    venue: in Proceedings of the 32nd International Conference on Software Engineering, ICSE
+    venue: in Proceedings of the 32nd International Conference on Software Engineering (ICSE)
+    pages: 305-314
   - year: 2010
-    title: Automatic Comparison of Load Tests to Support the Performance Analysis of Large Enterprise Systems
+    title: Automatic Comparison of Load Tests to Support the Performance Analysis
+      of Large Enterprise Systems
     url: http://www.cse.yorku.ca/~zmjiang/publications/csmr2010_malik.pdf
     bibtex: publications/2010/csmr10.bib
     authors:
@@ -2637,23 +3062,28 @@
     - Gilbert Hamann
     acceptance_ratio: 21/80=26.3%
     address: Madrid, Spain
-    venue: in Proceedings of the 14th European Conference on Software Maintenance and Reengineering, CSMR
+    venue: in Proceedings of the 14th European Conference on Software Maintenance
+      and Reengineering (CSMR)
+    pages: 227-236
   other:
   - year: 2010
     title: Workshop on Mining Unstructured Data (MUD)
     url: http://dx.doi.org/10.1109/WCRE.2010.39
     authors:
-    - BETTENBURG, N.
-    - ADAMS, B.
+    - Nicolas Bettenburg
+    - Bram Adams
     venue: Proceedings of the 17th Working Conference on Reverse Engineering (WCRE)
+    address: Beverly, MA, US
   - year: 2010
-    title: Proceedings of the 9th Workshop on Aspects, Components, and Patterns for Infrastructure Software (ACP4IS)
+    title: Proceedings of the 9th Workshop on Aspects, Components, and Patterns for
+      Infrastructure Software (ACP4IS)
     url: http://www.hpi.uni-potsdam.de/fileadmin/hpi/source/Technische_Berichte/HPI_33_Proceedings_of_the_9th_Workshop_on_Aspects__Components__and_Patterns_for_Infrastructure_Software.pdf
     authors:
-    - ADAMS, B.
-    - HAUPT, M.
-    - LOHMANN, D.
-    venue: Technical Report 33
+    - Bram Adams
+    - Michael Haupt
+    - Daniel Lohmann
+    venue: Technical Report 33, Hasso-Plattner-Institut für Softwaresystemtechnik
+      GMBH, February 2010
 2009:
   journal:
   - year: 2009
@@ -2667,9 +3097,13 @@
     - Celina Gibbs
     - Yvonne Coady
     - Robert Hirschfeld
-    venue: 'in IET Software: Special Issue on Domain-specific Aspect Languages'
+    venue: 'IET Software (Special Issue on Domain-specific Aspect Languages)'
+    volume: '3'
+    number: '3'
+    pages: 201-218
   - year: 2009
-    title: Using Aspect Orientation in Legacy Environments for Reverse Engineering using Dynamic Analysis - An Industrial Experience Report
+    title: Using Aspect Orientation in Legacy Environments for Reverse Engineering
+      using Dynamic Analysis - An Industrial Experience Report
     url: https://repository.tudelft.nl/file/File_6062302e-6de3-4436-9dbe-2689bf9f0097
     bibtex: publications/2009/jss09.bib
     authors:
@@ -2681,6 +3115,9 @@
     - De Wolfgang Meuter
     publisher: Elsevier
     venue: Journal of Software and Systems (JSS)
+    volume: '82'
+    number: '4'
+    pages: 668-684
   conference:
   - year: 2009
     title: An Empirical Study on Inconsistent Changes to Code Clones at Release Level
@@ -2695,7 +3132,10 @@
     - Ahmed E. Hassan
     acceptance_ratio: 20/79=25%
     address: Lille, France
-    venue: in Proceedings of the 16th Working Conference on Reverse Engineering, WCRE
+    venue: in Proceedings of the 16th Working Conference on Reverse Engineering (WCRE)
+    pages: 85-94
+    awards:
+    - invited for special issue
   - year: 2009
     title: A Study of the Time Dependence of Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AStudyOfTheTimeDependenceOfCodeChanges.pdf
@@ -2706,7 +3146,8 @@
     - Ahmed E. Hassan
     acceptance_ratio: 20/79=25%
     address: Lille, France
-    venue: in Proceedings of the 16th Working Conference on Reverse Engineering, WCRE
+    venue: in Proceedings of the 16th Working Conference on Reverse Engineering (WCRE)
+    pages: 21-30
   - year: 2009
     title: Measuring the Progress of Projects Using the Time Dependence of Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_MeasuringTheProgressOfProjectsUsingTheTimeDependenceOfCodeChanges.pdf
@@ -2715,13 +3156,16 @@
     - Omar Alam
     - Bram Adams
     - Ahmed E. Hassan
-    award: Best Paper Award
+    awards:
+    - Best Paper Award
     acceptance_ratio: 35/162=22%
     publisher: IEEE
     address: Edmonton, Canada
-    venue: in Proceedings of the 25th IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 25th International Conference on Software Maintenance (ICSM)
+    pages: 329-338
   - year: 2009
-    title: MapReduce as a General Framework to Support Research in Mining Software Repositories (MSR)
+    title: MapReduce as a General Framework to Support Research in Mining Software
+      Repositories (MSR)
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2009_MapReduceAsAGeneralFrameworkToSupportResearchInMiningSoftwareRepositories(MSR).pdf
     bibtex: publications/2009/msr09.bib
     authors:
@@ -2732,7 +3176,8 @@
     acceptance_ratio: 14/47=30%
     publisher: IEEE
     address: Vancouver, Canada
-    venue: in Proceedings of the 6th IEEE Working Conference on Mining Software Repositories, MSR
+    venue: in Proceedings of the 6th Working Conference on Mining Software Repositories (MSR)
+    pages: 21-30
   - year: 2009
     title: Can we Refactor Conditional Compilation into Aspects?
     url: http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf
@@ -2742,14 +3187,18 @@
     - Wolfgang De Meuter
     - Herman Tromp
     - Ahmed E. Hassan
-    award: Most Influential Paper Award
+    awards:
+    - Most Influential Paper Award
     acceptance_ratio: 19/86=22%
     publisher: ACM
     address: Charlottesville, VA, US
-    venue: in Proceedings of the 8th ACM international conference on Aspect-oriented Software Development, AOSD
+    venue: 'in Proceedings of the 8th international conference on Aspect-oriented
+      Software Development (AOSD)'
+    pages: 243-254
   workshop:
   - year: 2009
-    title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory Study'
+    title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory
+      Study'
     url: http://sail.cs.queensu.ca/data/pdfs/KCSD2009_OnTheCentralRoleOfMailingListsInOpenSourceProjects_AnExploratoryStudy.pdf
     bibtex: publications/2009/kcsd09.bib
     authors:
@@ -2758,9 +3207,12 @@
     - Bram Adams
     - Ahmed E. Hassan
     address: Tokyo, Japan
-    venue: in Proceedings of the 3rd International Workshop on Knowledge Collaboration in Software Development, KCSD
+    venue: 'in Proceedings of the 3rd International Workshop on Knowledge Collaboration
+      in Software Development (KCSD)'
+    pages: 14 p.
   - year: 2009
-    title: 'Virtual Machine Support for Many-Core Architectures: Decoupling Abstract From Concrete Concurrency Models'
+    title: 'Virtual Machine Support for Many-Core Architectures: Decoupling Abstract
+      From Concrete Concurrency Models'
     url: http://gloss.di.fc.ul.pt/places09/preproceedings.pdf
     bibtex: publications/2009/places09.bib
     authors:
@@ -2771,7 +3223,8 @@
     - Pascal Costanza
     - Wolfgang De Meuter
     address: York, UK
-    venue: in Proceedings of the 2nd workshop on Programming Language Approaches to Concurrency and communication-cEntric Software, PLACES
+    venue: in Proceedings of the 2nd workshop on Programming Language Approaches to
+      Concurrency and communication-cEntric Software (PLACES)
   other:
   - year: 2009
     title: The Life of a Software Concern
@@ -2780,7 +3233,7 @@
     - Bram Adams.
     - Ahmed E. Hassan
     address: Louvain-la-Neuve, Belgium
-    venue: in Benevol
+    venue: in Benevol, December 2009
   - year: 2009
     title: Co-Evolution of Source Code and the Build System
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_Co-EvolutionOfSourceCodeAndTheBuildSystem.pdf
@@ -2789,9 +3242,10 @@
     - Bram Adams
     publisher: IEEE
     address: Edmonton, Canada
-    venue: PhD Symposium at the 25th IEEE International Conference on Software Maintenance, ICSM
+    venue: PhD Symposium at the 25th International Conference on Software Maintenance (ICSM)
   - year: 2009
-    title: Proceedings of the 1st Practices in Linking Aspect Technology and Evolution workshop (PLATE)
+    title: Proceedings of the 1st Practices in Linking Aspect Technology and Evolution
+      workshop (PLATE)
     url: http://portal.acm.org/citation.cfm?id=1509847
     authors:
     - Iris Groher
@@ -2801,9 +3255,11 @@
     - Uwe Hohenstein
     - Ademar Aguiar
     - Eddy Truyen
-    venue: 'ISBN-ISSN: 978-1-60558-453-9'
+    venue: co-located with the 8th international conference on Aspect-oriented Software Development (AOSD)
+    address: Charlottesville, VA, US
   - year: 2009
-    title: 'R3V3RS3: Querying for Syntactical Patterns of Conditional Compilation Usage (demo)'
+    title: 'R3V3RS3: Querying for Syntactical Patterns of Conditional Compilation
+      Usage [demo]'
     url: publications/2009/r3v3rs3.pdf
     bibtex: publications/2009/aosd09.bib
     authors:
@@ -2813,16 +3269,75 @@
     - Wolfgang De Meuter
     publisher: ACM
     address: Charlottesville, VA, US
-    venue: in Proceedings of the 8th ACM international conference on Aspect-oriented Software Development, AOSD
+    venue: in Proceedings of the 8th international conference on Aspect-oriented Software
+      Development (AOSD)
 2008:
-  other:
+  journal:
   - year: 2008
-    title: 'Co-evolution of Source Code and the Build System: Impact on the Introduction of AOSD in Legacy Systems'
+    title: The Evolution of the Linux Build System
+    url: publications/2008/eceasst.pdf
+    bibtex: publications/2008/eceasst.bib
+    authors:
+    - Bram Adams
+    - Kris De Schutter
+    - Herman Tromp
+    - Wolfgang De Meuter
+    volume: '8'
+    address: Paris, France
+    venue: in Proceedings of the ERCIM Working Group on Software Evolution 2007 ,
+      Electronic Communications of the ECEASST
+    pages: 16 p.
+  workshop:
+  - year: 2008
+    title: Aspect mining in the Presence of the C Preprocessor
+    url: publications/2008/late.pdf
+    bibtex: publications/2008/late08.bib
+    authors:
+    - Bram Adams
+    - Van Bart Rompaey
+    - Celina Gibbs
+    - Yvonne Coady
+    publisher: ACM
+    address: Brussels, Belgium
+    venue: 'in Proceedings of the 4th Linking Aspect Technology and Evolution Workshop (LATE)'
+    pages: 1-6
+  - year: 2008
+    title: Towards a DSAL for Object Layout in Virtual Machines
+    url: http://dsal.dcc.uchile.cl/2008/timbermont.pdf
+    bibtex: publications/2008/dsal08.bib
+    authors:
+    - Stijn Timbermont
+    - Bram Adams
+    - Michael Haupt
+    publisher: ACM
+    address: Brussels, Belgium
+    venue: 'in Proceedings of the 3rd Domain-Specific Aspect Languages Workshop (DSAL)'
+    pages: 1-4
+  - year: 2008
+    title: cHALO, Stateful Aspects in C
+    url: publications/2008/acp4is.pdf
+    bibtex: publications/2008/acp4is08.bib
+    authors:
+    - Bram Adams
+    - Charlotte Herzeel
+    - Kris Gybels
+    publisher: ACM
+    address: Brussels, Belgium
+    venue: 'in Proceedings of the 7th Workshop on Aspects, Components, and Patterns
+      for Infrastructure Software (ACP4IS)'
+    pages: 1-6
+  thesis:
+  - year: 2008
+    title: 'Co-evolution of Source Code and the Build System: Impact on the Introduction
+      of AOSD in Legacy Systems'
     url: publications/2008/PhD.pdf
     bibtex: publications/2008/phd.bib
     authors:
     - Bram Adams
     venue: PhD dissertation
+    pages: 353 p.
+    address: Ghent University, Belgium    
+  other:
   - year: 2008
     authors:
     - Zhen Ming Jiang
@@ -2836,60 +3351,21 @@
     - Adele Newton
     - James Sutherland
     - Bram Adams
+    title: Quality Engineering for Large Scale Enterprise Systems
+    venue: in Center of Advanced Studies Conference Exhibit (CASCON)
+    address: Toronto, Canada
   - year: 2008
     authors:
     - Bram Adams
+    title: Lessons learnt from Studying Build Systems with MAKAO [presentation]
+    venue: 2nd Workshop on Advanced Software Development Tools and Techniques (WASDeTT)
+    address: Beijing, China
   - year: 2008
     authors:
     - Bram Adams
-  journal:
-  - year: 2008
-    title: The Evolution of the Linux Build System
-    url: publications/2008/eceasst.pdf
-    bibtex: publications/2008/eceasst.bib
-    authors:
-    - Bram Adams
-    - Kris De Schutter
-    - Herman Tromp
-    - Wolfgang De Meuter
-    volume: '8'
-    address: Paris, France
-    venue: in Proceedings of the ERCIM Working Group on Software Evolution 2007
-  workshop:
-  - year: 2008
-    title: Aspect mining in the Presence of the C Preprocessor
-    url: publications/2008/late.pdf
-    bibtex: publications/2008/late08.bib
-    authors:
-    - Bram Adams
-    - Van Bart Rompaey
-    - Celina Gibbs
-    - Yvonne Coady
-    publisher: ACM
-    address: Brussels, Belgium
-    venue: in Proceedings of the 4th Linking Aspect Technology and Evolution Workshop, LATE
-  - year: 2008
-    title: Towards a DSAL for Object Layout in Virtual Machines
-    url: http://dsal.dcc.uchile.cl/2008/timbermont.pdf
-    bibtex: publications/2008/dsal08.bib
-    authors:
-    - Stijn Timbermont
-    - Bram Adams
-    - Michael Haupt
-    publisher: ACM
-    address: Brussels, Belgium
-    venue: in Proceedings of the 3rd Domain-Specific Aspect Languages Workshop, DSAL
-  - year: 2008
-    title: cHALO, Stateful Aspects in C
-    url: publications/2008/acp4is.pdf
-    bibtex: publications/2008/acp4is08.bib
-    authors:
-    - Bram Adams
-    - Charlotte Herzeel
-    - Kris Gybels
-    publisher: ACM
-    address: Brussels, Belgium
-    venue: in Proceedings of the 7th Workshop on Aspects, Components, and Patterns for Infrastructure Software, ACP4IS
+    title: Mining the Build System [presentation]
+    venue: Lightning workshop on Mining Software Repositories
+    address: Antwerp, Belgium
 2007:
   journal:
   - year: 2007
@@ -2901,7 +3377,11 @@
     - Bram Adams
     publisher: Elsevier
     address: 06-07 April 2006, Lille, France
-    venue: in Proceedings of the ERCIM Working Group on Software Evolution
+    venue: in Proceedings of the ERCIM Working Group on Software Evolution, Electronic
+      Notes in Theoretical Computer Science (ENTCS)
+    volume: '166'
+    number: '1'
+    pages: 63-80
   conference:
   - year: 2007
     title: Design Recovery and Maintenance of Build Systems
@@ -2914,7 +3394,10 @@
     - Wolfgang De Meuter
     acceptance_ratio: 46/214=21%
     publisher: IEEE
-    venue: in Proceedings of the 23rd IEEE International Conference on Software Maintenance,  ICSM
+    venue: in Proceedings of the 23rd International Conference on Software Maintenance (ICSM)
+    awards: invited for special issue
+    pages: 114-123
+    address: Paris, France
   workshop:
   - year: 2007
     title: On the Relationship between Weavers and the Build System
@@ -2923,7 +3406,7 @@
     - Bram Adams
     - Kris De Schutter
     address: Namur, Belgium
-    venue: (presentation), in Benevol
+    venue: Benevol, December 2007
   - year: 2007
     title: The Evolution of the Linux Build System
     url: ftp://ftp.umh.ac.be/pub/ftp_infofs/2007/ERCIM-Evol2007.pdf
@@ -2934,9 +3417,12 @@
     - Herman Tromp
     - Wolfgang De Meuter
     address: Paris, France
-    venue: in Informal proceedings of the International ERCIM Workshop on Software Evolution 2007
+    venue: in Informal proceedings of the International ERCIM Workshop on Software
+      Evolution 2007
+    pages: 93-102
   - year: 2007
-    title: An Aspect for Idiom-based Exception Handling (using local continuation join points, join point properties, annotations and type parameters)
+    title: An Aspect for Idiom-based Exception Handling (using local continuation
+      join points, join point properties, annotations and type parameters)
     url: publications/2007/splat07.pdf
     bibtex: publications/2007/splat07.bib
     authors:
@@ -2944,7 +3430,9 @@
     - De Kris Schutter
     publisher: ACM
     address: Vancouver, Canada
-    venue: in Proceedings of the 5th Software-Engineering Properties of Languages and Aspect Technologies Workshop, SPLAT
+    venue: 'in Proceedings of the 5th Software-Engineering Properties of Languages
+      and Aspect Technologies Workshop (SPLAT)'
+    pages: 1-8
   - year: 2007
     title: 'Face-off: AOP+LMP vs. Legacy Software'
     url: http://drops.dagstuhl.de/opus/volltexte/2007/888
@@ -2952,17 +3440,20 @@
     authors:
     - Kris De Schutter
     - Bram Adams
-    venue: in Aspects For Legacy Applications (Proceedings of Dagstuhl Seminar 06302)
+    venue: in Aspects For Legacy Applications (Proceedings of of Dagstuhl Seminar 06302)
+    pages: 6p.
+    publisher: Internationales Begegnungs- und Forschungszentrum fuer Informatik (IBFI)
+    address: Schloss Dagstuhl, Germany
   other:
   - year: 2007
-    title: Co-evolution of Source Code and Build Systems
+    title: Co-evolution of Source Code and Build Systems [poster]
     url: publications/2007/symp-paper.pdf
     authors:
     - Bram Adams
     address: Ghent University, Belgium
     venue: in 8th FIrW PhD Symposium 2007
   - year: 2007
-    title: MAKAO
+    title: MAKAO [demo]
     url: publications/2007/icsm-demo.pdf
     bibtex: publications/2007/icsm-demo.bib
     authors:
@@ -2972,19 +3463,23 @@
     - Wolfgang De Meuter
     publisher: IEEE
     address: Paris, France
-    venue: (demo), in Proceedings of the 23rd IEEE International Conference on Software Maintenance, ICSM
+    venue: in Proceedings of the 23rd International Conference on Software
+      Maintenance (ICSM)
+    pages: 517-518
   - year: 2007
-    title: Made in MAKAO
+    title: Made in MAKAO [extended abstract]
     url: publications/2007/aosd-demo.pdf
     bibtex: publications/2007/aosd-demo.bib
     authors:
     - Bram Adams
     address: Vancouver, Canada
-    venue: Demo at the 6th International Conference on Aspect-Oriented Software Development, AOSD
+    venue: in Proceedings of the 3rd European Workshop on Aspects
+      in Software (EWAS)
 2006:
   conference:
   - year: 2006
-    title: Regaining Lost Knowledge through Dynamic Analysis and Aspect Orientation - An Industrial Experience Report
+    title: Regaining Lost Knowledge through Dynamic Analysis and Aspect Orientation
+      - An Industrial Experience Report
     url: publications/2006/regaining.pdf
     bibtex: publications/2006/regaining.bib
     authors:
@@ -2997,24 +3492,29 @@
     acceptance_ratio: 27/65=42%
     publisher: IEEE
     address: Bari, Italy
-    venue: in Proceedings of the 10th European Conference on Software Maintenance and Reengineering, CSMR
+    venue: in Proceedings of the 10th European Conference on Software Maintenance
+      and Reengineering (CSMR)
+    pages: 91-102
   workshop:
   - year: 2006
-    title: Software Architecture Recovery from Build Processes
+    title: Software Architecture Recovery from Build Processes [presentation]
     url: publications/2006/makao-recovery.pdf
     authors:
     - Bram Adams
     - Kris De Schutter
     address: Delft, The Netherlands
-    venue: (presentation), in Benevol 2006
+    venue: in Benevol, December 2006
   - year: 2006
-    title: Made in MAKAO
+    title: Made in MAKAO [extended abstract]
     url: publications/2006/makao-ewas.pdf
     bibtex: publications/2006/makao-ewas.bib
     authors:
     - Bram Adams
     address: Enschede, The Netherlands
-    venue: (extended abstract), in Proceedings of the 3rd European Workshop on Aspects in Software, EWAS
+    venue: in Proceedings of the 3rd European Workshop on Aspects
+      in Software (EWAS)
+    pages: 41-42
+    publisher: University of Bonn
   - year: 2006
     title: Aspect-orientation for Revitalising Legacy Business Software
     url: publications/2006/ao4vittel.pdf
@@ -3023,7 +3523,9 @@
     - Kris De Schutter
     - Bram Adams
     address: Lille, France
-    venue: in Informal Proceedings of the International ERCIM Workshop on Software Evolution 2006
+    venue: in Informal Proceedings of the International ERCIM Workshop on Software
+      Evolution 2006
+    pages: 43-56
   - year: 2006
     title: AOP on the C-side
     url: publications/2006/aoponthecside.pdf
@@ -3031,28 +3533,31 @@
     authors:
     - Bram Adams
     address: Bonn, Germany
-    venue: in Proceedings of the 2nd Linking Aspect Technology and Evolution Workshop, LATEr
+    venue: in Proceedings of the 2nd Linking Aspect Technology and Evolution Workshop (LATEr)
+    pages: 5 p.
   other:
   - year: 2006
-    title: 'MAKAO: Dealing with Legacy Build Systems'
+    title: 'MAKAO: Dealing with Legacy Build Systems [extended abstract]'
     url: publications/2006/makao-summer.pdf
     authors:
     - Bram Adams
     address: Brussels, Belgium
-    venue: (extended abstract), 1st European Summer School on Aspect-oriented Software Development
+    venue: in 1st European Summer School on Aspect-oriented Software
+      Development
 2005:
   workshop:
   - year: 2005
-    title: Applying aspects in a legacy environment
+    title: Applying aspects in a legacy environment [presentation]
     url: publications/2005/applyingaspectsinalegacyenvironment_presentation.pdf
     authors:
     - Bram Adams
     - Kris De Schutter
     - Andy Zaidman
     address: Brussels, Belgium
-    venue: Benevol[04]
+    venue: in Benevol, December 2005
   - year: 2005
-    title: 'Applying Dynamic Analysis in a Legacy Context: An Industrial Experience Report'
+    title: 'Applying Dynamic Analysis in a Legacy Context: An Industrial Experience
+      Report'
     url: http://www.lore.ua.ac.be/Events/PCODA2005/PCODA2005proceedings.pdf
     bibtex: publications/2005/applyingaspectsinalegacyenvironment.bib
     authors:
@@ -3060,7 +3565,9 @@
     - Bram Adams
     - Kris De Schutter
     address: Pittsburgh, Pennsylvania, US
-    venue: in Proceedings of the 1st International Workshop on Program Comprehension Through Dynamic Analysis, PCODA
+    venue: in Proceedings of the 1st International Workshop on Program Comprehension
+      Through Dynamic Analysis (PCODA)
+    pages: 6-10
   - year: 2005
     title: AOP for Legacy Environments, a Case Study
     url: publications/2005/aop-for-legacy-environments_case-study.pdf
@@ -3070,14 +3577,15 @@
     - Kris De Schutter
     - Andy Zaidman
     address: Brussels, Belgium
-    venue: in European Interactive Workshop on Aspects in Software, EIWAS
+    venue: in European Interactive Workshop on Aspects in Software (EIWAS)
+    pages: 8 p.
   - year: 2005
-    title: Metadata and aspect evolution
+    title: Metadata and aspect evolution [presentation]
     url: publications/2005/metadataandaspectevolution_presentation.pdf
     authors:
     - Bram Adams
     address: Eindhoven, The Netherlands
-    venue: Benevol 2005
+    venue: in Benevol, May 2005
   - year: 2005
     title: 'Aspect Orientation for C: Express yourself'
     url: publications/2005/expressyourself.pdf
@@ -3085,28 +3593,36 @@
     authors:
     - Bram Adams
     - Tom Tourwé
-    address: Chicago. Illinois, US
-    venue: in Proceedings of the 3rd Software-Engineering Properties of Languages and Aspect Technologies Workshop, SPLAT
+    address: Chicago, Illinois, US
+    venue: in Proceedings of the 3rd Software-Engineering Properties of Languages
+      and Aspect Technologies Workshop (SPLAT)
+    pages: 6 p.
   other:
   - year: 2005
-    title: Aspect Orientation in the Procedural Context of C
+    title: Aspect Orientation in the Procedural Context of C [poster]
     url: publications/2005/AOinProceduralContextOfC-paper.pdf
     authors:
     - Bram Adams
     address: Ghent University, Belgium
     venue: in 6th FIrW PhD Symposium 2005
   - year: 2005
-    title: Language-independent Aspect Weaving
+    title: Language-independent Aspect Weaving [extended abstract]
     url: publications/2005/language-independentaspectweaving.pdf
     authors:
     - Bram Adams
     address: Braga, Portugal
-    venue: (extended abstract), GTTSE 2005 Summer School
+    venue: GTTSE 2005 Summer School, July 2005
+    awards:
+    - mentioned in https://web.archive.org/web/20070301171335/http://www.ddj.com/dept/architect/188701148?pgno=6
 2004:
   thesis:
   - year: 2004
-    title: Aspectgenerator voor Declaratieve Definitie van Persistentie (English: Aspect Generator for Declarative Definition of Persistency)
+    title: 'Aspectgenerator voor Declaratieve Definitie van Persistentie [English:
+      Aspect Generator for Declarative Definition of Persistency]'
     url: publications/2004/aspectgenerator.pdf
     authors:
     - Bram Adams
-    venue: MSc. thesis at SEL
+    venue: Master's thesis (Dutch)
+    address: Ghent University, Belgium
+    replication_package: https://mcislab.github.io/publications/2004/source.zip
+    pages: 86 p.
