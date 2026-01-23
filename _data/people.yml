@@ -25,6 +25,10 @@ students:
     role: Master's student
     supervisor: [Dr. Sidney Givigi]
     image: https://sailresearch.github.io/sail-website/img/members/allen.jpeg
+  - name: Ahmed Hany Hereiz
+    role: Master's student
+    supervisor: [Dr. Ahmed E. Hassan]
+    image: images/ahmed_hereiz.png
   - name: Mohammed Mehedi Hasan
     role: PhD student
     supervisor: [Dr. Ahmed E. Hassan]
@@ -202,6 +206,7 @@ alumni:
   - name: Vivek Varadharajan
     role: PhD
     supervisor: [Dr. Giovanni Beltrame]
+    image: images/vivek.png
   - name: Shivashree Vysali
     role: Master's
     supervisor: [Dr. Shane McIntosh]
