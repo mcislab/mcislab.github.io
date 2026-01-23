@@ -1,0 +1,3077 @@
+2026:
+  journal:
+  - authors:
+    - LI, H.
+    - MASRI, H.
+    - C&#212;GO, F.R.
+    - BANGASH, A.A.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    year: 2026
+    title: 'Understanding Prompt Management in GitHub Repositories: A Call for Best Practices'
+    venue: IEEE Software
+    publisher: IEEE
+    status: to appear
+    url: https://arxiv.org/abs/2509.12421
+    bibtex: publications/2026/ieeesw-hicham.bib
+  - authors:
+    - BHATIA, A.
+    - KHOMH, F.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    year: 2026
+    title: An Empirical Study of Self-Admitted Technical Debt in Machine Learning Software
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+    publisher: ACM
+    status: to appear
+    url: https://arxiv.org/abs/2311.12019
+    bibtex: publications/2026/tosem_aadi.bib
+  - authors:
+    - MACEDO, M.
+    - TIAN, Y.
+    - C&#212;GO, F.R.
+    - ADAMS, B.
+    year: 2026
+    title: Output Format Biases in the Evaluation of Large Language Models for Code Translation
+    venue: Empirical Software Engineering
+    publisher: Springer
+    volume: '31'
+    number: '41'
+    url: https://arxiv.org/abs/2403.17214
+    bibtex: publications/2026/emse_output.bib
+  - authors:
+    - SINGH, J.
+    - FALLAHZADEH, E.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    year: 2025
+    title: On the Impact of Black-box Deployment Strategies for Edge AI on Latency and Model Performance - Empirical Study on ONNX
+    venue: Empirical Software Engineering
+    publisher: Springer
+    status: to appear
+    url: publications/2026/emse_blackbox.pdf
+    bibtex: publications/2026/emse_blackbox.bib
+2025:
+  journal:
+  - authors:
+    - ZHENG, S.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    year: 2025
+    title: On Build Hermeticity in Bazel-based Build Systems
+    venue: IEEE Software
+    volume: '42'
+    pages: 55-63
+    publisher: IEEE
+    url: publications/2025/ieeesw-shenyu.pdf
+    bibtex: publications/2025/ieeesw-shenyu.bib
+  - authors:
+    - AJIBODE, A.
+    - BANGASH, A.A.
+    - C&#212;GO, F.R.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    year: 2025
+    title: Towards Semantic Versioning of Open Pre-trained Language Model Releases on Hugging Face
+    venue: Empirical Software Engineering
+    volume: '30'
+    number: '3'
+    publisher: Springer
+    url: publications/2025/emse_semver.pdf
+    bibtex: publications/2025/emse_semver.bib
+  - authors:
+    - ZHAO, Z.
+    - BANGASH, A.A.
+    - C&#212;GO, F.R.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    year: 2025
+    title: 'On the Workflows and Smells of Leaderboard Operations (LBOps): An Exploratory Study of Foundation Model Leaderboards'
+    venue: Transactions on Software Engineering (TSE)
+    volume: '51'
+    number: '4'
+    pages: 929-946
+    publisher: IEEE
+    url: https://arxiv.org/abs/2407.04065
+    bibtex: publications/2025/tse_jimmy.bib
+  - authors:
+    - EBRAHIMI, A.
+    - ADAMS, B.
+    - OLIVA, G.A.
+    - HASSAN, A.E.
+    year: 2025
+    title: 'UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum'
+    venue: Empirical Software Engineering
+    volume: '30'
+    number: '3'
+    publisher: Springer
+    url: https://arxiv.org/abs/2501.00674
+    bibtex: publications/2025/emse_amir_sentinel.bib
+  - authors:
+    - KAMATH, D.M.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    year: 2025
+    title: Lightweight Dynamic Build Batching Algorithms for Continuous Integration
+    venue: Empirical Software Engineering
+    volume: '30'
+    number: '2'
+    publisher: Springer
+    url: publications/2025/emse_divya_light.pdf
+    bibtex: publications/2025/emse_divya_light.bib
+  - authors:
+    - FALLAHZADEH, E.
+    - RIGBY, P.C.
+    - ADAMS, B.
+    year: 2025
+    title: Contrasting Test Selection, Prioritization, and Batch Testing at Scale
+    venue: Empirical Software Engineering
+    volume: '30'
+    number: '1'
+    publisher: Springer
+    url: publications/2025/emse_scale.pdf
+    bibtex: publications/2025/emse_scale.bib
+  - authors:
+    - PATEL, H.
+    - BOUCHER, D.
+    - FALLAHZADEH, E.
+    - HASSAN, A.E.
+    - ADAMS, B.
+    year: 2025
+    title: A State-of-the-practice Release-readiness Checklist for Generative AI-based Software Products
+    venue: IEEE Software
+    volume: '42'
+    number: '1'
+    pages: 74-83
+    publisher: IEEE
+    url: publications/2025/ieeesw-harsh.pdf
+    bibtex: publications/2025/ieeesw-harsh.bib
+  - authors:
+    - YASMIN, J.
+    - WANG, J.
+    - TIAN, Y.
+    - ADAMS, B.
+    year: 2025
+    title: 'An Empirical Study of Developers'' Challenges in Implementing Workflows as Code: A Case Study on Apache Airflow'
+    venue: Journal of Software and Systems (JSS)
+    volume: '219'
+    publisher: Elsevier
+    url: https://arxiv.org/abs/2406.00180
+    bibtex: publications/2025/jss_airflow.bib
+  conference:
+  - authors:
+    - MACEDO, M.
+    - TIAN, Y.
+    - NIE, P.
+    - C&#212;GO, F.R.
+    - ADAMS, B.
+    year: 2025
+    title: 'InterTrans: Leveraging Transitive Intermediate Translations to Enhance LLM-based Code Translation'
+    venue: in Proceedings of the 47th International Conference on Software Engineering, ICSE
+    address: Ottawa, ON
+    status: to appear
+    acceptance_ratio: N/A
+    url: https://arxiv.org/abs/2411.01063
+    bibtex: publications/2025/icse25.bib
+  - authors:
+    - OPDEBEECK, R.
+    - ADAMS, B.
+    - DE ROOVER, C.
+    year: 2025
+    title: 'Analysing Software Supply Chains of Infrastructure as Code: Extraction of Ansible Plugin Dependencies'
+    venue: in Proceedings of the 32nd IEEE International Conference on Software Analysis, Evolution and Reengineering, SANER
+    address: Montr&eacute;al, Canada
+    pages: 181-192
+    publisher: IEEE
+    acceptance_ratio: 52/225=23.21%
+    url: https://researchportal.vub.be/nl/publications/analysing-software-supply-chains-of-infrastructure-as-code-extrac
+    bibtex: publications/2025/saner.bib
+  workshop:
+  - authors:
+    - MACEDO, M.
+    - TIAN, Y.
+    - ADAMS, B.
+    year: 2025
+    title: 'CodeTransEngine: Ready-to-use Backend for LLM-based Code Translation'
+    venue: in Proceedings of the 3rd Workshop on Deep Learning for Code, DL4C
+    address: Singapore
+    url: https://openreview.net/forum?id=9WHJuzjPJf
+    bibtex: publications/2025/dl4c.bib
+2024:
+  journal:
+  - year: 2024
+    authors:
+    - OREAMUNO, E.L.
+    - KHAN, R.F.
+    - BANGASH, A.A.
+    - STINSON, C.
+    - ADAMS, B.
+    title: The State of Documentation Practices of Third-party Machine Learning Models and Datasets
+    url: publications/2024/ieeesw-ernesto.pdf
+    bibtex: publications/2024/ieeesw-ernesto.bib
+    pages: 52-59
+    volume: '41'
+    number: '5'
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2024
+    authors:
+    - KAMATH, D.M.
+    - FERNANDES, E.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: On Combining Commit Grouping and Build Skip Prediction to Reduce Redundant Continuous Integration Activity
+    url: publications/2024/emse_divya_timeout.pdf
+    bibtex: publications/2024/emse_divya_timeout.bib
+    volume: '29'
+    number: '6'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2024
+    authors:
+    - ZHENG, S.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: Does Using Bazel Help Speed Up Continuous Integration Builds?
+    url: https://arxiv.org/abs/2405.00796
+    bibtex: publications/2024/emse_shenyu.bib
+    volume: '29'
+    number: '5'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2024
+    authors:
+    - OUATITI, Y.E.
+    - SAYAGH, M.
+    - KERZAZI, N.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: The impact of Concept drift and Data leakage on Log Level Prediction Models
+    url: https://sail.cs.queensu.ca/data/pdfs/2024_The_Impact_of_Concept_Drift_and_Data_leakage_on_Log_Level_Prediction_Models.pdf
+    bibtex: publications/2024/emse_youssef.bib
+    volume: '29'
+    number: '5'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2024
+    authors:
+    - PATEL, H.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: Post Deployment Recycling of Machine Learning Models - Don't Throw Away Your Old Models!
+    url: publications/2024/emse_harsh.pdf
+    bibtex: publications/2024/emse_harsh.bib
+    volume: '29'
+    number: '4'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2024
+    authors:
+    - EBRAHIMI, A.
+    - ADAMS, B.
+    - OLIVA, G.A.
+    - HASSAN, A.E.
+    title: A Large-Scale Exploratory Study on the Proxy Pattern in Ethereum
+    url: https://sail.cs.queensu.ca/data/pdfs/2024_A_Large-Scale_Exploratory_Study_on_the_Proxy_Pattern_in_Ethereum.pdf
+    bibtex: publications/2024/emse_amir_proxy.bib
+    volume: '29'
+    number: '4'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2024
+    authors:
+    - ZHAO, Z.
+    - CHEN, Y.
+    - BANGASH, A.A.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: An Empirical Study of Challenges in Machine Learning Asset Management
+    url: https://arxiv.org/abs/2402.15990
+    bibtex: publications/2024/emse_jimmy_challenges.bib
+    volume: '29'
+    number: '4'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2024
+    authors:
+    - MALIK, A.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: 'Towards Graph-Anonymization of Software Analytics Data: Empirical Study on JIT Defect Prediction'
+    url: publications/2024/emse_akshat_within.pdf
+    bibtex: publications/2024/emse_akshat_within.bib
+    volume: '29'
+    number: '4'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2024
+    authors:
+    - NAYEBI, M.
+    - ADAMS, B.
+    title: Image-based Communication on Social Coding Platforms
+    url: https://arxiv.org/abs/2306.15851
+    bibtex: publications/2024/jsep_maleknaz.bib
+    volume: '36'
+    number: '5'
+    publisher: Wiley
+    venue: 'Journal of Software: Evolution and Process (JSEP)'
+  - year: 2024
+    authors:
+    - BAJAJ, R.
+    - FERNANDES, E.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: 'Unreproducible builds: Time to fix, causes, and correlation with external ecosystem factors'
+    url: publications/2024/emse_rahul.pdf
+    bibtex: publications/2024/emse_rahul.bib
+    volume: '29'
+    number: '1'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  conference:
+  - year: 2024
+    authors:
+    - OLEWICKI, D.
+    - HABCHI, S.
+    - ADAMS, B.
+    title: An empirical study on code review activity prediction and its impact in practice
+    url: https://arxiv.org/abs/2404.10703
+    bibtex: publications/2024/fse.bib
+    acceptance_ratio: 121/483=25.1%
+    pages: '2238'
+    publisher: ACM
+    address: Porto de Galinhas, Brazil
+    venue: in Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024
+  - year: 2024
+    authors:
+    - OLEWICKI, D.
+    - HABCHI, S.
+    - NAYROLLES, M.
+    - FARAMARZI, M.
+    - CHANDAR, S.
+    - ADAMS, B.
+    title: 'On the Costs and Benefits of Adopting Lifelong Learning for Software Analytics: Empirical Study on Brown Build and Risk Prediction'
+    url: https://arxiv.org/abs/2305.09824
+    bibtex: publications/2024/seip.bib
+    award: Distinguished Paper Award
+    acceptance_ratio: 45/120=37.5%
+    pages: 275-286
+    address: Lisbon, Portugal
+    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at the 46th International Conference on Software Engineering, ICSE
+  - year: 2024
+    authors:
+    - MACEDO, M.
+    - TIAN, Y.
+    - CÔGO, F.R.
+    - ADAMS, B.
+    title: Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation
+    url: https://arxiv.org/abs/2403.17214
+    bibtex: publications/2024/forge.bib
+    award: Best Paper Award
+    acceptance_ratio: 8/16=50%
+    pages: 57-68
+    venue: in Proceedings of the 2024 Special Event of AI Foundation Models and Software Engineering (FORGE)
+2023:
+  journal:
+  - year: 2023
+    authors:
+    - LIN, J.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: On the Coordination of Vulnerability Fixes - An Empirical Study of Practices from 13 CVE Numbering Authorities
+    url: publications/2023/emse_justina_cna.pdf
+    bibtex: publications/2023/emse_justina_cna.bib
+    volume: '28'
+    number: '6'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2023
+    authors:
+    - FOUNDJEM, A.
+    - EGHAN, E.E.
+    - ADAMS, B.
+    title: 'A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization'
+    url: publications/2023/tse_armstrong.pdf
+    bibtex: publications/2023/tse_armstrong.bib
+    pages: 4731-4750
+    volume: '49'
+    number: '10'
+    publisher: IEEE
+    venue: Transactions on Software Engineering (TSE)
+  - year: 2023
+    authors:
+    - CHEN, Y.
+    - FERNANDES, E.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: On practitioners' concerns when adopting service mesh frameworks
+    url: publications/2023/emse_yihao.pdf
+    bibtex: publications/2023/emse_yihao.bib
+    volume: '28'
+    number: '5'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2023
+    authors:
+    - ALFADEL, M.
+    - COSTA, D.E.
+    - SHIHAB, E.
+    - ADAMS, B.
+    title: On the Discoverability of npm Vulnerabilities in Node. js Projects
+    url: https://das.encs.concordia.ca/pdf/Alfadel_TOSEM2022.pdf
+    bibtex: publications/2023/tosem_mahmoud.bib
+    pages: 1-27
+    volume: '32'
+    number: '4'
+    publisher: ACM
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+  - year: 2023
+    authors:
+    - BHATIA, A.
+    - EGHAN, E.E.
+    - GRICHI, M.
+    - CAVANAGH, W.G.
+    - JIANG, Z.M.
+    - ADAMS, B.
+    title: 'Towards a change taxonomy for machine learning pipelines: Empirical study of ML pipelines and forks related to academic publications'
+    url: https://arxiv.org/abs/2203.11365
+    bibtex: publications/2023/emse_aadi.bib
+    volume: '28'
+    number: '3'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2023
+    authors:
+    - LIN, J.
+    - ZHANG, H.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: 'Vulnerability management in Linux distributions: An empirical study on Debian and Fedora'
+    url: https://sail.cs.queensu.ca/data/pdfs/2023_Vulnerability_management_in_Linux_distributions.pdf
+    bibtex: publications/2023/emse_justina.bib
+    volume: '28'
+    number: '2'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  conference:
+  - year: 2023
+    authors:
+    - CHEN, J.
+    - DING, Z.
+    - TANG, Y.
+    - SAYAGH, M.
+    - LI, H.
+    - ADAMS, B.
+    - SHANG, W.
+    title: 'IoPV: On Inconsistent Option Performance Variations'
+    url: https://ece.uwaterloo.ca/~wshang/pubs/FSE_2023_JINFU.pdf
+    bibtex: publications/2023/fse.bib
+    acceptance_ratio: 60/465=12.9%
+    pages: 845-857
+    address: San Francisco, USA
+    venue: in Proceedings of the 31st Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ESEC/FSE
+  - year: 2023
+    authors:
+    - HASAN, K.
+    - MACEDO, M.
+    - TIAN, Y.
+    - ADAMS, B.
+    - DING, S.
+    title: Understanding the Time to First Response In GitHub Pull Requests
+    url: https://arxiv.org/abs/2304.08426
+    bibtex: publications/2023/msr_kazi.bib
+    acceptance_ratio: 43/115=37.4%
+    pages: 1-11
+    address: Melbourne, Australia
+    venue: in Proceedings of the 20th International Conference on Mining Software Repositories, MSR
+  other:
+  - year: 2023
+    authors:
+    - ADAMS, B.
+    title: Foreword
+    url: https://link.springer.com/content/pdf/bfm:978-3-031-36060-2/1?pdf=chapter%20toc
+    publisher: Springer
+    venue: 'of Software Ecosystems: Tooling and Analytics'
+2022:
+  journal:
+  - year: 2022
+    authors:
+    - LIN, J.
+    - ZHANG, H.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: Upstream Bug Management in Linux Distributions - An Empirical Study of Debian and Fedora Practices
+    url: https://sail.cs.queensu.ca/data/pdfs/2022_Upstream_bug_management_in_Linux_distributions.pdf
+    bibtex: publications/2022/emse_upstream.bib
+    volume: '27'
+    number: '134'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2022
+    authors:
+    - FOUNDJEM, A.
+    - CONSTANTINOU, E.
+    - MENS, T.
+    - ADAMS, B.
+    title: A mixed-methods analysis of micro-collaborative coding practices in OpenStack
+    url: publications/2022/emse_micro.pdf
+    bibtex: publications/2022/emse_micro.bib
+    volume: '27'
+    number: '120'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2022
+    authors:
+    - ROMBAUT, B.
+    - COGO, F.
+    - ADAMS, B.
+    - HASSAN, A.E.
+    title: 'There''s no Such Thing as a Free Lunch: Lessons Learned from Exploring the Overhead Introduced by the Greenkeeper Dependency Bot in Npm'
+    url: https://sail.cs.queensu.ca/data/pdfs/2023_Theres_no_Such_Thing_as_a_Free_Lunch_Lessons_Learned_from_Exploring_the_Overhead_Introduced_by_the_Greenkeeper_Dependency_Bot_in_Npm.pdf
+    bibtex: publications/2022/tosem_ben.bib
+    pages: 1-40
+    volume: '32'
+    number: '1'
+    publisher: ACM
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+  - year: 2022
+    authors:
+    - MOSLEHI, P.
+    - RILLING, J.,, ADAMS, B.
+    title: A user survey on the adoption of crowd-based software engineering instructional screencasts by the new generation of software developers
+    url: https://www.researchgate.net/publication/356560172_A_user_survey_on_the_adoption_of_crowd-based_software_engineering_instructional_screencasts_by_the_new_generation_of_software_developers
+    bibtex: publications/2022/jss_parisa.bib
+    publisher: Elsevier
+    venue: Journal of Software and Systems (JSS)
+  - year: 2022
+    authors:
+    - MUJAHID, S.
+    - COSTA, D.E.
+    - ABDALKAREEM, R.
+    - SHIHAB, E.
+    - SAIED, M.A.,, ADAMS, B.
+    title: Toward Using Package Centrality Trend to Identify Packages in Decline
+    url: https://arxiv.org/abs/2107.10168
+    bibtex: publications/2022/tem.bib
+    pages: 3618-3632
+    volume: '69'
+    number: '6'
+    publisher: IEEE
+    venue: Transactions on Engineering Management (TEM)
+  - year: 2022
+    authors:
+    - CHOWDHURY, M.A.R.
+    - ABDALKAREEM, R.
+    - SHIHAB, E.
+    - ADAMS, B.
+    title: 'On the Untriviality of Trivial Packages: An Empirical Study of npm JavaScript Packages'
+    url: https://das.encs.concordia.ca/pdf/atique_tse2021.pdf
+    bibtex: publications/2022/tse_atique.bib
+    pages: 2695-2708
+    volume: '48'
+    number: '8'
+    publisher: IEEE
+    venue: Transactions on Software Engineering (TSE)
+  - year: 2022
+    authors:
+    - VYSALI, S.
+    - MCINTOSH, S.
+    - ADAMS, B.
+    title: Quantifying, Characterizing, and Mitigating Flakily Covered Program Elements
+    url: https://rebels.cs.uwaterloo.ca/papers/tse2020_vysali.pdf
+    bibtex: publications/2022/tse_shiva.bib
+    pages: 1018-1029
+    volume: '48'
+    number: '3'
+    publisher: IEEE
+    venue: Transactions on Software Engineering (TSE)
+  conference:
+  - year: 2022
+    authors:
+    - NJOMOU, A.T.
+    - FOKAEFS, M.
+    - KAMGA, D.F.S.
+    - ADAMS, B.
+    title: On the Challenges of Migrating to Machine Learning Life Cycle Management Platforms
+    url: https://dl.acm.org/doi/abs/10.5555/3566055.3566061
+    bibtex: publications/2023/cascon_aquilas.bib
+    address: Markham, ON, Canada
+    venue: in Proceedings of the 32nd Annual International Conference on Computer Science and Software Engineering, CASCON x EVOKE 2022
+  - year: 2022
+    authors:
+    - HADIAN, M.
+    - GHARI, S.
+    - FOKAEFS, M.
+    - BRISSON, S.
+    - NOEI, E.
+    - LYONS, K.
+    - ADAMS, B.
+    - ZHOU, S.
+    title: Exploring trends and practices of forks in open-source software repositories
+    url: https://enoei.github.io/papers/hadian2022forks.pdf
+    bibtex: publications/2023/cascon_mahsa.bib
+    address: Markham, ON, Canada
+    venue: in Proceedings of the 32nd Annual International Conference on Computer Science and Software Engineering, CASCON x EVOKE 2022
+  - year: 2022
+    authors:
+    - OLEWICKI, D.
+    - NAYROLLES, M.,, ADAMS, B.
+    title: Towards Language-independent Brown Build Detection
+    url: publications/2022/icse22.pdf
+    bibtex: publications/2022/icse22.bib
+    acceptance_ratio: 197/751=26.23%
+    pages: '2177'
+    address: Pittsburgh, PA, USA
+    venue: in Proceedings of the 44th International Conference on Software Engineering, ICSE
+  - year: 2022
+    authors:
+    - FERREIRA, I.
+    - ADAMS, B.
+    - CHENG, J.
+    title: How heated is it? Understanding GitHub locked issues
+    url: https://arxiv.org/abs/2204.00155
+    bibtex: publications/2022/msr22.bib
+    acceptance_ratio: 47/137=34.3%
+    pages: 309-320
+    address: Pittsburgh, PA, USA
+    venue: in Proceedings of the 19th International Conference on Mining Software Repositories, MSR
+  other:
+  - year: 2022
+    authors:
+    - YANG, N.
+    - FERREIRA, I.
+    - SEREBRENIK, A.,, ADAMS, B.
+    title: Why Do Projects Join the Apache Software Foundation?
+    url: https://research.tue.nl/en/publications/why-do-projects-join-the-apache-software-foundation
+    bibtex: publications/2022/seis22.bib
+    acceptance_ratio: 17/39=43.59%
+    pages: 161-171
+    address: Pittsburgh, PA, USA
+    venue: in Proceedings of the Software Engineering in Society track at the 44th International Conference on Software Engineering, ICSE
+2021:
+  journal:
+  - year: 2021
+    authors:
+    - BARRAK, A.
+    - EGHAN, E.E.
+    - ADAMS, B.,, KHOMH, F.
+    title: Why do Builds Fail? - A Conceptual Replication Study
+    url: publications/2021/jss_amine.pdf
+    bibtex: publications/2021/jss_amine.bib
+    pages: '110939'
+    volume: '177'
+    publisher: Elsevier
+    venue: Journal of Software and Systems (JSS)
+  - year: 2021
+    authors:
+    - LI, H.
+    - SHANG, W.
+    - ADAMS, B.
+    - SAYAGH, M.
+    - HASSAN, A.E.
+    title: A Qualitative Study of the Benefits and Costs of Logging from Developers' Perspectives
+    url: https://sail.cs.queensu.ca/data/pdfs/TSE2020_QualitativeStudyOfTheBenefitsAndCostsOfLoggingFromDevelopersPerspectives.pdf
+    bibtex: publications/2021/tse.bib
+    pages: 2858-2873
+    publisher: IEEE
+    venue: Transactions on Software Engineering (TSE)
+  - year: 2021
+    authors:
+    - QUACH, S.
+    - LAMOTHE, M.
+    - ADAMS, B.
+    - KAMEI, Y.
+    - SHANG, W.
+    title: Evaluating the impact of falsely detected performance bug-inducing changes in JIT models
+    url: https://users.encs.concordia.ca/~shang/pubs/Quach2021_Article_EvaluatingTheImpactOfFalselyDe.pdf
+    bibtex: publications/2021/emse_sophia.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2021
+    authors:
+    - KUUTILA, M.
+    - MÄNTYLÄ, M.
+    - CLAES, M.
+    - ELOVAINIO, M.
+    - ADAMS, B.
+    title: 'Individual Differences Limit Predicting Well-being and Productivity Using Software Repositories: A Longitudinal Industrial Study'
+    url: https://arxiv.org/abs/2104.13713
+    bibtex: publications/2021/emse_miikka.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2021
+    authors:
+    - FOUNDJEM, A.
+    - ADAMS, B.
+    title: Release Synchronization in Software Ecosystems
+    url: publications/2021/emse_armstrong.pdf
+    bibtex: publications/2021/emse_armstrong.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2021
+    authors:
+    - XIU, M.
+    - JIANG, Z.M.
+    - ADAMS, B.
+    title: An Exploratory Study on Machine Learning Model Stores
+    url: https://arxiv.org/abs/1905.10677
+    bibtex: publications/2021/ieeesw_hunter.bib
+    pages: 114-122
+    publisher: IEEE
+    venue: IEEE Software
+  conference:
+  - year: 2021
+    authors:
+    - FERREIRA, I.
+    - CHENG, J.
+    - ADAMS, B.
+    title: 'The “Shut the f**k up” Phenomenon: Characterizing Incivility in Open Source Code Review Discussions'
+    url: https://arxiv.org/pdf/2108.09905v1.pdf
+    bibtex: publications/2021/cscw.bib
+    publisher: ACM
+    venue: in Proceedings of the 24th ACM Conference on Computer-Supported Cooperative Work and Social Computing
+  - year: 2021
+    authors:
+    - FOUNDJEM, A.
+    - EGHAN, E.E.
+    - ADAMS, B.
+    title: Onboarding vs. Diversity, Productivity and Quality -- Empirical Study of the OpenStack Ecosystem
+    url: publications/2021/icse_armstrong.pdf
+    bibtex: publications/2021/icse_armstrong.bib
+    acceptance_ratio: 138/602=22.92%
+    pages: 1033-1045
+    address: Madrid, Spain
+    venue: in Proceedings of the 43rd International Conference on Software Engineering, ICSE
+  - year: 2021
+    authors:
+    - SANEI, A.
+    - CHENG, J.
+    - ADAMS, B.
+    title: The Impacts of Sentiments and Tones in Community-Generated Issue Discussions
+    url: https://arxiv.org/abs/2103.10615
+    bibtex: publications/2021/chase.bib
+    acceptance_ratio: 10/38=26.32%
+    address: Madrid, Spain
+    venue: in Proceedings of the 14th International Conference on Cooperative and Human Aspects of Software Engineering, CHASE
+  - year: 2021
+    authors:
+    - BARRAK, A.
+    - EGHAN, E.E.
+    - ADAMS, B.
+    title: On the Co-evolution of ML Pipelines and Source Code - Empirical Study of DVC Projects
+    url: publications/2021/saner.pdf
+    bibtex: publications/2021/saner.bib
+    acceptance_ratio: 42/165=25%
+    publisher: IEEE
+    address: Hawaii, USA
+    venue: in Proceedings of the 28th IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+  other:
+  - year: 2021
+    authors:
+    - TCHANJOU NJOMOU, A.
+    - BIFONA AFRICA, A.J.
+    - ADAMS, B.
+    - FOKAEFS, M.
+    title: 'MSR4ML: Reconstructing artifact traceability in Machine Learning repositories'
+    url: https://ieeexplore.ieee.org/document/9426012
+    bibtex: publications/2021/saner_aquilas.bib
+    acceptance_ratio: 12/26=46%
+    publisher: IEEE
+    address: Hawaii, USA
+    venue: '[short], in Proceedings of the 28th IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER'
+2020:
+  journal:
+  - year: 2020
+    authors:
+    - ADAMS, B.
+    - KHOMH, F.
+    title: The Diversity Crisis of Software Engineering for Artificial Intelligence
+    url: publications/2020/The_Diversity_Crisis_of_Software_Engineering_for_AI.pdf
+    bibtex: publications/2020/ieeesw_ai.bib
+    pages: 104-108
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2020
+    authors:
+    - MOSLEHI, P.
+    - ADAMS, B.
+    - RILLING, J.
+    title: A Feature Location Approach for Mapping Application Features Extracted from Crowd-based Screencasts to Source Code
+    url: publications/2020/emse_parisa.pdf
+    bibtex: publications/2020/emse_parisa.bib
+    pages: 4873-4926
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2020
+    authors:
+    - VARADHARAJAN, V.S.
+    - ST-ONGE, D.
+    - ADAMS, B.
+    - BELTRAME, G.
+    title: 'Swarm Relays: Distributed Self-Healing Ground-and-Air Connectivity Chains'
+    url: http://www.arxiv.org/abs/1909.10496
+    bibtex: publications/2020/iros.bib
+    pages: 5347-5354
+    publisher: IEEE
+    venue: Robotics and Automation Letters
+  - year: 2020
+    authors:
+    - MAHÉ, N.
+    - ADAMS, B.
+    - MARSAN, J.
+    - TEMPLIER, M.
+    - BISSONNETTE, S.
+    title: 'Migrating a Software Factory to Design Thinking: Paying Attention to People and Mind-Sets'
+    url: https://corpus.ulaval.ca/jspui/handle/20.500.11794/37586
+    bibtex: publications/2020/ieeesw_nolwen.bib
+    pages: 32-40
+    publisher: IEEE
+    venue: special issue on Design Thinking
+  - year: 2020
+    authors:
+    - SAYAGH, M.
+    - KERZAZI, N.
+    - ADAMS, B.
+    - PETRILLO, F.
+    title: Software Configuration Engineering in Practice - Interviews, Survey, and Systematic Literature Review
+    url: publications/2020/tse.pdf
+    bibtex: publications/2020/tse.bib
+    publisher: IEEE
+    venue: Transactions on Software Engineering (TSE)
+  conference:
+  - year: 2020
+    authors:
+    - GRICHI, M.
+    - EGHAN, E.E.
+    - ADAMS, B.
+    title: On the Impact of Multi-language Development in Machine Learning Frameworks
+    url: publications/2020/icsme_manel.pdf
+    bibtex: publications/2020/icsme_manel.bib
+    acceptance_ratio: 58/201=28.9%
+    publisher: IEEE
+    address: Adelaide, Australia
+    venue: in Proceedings of the 36th IEEE International Conference on Software Maintenance and Evolution, ICSME
+  - year: 2020
+    authors:
+    - OPENJA, M.
+    - ADAMS, B.
+    - KHOMH, F.
+    title: Analysis of Modern Release Engineering Topics - A Large-Scale Study using StackOverflow
+    url: publications/2020/icsme_moses.pdf
+    bibtex: publications/2020/icsme_moses.bib
+    acceptance_ratio: 58/201=28.9%
+    publisher: IEEE
+    address: Adelaide, Australia
+    venue: in Proceedings of the 36th IEEE International Conference on Software Maintenance and Evolution, ICSME
+  - year: 2020
+    authors:
+    - GRICHI, M.
+    - ABIDI, M.
+    - JAAFAR, F.
+    - EGHAN, E.E.
+    - ADAMS, B.
+    title: On the Impact of Inter-language Dependencies in Multi-language Systems
+    url: publications/2020/qrs_manel.pdf
+    bibtex: publications/2020/qrs_manel.bib
+    award: Recommended to the IEEE Transactions on Reliability
+    acceptance_ratio: 36/125=28.8%
+    publisher: IEEE
+    address: Macau, China
+    venue: in Proceedings of the 2020 IEEE International Conference on Software Quality, Reliability and Security, QRS
+2019:
+  journal:
+  - year: 2019
+    authors:
+    - LANOVAZ, M.
+    - ADAMS, B.
+    title: A Comparison of Communication Tone and Responding Across Users and Developers in Two R Mailing Lists
+    url: publications/2019/ieeesw_marc.pdf
+    bibtex: publications/2019/ieeesw_marc.bib
+    pages: 46-50
+    publisher: IEEE
+    venue: special issue on Sentiment and Emotion in Software Engineering
+  - year: 2019
+    authors:
+    - VARADHARAJAN, V. S.
+    - ST-ONGE, D.
+    - ADAMS, B.
+    - BELTRAME, G.
+    title: 'SOUL: Data Sharing for Robot Swarms'
+    url: https://unpaywall.org/10.1007%2Fs10514-019-09855-2
+    bibtex: publications/2019/auro.bib
+    volume: '44'
+    publisher: Springer
+    venue: Autonomous Robots
+  - year: 2019
+    authors:
+    - ZOLFAGHARINIA, M.
+    - ADAMS, B.
+    - GUÉHÉNEUC, Y.-G.
+    title: A Study of Build Inflation in 30 Million CPAN Builds on 13 Perl Versions and 10 Operating Systems
+    url: publications/2019/emse_mahdis.pdf
+    bibtex: publications/2019/emse_mahdis.bib
+    volume: '24'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2019
+    authors:
+    - GERMAN, D.
+    - ADAMS, B.
+    - STEWART, K.
+    title: 'cregit : Token-level Blame Information in git Version Control Repositories'
+    url: https://github.com/dmgerman/papers/raw/master/to-appear/emse-cregit/cregit.pdf
+    bibtex: publications/2019/emse_daniel.bib
+    volume: '24'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2019
+    authors:
+    - MARSAN, J.
+    - TEMPLIER, M.
+    - MAROIS, P.
+    - ADAMS, B.
+    - CARILLO, K.
+    - LEIDA MOPENZA, G.
+    title: 'Towards solving social and technical problems in open source software ecosystems: Using cause-and-effect analysis to disentangle the causes of complex problems'
+    url: https://ieeexplore.ieee.org/document/8491285
+    bibtex: publications/2019/ieeesw.bib
+    pages: 34-41
+    publisher: IEEE
+    venue: IEEE Software
+  conference:
+  - year: 2019
+    authors:
+    - RIGGER, M.
+    - MARR, S.
+    - ADAMS, B.
+    - MÖSSENBÖCK, H.
+    title: Understanding GCC Builtins to Develop Better Tools
+    url: https://www.manuelrigger.at/papers/GCCBuiltins-ESECFSE19-preprint.pdf
+    bibtex: publications/2019/fse.bib
+    acceptance_ratio: 74/303=24.4%
+    address: Tallinn, Estonia
+    venue: in Proceedings of the 27th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ESEC/FSE
+  - year: 2019
+    authors:
+    - ALJEDAANI, W.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - GODFREY, M.
+    title: A Comparison of Bugs across the iOS and Android Platforms of Two Open Source Cross Platform Browser Apps
+    url: https://plg.uwaterloo.ca/~migod/papers/2019/mobileSoft2019.pdf
+    bibtex: publications/2019/mobile.bib
+    acceptance_ratio: X/Y=Z%
+    publisher: IEEE
+    address: Montréal, Canada
+    venue: in Proceedings of the 2019 IEEE/ACM International Conference on Mobile Software Engineering and Systems, MOBILESoft
+  workshop:
+  - year: 2019
+    authors:
+    - FERREIRA, I.
+    - STEWART, K.
+    - GERMAN, D.
+    - ADAMS, B.
+    title: A Longitudinal Study on the Maintainers’ Sentiment of a Large Scale Open Source Ecosystem
+    url: publications/2019/SEMotion_2019.pdf
+    bibtex: publications/2019/semotion.bib
+    pages: 17-22
+    address: Montréal, Canada
+    venue: in Proceedings of the 4th International Workshop on Emotional Awareness in Software Engineering, SEmotion
+2018:
+  journal:
+  - year: 2018
+    authors:
+    - MURGIA, A.
+    - ORTU, M.
+    - TOURANI, P.
+    - ADAMS, B.
+    - DEMEYER, S.
+    title: An Exploratory Qualitative and Quantitative Analysis of Emotions in Issue Report Comments of Open Source Systems
+    url: publications/2018/emse_alessandro.pdf
+    bibtex: publications/2018/emse_alessandro.bib
+    pages: 521-564
+    publisher: Springer
+    venue: Empirical Software Engineering
+  conference:
+  - year: 2018
+    authors:
+    - KUUTILA, M.
+    - MÄNTYLÄ, M.
+    - CLAES, M.
+    - ELOVAINIO, M.
+    - ADAMS, B.
+    title: Linking Software Repositories with Emotions and Work Well-Being using Experience Sampling
+    url: https://arxiv.org/pdf/1808.05409.pdf
+    bibtex: publications/2018/kuutila.bib
+    acceptance_ratio: 30/140=21.4%
+    address: Oulu, Finland
+    venue: in Proceedings of the 12th International Symposium on Empirical Software Engineering and Measurement, ESEM
+  - year: 2018
+    authors:
+    - BEN BRAIEK, H.
+    - KHOMH, F.
+    - ADAMS, B.
+    title: The Open-Closed Principle of Modern Machine Learning Frameworks
+    url: publications/2018/msr2.pdf
+    bibtex: publications/2018/msr2.bib
+    acceptance_ratio: 37/113=32.7%
+    address: Gothenburg, Sweden
+    venue: in Proceedings of the 15th International Conference on Mining Software Repositories, MSR
+  - year: 2018
+    authors:
+    - MOSLEHI, P.
+    - ADAMS, B.
+    - RILLING, J.
+    title: Feature Location using Crowd-based Screencasts
+    url: publications/2018/msr1.pdf
+    bibtex: publications/2018/msr1.bib
+    acceptance_ratio: 37/113=32.7%
+    address: Gothenburg, Sweden
+    venue: in Proceedings of the 15th International Conference on Mining Software Repositories, MSR
+  - year: 2018
+    authors:
+    - CLAES, M.
+    - MÄNTYLÄ, M.
+    - KUUTILA, M.
+    - ADAMS, B.
+    title: Do programmers work at night or during weekend?
+    url: https://arxiv.org/pdf/1802.05084.pdf
+    bibtex: publications/2018/icse.bib
+    acceptance_ratio: 105/502=20.9%
+    address: Gothenburg, Sweden
+    venue: in Proceedings of the 40th International Conference on Software Engineering, ICSE
+2017:
+  journal:
+  - year: 2017
+    authors:
+    - BEZEMER, C.-P.
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - GERMAN, D. M.
+    - HASSAN, A. E.
+    title: An Empirical Study of Unspecified Dependencies in Make-Based Build Systems
+    url: http://sail.cs.queensu.ca/data/pdfs/EMSE2017_AnEmpiricalStudyOfUnspecifiedDependenciesInMake-BasedBuildSystems.pdf
+    bibtex: publications/2017/emse_cor_paul.bib
+    pages: '3117'
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2017
+    authors:
+    - GÓMEZ, M.
+    - ADAMS, B.
+    - MAALEJ, W.
+    - MONPERRUS, M.
+    - ROUVOY, R.
+    title: 'App Store 2.0: From Crowd Information to Actionable Feedback in Mobile Ecosystems'
+    url: https://hal.inria.fr/hal-01406422/document
+    bibtex: publications/2017/maria.bib
+    pages: 81-89
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2017
+    authors:
+    - HEMMATI, H.
+    - FANG, Z.
+    - MÄNTYLÄ, M.
+    - ADAMS, B.
+    title: Prioritizing Manual Test Cases in Rapid Release Environments
+    url: http://sealab.cs.umanitoba.ca/wp-content/uploads/2016/07/Published.pdf
+    bibtex: publications/2017/stvr_hadi.bib
+    pages: 1-10
+    publisher: Wiley
+    venue: Software Testing
+  conference:
+  - year: 2017
+    authors:
+    - SAYAGH, M.
+    - DONG, Z.
+    - ANDRZEJAK, A.
+    - ADAMS, B.
+    title: Does the Choice of Configuration Framework Matter for Developers? Empirical Study on 11 Java Configuration Frameworks
+    url: publications/2015/scam17.pdf
+    bibtex: publications/2017/scam.bib
+    acceptance_ratio: 14/31=45%
+    publisher: IEEE
+    address: Shanghai, China
+    venue: in Proceedings of the 17th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+  - year: 2017
+    authors:
+    - SAYAGH, M.
+    - KERZAZI, N.
+    - ADAMS, B.
+    title: On Cross-stack Configuration Errors
+    url: publications/2017/icse.pdf
+    bibtex: publications/2017/icse.bib
+    replication_package: publications/2017/icse2017_data.zip
+    acceptance_ratio: 68/398=17%
+    address: Buenos Aires, Argentina
+    venue: in Proceedings of the 39th International Conference on Software Engineering, ICSE
+  - year: 2017
+    authors:
+    - ZOLFAGHARINIA, M.
+    - ADAMS, B.
+    - GUÉHÉNEUC, Y.-G.
+    title: Do Not Trust Build Results at Face Value - An Empirical Study of 30 Million CPAN Builds
+    url: publications/2017/msr.pdf
+    bibtex: publications/2017/msr.bib
+    acceptance_ratio: 37/121=30.6%
+    address: Buenos Aires, Argentina
+    venue: in Proceedings of the 14th International Conference on Mining Software Repositories, MSR
+  - year: 2017
+    authors:
+    - FOUNDJEM, A. T.
+    - KHOMH, F.
+    - ADAMS, B.
+    title: 'Broadcast vs. Unicast Review Technology: Does it Matter?'
+    url: http://swat.polymtl.ca/~foutsekh/docs/ICST-Tita.pdf
+    bibtex: publications/2017/icst.bib
+    acceptance_ratio: 36/135=27%
+    publisher: IEEE
+    address: Tokyo, Japan
+    venue: in Proceedings of the 10th IEEE International Conference on Software Testing, Verification and Validation, ICST
+  - year: 2017
+    authors:
+    - TOURANI, P.
+    - ADAMS, B.
+    - SEREBRENIK, A.
+    title: Code of Conduct in Open Source Projects
+    url: publications/2017/saner.pdf
+    bibtex: publications/2017/saner.bib
+    acceptance_ratio: 34/135=25%
+    publisher: IEEE
+    address: Klagenfurt, Austria
+    venue: in Proceedings of the 24th IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+  other:
+  - year: 2017
+    authors:
+    - BENBACHIR, A.
+    - DE MELO JR, I.F.
+    - DAGENAIS, M.
+    - ADAMS, B.
+    title: Automated Performance Deviation Detection Across Software Versions Releases
+    url: publications/2017/qrs.pdf
+    bibtex: publications/2017/qrs.bib
+    publisher: IEEE
+    address: Prague, Czech Republic
+    venue: '[short], in Proceedings of the 2017 IEEE International Conference on Software Quality, Reliability and Security, QRS'
+  - year: 2017
+    authors:
+    - CLAES, M.
+    - MÄNTYLÄ, M.
+    - KUUTILA, M.
+    - ADAMS, B.
+    title: 'Abnormal working hours: effect of rapid releases and implications to work content'
+    url: https://pdfs.semanticscholar.org/6160/a7aa897e86cad0af47abfd4e9f95b77612b8.pdf
+    bibtex: publications/2017/msr_claes.bib
+    address: Buenos Aires, Argentina
+    venue: '[short], in Proceedings of the 14th International Conference on Mining Software Repositories, MSR'
+2016:
+  journal:
+  - year: 2016
+    authors:
+    - LI, W.
+    - HAYES, J. H.
+    - ANTONIOL, G.
+    - GUÉHÉNEUC, Y.-G.
+    - ADAMS, B.
+    bibtex: publications/2016/jsep_jane.bib
+    pages: 1061-1080
+    publisher: Wiley
+    venue: 'Journal of Software: Evolution and Process (JSEP)'
+  - year: 2016
+    authors:
+    - WU, W.
+    - KHOMH, F.
+    - ADAMS, B.
+    - GUÉHÉNEUC, ANTONIOL, G.
+    title: An Exploratory Study of API Changes and Usages based on Apache and Eclipse Ecosystems
+    url: publications/2016/emse_wei.pdf
+    bibtex: publications/2016/emse15_wei.bib
+    pages: 2366-2412
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2016
+    authors:
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - NAGAPPAN, M.
+    - HASSAN, A. E.
+    title: Identifying and Understanding Header File Hotspots in C/C++ Build Processes
+    url: http://sail.cs.queensu.ca/data/pdfs/ASE_IdentifyingAndUnderstandingHeaderFileHotspotsInC,C++BuildProcesses.pdf
+    bibtex: publications/2016/ause15_shane.bib
+    volume: '23'
+    number: '4'
+    publisher: Springer
+    venue: Automated Software Engineering
+  - year: 2016
+    authors:
+    - PANG, C.
+    - HINDLE, A.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: What do programmers know about software energy consumption?
+    url: https://peerj.com/preprints/886/
+    bibtex: publications/2016/candy.bib
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2016
+    authors:
+    - MCINTOSH, S.
+    - KAMEI, Y.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: An Empirical Study of the Impact of Modern Code Review Practices on Software Quality
+    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_AnEmpiricalStudyOfTheImpactOfModernCodeReviewPracticesOnSoftwareQuality.pdf
+    bibtex: publications/2016/emse15_shane.bib
+    pages: 2146-2189
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2016
+    authors:
+    - MOJICA, I. J.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - BERGER, T.
+    - DIENST, S.
+    - HASSAN, A. E.
+    title: Examining the Rating System Used in Mobile App Stores
+    url: https://cs.uwaterloo.ca/~m2nagapp/publications/pdfs/An-Examination-of-the-Current-Rating-System-used-in-Mobile-App-Stores.pdf
+    bibtex: publications/2016/mojicaiee4.bib
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2016
+    authors:
+    - ADAMS, B.
+    - KAVANAGH, R.
+    - HASSAN, A. E.
+    - GERMAN, D. M.
+    title: An Empirical Study of Integration Activities in Distributions of Open Source Software
+    url: publications/2016/integration_oss_distribution.pdf
+    bibtex: publications/2016/emse15_ryan.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2016
+    authors:
+    - MOJICA, I. J.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - BERGER, T.
+    - DIENST, S.
+    - HASSAN, A. E.
+    title: Analyzing Ad Library Updates in Android Apps
+    url: http://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnAdLibraryUpdatesInAndroidApps.pdf
+    bibtex: publications/2016/mojicaiee3.bib
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2016
+    authors:
+    - GERMAN, D. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'Continuously Mining the Use of Distributed Version Control Systems: An empirical study of how Linux uses git'
+    url: https://sail.cs.queensu.ca/data/pdfs/2016_ContinuouslyMiningDistributedVersionControlSystems_AnEmpiricalStudyOfHowLinuxUsesGit.pdf
+    bibtex: publications/2016/emse_daniel.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  conference:
+  - year: 2016
+    authors:
+    - MUSAVI, P.
+    - ADAMS, B.
+    - KHOMH, F.
+    title: 'Experience Report: An Empirical Study of API Failures in OpenStack Cloud Environments'
+    url: http://swat.polymtl.ca/~foutsekh/docs/issre_2016_Pooya.pdf
+    bibtex: publications/2016/issre_pooya.bib
+    acceptance_ratio: 45/130=34.6%
+    address: Ottawa, ON
+    venue: in Proceedings of the 27th International Symposium on Software Reliability Engineering, ISSRE
+  - year: 2016
+    authors:
+    - NGUYEN, T. H. D.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'Does geographical distance effect distributed development teams: How aggregation bias in software artifacts causes contradicting findings'
+    url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2016_DoesGeographicalDistanceEffectDistributedDevelopmentTeamsHowAggregationBiasInSoftwareArtifactsCausesContradictoryFindings.pdf
+    bibtex: publications/2016/issre_thanh.bib
+    acceptance_ratio: 45/130=34.6%
+    address: Ottawa, ON
+    venue: in Proceedings of the 27th International Symposium on Software Reliability Engineering, ISSRE
+  - year: 2016
+    authors:
+    - HASAN, S.
+    - KING, Z.
+    - HAFIZ, M.
+    - SAYAGH, M.
+    - ADAMS, B.
+    - HINDLE, A.
+    title: Energy Profiles of Java Collections Classes
+    url: http://softwareprocess.es/pubs/hasan2016ICSE-Energy-Profiles-of-Java-Collections-Classes.pdf
+    bibtex: publications/2016/icse.bib
+    award: ACM SIGSOFT Distinguished Paper Award
+    acceptance_ratio: 101/530=19%
+    address: Austin, TX, US
+    venue: in Proceedings of the 38th International Conference on Software Engineering, ICSE
+  - year: 2016
+    authors:
+    - MOSLEHI, P.
+    - ADAMS, B.
+    - RILLING, J.
+    title: On Mining Crowd-based Speech Documentation
+    url: publications/2016/msr_parisa.pdf
+    bibtex: publications/2016/msrparisa.bib
+    acceptance_ratio: 36/103=27%
+    address: Austin, TX
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+  - year: 2016
+    authors:
+    - GÓMEZ, M.
+    - ROUVOY, R.
+    - ADAMS, B.
+    - SEINTURIER, L.
+    title: Mining Test Repositories for Automatic Detection of UI Performance Regressions in Android Apps
+    url: https://hal.inria.fr/hal-01280784
+    bibtex: publications/2016/msrmaria.bib
+    acceptance_ratio: 36/103=27%
+    address: Austin, TX
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+  - year: 2016
+    authors:
+    - MÄNTYLÄ, M.
+    - ADAMS, B.
+    - DESTEFANIS, G.
+    - GRAZIOTIN, D.
+    - ORTU, M.
+    title: Mining Valence, Arousal, and Dominance - Possibilities for Detecting Burnout and Productivity?
+    url: https://arxiv.org/pdf/1603.04287.pdf
+    bibtex: publications/2016/msrmika.bib
+    acceptance_ratio: 36/103=27%
+    address: Austin, TX
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+  - year: 2016
+    authors:
+    - RAHMAN, M. T.
+    - QUEREL, L.-P.
+    - RIGBY, P. C.
+    - ADAMS, B.
+    title: 'Feature Toggles: A case study and survey'
+    url: http://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf
+    bibtex: publications/2016/msrupak.bib
+    acceptance_ratio: 36/103=27%
+    address: Austin, TX
+    venue: in Proceedings of the 13th Working Conference on Mining Software Repositories, MSR
+  - year: 2016
+    authors:
+    - GÓMEZ, M.
+    - ROUVOY, R.
+    - ADAMS, B.
+    - SEINTURIER, L.
+    title: Reproducing Context-sensitive Crashes of Mobile Apps using Crowdsourced Monitoring
+    url: https://hal.inria.fr/hal-01276926
+    bibtex: publications/2016/mobile.bib
+    acceptance_ratio: X/57=Y%
+    publisher: IEEE
+    address: Austin, TX, US
+    venue: in Proceedings of the 2016 IEEE/ACM International Conference on Mobile Software Engineering and Systems, MOBILESoft
+  - year: 2016
+    authors:
+    - ADAMS, B.
+    - MCINTOSH, S.
+    title: Modern Release Engineering in a Nutshell - Why Researchers should Care
+    url: publications/2016/fose.pdf
+    bibtex: publications/2016/fose.bib
+    award: '[video recording]'
+    publisher: IEEE
+    address: Osaka, Japan
+    venue: 'in Leaders of Tomorrow: Future of Software Engineering, Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER'
+  - year: 2016
+    authors:
+    - NAYEBI, M.
+    - ADAMS, B.
+    - RUHE, G.
+    title: Release Practices in Mobile Apps – Users and Developers Perception
+    url: http://www.ucalgary.ca/mnayebi/files/mnayebi/saner-camera-ready_mbg.pdf
+    bibtex: publications/2016/saner_maleknaz.bib
+    acceptance_ratio: 52/140=37%
+    publisher: IEEE
+    address: Osaka, Japan
+    venue: in Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+  - year: 2016
+    authors:
+    - KERZAZI, N.
+    - ADAMS, B.
+    title: 'Botched Releases: Do we Need to Roll Back? Empirical Study on a Commercial Web App'
+    url: publications/2016/saner_noureddine.pdf
+    bibtex: publications/2016/saner_noureddine.bib
+    acceptance_ratio: 52/140=37%
+    publisher: IEEE
+    address: Osaka, Japan
+    venue: in Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+  - year: 2016
+    authors:
+    - TOURANI, P.
+    - ADAMS, B.
+    title: The Impact of Human Discussions on Just-In-Time Quality Assurance
+    url: publications/2016/saner_parastou.pdf
+    bibtex: publications/2016/saner_parastou.bib
+    acceptance_ratio: 52/140=37%
+    publisher: IEEE
+    address: Osaka, Japan
+    venue: in Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering, SANER
+  thesis:
+  - year: 2016
+    authors:
+    - TOURANI, P.
+    title: On the Impact of Affect in Software Engineering
+    url: publications/2016/thesis_parastou.pdf
+    venue: PhD thesis at GIGL
+  - year: 2016
+    authors:
+    - JIANG, Y.
+    title: Mining Software Repositories for Release Engineers -- Empirical Studies on Integration and Infrastructure-as-Code
+    url: publications/2016/thesis_jojo.pdf
+    venue: PhD thesis at GIGL
+  other:
+  - year: 2016
+    authors:
+    - ADAMS, B.
+    title: How the Release Process Impacts your Software Analytics
+    url: https://github.com/ds4se/chapters/tree/master/bramadams
+    bibtex: publications/2016/persp.bib
+    venue: chapter in <a href="https://www.amazon.com/Perspectives-Data-Science-Software-Engineering/dp/0128042060/ref=asap_bc?ie=UTF8">Perspectives on Data Science for Software Engineering</a>
+  - year: 2016
+    authors:
+    - BASS, L.
+    - ADAMS, B.
+    - PARNIN, C.
+    - HOCHSTEIN, L.
+    title: Slides
+    url: http://paris.utdallas.edu/cseet16/slides/02-CSEE&T-2016-Panel-I.pdf
+    award: '[video recording]'
+    venue: '<span style="color: black; font-weight: bold">[<a href="http://paris.utdallas.edu/cseet16/video/02-CSEE&amp;T-2016-Panel-I.html">video recording</a>]</span>'
+  - year: 2016
+    authors:
+    - ADAMS, B.
+    bibtex: publications/2016/ieeesw_round.bib
+    venue: ''
+  - year: 2016
+    authors:
+    - KERZAZI, N.
+    - ADAMS, B.
+    title: Who Needs Release and DevOps Engineers, and Why?
+    url: publications/2016/csed.pdf
+    bibtex: publications/2016/csed.bib
+    acceptance_ratio: 14/18=77.8%
+    address: Austin, Texas
+    venue: in Proceedings of the International Workshop on Continuous Software Evolution and Delivery, CSED
+2015:
+  journal:
+  - year: 2015
+    authors:
+    - MÄNTYLÄ, M.
+    - ADAMS, B.
+    - KHOMH, F.
+    - ENGSTROM, E.
+    - PETERSEN, K.
+    title: 'On Rapid Releases and Software Testing: A Case Study and a Semi-Systematic Literature Review'
+    url: publications/2015/emsemika.pdf
+    bibtex: publications/2015/emse_mika.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2015
+    authors:
+    - MCINTOSH, S.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - MOCKUS, A.
+    - HASSAN, A. E.
+    title: A Large-Scale Empirical Study of the Relationship Between Build Technology and Build Maintenance
+    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ALarge-ScaleEmpiricalStudyOfTheRelationshipBetweenBuildTechnologyAndBuildMaintenance.pdf
+    bibtex: publications/2015/emse.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2015
+    authors:
+    - KHOMH, F.
+    - ADAMS, B.
+    - DHALIWAL, T.
+    - ZOU, Y.
+    title: 'Understanding the Impact of Rapid Releases on Software Quality: The Case of Firefox'
+    url: http://swat.polymtl.ca/~foutsekh/docs/EMSE-published-version.pdf
+    bibtex: publications/2015/foutsemse.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2015
+    authors:
+    - SYER, M. D.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Studying the Relationship Between Source Code Quality and Mobile Platform Dependence
+    url: http://sail.cs.queensu.ca/data/pdfs/SQJ_StudyingTheRelationshipBetweenSourceCodeQualityAndMobilePlatformDependence.pdf
+    bibtex: publications/2015/syersqj.bib
+    publisher: Springer
+    venue: Software Quality Journal (SQJ)
+  - year: 2015
+    authors:
+    - ADAMS, B.
+    - BELLOMO, S.
+    - BIRD, C.
+    - MARSHALL-KEIM, T.
+    - KHOMH, F.
+    - MOIR, K.
+    title: The Practice and Future of Release Engineering - A Roundtable with Three Release Engineers
+    url: http://online.qmags.com/ISW0315
+    bibtex: publications/2015/roundtable.bib
+    award: '[interview with Davide Falessi]'
+    publisher: IEEE
+    venue: IEEE Software Special Issue on Release Engineering
+  - year: 2015
+    authors:
+    - SYER, M.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Replicating and Re-evaluating the Theory of Relative Defect-Proneness
+    url: http://sail.cs.queensu.ca/data/pdfs/TSE_ReplicatingAndRe-evaluatingTheTheoryOfRelativeDefect-Proneness.pdf
+    bibtex: publications/2015/tsemark.bib
+    publisher: IEEE
+    venue: Transactions on Software Engineering (TSE)
+  - year: 2015
+    authors:
+    - BETTENBURG, N.
+    - HASSAN, A. E.
+    - ADAMS, B.
+    - GERMAN, D. M.
+    title: 'Management of community contributions: A case study on the Android and Linux software ecosystems'
+    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ManagementOfCommunityContributions-ACaseStudyOnTheAndroidAndLinuxSoftwareEcosystems.pdf
+    bibtex: publications/2015/nicbetemse.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  conference:
+  - year: 2015
+    authors:
+    - BOISSELLE, V.
+    - ADAMS, B.
+    title: The Impact of Cross-Distribution Bug Duplicates, Empirical Study on Debian and Ubuntu
+    url: publications/2015/scam15_vincent.pdf
+    bibtex: publications/2015/scam15b.bib
+    acceptance_ratio: 24/68=35%
+    publisher: IEEE
+    address: Bremen, Germany
+    venue: in Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+  - year: 2015
+    authors:
+    - SAYAGH, M.
+    - ADAMS, B.
+    title: Multi-layer Software Configuration - Empirical Study on Wordpress
+    url: publications/2015/scam15_mohammed.pdf
+    bibtex: publications/2015/scam15a.bib
+    acceptance_ratio: 24/68=35%
+    publisher: IEEE
+    address: Bremen, Germany
+    venue: in Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+  - year: 2015
+    authors:
+    - FOO, K. C.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - ZOU, Y.
+    - FLORA, P.
+    title: An Industrial Case Study on the Automated Detection of Performance Regressions in Heterogeneous Environments
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2015_AnIndustrialCaseStudyOnTheAutomatedDetectionOfPerformanceRegressionsInHeterogeneousEnvironments.pdf
+    bibtex: publications/2015/seip.bib
+    award: IEEE Software Best Paper Award of the SEIP track
+    acceptance_ratio: 23/102=22.5%
+    address: Florence, Italy
+    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at the 37th International Conference on Software Engineering, ICSE
+  - year: 2015
+    authors:
+    - MARTIN, D. H.
+    - CORDY, J. R.
+    - ADAMS, B.
+    - ANTONIOL, G.
+    title: Make It Simple - An Empirical Analysis of GNU Make Feature Use in Open Source Projects
+    url: http://research.cs.queensu.ca/home/cordy/Papers/MCAA_ICPC15_Makefiles.pdf
+    bibtex: publications/2015/icpc_doug.bib
+    acceptance_ratio: 23/73=31.5%
+    publisher: IEEE
+    address: Florence, Italy
+    venue: in Proceedings of the 23rd IEEE Intl. Conference on Program Comprehension, ICPC
+  - year: 2015
+    authors:
+    - JIANG, Y.
+    - ADAMS, B.
+    title: Co-evolution of infrastructure and Source Code - An Empirical Study
+    url: publications/2015/msrjojo.pdf
+    bibtex: publications/2015/msrjojo.bib
+    award: '[extended data set]'
+    acceptance_ratio: 32/106=30%
+    address: Florence, Italy
+    venue: in Proceedings of the 12th Working Conference on Mining Software Repositories, MSR
+  - year: 2015
+    authors:
+    - ORTU, M.
+    - ADAMS, B.
+    - DESTEFANIS, G.
+    - TOURANI, P.
+    - MARCHESI, M.
+    - TONELLI, R.
+    title: Are Bullies more Productive? Empirical Study of Affectiveness vs. Issue Fixing Time
+    url: publications/2015/msrmarco.pdf
+    bibtex: publications/2015/msrmarco.bib
+    acceptance_ratio: 32/106=30%
+    address: Florence, Italy
+    venue: in Proceedings of the 12th Working Conference on Mining Software Repositories, MSR
+  thesis:
+  - year: 2015
+    authors:
+    - BOISSELLE, V.
+    title: Automated Identification of Functional Problems in Flight Simulators
+    url: publications/2015/thesis_vincent.pdf
+    venue: Master's thesis at GIGL
+  other:
+  - year: 2015
+    authors:
+    - ADAMS, B.
+    - BELLOMO, S.
+    - KHOMH, F.
+    title: Lessons Learned from the International Workshop on Release Engineering
+    url: publications/2015/webinar_releng.pdf
+    award: '[audio recording]'
+    publisher: ACM
+    venue: ACM SIGSOFT webinar
+  - year: 2015
+    authors:
+    - ORTU, M.
+    - DESTEFANIS, G.
+    - MURGIA, A.
+    - MARCHESI, M.
+    - TONELLI, R.
+    - ADAMS, B.
+    title: 'The JIRA Repository Dataset: Understanding Social Aspects of Software Development'
+    url: publications/2015/ortu_promise.pdf
+    bibtex: publications/2015/ortu_promise.bib
+    address: Beijing, China
+    venue: '[short], in Proceedings of the 11th International Conference on Predictive Models and Data Analytics in Software Engineering, PROMISE'
+  - year: 2015
+    authors:
+    - HAYES, J. H.
+    - ANTONIOL, G.
+    - ADAMS, B.
+    - GUÉHÉNEUC, Y.-G.
+    title: Inherent Characteristics of Traceability Artifacts - Less is More
+    url: publications/2015/re15next.pdf
+    bibtex: publications/2015/re15next.bib
+    publisher: IEEE
+    address: Ottawa, Canada
+    venue: '[RE:Next! Track], in Proceedings of the 23rd IEEE International Requirements Engineering Conference, RE'
+  - year: 2015
+    authors:
+    - GERMAN, D. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: A dataset of the activity of the git super-repository of Linux in 2012
+    url: http://sail.cs.queensu.ca/data/pdfs/msr-A-Dataset-of-the-Activity-of-the-Git-Super-repository-of-Linux%20in%202012.pdf
+    bibtex: publications/2015/super_repo.bib
+    address: Florence, Italy
+    venue: '[data showcase], in Proceedings of the 12th Working Conference on Mining Software Repositories, MSR'
+  - year: 2015
+    authors:
+    - ADAMS, B.
+    - BELLOMO, S.
+    - BIRD, C.
+    - KHOMH, F.
+    - MOIR, K.
+    title: IEEE Software Special Issue on Release Engineering
+    url: http://online.qmags.com/ISW0315
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2015
+    authors:
+    - ADAMS, B.
+    title: 'The Bash Dashboard (Or: How to Use Bash for Data Analysis)'
+    url: http://www.slideshare.net/bramadams/the-bash-dashboard-or
+    address: Montréal, Canada
+    venue: tutorial at the <a href="http://polymorse.polymtl.ca/plow-2015a/">4th PLOW workshop</a>, February 28, 2015
+2014:
+  journal:
+  - year: 2014
+    authors:
+    - MOJICA, I. J.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - BERGER, T.
+    - DIENST, S.
+    - HASSAN, A. E.
+    title: Impact of Ad Libraries on Ratings of Android Mobile Apps
+    url: http://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnTheRelationshipBetweenTheNumberOfAdLibrariesInAnAndroidAppAndItsRating.pdf
+    bibtex: publications/2014/mojica14ieee2.bib
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2014
+    authors:
+    - MOJICA, I. J.
+    - ADAMS, B.
+    - NAGAPPAN, M.
+    - DIENST, S.
+    - BERGER, T.
+    - HASSAN, A. E.
+    title: A Large Scale Empirical Study on Software Reuse in Mobile Apps
+    url: https://cs.uwaterloo.ca/~m2nagapp/publications/publications/A-Large-Scale-Empirical-Study-on-Software-Reuse-in-Mobile-Apps.html
+    bibtex: publications/2014/mojica14ieee.bib
+    publisher: IEEE
+    venue: IEEE Software
+  - year: 2014
+    authors:
+    - THOMAS, S. W.
+    - ADAMS, B.
+    - HASSAN, A. E.,, BLOSTEIN, D.
+    title: Studying Software Evolution Using Topic Models
+    url: http://cs.queensu.ca/~sthomas/data/Thomas_2012_SCP.pdf
+    bibtex: publications/2014/scpsteve.bib
+    publisher: Elsevier
+    venue: Science of Computer Programming (SCP)
+  - year: 2014
+    authors:
+    - SHANG, W.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - GODFREY, M.
+    - NASSER, M.
+    - FLORA, P.
+    title: An Exploratory Study of the Evolution of Communicated Information about the Execution of Large Software Systems
+    url: http://sail.cs.queensu.ca/data/pdfs/JSEP_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
+    bibtex: publications/2014/jsme_ian.bib
+    publisher: Wiley
+    venue: 'Journal of Software: Evolution and Process'
+  conference:
+  - year: 2014
+    authors:
+    - TOURANI, P.
+    - JIANG, Y.
+    - ADAMS, B.
+    title: Monitoring Sentiment in Open Source Mailing Lists - Exploratory Study on the Apache Ecosystem
+    url: publications/2014/cascon14.pdf
+    bibtex: publications/2014/cascon.bib
+    acceptance_ratio: 19/56=33.9%
+    address: Markham, ON, Canada
+    venue: in Proceedings of the 2014 Conference of the Center for Advanced Studies on Collaborative Research, CASCON
+  - year: 2014
+    authors:
+    - KERZAZI, N.
+    - KHOMH, F.
+    - ADAMS, B.
+    title: Why do Automated Builds Break? An Empirical Study
+    url: publications/2014/icsm14_noureddine.pdf
+    bibtex: publications/2014/icsm_noureddine.bib
+    acceptance_ratio: 40/210=19%
+    publisher: IEEE
+    address: Victoria, BC
+    venue: in Proceedings of the 30th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2014
+    authors:
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - NAGAPPAN, M.,, HASSAN, A. E.
+    title: Mining Co-Change Information to Understand when Build Changes are Necessary
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2014_MiningCo-ChangeInformationToUnderstandWhenBuildChangesAreNecessary.pdf
+    bibtex: publications/2014/icsm_shane.bib
+    acceptance_ratio: 40/210=19%
+    publisher: IEEE
+    address: Victoria, BC
+    venue: in Proceedings of the 30th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2014
+    authors:
+    - AN, L.
+    - KHOMH, F.,, ADAMS, B.
+    title: Supplementary Bug Fixes vs. Re-opened Bugs
+    url: http://swat.polymtl.ca/~foutsekh/docs/suppl_reop.pdf
+    bibtex: publications/2014/scam14.bib
+    acceptance_ratio: 26/82=31.7%
+    publisher: IEEE
+    address: Victoria, BC, Canada
+    venue: in Proceedings of the 14th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+  - year: 2014
+    authors:
+    - SHRIDHAR, M.
+    - ADAMS, B.
+    - KHOMH, F.
+    title: A Qualitative Analysis of Software Build System Changes and Build Ownership Styles
+    url: publications/2014/esem14mini.pdf
+    bibtex: publications/2014/esemmini.bib
+    acceptance_ratio: 23/123=19%
+    address: Torino, Italy
+    venue: in Proceedings of the 8th International Symposium on Empirical Software Engineering and Measurement, ESEM
+  - year: 2014
+    authors:
+    - JIANG, Y.
+    - ADAMS, B.
+    - KHOMH, F.
+    - GERMAN, D. M.
+    title: Tracing Back the History of Commits in Low-tech Reviewing Environments
+    url: publications/2014/esem14jojo.pdf
+    bibtex: publications/2014/esemjojo.bib
+    acceptance_ratio: 23/123=19%
+    address: Torino, Italy
+    venue: in Proceedings of the 8th International Symposium on Empirical Software Engineering and Measurement, ESEM
+  - year: 2014
+    authors:
+    - MCINTOSH, S.
+    - POEHLMANN, M.
+    - JUERGENS, E.
+    - MOCKUS, A.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - HAUPT, B.
+    - WAGNER, C.
+    title: Collecting and Leveraging a Benchmark of Build System Clones to Aid in Quality Assessments
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2014_CollectingAndLeveragingABenchmarkOfBuildSystemClonesToAidInQualityAssessments.pdf
+    bibtex: publications/2014/seip.bib
+    award: '[mentioned in this blog post]'
+    acceptance_ratio: 25/117=21.4%
+    address: Hyderabad, India
+    venue: in Proceedings of the Software Engineering In Practice (SEIP) track at the 36th International Conference on Software Engineering, ICSE
+  - year: 2014
+    authors:
+    - MURGIA, A.
+    - TOURANI, P.
+    - ADAMS, B.,, ORTU, M.
+    title: Do Developers Feel Emotions? An Exploratory Analysis of Emotions in Software Artifacts
+    url: http://alessandromurgia.files.wordpress.com/2014/03/emotionanalysis.pdf
+    bibtex: publications/2014/msralex.bib
+    acceptance_ratio: 29/85=34%
+    address: Hyderabad, India
+    venue: in Proceedings of the 11th Working Conference on Mining Software Repositories, MSR
+  - year: 2014
+    authors:
+    - MCINTOSH, S.
+    - KAMEI, Y.
+    - ADAMS, B.,, HASSAN, A. E.
+    title: 'The Impact of Code Review Coverage and Code Review Participation on Software Quality: A Case Study of the Qt, VTK, and ITK Projects'
+    url: http://sail.cs.queensu.ca/data/pdfs/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf
+    bibtex: publications/2014/msrshane.bib
+    award: Distinguished Paper Award
+    acceptance_ratio: 29/85=34%
+    address: Hyderabad, India
+    venue: in Proceedings of the 11th Working Conference on Mining Software Repositories, MSR
+  other:
+  - year: 2014
+    authors:
+    - JIANG, Y.
+    - ADAMS, B.
+    - GERMAN, D. M.
+    title: How much does this commit cost?
+    url: publications/2014/releng14jojo.pdf
+    address: Mountain View, CA, US
+    venue: position paper at the 2nd International Workshop on Release Engineering, RELENG
+  - year: 2014
+    authors:
+    - JIANG, Y.
+    - ADAMS, B.
+  - year: 2014
+    authors:
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - NAGAPPAN, M.
+    - HASSAN, A. E.
+2013:
+  journal:
+  - year: 2013
+    authors:
+    - SHIHAB, E.
+    - KAMEI, Y.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Is lines of code a good measure of effort in effort-aware models?
+    url: https://das.encs.concordia.ca/pdf/Shihab_IST2013.pdf
+    bibtex: publications/2013/ist_emad.bib
+    publisher: Elsevier
+    venue: Information and Software Technology
+  - year: 2013
+    authors:
+    - SHIHAB, E.
+    - IHARA, A.
+    - KAMEI, Y.
+    - IBRAHIM, W. M.
+    - OHIRA, M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - MATSUMOTO, K.
+    title: Studying Re-opened Bugs in Open Source Software
+    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_StudyingRe-openedBugsInOpenSourceSoftware.pdf
+    bibtex: publications/2013/emsemad.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  - year: 2013
+    authors:
+    - KAMEI, Y.
+    - SHIHAB, E.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - MOCKUS, A.
+    - SINHA, A.
+    - UBAYASHI, N.
+    title: A Large-Scale Empirical Study of Just-In-Time Quality Assurance
+    url: https://das.encs.concordia.ca/pdf/Kamei_TSE2013.pdf
+    bibtex: publications/2013/tseyasu.bib
+    publisher: IEEE
+    venue: Transactions on Software Engineering (TSE)
+  conference:
+  - year: 2013
+    authors:
+    - SYER, M. D.
+    - NAGAPPAN, M.
+    - HASSAN, A. E.
+    - ADAMS, B.
+    title: 'Revisiting Prior Empirical Findings For Mobile Apps: An Empirical Case Study on the 15 Most Popular Open-Source Android Apps'
+    url: https://cs.uwaterloo.ca/~m2nagapp/publications/publications/Revisiting-Prior-Empirical-Findings-For-Mobile-Apps-An-Empirical-Case-Study-on-the-15-Most-Popular-Open-Source-Android-Apps.html
+    bibtex: publications/2013/cascon.bib
+    acceptance_ratio: 25/70=35.7%
+    address: Markham, ON, Canada
+    venue: in Proceedings of the 2013 Conference of the Center for Advanced Studies on Collaborative Research, CASCON
+  - year: 2013
+    authors:
+    - SOH, Z.
+    - KHOMH, F.
+    - GUÉHÉNEUC, Y.-G.
+    - ANTONIOL, G.
+    - ADAMS, B.
+    title: On the Effect of Program Exploration on Maintenance Tasks
+    url: http://swat.polymtl.ca/~foutsekh/docs/wcre13main-idm123-p-19100-submitted.pdf
+    bibtex: publications/2013/wcre.bib
+    acceptance_ratio: 38/97=39%
+    publisher: IEEE
+    address: Koblenz, Germany
+    venue: in Proceedings of the 20th IEEE Working Conference on Reverse Engineering, WCRE
+  - year: 2013
+    authors:
+    - MÄNTYLÄ, M.
+    - KHOMH, F.
+    - ADAMS, B.
+    - ENGSTROM, E.
+    - PETERSEN, K.
+    title: On Rapid Releases and Software Testing
+    url: http://swat.polymtl.ca/~foutsekh/docs/PID2891705.pdf
+    bibtex: publications/2013/icsm_mika.bib
+    acceptance_ratio: 36/163=22%
+    publisher: IEEE
+    address: Eindhoven, The Netherlands
+    venue: in Proceedings of the 29th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2013
+    authors:
+    - SHANG, W.
+    - JIANG, Z. M.
+    - HEMMATI, H.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - MARTIN, P.
+    title: Assisting Big Data Analytics Developers When Cloud Deploying Hadoop Applications
+    url: publications/2013/icse_ian.pdf
+    bibtex: publications/2013/icse_ian.bib
+    award: ACM SIGSOFT Distinguished Paper Award
+    acceptance_ratio: 85/461=18.5%
+    address: San Francisco, CA, US
+    venue: in Proceedings of the 35th International Conference on Software Engineering, ICSE
+  - year: 2013
+    authors:
+    - JIANG, Y.
+    - ADAMS, B.,, GERMAN, D. M.
+    title: Will My Patch Make It? And How Fast? - Case Study on the Linux Kernel
+    url: publications/2013/msr_jojo.pdf
+    bibtex: publications/2013/msr_jojo.bib
+    replication_package: publications/2013/linux_patch_final.arff.gz
+    acceptance_ratio: 31/81=38%
+    address: San Francisco, CA, US
+    venue: in Proceedings of the 10th Working Conference on Mining Software Repositories, MSR
+  - year: 2013
+    authors:
+    - GERMAN, D. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'Programming Language Ecosystems: the Evolution of R'
+    url: http://sail.cs.queensu.ca/data/pdfs/CSMR2013_ProgrammingLanguageEcosystems_TheEvolutionOfR.pdf
+    bibtex: publications/2013/csmr_daniel.bib
+    acceptance_ratio: 29/80=36.3%
+    address: Genova, Italy
+    venue: in Proceedings of the 17th European Conference on Software Maintenance and Reengineering, CSMR
+  - year: 2013
+    authors:
+    - JAAFAR, F.
+    - HASSAINE, S.
+    - GUÉHÉNEUC, Y.-G.
+    - HAMEL, S.
+    - ADAMS, B.
+    bibtex: publications/2013/csmr_fehmi.bib
+    acceptance_ratio: 29/80=36.3%
+    venue: ''
+  - year: 2013
+    authors:
+    - DUCLOS, É.
+    - LE DIGABEL, S.
+    - GUÉHÉNEUC, Y.-G.
+    - ADAMS, B.
+    bibtex: publications/2013/csmr_etienne.bib
+    acceptance_ratio: 29/80=36.3%
+    venue: ''
+2012:
+  journal:
+  - year: 2012
+    authors:
+    - ALAM, O.
+    - ADAMS, B.,, HASSAN, A. E.
+    title: Preserving Knowledge in Software Projects
+    url: http://sail.cs.queensu.ca/data/pdfs/JSS_PreservingKnowledgeInSoftwareProjects.pdf
+    bibtex: publications/2012/jssomar12.bib
+    publisher: Elsevier
+    venue: Journal of Software and Systems (JSS)
+  - year: 2012
+    authors:
+    - IBRAHIM, W. M.
+    - BETTENBURG, N.
+    - ADAMS, B.,, HASSAN, A. E.
+    title: On the Relationship between Comment Update Practices and Software Bugs
+    url: http://sail.cs.queensu.ca/data/pdfs/JSS_OnTheRelationshipBetweenCommentUpdatePracticesAndSoftwareBugs.pdf
+    bibtex: publications/2012/jsswalid12.bib
+    publisher: Elsevier
+    venue: Journal of Software and Systems (JSS)
+  - year: 2012
+    authors:
+    - SHANG, W.
+    - ADAMS, B.,, HASSAN, A. E.
+    title: 'Using Pig as a Data Preparation Language for Large-Scale Mining Software Repositories Studies: An Experience Report'
+    url: http://sail.cs.queensu.ca/data/pdfs/JSS_UsingPigAsADataPreparationLanguageForLarge-ScaleMiningSoftwareRepositoriesStudies_AnExperienceReport.pdf
+    bibtex: publications/2012/jsspig12.bib
+    publisher: Elsevier
+    venue: Journal of Software and Systems (JSS)
+  - year: 2012
+    authors:
+    - BETTENBURG, N.
+    - SHANG, W.
+    - IBRAHIM, W. M.
+    - ADAMS, B.
+    - ZOU, Y.
+    - HASSAN, A. E.
+    title: An Empirical Study on Inconsistent Changes to Code Clones at the Release Level
+    url: http://sail.cs.queensu.ca/data/pdfs/SCP_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtTheReleaseLevel,ScienceOfComputerProgramming.pdf
+    bibtex: publications/2012/scp.bib
+    publisher: Elsevier
+    venue: Science of Computer Programming (SCP)
+  - year: 2012
+    authors:
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: The Evolution of Java Build Systems
+    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_TheEvolutionOfJavaBuildSystems.pdf
+    bibtex: publications/2012/emse12.bib
+    publisher: Springer
+    venue: Empirical Software Engineering
+  conference:
+  - year: 2012
+    authors:
+    - SUVOROV, R.
+    - ADAMS, B.
+    - NAGAPPAN, M.
+    - HASSAN, A. E.
+    - ZOU, Y.
+    title: 'An Empirical Study of Build System Migrations in Practice: Case Studies on KDE and the Linux Kernel'
+    url: publications/2012/ICSM2012Roman.pdf
+    bibtex: publications/2012/icsm_roman.bib
+    acceptance_ratio: 46/181=25%
+    publisher: IEEE
+    address: Riva del Garda, Italy
+    venue: in Proceedings of the 28th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2012
+    authors:
+    - SHIHAB, E.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - JIANG, Z. M.
+    title: An Industrial Study on the Risk of Software Changes
+    url: https://das.encs.concordia.ca/pdf/Shihab_FSE2012.pdf
+    bibtex: publications/2012/fse12.bib
+    acceptance_ratio: 32/201=17%
+    publisher: ACM
+    address: Research Triangle Park, NC, US
+    venue: in Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering, FSE
+  - year: 2012
+    authors:
+    - MOJICA RUIZ, I. J.
+    - NAGAPPAN, M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Understanding Reuse in the Android Market
+    url: http://sail.cs.queensu.ca/data/pdfs/ICPC2012_UnderstandingReuseInTheAndroidMarket.pdf
+    bibtex: publications/2012/icpc12israel.bib
+    award: '[mentioned in this blog post]'
+    acceptance_ratio: 21/51=41%
+    publisher: IEEE
+    address: Passau, Germany
+    venue: in Proceedings of the 20th IEEE Intl. Conference on Program Comprehension, ICPC
+  - year: 2012
+    authors:
+    - KHOMH, F.
+    - DHALIWAL, T.
+    - ZOU, Y.
+    - ADAMS, B.
+    title: Do Faster Releases Improve Software Quality? - An Empirical Case Study of Mozilla Firefox
+    url: publications/2012/MSR2012Foutse.pdf
+    bibtex: publications/2012/msr12foutse.bib
+    award: '[mentioned in this blog post]'
+    acceptance_ratio: 18/64=28%
+    publisher: IEEE
+    address: Zurich, Switzerland
+    venue: in Proceedings of the 9th IEEE Working Conference on Mining Software Repositories, MSR
+  - year: 2012
+    authors:
+    - ZAMAN, S.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: A Qualitative Study on Performance Bugs
+    url: http://sail.cs.queensu.ca/data/pdfs/MSR2012_AQualitativeStudyOnPerformanceBugs.pdf
+    bibtex: publications/2012/msr12shahed.bib
+    award: '[mentioned in this blog post]'
+    acceptance_ratio: 18/64=28%
+    publisher: IEEE
+    address: Zurich, Switzerland
+    venue: in Proceedings of the 9th IEEE Working Conference on Mining Software Repositories, MSR
+  - year: 2012
+    authors:
+    - NGUYEN, T. H. D.
+    - ADAMS, B.
+    - JIANG, Z. M.
+    - HASSAN, A. E.
+    title: Automated Detection of Performance Regressions Using Statistical Process Control Techniques
+    url: http://sail.cs.queensu.ca/data/pdfs/ICPE2012_AutomatedDetectionOfPerformanceRegressionsUsingStatisticalProcessControlTechniques.pdf
+    bibtex: publications/2012/icpe.bib
+    publisher: ACM
+    address: Boston, MA, US
+    venue: in Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering, ICPE
+  other:
+  - year: 2012
+    authors:
+    - ADAMS, B.
+    title: Technical Briefing on Software Release Engineering
+    url: http://www.slideshare.net/bramadams/on-software-release-engineering-bram-adams
+    acceptance_ratio: 18/50=36%
+    address: Zurich, Switzerland
+    venue: in Proceedings of the 34th International Conference on Software Engineering, ICSE
+  - year: 2012
+    authors:
+    - DI PENTA, M.
+    - ANTONIOL, G.
+    - GERMAN, D. M.
+    - GUÉHÉNEUC, Y.-G.
+    - ADAMS, B.
+    acceptance_ratio: 11/49=22.4%
+  - year: 2012
+    authors:
+    - NAGANO, R.
+    - NAKAMURA, H.
+    - KAMEI, Y.
+    - ADAMS, B.
+    - HISAZUMI, K.
+    - UBAYASHI, N.
+    - FUKUDA, A.
+    acceptance_ratio: 8/22=36.4%
+  - year: 2012
+    authors:
+    - ZAMAN, S.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: A Large Scale Empirical Study on User-Centric Performance Analysis
+    url: http://sail.cs.queensu.ca/data/pdfs/ICST2012_ALargeScaleEmpiricalStudyOnUser-CentricPerformanceAnalysis.pdf
+    bibtex: publications/2012/icst12shahed.bib
+    address: Montréal, Canada
+    venue: in Proceedings of the industry track of the 5th International Conference on Software Testing, Verification and Validation, ICST
+2011:
+  journal:
+  - year: 2011
+    authors:
+    - SHIHAB, E.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - BOWERMAN, R.
+    title: Prioritizing the Creation of Unit Tests in Legacy Software Systems
+    url: http://sail.cs.queensu.ca/data/pdfs/SPE_PrioritizingTheCreationOfUnitTestsInLegacySoftwareSystems.pdf
+    bibtex: publications/2011/spe.bib
+    publisher: Wiley
+    venue: Software - Practice and Experience
+  conference:
+  - year: 2011
+    authors:
+    - NGUYEN, T. H. D.
+    - ADAMS, B.
+    - JIANG, Z. M.
+    - HASSAN, A. E.
+    title: Automatic Load Test Verification Using Control Charts
+    url: http://sail.cs.queensu.ca/data/pdfs/APSEC2011_AutomatedVerificationOfLoadTestsUsingControlCharts.pdf
+    bibtex: publications/2011/apsec.bib
+    acceptance_ratio: 54/180=30%
+    address: Ho Chi Minh city, Vietnam
+    venue: in Proceedings of the 18th Asia-Pacific Software Engineering Conference, APSEC
+  - year: 2011
+    authors:
+    - SHANG, W.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - GODFREY, M.
+    - NASSER, M.
+    - FLORA, P.
+    title: An Exploratory Study of the Evolution of Communicated Information about the Execution of Large Software Systems
+    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2011_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
+    bibtex: publications/2011/wcre_ian.bib
+    award: Best Paper Award
+    acceptance_ratio: 27/104=26%
+    publisher: IEEE
+    address: Lero, Limerick, Ireland
+    venue: in Proceedings of the 18th IEEE Working Conference on Reverse Engineering, WCRE
+  - year: 2011
+    authors:
+    - SYER, M. D.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Identifying Performance Deviations in Thread Pools
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_IdentifyingPerformanceDeviationsInThreadPools.pdf
+    bibtex: publications/2011/icsm_mark.bib
+    acceptance_ratio: 36/127=28%
+    publisher: IEEE
+    address: Williamsburg, VA, US
+    venue: in Proceedings of the 27th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2011
+    authors:
+    - SYER, M. D.
+    - ADAMS, B.
+    - HASSAN, A. E.,, ZOU, Y.
+    title: 'Exploring the Development of Micro-Apps: A Case Study on the BlackBerry and Android Platforms'
+    url: http://sail.cs.queensu.ca/data/pdfs/SCAM2011_ExploringTheDevelopmentOfMicro-Apps_ACaseStudyOnTheBlackBerryAndAndroidPlatforms.pdf
+    bibtex: publications/2011/scam11and.bib
+    acceptance_ratio: 16/52=31%
+    publisher: IEEE
+    address: Williamsburg, VA, US
+    venue: in Proceedings of the 11th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+  - year: 2011
+    authors:
+    - KELLY, M. B.
+    - ALEXANDER, J. S.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Recovering a Balanced Overview of Topics in a Software Domain
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_RecoveringABalancedOverviewOfTopicsInASoftwareDomain.pdf
+    bibtex: publications/2011/scam11lda.bib
+    acceptance_ratio: 16/52=31%
+    publisher: IEEE
+    address: Williamsburg, VA, US
+    venue: in Proceedings of the 11th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+  - year: 2011
+    authors:
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - ZOU, Y.
+    title: Using Indexed Sequence Diagrams to Recover the Behaviour of AJAX Applications
+    url: http://sail.cs.queensu.ca/data/pdfs/WSE2011_UsingIndexedSequenceDiagramsToRecoverTheBehaviourOfAJAXApplications.pdf
+    bibtex: publications/2011/wse11.bib
+    acceptance_ratio: 12/24=50%
+    publisher: IEEE
+    address: Williamsburg, VA, US
+    venue: in Proceedings of the 13th IEEE International Symposium on Web Systems Evolution, WSE
+  - year: 2011
+    authors:
+    - SHIHAB, E.
+    - KAMEI, Y.
+    - MOCKUS, A.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'High-Impact Defects: A Study of Breakage and Surprise Defects'
+    url: http://sail.cs.queensu.ca/data/pdfs/FSE2011_High-ImpactDefects_AStudyOfBreakageAndSurpriseDefects.pdf
+    bibtex: publications/2011/fse11.bib
+    acceptance_ratio: 34/203=17%
+    publisher: ACM
+    address: Szeged, Hungary
+    venue: in Proceedings of the 8th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering, ESEC/FSE
+  - year: 2011
+    authors:
+    - THOMAS, S. W.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - BLOSTEIN, D.
+    title: Modeling the Evolution of Topics in Historical Software Repositories
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_ModelingTheEvolutionOfTopicsInSourceCodeHistories.pdf
+    bibtex: publications/2011/msr11steve.bib
+    acceptance_ratio: 20/61=33%
+    publisher: IEEE
+    address: Waikiki, Honolulu, Hawaii
+    venue: in Proceedings of the 8th IEEE Working Conference on Mining Software Repositories, MSR
+  - year: 2011
+    authors:
+    - ZAMAN, S.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'Security vs Performance bugs: A Case Study on Firefox'
+    url: http://sail.cs.queensu.ca/data/pdfs/MSR2011_SecurityVersusPerformanceBugs_ACaseStudyOnFirefox.pdf
+    bibtex: publications/2011/msr11shahed.bib
+    acceptance_ratio: 20/61=33%
+    publisher: IEEE
+    address: Waikiki, Honolulu, Hawaii
+    venue: in Proceedings of the 8th IEEE Working Conference on Mining Software Repositories, MSR
+  - year: 2011
+    authors:
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - KAMEI, Y.
+    - NGUYEN, T.
+    - HASSAN, A. E.
+    title: An Empirical Study of Build Maintenance Effort
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf
+    bibtex: publications/2011/icse11.bib
+    award: '[mentioned in this SE Podcast and these blog posts]'
+    acceptance_ratio: 62/441=14%
+    address: Waikiki, Honolulu, Hawaii
+    venue: in Proceedings of the 33rd International Conference on Software Engineering, ICSE
+  other:
+  - year: 2011
+    authors:
+    - FOO, K. C.
+    - JIANG, Z. M.
+    - ADAMS, B.,, HASSAN, A. E.
+    title: Modeling the Performance of Ultra-Large-Scale Systems Using Layered Simulations
+    url: http://sail.cs.queensu.ca/data/pdfs/MESOCA2011_ModelingThePerformanceOfUltra-Large-ScaleSystemsUsingLayeredSimulations.pdf
+    bibtex: publications/2011/mesoca11.bib
+    acceptance_ratio: (8+18
+    publisher: IEEE
+    address: Williamsburg, VA, US
+    venue: in Proceedings of the 2011 IEEE International Workshop on the Maintenance and Evolution of Service-Oriented and Cloud-Based Systems, MESOCA
+  - year: 2011
+    authors:
+    - BETTENBURG, N.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - SMIDT, M.
+    title: A Lightweight Approach to Uncover Technical Information in Unstructured Data
+    url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_ALightweightApproachToUncoverTechnicalInformationInUnstructuredData.pdf
+    bibtex: publications/2011/icpc11nic.bib
+    acceptance_ratio: (8+18
+    publisher: IEEE
+    address: Kingston, ON, Canada
+    venue: '[short], in Proceedings of the 19th IEEE International Conference on Program Comprehension, ICPC'
+  - year: 2011
+    authors:
+    - SYER, M. D.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Industrial Case Study on Supporting the Comprehension of System Behaviour Under Load
+    url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_IndustrialCaseStudyOnSupportingTheComprehensionOfSystemBehaviourUnderLoad.pdf
+    bibtex: publications/2011/icpc11mark.bib
+    acceptance_ratio: (4+8+18
+    publisher: IEEE
+    address: Kingston, ON, Canada
+    venue: '[poster], in Proceedings of the 19th IEEE International Conference on Program Comprehension, ICPC'
+  - year: 2011
+    authors:
+    - ADAMS, B.
+    - HAUPT, M.
+    - LORENZ, D. H.
+    - WOHLSTADTER E.
+    title: Proceedings of the 1st workshop on Modularity in systems software (MISS)
+    url: http://portal.acm.org/citation.cfm?id=1960518
+    venue: 'ISBN-ISSN: 978-1-4503-0647-8'
+2010:
+  journal:
+  - year: 2010
+    authors:
+    - SHIHAB, E.
+    - BETTENBURG, N.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory Study'
+    url: http://dx.doi.org/10.1007/978-3-642-14888-0_9
+    bibtex: publications/2010/kcsd.bib
+    publisher: Springer
+    venue: Lecture Notes in Computer Science (LNCS)
+  conference:
+  - year: 2010
+    authors:
+    - MALIK, H.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Pinpointing the Subsystems Responsible for the Performance Deviations in a Load Test
+    url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2010_PinpointingTheSubsystemsResponsibleForThePerformanceDeviationsInALoadTest.pdf
+    bibtex: publications/2010/issre10.bib
+    acceptance_ratio: 40/130=31%
+    publisher: IEEE
+    address: San Jose, CA, US
+    venue: in Proceedings of the 21st IEEE International Symposium on Software Reliability Engineering, ISSRE
+  - year: 2010
+    authors:
+    - NGUYEN, T.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: A Case Study of Bias in Bug-Fix Datasets
+    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_ACaseStudyOfBiasInBug-FixDatasets.pdf
+    bibtex: publications/2010/wcre10thanh.bib
+    acceptance_ratio: 21/67=31%
+    address: Boston, MA, US
+    venue: in Proceedings of the 17th Working Conference on Reverse Engineering, WCRE
+  - year: 2010
+    authors:
+    - SHIHAB, E.
+    - IHARA, A.
+    - KAMEI, Y.
+    - IBRAHIM, W. M.
+    - OHIRA, M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - MATSUMOTO, K.
+    title: 'Why are Bugs Re-opened: A Case Study on the Eclipse Project'
+    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_PredictingRe-openedBugs_ACaseStudyOnTheEclipseProject.pdf
+    bibtex: publications/2010/wcre10emad.bib
+    acceptance_ratio: 21/67=31%
+    address: Boston, MA, US
+    venue: in Proceedings of the 17th Working Conference on Reverse Engineering, WCRE
+  - year: 2010
+    authors:
+    - SELIM, G. M. K.
+    - BARBOUR, L.
+    - SHANG, W.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - ZOU, Y.
+    title: Studying the Impact of Clones on Software Defects
+    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_StudyingTheImpactOfClonesOnSoftwareDefects.pdf
+    bibtex: publications/2010/wcre10gehan.bib
+    acceptance_ratio: 21/67=31%
+    address: Boston, MA, US
+    venue: in Proceedings of the 17th Working Conference on Reverse Engineering, WCRE
+  - year: 2010
+    authors:
+    - SHANG, W.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: An Experience Report on Scaling Tools for Mining Software Repositories Using MapReduce
+    url: http://sail.cs.queensu.ca/data/pdfs/ASE2010_AnExperienceReportOnScalingToolsForMiningSoftwareRepositoriesUsingMapReduce.pdf
+    bibtex: publications/2010/ase10.bib
+    acceptance_ratio: 34/191=18%
+    publisher: IEEE
+    address: Antwerp, Belgium
+    venue: in Proceedings of the 25th IEEE/ACM International Conference on Automated Software Engineering, ASE
+  - year: 2010
+    authors:
+    - NGUYEN, T. H. D.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Studying the impact of dependency network measures on software quality
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_StudyingTheimpactOfdependencynetworkmeasuresOnsoftwarequality.pdf
+    bibtex: publications/2010/icsm_thanh.bib
+    acceptance_ratio: 36/133=27%
+    publisher: IEEE
+    address: Timişoara, Romania
+    venue: in Proceedings of the 26th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2010
+    authors:
+    - KAMEI, Y.
+    - MATSUMOTO, S.
+    - MONDEN, A.
+    - MATSUMOTO, K.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Revisiting Common Bug Prediction Findings Using Effort Aware Models
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_RevisitingCommonBugPredictionFindingsUsingEffort-AwareModels.pdf
+    bibtex: publications/2010/icsm_yasu.bib
+    acceptance_ratio: 36/133=27%
+    publisher: IEEE
+    address: Timişoara, Romania
+    venue: in Proceedings of the 26th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2010
+    authors:
+    - THOMAS, S. W.
+    - ADAMS, B. HASSAN, A. E.
+    - BLOSTEIN, D.
+    title: Validating the Use of Topic Models for Software Evolution
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf
+    bibtex: publications/2010/scam10.bib
+    award: Most Influential Paper Award
+    acceptance_ratio: 17/44=39%
+    publisher: IEEE
+    address: Timişoara, Romania
+    venue: in Proceedings of the 10th IEEE International Working Conference on Source Code Analysis and Manipulation, SCAM
+  - year: 2010
+    authors:
+    - SHIHAB, E.
+    - JIANG, Z. M.
+    - IBRAHIM, W. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'Understanding the Impact of Code and Process Metrics on Post-release Defects: A Case Study on the Eclipse Project'
+    url: http://sail.cs.queensu.ca/data/pdfs/EMSE2010_UnderstandingTheImpactOfCodeAndProcessMetricsOnPost-releaseDefects_ACaseStudyOnTheEclipseProject.pdf
+    bibtex: publications/2010/esem10.bib
+    acceptance_ratio: 30/102=29%
+    address: Bolzano-Bozen, Italy
+    venue: in Proceedings of the 4th International Symposium on Empirical Software Engineering and Measurement, ESEM
+  - year: 2010
+    authors:
+    - MALIK, H.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Using Load Tests To Automatically Compare the Subsystems of a Large Enterprise System
+    url: http://sail.cs.queensu.ca/data/pdfs/COMPSAC2010_UsingLoadTestsToAutomaticallyCompareTheSubsystemsOfALargeEnterpriseSystem.pdf
+    bibtex: publications/2010/compsac10.bib
+    acceptance_ratio: 20%
+    publisher: IEEE
+    address: Seoul, South Korea
+    venue: in Proceedings of the 34th Annual IEEE COMPuter Software and Applications Conference, COMPSAC
+  - year: 2010
+    authors:
+    - FOO, K. C.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - ZOU, Y.
+    - FLORA, P.
+    title: Mining Performance Regression Testing Repositories for Automated Performance Analysis
+    url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_MiningPerformanceRegressionTestingRepositoriesForAutomatedPerformanceAnalysis.pdf
+    bibtex: publications/2010/qsic10derek.bib
+    acceptance_ratio: 20/121=16.5%
+    address: Zhangjiajie, China
+    venue: in Proceedings of the 10th International Conference on Quality Software, QSIC
+  - year: 2010
+    authors:
+    - SHIHAB, E.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - BOWERMAN, R.
+    title: Prioritizing Unit Test Creation for Test-Driven Maintenance of Legacy Systems
+    url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_PrioritizingUnitTestCreationForTest-DrivenMaintenanceOfLegacySystems.pdf
+    bibtex: publications/2010/qsic10emad.bib
+    acceptance_ratio: 20/121=16.5%
+    address: Zhangjiajie, China
+    venue: in Proceedings of the 10th International Conference on Quality Software, QSIC
+  - year: 2010
+    authors:
+    - MCINTOSH, S.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: The Evolution of ANT Build Systems
+    url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf
+    bibtex: publications/2010/msr10shane.bib
+    acceptance_ratio: 16/51=31.4%
+    publisher: IEEE
+    address: Cape Town, South Africa
+    venue: in Proceedings of the 7th IEEE Working Conference on Mining Software Repositories, MSR
+  - year: 2010
+    authors:
+    - IBRAHIM, W. M.
+    - BETTENBURG, N.
+    - SHIHAB, E.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Should I contribute to this discussion?
+    url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_ShouldIContributeToThisDiscussion_.pdf
+    bibtex: publications/2010/msr10walid.bib
+    acceptance_ratio: 16/51=31.4%
+    publisher: IEEE
+    address: Cape Town, South Africa
+    venue: in Proceedings of the 7th IEEE Working Conference on Mining Software Repositories, MSR
+  - year: 2010
+    authors:
+    - ADAMS, B.
+    - JIANG, Z. M.
+    - HASSAN, A. E.
+    title: Identifying Crosscutting Concerns Using Historical Code Changes
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf
+    bibtex: publications/2010/icse10.bib
+    acceptance_ratio: 52/380=13.7%
+    address: Cape Town, South Africa
+    venue: in Proceedings of the 32nd International Conference on Software Engineering, ICSE
+  - year: 2010
+    authors:
+    - MALIK, H.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - FLORA, P.
+    - HAMANN, G.
+    title: Automatic Comparison of Load Tests to Support the Performance Analysis of Large Enterprise Systems
+    url: http://www.cse.yorku.ca/~zmjiang/publications/csmr2010_malik.pdf
+    bibtex: publications/2010/csmr10.bib
+    acceptance_ratio: 21/80=26.3%
+    address: Madrid, Spain
+    venue: in Proceedings of the 14th European Conference on Software Maintenance and Reengineering, CSMR
+  other:
+  - year: 2010
+    authors:
+    - BETTENBURG, N.
+    - ADAMS, B.
+    title: Workshop on Mining Unstructured Data (MUD)
+    url: http://dx.doi.org/10.1109/WCRE.2010.39
+    venue: Proceedings of the 17th Working Conference on Reverse Engineering (WCRE)
+  - year: 2010
+    authors:
+    - ADAMS, B.
+    - HAUPT, M.
+    - LOHMANN, D.
+    title: Proceedings of the 9th Workshop on Aspects, Components, and Patterns for Infrastructure Software (ACP4IS)
+    url: http://www.hpi.uni-potsdam.de/fileadmin/hpi/source/Technische_Berichte/HPI_33_Proceedings_of_the_9th_Workshop_on_Aspects__Components__and_Patterns_for_Infrastructure_Software.pdf
+    venue: Technical Report 33
+2009:
+  journal:
+  - year: 2009
+    authors:
+    - HAUPT, M.
+    - ADAMS, B.
+    - TIMBERMONT, S.
+    - GIBBS, C.
+    - COADY, Y.
+    - HIRSCHFELD, R.
+    title: Disentangling Virtual Machine Architecture
+    url: publications/2009/iet-ccvm-postprint.pdf
+    bibtex: publications/2009/iet09.bib
+    venue: 'in IET Software: Special Issue on Domain-specific Aspect Languages'
+  - year: 2009
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - ZAIDMAN, A.
+    - DEMEYER, S.
+    - TROMP, H.
+    - DE MEUTER, W.
+    title: Using Aspect Orientation in Legacy Environments for Reverse Engineering using Dynamic Analysis - An Industrial Experience Report
+    url: https://repository.tudelft.nl/file/File_6062302e-6de3-4436-9dbe-2689bf9f0097
+    bibtex: publications/2009/jss09.bib
+    publisher: Elsevier
+    venue: Journal of Software and Systems (JSS)
+  conference:
+  - year: 2009
+    authors:
+    - BETTENBURG, N.
+    - SHANG, W.
+    - IBRAHIM, W.
+    - ADAMS, B.
+    - ZOU, Y.
+    - HASSAN, A. E.
+    title: An Empirical Study on Inconsistent Changes to Code Clones at Release Level
+    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtReleaseLevel.pdf
+    bibtex: publications/2009/wcre09b.bib
+    acceptance_ratio: 20/79=25%
+    address: Lille, France
+    venue: in Proceedings of the 16th Working Conference on Reverse Engineering, WCRE
+  - year: 2009
+    authors:
+    - ALAM, O.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: A Study of the Time Dependence of Code Changes
+    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AStudyOfTheTimeDependenceOfCodeChanges.pdf
+    bibtex: publications/2009/wcre09a.bib
+    acceptance_ratio: 20/79=25%
+    address: Lille, France
+    venue: in Proceedings of the 16th Working Conference on Reverse Engineering, WCRE
+  - year: 2009
+    authors:
+    - ALAM, O.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: Measuring the Progress of Projects Using the Time Dependence of Code Changes
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_MeasuringTheProgressOfProjectsUsingTheTimeDependenceOfCodeChanges.pdf
+    bibtex: publications/2009/icsm09.bib
+    award: Best Paper Award
+    acceptance_ratio: 35/162=22%
+    publisher: IEEE
+    address: Edmonton, Canada
+    venue: in Proceedings of the 25th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2009
+    authors:
+    - SHANG, W.
+    - JIANG, Z. M.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: MapReduce as a General Framework to Support Research in Mining Software Repositories (MSR)
+    url: http://sail.cs.queensu.ca/data/pdfs/MSR2009_MapReduceAsAGeneralFrameworkToSupportResearchInMiningSoftwareRepositories(MSR).pdf
+    bibtex: publications/2009/msr09.bib
+    acceptance_ratio: 14/47=30%
+    publisher: IEEE
+    address: Vancouver, Canada
+    venue: in Proceedings of the 6th IEEE Working Conference on Mining Software Repositories, MSR
+  - year: 2009
+    authors:
+    - ADAMS, B.
+    - DE MEUTER, W.
+    - TROMP, H.
+    - HASSAN, A. E.
+    title: Can we Refactor Conditional Compilation into Aspects?
+    url: http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf
+    bibtex: publications/2009/aosd09b.bib
+    award: Most Influential Paper Award
+    acceptance_ratio: 19/86=22%
+    publisher: ACM
+    address: Charlottesville, VA, US
+    venue: in Proceedings of the 8th ACM international conference on Aspect-oriented Software Development, AOSD
+  workshop:
+  - year: 2009
+    authors:
+    - SHIHAB, E.
+    - BETTENBURG, N.
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory Study'
+    url: http://sail.cs.queensu.ca/data/pdfs/KCSD2009_OnTheCentralRoleOfMailingListsInOpenSourceProjects_AnExploratoryStudy.pdf
+    bibtex: publications/2009/kcsd09.bib
+    address: Tokyo, Japan
+    venue: in Proceedings of the 3rd International Workshop on Knowledge Collaboration in Software Development, KCSD
+  - year: 2009
+    authors:
+    - MARR, S.
+    - TIMBERMONT, S.
+    - ADAMS, B.
+    - D'HONDT, T.
+    - COSTANZA, P.
+    - DE MEUTER, W.
+    title: 'Virtual Machine Support for Many-Core Architectures: Decoupling Abstract From Concrete Concurrency Models'
+    url: http://gloss.di.fc.ul.pt/places09/preproceedings.pdf
+    bibtex: publications/2009/places09.bib
+    address: York, UK
+    venue: in Proceedings of the 2nd workshop on Programming Language Approaches to Concurrency and communication-cEntric Software, PLACES
+  other:
+  - year: 2009
+    authors:
+    - ADAMS, B.
+    - HASSAN, A. E.
+    title: The Life of a Software Concern
+    url: http://benevol.evolumons.be/Proceedings_of_Short_Papers.pdf
+    address: Louvain-la-Neuve, Belgium
+    venue: in Benevol
+  - year: 2009
+    authors:
+    - ADAMS, B.
+    title: Co-Evolution of Source Code and the Build System
+    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_Co-EvolutionOfSourceCodeAndTheBuildSystem.pdf
+    bibtex: publications/2009/phdsym09.bib
+    publisher: IEEE
+    address: Edmonton, Canada
+    venue: PhD Symposium at the 25th IEEE International Conference on Software Maintenance, ICSM
+  - year: 2009
+    authors:
+    - GROHER, I.
+    - KELLENS, A.
+    - SCHWANNINGER, C.
+    - ADAMS, B.
+    - HOHENSTEIN, U.
+    - AGUIAR, A.
+    - TRUYEN, E.
+    title: Proceedings of the 1st Practices in Linking Aspect Technology and Evolution workshop (PLATE)
+    url: http://portal.acm.org/citation.cfm?id=1509847
+    venue: 'ISBN-ISSN: 978-1-60558-453-9'
+  - year: 2009
+    authors:
+    - ADAMS, B.
+    - HASSAN, A. E.
+    - TROMP, H.
+    - DE MEUTER, W.
+    title: 'R3V3RS3: Querying for Syntactical Patterns of Conditional Compilation Usage (demo)'
+    url: publications/2009/r3v3rs3.pdf
+    bibtex: publications/2009/aosd09.bib
+    publisher: ACM
+    address: Charlottesville, VA, US
+    venue: in Proceedings of the 8th ACM international conference on Aspect-oriented Software Development, AOSD
+2008:
+  other:
+  - year: 2008
+    authors:
+    - ADAMS, B.
+    title: 'Co-evolution of Source Code and the Build System: Impact on the Introduction of AOSD in Legacy Systems'
+    url: publications/2008/PhD.pdf
+    bibtex: publications/2008/phd.bib
+    venue: PhD dissertation
+  - year: 2008
+    authors:
+    - JIANG, Z. M.
+    - THAKKAR, D.
+    - MALIK, H.
+    - SHIHAB, E.
+    - HASSAN, A. E.
+    - DIETZ, D.
+    - FLORA, P.
+    - HAMANN, G.
+    - NEWTON, A.
+    - SUTHERLAND, J.
+    - ADAMS, B.
+  - year: 2008
+    authors:
+    - ADAMS, B.
+  - year: 2008
+    authors:
+    - ADAMS, B.
+  journal:
+  - year: 2008
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - TROMP, H.
+    - DE MEUTER, W.
+    title: The Evolution of the Linux Build System
+    url: publications/2008/eceasst.pdf
+    bibtex: publications/2008/eceasst.bib
+    volume: '8'
+    address: Paris, France
+    venue: in Proceedings of the ERCIM Working Group on Software Evolution 2007
+  workshop:
+  - year: 2008
+    authors:
+    - ADAMS, B.
+    - VAN ROMPAEY, B.
+    - GIBBS, C.
+    - COADY, Y.
+    - TROMP, H.
+    title: Aspect mining in the Presence of the C Preprocessor
+    url: publications/2008/late.pdf
+    bibtex: publications/2008/late08.bib
+    publisher: ACM
+    address: Brussels, Belgium
+    venue: in Proceedings of the 4th Linking Aspect Technology and Evolution Workshop, LATE
+  - year: 2008
+    authors:
+    - TIMBERMONT, S.
+    - ADAMS, B.
+    - HAUPT, M.
+    title: Towards a DSAL for Object Layout in Virtual Machines
+    url: http://dsal.dcc.uchile.cl/2008/timbermont.pdf
+    bibtex: publications/2008/dsal08.bib
+    publisher: ACM
+    address: Brussels, Belgium
+    venue: in Proceedings of the 3rd Domain-Specific Aspect Languages Workshop, DSAL
+  - year: 2008
+    authors:
+    - ADAMS, B.
+    - HERZEEL, C.
+    - GYBELS, K.
+    title: cHALO, Stateful Aspects in C
+    url: publications/2008/acp4is.pdf
+    bibtex: publications/2008/acp4is08.bib
+    publisher: ACM
+    address: Brussels, Belgium
+    venue: in Proceedings of the 7th Workshop on Aspects, Components, and Patterns for Infrastructure Software, ACP4IS
+2007:
+  journal:
+  - year: 2007
+    authors:
+    - DE SCHUTTER, K.
+    - ADAMS, B.
+    title: Aspect-orientation For Revitalising Legacy Business Software
+    url: publications/2007/entcs.pdf
+    bibtex: publications/2007/ao4revitalisinglegacybusinesssoftware.bib
+    publisher: Elsevier
+    address: 06-07 April 2006, Lille, France
+    venue: in Proceedings of the ERCIM Working Group on Software Evolution
+  conference:
+  - year: 2007
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - TROMP, H.
+    - DE MEUTER, W.
+    title: Design Recovery and Maintenance of Build Systems
+    url: publications/2007/icsm.pdf
+    bibtex: publications/2007/recovery.bib
+    acceptance_ratio: 46/214=21%
+    publisher: IEEE
+    venue: in Proceedings of the 23rd IEEE International Conference on Software Maintenance
+  workshop:
+  - year: 2007
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    title: On the Relationship between Weavers and the Build System
+    url: publications/2007/benevol.pdf
+    address: Namur, Belgium
+    venue: (presentation), in Benevol
+  - year: 2007
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - TROMP, H.
+    - DE MEUTER, W.
+    title: The Evolution of the Linux Build System
+    url: ftp://ftp.umh.ac.be/pub/ftp_infofs/2007/ERCIM-Evol2007.pdf
+    bibtex: publications/2007/evolution.bib
+    address: Paris, France
+    venue: in Informal proceedings of the International ERCIM Workshop on Software Evolution 2007
+  - year: 2007
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    title: An Aspect for Idiom-based Exception Handling (using local continuation join points, join point properties, annotations and type parameters)
+    url: publications/2007/splat07.pdf
+    bibtex: publications/2007/splat07.bib
+    publisher: ACM
+    address: Vancouver, Canada
+    venue: in Proceedings of the 5th Software-Engineering Properties of Languages and Aspect Technologies Workshop, SPLAT
+  - year: 2007
+    authors:
+    - DE SCHUTTER, K.
+    - ADAMS, B.
+    title: 'Face-off: AOP+LMP vs. Legacy Software'
+    url: http://drops.dagstuhl.de/opus/volltexte/2007/888
+    bibtex: publications/2007/faceoff.bib
+    venue: in Aspects For Legacy Applications (Proceedings of Dagstuhl Seminar 06302)
+  other:
+  - year: 2007
+    authors:
+    - ADAMS, B.
+    title: Co-evolution of Source Code and Build Systems
+    url: publications/2007/symp-paper.pdf
+    address: Ghent University, Belgium
+    venue: in 8th FIrW PhD Symposium 2007
+  - year: 2007
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - TROMP, H.
+    - DE MEUTER, W.
+    title: MAKAO
+    url: publications/2007/icsm-demo.pdf
+    bibtex: publications/2007/icsm-demo.bib
+    publisher: IEEE
+    address: Paris, France
+    venue: (demo), in Proceedings of the 23rd IEEE International Conference on Software Maintenance, ICSM
+  - year: 2007
+    authors:
+    - ADAMS, B.
+    title: Made in MAKAO
+    url: publications/2007/aosd-demo.pdf
+    bibtex: publications/2007/aosd-demo.bib
+    address: Vancouver, Canada
+    venue: Demo at the 6th International Conference on Aspect-Oriented Software Development, AOSD
+2006:
+  conference:
+  - year: 2006
+    authors:
+    - ZAIDMAN, A.
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - DEMEYER, S.
+    - HOFFMAN, G.
+    - DE RUYCK, B.
+    title: Regaining Lost Knowledge through Dynamic Analysis and Aspect Orientation - An Industrial Experience Report
+    url: publications/2006/regaining.pdf
+    bibtex: publications/2006/regaining.bib
+    acceptance_ratio: 27/65=42%
+    publisher: IEEE
+    address: Bari, Italy
+    venue: in Proceedings of the 10th European Conference on Software Maintenance and Reengineering, CSMR
+  workshop:
+  - year: 2006
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    title: Software Architecture Recovery from Build Processes
+    url: publications/2006/makao-recovery.pdf
+    address: Delft, The Netherlands
+    venue: (presentation), in Benevol 2006
+  - year: 2006
+    authors:
+    - ADAMS, B.
+    title: Made in MAKAO
+    url: publications/2006/makao-ewas.pdf
+    bibtex: publications/2006/makao-ewas.bib
+    address: Enschede, The Netherlands
+    venue: (extended abstract), in Proceedings of the 3rd European Workshop on Aspects in Software, EWAS
+  - year: 2006
+    authors:
+    - DE SCHUTTER, K.
+    - ADAMS, B.
+    title: Aspect-orientation for Revitalising Legacy Business Software
+    url: publications/2006/ao4vittel.pdf
+    bibtex: publications/2006/ao4vittel.bib
+    address: Lille, France
+    venue: in Informal Proceedings of the International ERCIM Workshop on Software Evolution 2006
+  - year: 2006
+    authors:
+    - ADAMS, B.
+    title: AOP on the C-side
+    url: publications/2006/aoponthecside.pdf
+    bibtex: publications/2006/aoponthecside.bib
+    address: Bonn, Germany
+    venue: in Proceedings of the 2nd Linking Aspect Technology and Evolution Workshop, LATEr
+  other:
+  - year: 2006
+    authors:
+    - ADAMS, B.
+    title: 'MAKAO: Dealing with Legacy Build Systems'
+    url: publications/2006/makao-summer.pdf
+    address: Brussels, Belgium
+    venue: (extended abstract), 1st European Summer School on Aspect-oriented Software Development
+2005:
+  workshop:
+  - year: 2005
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - ZAIDMAN, A.
+    title: Applying aspects in a legacy environment
+    url: publications/2005/applyingaspectsinalegacyenvironment_presentation.pdf
+    address: Brussels, Belgium
+    venue: Benevol[04]
+  - year: 2005
+    authors:
+    - ZAIDMAN, A.
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    title: 'Applying Dynamic Analysis in a Legacy Context: An Industrial Experience Report'
+    url: http://www.lore.ua.ac.be/Events/PCODA2005/PCODA2005proceedings.pdf
+    bibtex: publications/2005/applyingaspectsinalegacyenvironment.bib
+    address: Pittsburgh, Pennsylvania, US
+    venue: in Proceedings of the 1st International Workshop on Program Comprehension Through Dynamic Analysis, PCODA
+  - year: 2005
+    authors:
+    - ADAMS, B.
+    - DE SCHUTTER, K.
+    - ZAIDMAN, A.
+    title: AOP for Legacy Environments, a Case Study
+    url: publications/2005/aop-for-legacy-environments_case-study.pdf
+    bibtex: publications/2005/aop-for-legacy-environments_case-study.bib
+    address: Brussels, Belgium
+    venue: in European Interactive Workshop on Aspects in Software, EIWAS
+  - year: 2005
+    authors:
+    - ADAMS, B.
+    title: Metadata and aspect evolution
+    url: publications/2005/metadataandaspectevolution_presentation.pdf
+    address: Eindhoven, The Netherlands
+    venue: Benevol 2005
+  - year: 2005
+    authors:
+    - ADAMS, B.
+    - TOURWÉ, T.
+    title: 'Aspect Orientation for C: Express yourself'
+    url: publications/2005/expressyourself.pdf
+    bibtex: publications/2005/expressyourself.bib
+    address: Chicago. Illinois, US
+    venue: in Proceedings of the 3rd Software-Engineering Properties of Languages and Aspect Technologies Workshop, SPLAT
+  other:
+  - year: 2005
+    authors:
+    - ADAMS, B.
+    title: Aspect Orientation in the Procedural Context of C
+    url: publications/2005/AOinProceduralContextOfC-paper.pdf
+    address: Ghent University, Belgium
+    venue: in 6th FIrW PhD Symposium 2005
+  - year: 2005
+    authors:
+    - ADAMS, B.
+    title: Language-independent Aspect Weaving
+    url: publications/2005/language-independentaspectweaving.pdf
+    address: Braga, Portugal
+    venue: (extended abstract), GTTSE 2005 Summer School
+2004:
+  other:
+  - year: 2004
+    authors:
+    - ADAMS, B.
+    title: Aspectgenerator voor Declaratieve Definitie van Persistentie
+    url: publications/2004/aspectgenerator.pdf
+    venue: (Aspect Generator for Declarative Definition of Persistency)
