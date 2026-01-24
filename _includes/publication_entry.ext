@@ -23,4 +23,4 @@
             <a href="{{ url }}">here</a>{%- unless forloop.last -%}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{%- endunless -%}
         {%- endfor -%}
     {%- endif -%}
-)</span>{% endif %}{% if p.replication_package %}&nbsp;<span style="color: black; font-weight: bold">[<a href="{{ p.replication_package }}">{% if p.replication_package contains "youtube" or p.replication_package contains "video" %}video recording{% elsif p.replication_package contains "source" %}source code{% else %}replication package{% endif %}</a>]</span>{% endif %}{% if p.bibtex %}&nbsp;<a href="{{ p.bibtex }}"><i>BibTeX</i></a>{% endif %}
+)</span>{% endif %}{% if p.replication_package %}&nbsp;<span style="color: black; font-weight: bold">[<a href="{{ p.replication_package }}">{% if p.replication_package contains "youtube" or p.replication_package contains "video" %}video recording{% elsif p.replication_package contains "source" %}source code{% else %}replication package{% endif %}</a>]</span>{% endif %}

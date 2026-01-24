@@ -19,7 +19,7 @@
             {% assign count = count | plus: 1 %}
             {% capture paper_html %}
               <p>
-               {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
+               {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;
              </p><br/>
             {% endcapture %}
             {% if count == 1 %}{% assign latest_1 = paper_html %}{% endif %}
@@ -36,7 +36,7 @@
             {% assign count = count | plus: 1 %}
             {% capture paper_html %}
               <p>
-               {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
+               {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;
              </p><br/>
             {% endcapture %}
             {% if count == 1 %}{% assign latest_1 = paper_html %}{% endif %}
