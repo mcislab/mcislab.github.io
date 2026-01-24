@@ -2996,7 +2996,7 @@ article.latestgallery_left p {
     position: relative;
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
 }
 
 .main-container header {
@@ -3495,6 +3495,6 @@ article.latestgallery_left p {
         left: 0;
         width: 90%;
         margin: 0 auto;
-        text-align: center;
+        text-align: justify;
     }
 }
