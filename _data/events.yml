@@ -1,14 +1,26 @@
-- name: Software Engineering for Machine Learning Applications (SEMLA)
+- name: MSR 2025
+  url: https://conf.researchr.org/home/msr-2025
+
+- name: AIware 2024
+  url: https://2024.aiwareconf.org/
+
+- name: CSER 2024 (spring)
+  url: https://www.cser.ca/2024s/
+
+- name: FM+SE Vision 2030
+  url: https://fmse.io/
+
+- name: FM+SE School
+  url: https://fmse.io/school/
+
+- name: SEMLA 2018
   url: https://semla.polymtl.ca/
 
-- name: Intl. Workshop on Software Health in Projects, Ecosystems and Communities (SoHeal)
+- name: SoHeal series
   url: https://soheal.github.io/
 
-- name: Intl. Workshop on Release Engineering (RELENG)
+- name: RELENG series
   url: http://releng.polymtl.ca/
 
-- name: PoLyMORSE Open Workshop (PLOW)
-  url: http://plow.soccerlab.polymtl.ca/
-
-- name: 2013 CSER Meeting
+- name: CSER 2013 (spring)
   url: http://users.encs.concordia.ca/~pcr/cser/
