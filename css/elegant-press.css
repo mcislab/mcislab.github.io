@@ -1968,6 +1968,44 @@ div.content li {
     outline: none
 }
 
+#toBottom {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    overflow: hidden;
+    width: 51px;
+    height: 51px;
+    border: none;
+    text-indent: -999px;
+    background: url(../images/ui.totop.png) no-repeat left top;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    z-index: 999;
+}
+
+#toBottomHover {
+    background: url(../images/ui.totop.png) no-repeat left -51px;
+    width: 51px;
+    height: 51px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: alpha(opacity=0);
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+#toBottom:active,
+#toBottom:focus {
+    outline: none
+}
+
 /* prettyPhoto */
 div.pp_default .pp_top,
 div.pp_default .pp_top .pp_middle,
