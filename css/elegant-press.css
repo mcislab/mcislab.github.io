@@ -1609,8 +1609,19 @@ table tbody tr.dark {
     background-color: #E0E0E0
 }
 
-#home_featured2 h2 {
-    text-align: center
+#home_featured2 h2,
+#home_featured2 h3,
+#home_featured2 h4,
+#home_featured2 h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 0 20px 8px;
+    border-bottom: 1px dotted #666;
+    box-sizing: border-box
 }
 
 #gallery {
