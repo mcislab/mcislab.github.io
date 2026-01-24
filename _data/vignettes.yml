@@ -1,0 +1,95 @@
+- title: "Semantic Versioning for AI"
+  image: "images/semver-wide.png"
+  image_alt: "Versioning through color-coded sheep"
+  teaser: "Did you know that *40% of AI model updates on Hugging Face* are not reflected in their version numbers? We analyzed 52,000+ models to propose more formal semantic versioning practices, helping developers track critical changes in evolving AI models."
+  venue: "EMSE 2025"
+  link: "publications/2025/emse_semver.pdf"
+  front_page: true
+
+- title: "Speeding up CI/CD"
+  image: "images/commit-grouping-wide.png"
+  image_alt: "Realistic automated assembly line"
+  teaser: "Did you know that hybrid CI scheduling combining commit grouping and skip prediction can *reduce commit turn-around time by 96%*? Our hybrid heuristics significantly reduce redundant build activity while faster identifying failures."
+  venue: "EMSE 2024"
+  link: "publications/2024/emse_divya_timeout.pdf"
+  front_page: true
+
+- title: "Lifelong Learning"
+  image: "images/lifelong-learning-wide.png"
+  image_alt: "Graduating from University (Learning over a lifetime)"
+  teaser: "Did you know that *continuous model retraining* can be performed at a fraction of the cost by using lifelong learning? We adopted a replay buffer to prevent \"catastrophic forgetting\" while reducing training time for software analytics models."
+  venue: "ICSE SEIP 2024"
+  link: "https://arxiv.org/abs/2305.09824"
+  front_page: true
+
+- title: "InterTrans Code Translation"
+  image: "images/intertrans-sidebar.png"
+  image_alt: "InterTrans"
+  teaser: "Did you know that leveraging *intermediate translations* across programming languages can bridge syntactic gaps and boost LLM translation accuracy by up to 43.3%?"
+  venue: "ICSE 2025"
+  link: "https://arxiv.org/abs/2411.01063"
+  front_page: false
+
+- title: "LLM Output Biases"
+  image: "images/output-format-sidebar.png"
+  image_alt: "Output Biases"
+  teaser: "Did you know that *up to 73% of LLM outputs* contain non-code elements that bias evaluation? We propose strategies to extract clean code for reliable assessment."
+  venue: "EMSE 2026"
+  link: "https://arxiv.org/abs/2403.17214"
+  front_page: false
+
+- title: "Leaderboard Smells"
+  image: "images/lbops-smells-sidebar.png"
+  image_alt: "LBOps"
+  teaser: "Did you know that there are *eight unique types of leaderboard smells*? Identifying these pitfalls helps stakeholders perform more transparent foundation model selection."
+  venue: "TSE 2025"
+  link: "https://arxiv.org/abs/2407.04065"
+  front_page: false
+
+- title: "Code Review Prediction"
+  image: "images/code-review-sidebar.png"
+  image_alt: "Code Review"
+  teaser: "Did you know that re-ordering files in a patch can *improve the prediction of which files reviewers should focus on* by 8%? Better predictions help reviewers focus their effort."
+  venue: "FSE 2024"
+  link: "https://arxiv.org/abs/2404.10703"
+  front_page: false
+
+- title: "ML Model Recycling"
+  image: "images/model-recycling-sidebar.png"
+  image_alt: "Model Recycling"
+  teaser: "Did you know that *recycling old ML models* instead of discarding them can significantly lower the computational footprint and cost of AI development?"
+  venue: "EMSE 2024"
+  link: "publications/2024/emse_harsh.pdf"
+  front_page: false
+
+- title: "ML Asset Management"
+  image: "images/asset-mgmt-sidebar.png"
+  image_alt: "ML Asset Management (Post Office Storage System)"
+  teaser: "Did you know that *model versioning and data traceability* are the primary pain points for developers in ML asset management? We analyzed 15,000+ posts to identify key asset management challenges."
+  venue: "EMSE 2024"
+  link: "https://arxiv.org/abs/2402.15990"
+  front_page: false
+
+- title: "Unreproducible Builds"
+  image: "images/unreproducible-sidebar.png"
+  image_alt: "Unreproducible"
+  teaser: "Did you know that *build unreproducibility is not only caused by a project's own codebase*, but also by external ecosystem dependencies?"
+  venue: "EMSE 2024"
+  link: "publications/2024/emse_rahul.pdf"
+  front_page: false
+
+- title: "ML Pipeline Taxonomy"
+  image: "images/taxonomy-sidebar.png"
+  image_alt: "Pipeline Taxonomy"
+  teaser: "We extended the traditional software engineering taxonomy of code changes with *15 new categories specific to ML pipelines*, including parameter tuning and data pre-processing."
+  venue: "EMSE 2023"
+  link: "https://arxiv.org/abs/2203.11365"
+  front_page: false
+
+- title: "Build Batching for CI"
+  image: "images/batching-sidebar.png"
+  image_alt: "Build Batching"
+  teaser: "Did you know that dynamic build batching can *save over 20% of CI resources* while identifying build failures faster than traditional heuristics?"
+  venue: "EMSE 2025"
+  link: "publications/2025/emse_divya_light.pdf"
+  front_page: false

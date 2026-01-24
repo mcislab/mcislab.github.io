@@ -77,7 +77,8 @@ title: Lab on Maintenance, Construction and Intelligence of Software (MCIS)
     <div class="block last">
         <h2>Intelligence</h2>
         <p><span class="essence">MCIS leverages AI to help practitioners understand and develop their software systems
-                and infrastructure, both for traditional and AI-powered systems.</span> For example, how can we enhance LLM-based code translation using transitive
+                and infrastructure, both for traditional and AI-powered systems.</span> For example, how can we enhance
+            LLM-based code translation using transitive
             intermediate translations? Which files in a pull request are most likely to need comments from code
             reviewers? How do we effectively manage ML assets and navigate foundation model leaderboards?<br />
             <a href="about.html#intelligence" class="read_more">Read More</a>
@@ -109,42 +110,22 @@ title: Lab on Maintenance, Construction and Intelligence of Software (MCIS)
 <div class="container2">
     <article class="box" id="home_featured2">
         <ul>
-            <li>
-                <div class="imgholder"><a href="publications/2025/emse_semver.pdf" data-gal="prettyPhoto[featured]"
-                        title="Semantic Versioning for AI"><img src="images/semver-wide.png" width="210" height="158"
-                            alt="Versioning through color-coded sheep" /></a></div>
-                <h4>Semantic Versioning for AI</h4>
-                <p>Did you know that <b>40% of AI model updates on Hugging Face</b> are not reflected in their version
-                    numbers? We analyzed 52,000+ models to propose more formal semantic versioning practices, helping
-                    developers track critical changes in evolving AI models.</p>
+            {% assign front_vignettes = site.data.vignettes | where: "front_page", true | slice: 0, 3 %}
+            {% assign front_count = front_vignettes | size %}
+            {% if front_count < 3 %} {% assign needed=3 | minus: front_count %} {% assign
+                other_vignettes=site.data.vignettes | where: "front_page" , false | sample: needed %} {% assign
+                front_vignettes=front_vignettes | concat: other_vignettes %} {% endif %} {% for vignette in
+                front_vignettes %} <li{% if forloop.last %} class="last" {% endif %}>
+                <div class="imgholder"><a href="{{ vignette.link }}" data-gal="prettyPhoto[featured]"
+                        title="{{ vignette.title }}"><img src="{{ vignette.image }}" width="210" height="158"
+                            alt="{{ vignette.image_alt }}" /></a></div>
+                <h4>{{ vignette.title }}</h4>
+                {% assign teaser_html = vignette.teaser | replace_first: '*', '<b>' | replace_first: '*', '</b>' %}
+                <p>{{ teaser_html }}</p>
                 <br />
-                <p><a href="publications/2025/emse_semver.pdf">Check out our EMSE 2025 paper &raquo;</a></p><br />
-            </li>
-            <li>
-                <div class="imgholder"><a href="publications/2024/emse_divya_timeout.pdf"
-                        data-gal="prettyPhoto[featured]" title="Speeding up CI/CD"><img
-                            src="images/commit-grouping-wide.png" width="210" height="158"
-                            alt="Realistic automated assembly line" /></a>
-                </div>
-                <h4>Speeding up CI/CD</h4>
-                <p>Did you know that hybrid CI scheduling combining commit grouping and skip prediction can <b>reduce
-                  commit turn-around time by 96%</b>? Our hybrid heuristics significantly reduce redundant build
-                    activity while faster identifying failures.</p>
-                <br />
-                <p><a href="publications/2024/emse_divya_timeout.pdf">Check out our EMSE 2024 paper &raquo;</a></p>
-                <br />
-            </li>
-            <li class="last">
-                <div class="imgholder"><a href="https://arxiv.org/abs/2305.09824" data-gal="prettyPhoto[featured]"
-                        title="Lifelong Learning"><img src="images/lifelong-learning-wide.png" width="210" height="158"
-                            alt="Graduating from University (Learning over a lifetime)" /></a></div>
-                <h4>Lifelong Learning</h4>
-                <p>Did you know that <b>continuous model retraining</b> can be performed at a fraction of the cost by using
-                    lifelong learning? We adopted a replay buffer to prevent "catastrophic forgetting" while reducing
-                    training time for software analytics models.</p>
-                <br />
-                <p><a href="https://arxiv.org/abs/2305.09824">Check out our ICSE SEIP 2024 paper &raquo;</a></p><br />
-            </li>
+                <p>Check out our <a href="{{ vignette.link }}">{{ vignette.venue }}</a> paper!</p><br />
+                </li>
+                {% endfor %}
         </ul>
         <br /><br />
         <br class="clear" />
