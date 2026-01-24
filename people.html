@@ -18,7 +18,7 @@ title: Who are these MCIS people?
                                         <img src="{{ person.image }}" height="160" alt="{{ person.name }}" />
                                 </div>
                                 <div class="person-info">
-                                        <a href="{{ person.link }}">{{ person.name }}</a>
+                                        <a href="{{ person.url | default: '#' }}">{{ person.name }}</a>
                                 </div>
                         </div>
                         {% endfor %}
