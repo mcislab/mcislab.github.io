@@ -5,19 +5,57 @@
             <div class="grid"> 
     <article class="latestgallery_left">
       <h2>Latest Work</h2>
-      {% for paper in site.data.latest_papers limit:2 %}
-          <p>
-           {{ paper.authors }} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
-         </p><br/>
+      {% assign count = 0 %}
+      {% assign latest_1 = nil %}
+      {% assign latest_2 = nil %}
+      {% assign latest_3 = nil %}
+      {% assign latest_4 = nil %}
+      
+      {% for year_entry in site.data.publications %}
+        {% assign types = year_entry[1] %}
+        
+        {% if types.journal %}
+          {% for paper in types.journal %}
+            {% assign count = count | plus: 1 %}
+            {% capture paper_html %}
+              <p>
+               {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
+             </p><br/>
+            {% endcapture %}
+            {% if count == 1 %}{% assign latest_1 = paper_html %}{% endif %}
+            {% if count == 2 %}{% assign latest_2 = paper_html %}{% endif %}
+            {% if count == 3 %}{% assign latest_3 = paper_html %}{% endif %}
+            {% if count == 4 %}{% assign latest_4 = paper_html %}{% endif %}
+            {% if count == 4 %}{% break %}{% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if count == 4 %}{% break %}{% endif %}
+        
+        {% if types.conference %}
+          {% for paper in types.conference %}
+            {% assign count = count | plus: 1 %}
+            {% capture paper_html %}
+              <p>
+               {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author }}{% endfor %} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
+             </p><br/>
+            {% endcapture %}
+            {% if count == 1 %}{% assign latest_1 = paper_html %}{% endif %}
+            {% if count == 2 %}{% assign latest_2 = paper_html %}{% endif %}
+            {% if count == 3 %}{% assign latest_3 = paper_html %}{% endif %}
+            {% if count == 4 %}{% assign latest_4 = paper_html %}{% endif %}
+            {% if count == 4 %}{% break %}{% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if count == 4 %}{% break %}{% endif %}
       {% endfor %}
+
+      {{ latest_1 }}
+      {{ latest_2 }}
     </article>
 
     <article class="latestgallery">
-      {% for paper in site.data.latest_papers offset:2 limit:2 %}
-          <p>
-           {{ paper.authors }} ({{ paper.year }}). <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.venue }}&nbsp;<a href="{{ paper.bibtex }}"><i>BibTeX</i></a>
-         </p><br/>
-      {% endfor %}
+      {{ latest_3 }}
+      {{ latest_4 }}
     </article>
     
             <div class="clear"></div> 
