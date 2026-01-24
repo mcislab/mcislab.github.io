@@ -449,6 +449,10 @@ header p {
     padding: 29px
 }
 
+.box p {
+    margin-bottom: 10px;
+}
+
 .content {
     display: block;
     float: left;
