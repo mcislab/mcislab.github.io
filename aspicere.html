@@ -89,43 +89,42 @@ title: Aspicere, more AOSD for C
                 tries to fix the error up to a maximum number of attempts. If the error still persists, an
                 error-specific message is prompted. This example works for Aspicere1 and Aspicere2, but with a slightly
                 different syntax.</p>
-            <pre>
-#include &lt;stdio.h&gt;
+            {% highlight c linenos %}
+#include <stdio.h>
 #include "sql.h"
 
-int recover(<span class="highlight_red">int ErrorCode</span>, <span class="highlight_blue">int Iterations</span>, <span class="highlight_green">char* ErrorString</span>) around Jp:
+int recover(int ErrorCode, int Iterations, char* ErrorString) around Jp:
     invocation(Jp,"_iqcftch",_)
     && critical_call(Jp)
-    && sql_redo(<span class="highlight_red">ErrorCode</span>,<span class="highlight_blue">Iterations</span>)
-    && sql_code(<span class="highlight_red">ErrorCode</span>,ErrorString) {
+    && sql_redo(ErrorCode,Iterations)
+    && sql_code(ErrorCode,ErrorString) {
 
     int res=0;
     int i;
     
-    for(i=-1;i&lt;<span class="highlight_blue">Iterations</span>;i++){
+    for(i=-1;i<Iterations;i++){
     res=proceed();
     
-    if(sql_code==<span class="highlight_red">ErrorCode</span>){
-            if(i&lt;<span class="highlight_blue">Iterations</span>-1) {
+    if(sql_code==ErrorCode){
+            if(i<Iterations-1) {
                 if (i == -1)
-                    fprintf(stderr,"!! Error (%d): %s\n", <span class="highlight_red">ErrorCode</span>, <span class="highlight_green">ErrorString</span>);
-                fprintf(stderr,"!! Retrying (attempt %d/%d)...\n",(i+2), <span class="highlight_blue">Iterations</span>);
+                    fprintf(stderr,"!! Error (%d): %s\n", ErrorCode, ErrorString);
+                fprintf(stderr,"!! Retrying (attempt %d/%d)...\n",(i+2), Iterations);
             } else {
                     fprintf(stderr,"Retry limit reached. Bailing out.\n");
             }
         } else {
-            if (i &gt; -1)
+            if (i > -1)
                 fprintf(stderr,"!! Retry %d was successful.\n", (i+1));
             break;
         }
     }
 
     return res;
-}
-</pre>
+}{% endhighlight %}
             <p>Of course, the notion of "a critical SQL query" is subject to interpretation. Developers can annotate
                 queries, or use Prolog facts and rules for this. Here, we use the latter approach:</p>
-            <pre>
+            {% highlight prolog linenos %}
 :- load_library('KnowledgeLibrary').
 
 sql_code(-666,'The statement cannot be executed, because a time limit was exceeded.').
@@ -139,21 +138,20 @@ sql_redo(-542,0).
 
 critical_method('monthlyPayment').
 
-  <span class="highlight_red">critical_call(Jp)</span> :-
-    enclosingMethod(Jp,EncMethod),
-    execution(EncMethod, Name),
-    critical_method(Name),
-    print('CRITICAL call found!!!'),nl.
-</pre>
+critical_call(Jp) :-
+   enclosingMethod(Jp,EncMethod),
+   execution(EncMethod, Name),
+   critical_method(Name),
+   print('CRITICAL call found!!!'),nl.{% endhighlight %}
 
             <br />
             <br />
             <h3>2. Optimizer aspect</h3>
             <p>In this example, we optimize an SQL-query by modifying the argument of the call to <code>_iqcprep</code>.
             </p>
-            <pre>#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;string.h&gt;
+            {% highlight c linenos %}#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "sql.h"
 
 #define CRITICAL_FREQ 2
@@ -178,37 +176,37 @@ static void setLastQuery(char* new_query){
 }
 
 /* Optimize SQL queries based on usage patterns */
-void optimise_query (<span class="highlight_blue">char* Query</span>) before Jp:
+void optimise_query (char* Query) before Jp:
  invocation(Jp,"_iqcprep")
- && args(Jp,[<span class="highlight_blue">Query</span>|_])</font>
+ && args(Jp,[Query|_])</font>
 {
   char* optimised_query=0;
-  if(getLastQuery()&&!strcmp(getLastQuery(),<span class="highlight_blue">Query</span>)){ /* Same query */
+  if(getLastQuery()&&!strcmp(getLastQuery(),Query)){ /* Same query */
 
     usage++;
 
-    if(usage&lt;=CRITICAL_FREQ) { /* Suboptimal optimizing */
-      optimised_query=(char*)malloc((strlen(<span class="highlight_blue">Query</span>)+9+1)*sizeof(char));
+    if(usage<=CRITICAL_FREQ) { /* Suboptimal optimizing */
+      optimised_query=(char*)malloc((strlen(Query)+9+1)*sizeof(char));
       strcpy(optimised_query,"OPTIMISED");
-      strcat(optimised_query,<span class="highlight_blue">Query</span>);
+      strcat(optimised_query,Query);
     }else{ /* Optimal optimizing */
       optimised_query=(char*)malloc((strlen(Query)+14+1)*sizeof(char));
       strcpy(optimised_query,"SUPEROPTIMISED");
-      strcat(optimised_query,<span class="highlight_blue">Query</span>);
+      strcat(optimised_query,Query);
     }
 
-    printf("--Unoptimised query:\t%s\n",<span class="highlight_blue">Query</span>);
-  <span class="highlight_red">Query=optimised_query;</span>
-    printf("++Optimised query:\t%s\n",<span class="highlight_blue">Query</span>);
+    printf("--Unoptimised query:\t%s\n",Query);
+    Query=optimised_query;
+    printf("++Optimised query:\t%s\n",Query);
     
   }else{
 
-    setLastQueryQ(<span class="highlight_blue">Query</span>);
+    setLastQueryQ(Query);
     usage=1;
     printf("--Could not optimise query yet.\n");
 
   }
-}</pre>
+}{% endhighlight %}
 
             <br />
             <br />
@@ -217,7 +215,7 @@ void optimise_query (<span class="highlight_blue">char* Query</span>) before Jp:
                     href="http://mcis.polymtl.ca/publications/2007/splat07.pdf">delimited continuation</a> join points
                 and Aspicere2's annotation support.</p>
             <p>First, we show the base code.</p>
-            <pre>#include &lt;stdio.h&gt;
+            {% highlight c linenos %}#include <stdio.h>
 
 int g(void){
 	return 0;
@@ -225,7 +223,7 @@ int g(void){
 
 void f(void){
 	printf("B");
-	<span class="highlight_blue">/*@halting()*/</span>
+	/*@halting()*/
 	g();
 	printf("C");
 }
@@ -234,25 +232,23 @@ int main(void){
 	printf("A");
 	f();
 	printf("D\n");
-}
-</pre>
+}{% endhighlight %}
             <p>The <span class="highlight_blue">/*@halting()*/-annotation</span> means that we want to stop the
                 execution of procedure <code>f</code> if the call to <code>g</code> returns zero (which is always true
                 here for the sake of simplicity). In other words, <code>printf("C")</code> must NOT be executed. For
                 this, we need the following advice:</p>
-            <pre>
+            {% highlight c linenos %}
 int handling (int* ReturnVal) around Jp:
   halting_invocation(JpCall,ReturnVal)
-  && <span class="highlight_red">delimited_continuation(Jp,JpCall)</span> {
+  && delimited_continuation(Jp,JpCall) {
    if(*ReturnVal==0)
      return *ReturnVal;
    else
      return proceed();
-}
-</pre>
+} {% endhighlight %}
             <p>This advice does the following: if the return value of a <span
                     class="highlight_blue">/*@halting()*/</span>-annotated call equals zero, the delimited continuation
-                (i.e. the <span class="highlight_red">remaining execution within procedure f after the call to g</span>)
+                (i.e. the remaining execution within procedure f after the call to g)
                 is skipped (not proceeded). Otherwise, the remaining execution is resumed (proceeded). In other words,
                 we get "ABD" as output.</p>
 
@@ -260,24 +256,22 @@ int handling (int* ReturnVal) around Jp:
                     class="highlight_green">join point property</span> to procedure <code>f</code> in order to
                 temporarily store the return value of <span class="highlight_blue">/*@halting()*/</span>-annotated
                 calls:</p>
-            <pre>
-int* <span class="highlight_green">return_var</span> () on Jp:
+            {% highlight c linenos %}
+int* return_var () on Jp:
   execution(Jp,_);
 
 void var_update(int* ReturnVal) after Jp returning (int* Result):
   halting_invocation(Jp,ReturnVal){
    *ReturnVal=*Result;
-}
-</pre>
+}{% endhighlight %}
             <p>Finally, this is the actual definition of the halting_invocation/2 predicate:</p>
-            <pre>
+            {% highlight c linenos %}
 halting_invocation(JpCall,ReturnVal):-
 	invocation(JpCall,_),
-	annotation(JpCall,<span class="highlight_blue">halting</span>,_)
+	annotation(JpCall,halting,_)
 	enclosingMethod(JpCall,JpEncl),
-	property(JpEncl,<span class="highlight_green">return_var</span>,ReturnVal)
-	.
-</pre>
+	property(JpEncl,return_var,ReturnVal)
+	.{% endhighlight %}
             <p>Basically, there is a check whether <code>JpCall</code> is a call annotated with a <span
                     class="highlight_blue">/*@halting()*/</span> annotation. If so, the current value of the <span
                     class="highlight_green">return_var</span> property attached to the calling execution join point
