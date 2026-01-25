@@ -3539,7 +3539,14 @@ article.latestgallery_left p {
         margin: 0 auto;
         text-align: justify;
     }
+
+    /* Fix for images in containers like makao.html */
+    .imgholder img {
+        max-width: 100%;
+        height: auto;
+    }
 }
+
 /* Code Listing Fixes */
 figure.highlight {
     display: block;
@@ -3562,9 +3569,11 @@ table.rouge-table td {
 table.rouge-table td.gutter {
     padding-right: 5px;
     text-align: right;
-    width: 1%; /* Shrink to fit */
+    width: 1%;
+    /* Shrink to fit */
     white-space: nowrap;
-    border-right: 1px solid #eee; /* Optional visual separator */
+    border-right: 1px solid #eee;
+    /* Optional visual separator */
 }
 
 table.rouge-table td.code {
