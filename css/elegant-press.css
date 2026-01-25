@@ -3630,6 +3630,28 @@ article.latestgallery_left p {
     .calloutcontainer {
         padding-bottom: 5px;
     }
+
+    /* Fix sidebar featured vignettes on mobile */
+    .sidebar #featured,
+    .sidebar #featured li {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sidebar #featured li p.imgholder {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sidebar #featured li p.imgholder img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* Slide text popup styles (global) */
