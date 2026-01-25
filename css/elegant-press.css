@@ -3521,7 +3521,7 @@ article.latestgallery_left p {
     }
 
     .grid .latestgallery {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     .grid .latestgallery h2,
