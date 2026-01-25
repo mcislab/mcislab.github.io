@@ -3604,6 +3604,32 @@ article.latestgallery_left p {
         width: 100%;
         height: auto;
     }
+
+    .ouradd a.read_more {
+        float: none;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .callout .grid {
+        text-align: center;
+    }
+
+    .callout .more {
+        float: none;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .callout .alignleft {
+        width: 100%;
+        text-align: center;
+    }
+
+    .calloutcontainer {
+        padding-bottom: 5px;
+    }
 }
 
 /* Slide text popup styles (global) */
