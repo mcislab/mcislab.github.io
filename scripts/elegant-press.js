@@ -4735,7 +4735,7 @@ $(document).ready(function () {
         slideWrapper: "#jFlowSlider",
         slides: "#mySlides",
         selectedWrapper: "jFlowSelected",
-        width: "960px",
+        width: "100%",
         height: "350px",
         duration: 400,
         prev: ".jFlowPrev",

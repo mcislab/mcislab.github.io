@@ -1756,7 +1756,10 @@ table tbody tr.dark {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    padding: 10px
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #slide1 .slideheading,
@@ -3471,16 +3474,12 @@ article.latestgallery_left p {
         /* Smaller title */
     }
 
-    /* Stack slides content */
-    #mySlides img {
-        width: 100%;
-        height: auto;
-    }
+
 
     #mySlides span {
-        position: relative;
-        bottom: auto;
-        right: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
         background: rgba(0, 0, 0, 0.7);
         width: 100%;
         box-sizing: border-box;
@@ -3545,6 +3544,56 @@ article.latestgallery_left p {
         max-width: 100%;
         height: auto;
     }
+
+    /* Fix for jFlow images */
+    #mySlides img {
+        width: 100%;
+        height: auto !important;
+        /* Allow image to scale naturally */
+        object-fit: contain;
+        /* Ensure it fits */
+    }
+
+    /* Force responsive height for jFlow containers on mobile */
+    #jFlowSlider,
+    #mySlides,
+    #mySlides>div {
+        height: auto !important;
+        min-height: 200px;
+        /* Prevent collapse */
+    }
+
+
+}
+
+/* Slide text popup styles (global) */
+.slide-text {
+    display: none !important;
+}
+
+#mySlides span:hover .slide-text {
+    display: block !important;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+    pointer-events: none;
+    text-align: justify;
+    /* prevent flickering if mouse moves over the popping up text */
+}
+
+/* Flexbox overrides for slides */
+#mySlides .readmore {
+    float: none;
+    margin-top: 0;
+}
+
+#mySlides .slideheading {
+    margin-bottom: 0;
 }
 
 /* Code Listing Fixes */
