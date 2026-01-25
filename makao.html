@@ -211,9 +211,9 @@ title: MAKAO, re(verse)-engineering build systems
         <h4>1. Preparing your Makefiles</h4>
 
         {% highlight basemake linenos %}
-        all:
-        $(MAKE) -C sub1/ all
-        make -C sub2/ all{% endhighlight %}<br />
+all:
+   $(MAKE) -C sub1/ all
+   make -C sub2/ all{% endhighlight %}<br />
 
         <p>MAKAO needs to trace the full build dependency graph, even across recursive make calls. For this reason, all
             such calls should use a variable like <code>$(MAKE)</code> to refer to the <code>make</code> program. If
@@ -224,8 +224,8 @@ title: MAKAO, re(verse)-engineering build systems
             results will be false alarm, but better be safe than sorry):</p><br />
 
         {% highlight bash linenos %}
-        cd /dir/with/source/code
-        $MAKAO/parsing/bin/search_for_sub_make.sh path_to_system_to_analyze{% endhighlight %}<br />
+cd /dir/with/source/code
+$MAKAO/parsing/bin/search_for_sub_make.sh path_to_system_to_analyze{% endhighlight %}<br />
 
         <p>If you find an incorrect call to <code>make</code>, please replace it by a call to <code>$(MAKE)</code>.</p>
 
@@ -233,10 +233,10 @@ title: MAKAO, re(verse)-engineering build systems
         <h4>2. Extracting the Build Dependency Graph</h4>
 
         {% highlight bash linenos %}
-        cd /dir/with/source/code
-        $MAKAO/parsing/bin/makewrapper.sh all 2&> trace.txt
-        $MAKAO/parsing/bin/generate_makao_graph.pl -in trace.txt -out trace.gdf \
-        -format gdf{% endhighlight %}<br />
+cd /dir/with/source/code
+$MAKAO/parsing/bin/makewrapper.sh all 2&> trace.txt
+$MAKAO/parsing/bin/generate_makao_graph.pl -in trace.txt -out trace.gdf \
+   -format gdf{% endhighlight %}<br />
 
         <p>The above commands first run your build system with a bunch of standard GNU Make debugging switches. The
             corresponding textual trace (<code>trace.txt</code>) then is analyzed to extract the build dependency graph
@@ -254,7 +254,7 @@ title: MAKAO, re(verse)-engineering build systems
         needs to lay out the graph with a force-directed layout. For this, type the following:</p><br />
 
         {% highlight bash linenos %}
-        $MAKAO/ui/bin/show.sh trace.gdf -p{% endhighlight %}<br />
+$MAKAO/ui/bin/show.sh trace.gdf -p{% endhighlight %}<br />
 
         <p>A Java 6 program called <a href="http://graphexploration.cond.org/">GUESS</a> fires up, showing a big blob
             (as predicted) and a separate control panel. Click on the red "CENTER" button to center the graph, then
@@ -278,7 +278,7 @@ title: MAKAO, re(verse)-engineering build systems
             executing the following command (the layout algorithm typically adds the "-piccolo" suffix to the .gdf
             file):</p><br />
         {% highlight bash linenos %}
-        $MAKAO/ui/bin/show.sh trace-piccolo.gdf{% endhighlight %}<br />
+$MAKAO/ui/bin/show.sh trace-piccolo.gdf{% endhighlight %}<br />
 
         <p>You should now see an attractive build dependency graph in the main window, with on the left a legend
             explaining the graph's colors. Basically, each node represents a GNU Make target that was exercised during
@@ -377,10 +377,10 @@ title: MAKAO, re(verse)-engineering build systems
         </p><br />
 
         {% highlight python linenos %}
-        all.name
-        (error==0).visible=0
-        execfile(makao_path+"path/relative/to/makao/home/script.py")
-        center{% endhighlight %}<br />
+all.name
+(error==0).visible=0
+execfile(makao_path+"path/relative/to/makao/home/script.py")
+center{% endhighlight %}<br />
 
         <p>The above code snippet first prints the name of the "all" target, then hides all the build targets that had
             no error during the build by setting those targets' "visible" attribute to zero. You should only see the
@@ -393,8 +393,8 @@ title: MAKAO, re(verse)-engineering build systems
         <h4>8. Using Prolog for Declarative Analysis</h4>
 
         {% highlight bash linenos %}
-        $MAKAO/parsing/bin/generate_makao_graph.pl -in trace.txt -out trace.gdf \
-        -format prolog{% endhighlight %}<br />
+$MAKAO/parsing/bin/generate_makao_graph.pl -in trace.txt -out trace.gdf \
+   -format prolog{% endhighlight %}<br />
 
         <p>If you're more a declarative person, you can use the above command instead of the one in step 2 to obtain a
             Prolog representation of the build dependency graph. The format is compatible with <a
@@ -407,27 +407,27 @@ title: MAKAO, re(verse)-engineering build systems
             commands (subsumes the command above):</p><br />
 
         {% highlight bash linenos %}
-        cp $MAKAO/filtering/prolog-backward/rules/gdf-sample.pl \
-        $SOMEDIR/gdf-trace.pl
-        cp $MAKAO/filtering/prolog-backward/rules/gdf-sample-logic.pl \
-        $SOMEDIR/gdf-trace-logic.pl
-        cp $MAKAO/filtering/prolog-backward/bin/prepare_fact_base.sh \
-        $SOMEDIR/prepare_fact_base.sh
+cp $MAKAO/filtering/prolog-backward/rules/gdf-sample.pl \
+   $SOMEDIR/gdf-trace.pl
+cp $MAKAO/filtering/prolog-backward/rules/gdf-sample-logic.pl \
+   $SOMEDIR/gdf-trace-logic.pl
+cp $MAKAO/filtering/prolog-backward/bin/prepare_fact_base.sh \
+   $SOMEDIR/prepare_fact_base.sh
 
-        #Modify the first three variable definitions of
-        #<code>$SOMEDIR/prepare_fact_base.sh</code> and make sure
-        #that <code>PL_IN=$WORK_DIR/trace-facts.pl</code>
-        $SOMEDIR/prepare_fact_base.sh
+#Modify the first three variable definitions of
+#<code>$SOMEDIR/prepare_fact_base.sh</code> and make sure
+#that <code>PL_IN=$WORK_DIR/trace-facts.pl</code>
+$SOMEDIR/prepare_fact_base.sh
 
-        #modify and add rules, see below
+#modify and add rules, see below
 
-        #apply the rules to filter the graph, like this:
-        $MAKAO/filtering/prolog-backward/bin/show_reduced.sh \
-        trace-facts.pl target_name
+#apply the rules to filter the graph, like this:
+$MAKAO/filtering/prolog-backward/bin/show_reduced.sh \
+   trace-facts.pl target_name
 
-        #layout the graph as usual, then visualize using:
-        $MAKAO/filtering/prolog-backward/ui/show.sh some_file-piccolo.gdf \
-        target_name{% endhighlight %}<br />
+#layout the graph as usual, then visualize using:
+$MAKAO/filtering/prolog-backward/ui/show.sh some_file-piccolo.gdf \
+   target_name{% endhighlight %}<br />
 
         <p>With the sample rules as inspiration, you can write logic filtering rules in
             <code>$SOMEDIR/gdf-trace-logic.pl</code> and configure which rules are active in

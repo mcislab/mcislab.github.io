@@ -3540,3 +3540,38 @@ article.latestgallery_left p {
         text-align: justify;
     }
 }
+/* Code Listing Fixes */
+figure.highlight {
+    display: block;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table.rouge-table {
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+
+table.rouge-table td {
+    padding: 0;
+    border: none;
+}
+
+/* Reduce white space between line numbers and code */
+table.rouge-table td.gutter {
+    padding-right: 5px;
+    text-align: right;
+    width: 1%; /* Shrink to fit */
+    white-space: nowrap;
+    border-right: 1px solid #eee; /* Optional visual separator */
+}
+
+table.rouge-table td.code {
+    padding-left: 10px;
+    width: 99%;
+}
+
+table.rouge-table pre {
+    margin: 0;
+}
