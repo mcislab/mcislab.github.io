@@ -1,0 +1,13 @@
+<ul>
+{% for year_data in site.data.publications %}
+    {% assign types = year_data[1] %}
+    {% for type_group in types %}
+        {% assign pubs = type_group[1] %}
+        {% for pub in pubs %}
+            {% if pub.tags contains include.tag %}
+                <li>{% include publication_entry.ext pub=pub %}</li>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+</ul>

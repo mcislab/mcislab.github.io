@@ -167,6 +167,7 @@
     publisher: Elsevier
     url: https://arxiv.org/abs/2406.00180
     bibtex: publications/2025/jss_airflow.bib
+    tags: [cisc834]
   conference:
   - authors:
     - Marcos Macedo
@@ -216,6 +217,7 @@
       and Datasets
     url: publications/2024/ieeesw-ernesto.pdf
     bibtex: publications/2024/ieeesw-ernesto.bib
+    tags: [cisc834]
     authors:
     - Ernesto Lang Oreamuno
     - Rohan Faiyaz Khan
@@ -232,6 +234,7 @@
       Continuous Integration Activity
     url: publications/2024/emse_divya_timeout.pdf
     bibtex: publications/2024/emse_divya_timeout.bib
+    tags: [cisc834]
     authors:
     - Divya M. Kamath
     - Eduardo Fernandes
@@ -245,6 +248,7 @@
     title: Does Using Bazel Help Speed Up Continuous Integration Builds?
     url: https://arxiv.org/abs/2405.00796
     bibtex: publications/2024/emse_shenyu.bib
+    tags: [cisc834]
     authors:
     - Shenyu Zheng
     - Bram Adams
@@ -257,6 +261,7 @@
     title: The impact of Concept drift and Data leakage on Log Level Prediction Models
     url: https://sail.cs.queensu.ca/data/pdfs/2024_The_Impact_of_Concept_Drift_and_Data_leakage_on_Log_Level_Prediction_Models.pdf
     bibtex: publications/2024/emse_youssef.bib
+    tags: [cisc834]
     authors:
     - Youssef Esseddiq Ouatiti
     - Mohammed Sayagh
@@ -272,6 +277,7 @@
       Your Old Models!
     url: publications/2024/emse_harsh.pdf
     bibtex: publications/2024/emse_harsh.bib
+    tags: [cisc834]
     authors:
     - Harsh Patel
     - Bram Adams
@@ -297,6 +303,7 @@
     title: An Empirical Study of Challenges in Machine Learning Asset Management
     url: https://arxiv.org/abs/2402.15990
     bibtex: publications/2024/emse_jimmy_challenges.bib
+    tags: [cisc834]
     authors:
     - Zhimin Zhao
     - Yihao Chen
@@ -312,6 +319,7 @@
       on JIT Defect Prediction'
     url: publications/2024/emse_akshat_within.pdf
     bibtex: publications/2024/emse_akshat_within.bib
+    tags: [cisc834]
     authors:
     - Akshat Malik
     - Bram Adams
@@ -336,6 +344,7 @@
       ecosystem factors'
     url: publications/2024/emse_rahul.pdf
     bibtex: publications/2024/emse_rahul.bib
+    tags: [cisc834]
     authors:
     - Rahul Bajaj
     - Eduardo Fernandes
@@ -429,6 +438,7 @@
     title: On practitioners' concerns when adopting service mesh frameworks
     url: publications/2023/emse_yihao.pdf
     bibtex: publications/2023/emse_yihao.bib
+    tags: [cisc834]
     authors:
     - Yihao Chen
     - Eduardo Fernandes
@@ -442,6 +452,7 @@
     title: On the Discoverability of npm Vulnerabilities in Node.js Projects
     url: https://das.encs.concordia.ca/pdf/Alfadel_TOSEM2022.pdf
     bibtex: publications/2023/tosem_mahmoud.bib
+    tags: [cisc834]
     authors:
     - Mahmoud Alfadel
     - Diego Elias Costa
@@ -504,6 +515,7 @@
     title: Understanding the Time to First Response In GitHub Pull Requests
     url: https://arxiv.org/abs/2304.08426
     bibtex: publications/2023/msr_kazi.bib
+    tags: [cisc834]
     authors:
     - Kazi Amit Hasan
     - Marcos Macedo
@@ -559,6 +571,7 @@
       the Overhead Introduced by the Greenkeeper Dependency Bot in Npm'
     url: https://sail.cs.queensu.ca/data/pdfs/2023_Theres_no_Such_Thing_as_a_Free_Lunch_Lessons_Learned_from_Exploring_the_Overhead_Introduced_by_the_Greenkeeper_Dependency_Bot_in_Npm.pdf
     bibtex: publications/2022/tosem_ben.bib
+    tags: [cisc834]
     authors:
     - Benjamin Rombaut
     - Filipe Roseiro Côgo
@@ -586,6 +599,7 @@
     title: Toward Using Package Centrality Trend to Identify Packages in Decline
     url: https://arxiv.org/abs/2107.10168
     bibtex: publications/2022/tem.bib
+    tags: [cisc834]
     authors:
     - Mujahid, Suhaib
     - Costa, Diego Elias
@@ -603,6 +617,7 @@
       Packages'
     url: https://das.encs.concordia.ca/pdf/atique_tse2021.pdf
     bibtex: publications/2022/tse_atique.bib
+    tags: [cisc834]
     authors:
     - Md Atique Reza Chowdhury
     - Rabe Abdalkareem
@@ -617,6 +632,7 @@
     title: Quantifying, Characterizing, and Mitigating Flakily Covered Program Elements
     url: https://rebels.cs.uwaterloo.ca/papers/tse2020_vysali.pdf
     bibtex: publications/2022/tse_shiva.bib
+    tags: [cisc834]
     authors:
     - Shivashree Vysali
     - Shane McIntosh
@@ -705,6 +721,7 @@
     title: Why do Builds Fail? - A Conceptual Replication Study
     url: publications/2021/jss_amine.pdf
     bibtex: publications/2021/jss_amine.bib
+    tags: [cisc834]
     authors:
     - Amine Barrak
     - Ellis E. Eghan
@@ -735,6 +752,7 @@
       in JIT models
     url: https://users.encs.concordia.ca/~shang/pubs/Quach2021_Article_EvaluatingTheImpactOfFalselyDe.pdf
     bibtex: publications/2021/emse_sophia.bib
+    tags: [cisc834]
     authors:
     - Sophia Quach
     - Maxime Lamothe
@@ -818,6 +836,7 @@
     title: The Impacts of Sentiments and Tones in Community-Generated Issue Discussions
     url: https://arxiv.org/abs/2103.10615
     bibtex: publications/2021/chase.bib
+    tags: [cisc834]
     authors:
     - Arghavan Sanei
     - Jinghui Cheng
@@ -950,6 +969,7 @@
       StackOverflow
     url: publications/2020/icsme_moses.pdf
     bibtex: publications/2020/icsme_moses.bib
+    tags: [cisc834]
     authors:
     - Moses Openja
     - Bram Adams
@@ -984,6 +1004,7 @@
       in Two R Mailing Lists
     url: publications/2019/ieeesw_marc.pdf
     bibtex: publications/2019/ieeesw_marc.bib
+    tags: [cisc834]
     authors:
     - Marc Lanovaz
     - Bram Adams
@@ -1133,6 +1154,7 @@
     title: The Open-Closed Principle of Modern Machine Learning Frameworks
     url: publications/2018/msr2.pdf
     bibtex: publications/2018/msr2.bib
+    tags: [cisc834]
     authors:
     - Houssem Ben Braiek
     - Foutse Khomh
@@ -1250,6 +1272,7 @@
       CPAN Builds
     url: publications/2017/msr.pdf
     bibtex: publications/2017/msr.bib
+    tags: [cisc834]
     authors:
     - Mahdis Zolfagharinia
     - Bram Adams
@@ -1263,6 +1286,7 @@
     title: 'Broadcast vs. Unicast Review Technology: Does it Matter?'
     url: http://swat.polymtl.ca/~foutsekh/docs/ICST-Tita.pdf
     bibtex: publications/2017/icst.bib
+    tags: [cisc834]
     authors:
     - Foundjem Tita Armstrong
     - Foutse Khomh
@@ -1292,6 +1316,7 @@
     title: Automated Performance Deviation Detection Across Software Versions Releases [short]
     url: publications/2017/qrs.pdf
     bibtex: publications/2017/qrs.bib
+    tags: [cisc834]
     authors:
     - Abderrahmane Benbachir
     - Isnaldo Francisco De Melo Jr.
@@ -1458,6 +1483,7 @@
       Environments'
     url: http://swat.polymtl.ca/~foutsekh/docs/issre_2016_Pooya.pdf
     bibtex: publications/2016/issre_pooya.bib
+    tags: [cisc834]
     authors:
     - Pooya Musavi
     - Bram Adams
@@ -1543,6 +1569,7 @@
     title: 'Feature Toggles: A case study and survey'
     url: http://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf
     bibtex: publications/2016/msrupak.bib
+    tags: [cisc834]
     authors:
     - Md Tajmilur Rahman
     - Louis-Philippe Querel
@@ -1803,6 +1830,7 @@
       and Ubuntu
     url: publications/2015/scam15_vincent.pdf
     bibtex: publications/2015/scam15b.bib
+    tags: [cisc834]
     authors:
     - Vincent Boisselle
     - Bram Adams
@@ -1816,6 +1844,7 @@
     title: Multi-layer Software Configuration - Empirical Study on Wordpress
     url: publications/2015/scam15_mohammed.pdf
     bibtex: publications/2015/scam15a.bib
+    tags: [cisc834]
     authors:
     - Mohammed Sayagh
     - Bram Adams
@@ -2039,6 +2068,7 @@
       the Apache Ecosystem
     url: publications/2014/cascon14.pdf
     bibtex: publications/2014/cascon.bib
+    tags: [cisc834]
     authors:
     - Parastou Tourani
     - Yujuan Jiang
@@ -2079,6 +2109,7 @@
     title: Supplementary Bug Fixes vs. Re-opened Bugs
     url: http://swat.polymtl.ca/~foutsekh/docs/suppl_reop.pdf
     bibtex: publications/2014/scam14.bib
+    tags: [cisc834]
     authors:
     - Le An
     - Foutse Khomh
@@ -2094,6 +2125,7 @@
       Styles
     url: publications/2014/esem14mini.pdf
     bibtex: publications/2014/esemmini.bib
+    tags: [cisc834]
     authors:
     - Mini Shridhar
     - Bram Adams
@@ -2731,6 +2763,7 @@
     title: An Empirical Study of Build Maintenance Effort
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf
     bibtex: publications/2011/icse11.bib
+    tags: [makao]
     authors:
     - Shane McIntosh
     - Bram Adams
@@ -3010,6 +3043,7 @@
     title: The Evolution of ANT Build Systems
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf
     bibtex: publications/2010/msr10shane.bib
+    tags: [makao]
     authors:
     - Shane McIntosh
     - Bram Adams
@@ -3090,6 +3124,7 @@
     title: Disentangling Virtual Machine Architecture
     url: publications/2009/iet-ccvm-postprint.pdf
     bibtex: publications/2009/iet09.bib
+    tags: [aspicere]
     authors:
     - Michael Haupt
     - Bram Adams
@@ -3106,6 +3141,7 @@
       using Dynamic Analysis - An Industrial Experience Report
     url: https://repository.tudelft.nl/file/File_6062302e-6de3-4436-9dbe-2689bf9f0097
     bibtex: publications/2009/jss09.bib
+    tags: [aspicere]
     authors:
     - Bram Adams
     - De Kris Schutter
@@ -3182,6 +3218,7 @@
     title: Can we Refactor Conditional Compilation into Aspects?
     url: http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf
     bibtex: publications/2009/aosd09b.bib
+    tags: [aspicere, r3v3rs3]
     authors:
     - Bram Adams
     - Wolfgang De Meuter
@@ -3238,6 +3275,7 @@
     title: Co-Evolution of Source Code and the Build System
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_Co-EvolutionOfSourceCodeAndTheBuildSystem.pdf
     bibtex: publications/2009/phdsym09.bib
+    tags: [makao]
     authors:
     - Bram Adams
     publisher: IEEE
@@ -3262,6 +3300,7 @@
       Usage [demo]'
     url: publications/2009/r3v3rs3.pdf
     bibtex: publications/2009/aosd09.bib
+    tags: [r3v3rs3]
     authors:
     - Bram Adams
     - Ahmed E. Hassan
@@ -3277,6 +3316,7 @@
     title: The Evolution of the Linux Build System
     url: publications/2008/eceasst.pdf
     bibtex: publications/2008/eceasst.bib
+    tags: [makao]
     authors:
     - Bram Adams
     - Kris De Schutter
@@ -3292,6 +3332,7 @@
     title: Aspect mining in the Presence of the C Preprocessor
     url: publications/2008/late.pdf
     bibtex: publications/2008/late08.bib
+    tags: [r3v3rs3]
     authors:
     - Bram Adams
     - Van Bart Rompaey
@@ -3317,6 +3358,7 @@
     title: cHALO, Stateful Aspects in C
     url: publications/2008/acp4is.pdf
     bibtex: publications/2008/acp4is08.bib
+    tags: [aspicere]
     authors:
     - Bram Adams
     - Charlotte Herzeel
@@ -3332,6 +3374,7 @@
       of AOSD in Legacy Systems'
     url: publications/2008/PhD.pdf
     bibtex: publications/2008/phd.bib
+    tags: [makao, aspicere, r3v3rs3]
     authors:
     - Bram Adams
     venue: PhD dissertation
@@ -3372,6 +3415,7 @@
     title: Aspect-orientation For Revitalising Legacy Business Software
     url: publications/2007/entcs.pdf
     bibtex: publications/2007/ao4revitalisinglegacybusinesssoftware.bib
+    tags: [aspicere]
     authors:
     - Kris De Schutter
     - Bram Adams
@@ -3387,6 +3431,7 @@
     title: Design Recovery and Maintenance of Build Systems
     url: publications/2007/icsm.pdf
     bibtex: publications/2007/recovery.bib
+    tags: [makao]
     authors:
     - Bram Adams
     - Kris De Schutter
@@ -3425,6 +3470,7 @@
       join points, join point properties, annotations and type parameters)
     url: publications/2007/splat07.pdf
     bibtex: publications/2007/splat07.bib
+    tags: [aspicere]
     authors:
     - Bram Adams
     - De Kris Schutter
@@ -3456,6 +3502,7 @@
     title: MAKAO [demo]
     url: publications/2007/icsm-demo.pdf
     bibtex: publications/2007/icsm-demo.bib
+    tags: [makao]
     authors:
     - Bram Adams
     - Kris De Schutter
@@ -3482,6 +3529,7 @@
       - An Industrial Experience Report
     url: publications/2006/regaining.pdf
     bibtex: publications/2006/regaining.bib
+    tags: [aspicere]
     authors:
     - Andy Zaidman
     - Bram Adams
