@@ -3564,6 +3564,46 @@ article.latestgallery_left p {
     }
 
 
+    /* Fix Area Vignettes on mobile (vertical stack) */
+    #home_featured21 {
+        flex-direction: column;
+    }
+
+    #home_featured21 .block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Fix Paper Vignettes on mobile (vertical stack) */
+    #home_featured2 {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    #home_featured2 ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #home_featured2 li {
+        width: 100%;
+        float: none;
+        margin: 0 0 30px 0;
+    }
+
+    #home_featured2 .imgholder {
+        width: 100%;
+        height: auto;
+        margin: 0 0 10px 0;
+        box-sizing: border-box;
+    }
+
+    #home_featured2 .imgholder img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* Slide text popup styles (global) */
