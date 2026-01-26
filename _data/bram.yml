@@ -61,6 +61,14 @@ awards:
     venue_url: "images/icsm09_award_large.pdf"
 
 event_coorganization:
+  - name: "22nd International Conference on Mining Software Repositories (MSR)"
+    url: "https://conf.researchr.org/home/msr-2025"
+    date: "April 28-29, 2025"
+    address: "Ottawa, ON"
+  - name: "1st ACM International Conference on AI-powered Software (AIware)"
+    url: "https://2024.aiwareconf.org/"
+    date: "July 15-16, 2024"
+    address: "Porto de Galinhas, Brazil"
   - name: "Consortium for Software Engineering Research (CSER) Spring 2024 Meeting"
     url: "https://www.cser.ca/2024s/"
     date: "June 10-11, 2024"
@@ -160,11 +168,6 @@ event_coorganization:
     colocated_url: "http://www.aosd.net/2009/index.php"
 
 chair_duties:
-  - role: "general chair"
-    event: "22nd International Conference on Mining Software Repositories (MSR)"
-    url: "https://conf.researchr.org/home/msr-2025"
-    date: "April 28-29, 2025"
-    address: "Ottawa, ON"
   - role: "most influential paper co-chair"
     cochair: "Alexander Serebrenik"
     cochair_url: "https://www.win.tue.nl/~aserebre/"
@@ -172,11 +175,6 @@ chair_duties:
     url: "https://conf.researchr.org/home/saner-2025"
     date: "March 4-7, 2025"
     address: "Montreal, QC"
-  - role: "general co-chair"
-    event: "1st ACM International Conference on AI-powered Software (AIware)"
-    url: "https://2024.aiwareconf.org/"
-    date: "July 15-16, 2024"
-    address: "Porto de Galinhas, Brazil"
   - role: "most influential paper co-chair"
     cochair: "Juergen Rilling"
     cochair_url: "https://sites.google.com/view/juergenrilling/home"
