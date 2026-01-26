@@ -907,7 +907,7 @@
   - year: 2020
     title: 'Swarm Relays: Distributed Self-Healing Ground-and-Air Connectivity Chains'
     url: http://www.arxiv.org/abs/1909.10496
-    bibtex: publications/2020/iros.bib
+    bibtex: publications/2020/ras.bib
     authors:
     - Vivek Shankar Varadharajan
     - David St-Onge
@@ -1241,7 +1241,7 @@
   - year: 2017
     title: Does the Choice of Configuration Framework Matter for Developers? Empirical
       Study on 11 Java Configuration Frameworks
-    url: publications/2015/scam17.pdf
+    url: publications/2017/scam17.pdf
     bibtex: publications/2017/scam.bib
     authors:
     - Mohammed Sayagh
@@ -1853,7 +1853,7 @@
     address: Bremen, Germany
     venue: in Proceedings of the 15th International Working Conference on Source Code
       Analysis and Manipulation (SCAM)
-    replication_package: http://mcis.polymtl.ca/~msayagh/Paper/SCAM15/LOC_vs_Options/
+    replication_package: http://mcis.cs.queensu.ca/~msayagh/Paper/SCAM15/LOC_vs_Options/
     pages: 31-40
   - year: 2015
     title: An Industrial Case Study on the Automated Detection of Performance Regressions
