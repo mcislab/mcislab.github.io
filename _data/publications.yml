@@ -443,7 +443,7 @@
     - Yihao Chen
     - Eduardo Fernandes
     - Bram Adams
-    - Ahmed E Hassan
+    - Ahmed E. Hassan
     volume: '28'
     number: '5'
     publisher: Springer
@@ -473,7 +473,7 @@
     - Ellis E. Eghan
     - Manel Grichi
     - William Glazer Cavanagh
-    - Zhen Ming (Jack) Jiang
+    - Zhen Ming Jiang
     - Bram Adams
     volume: '28'
     number: '3'
@@ -488,7 +488,7 @@
     - Jiahuei Lin
     - Haoxiang Zhang
     - Bram Adams
-    - Ahmed E Hassan
+    - Ahmed E. Hassan
     volume: '28'
     number: '2'
     publisher: Springer
@@ -809,7 +809,7 @@
     url: https://arxiv.org/pdf/2108.09905v1.pdf
     bibtex: publications/2021/cscw.bib
     authors:
-    - Isabelle Ferreira
+    - Isabella Ferreira
     - Jinghui Cheng
     - Bram Adams
     article_number: '353'
@@ -988,7 +988,7 @@
     - Manel Grichi
     - Mouna Abidi
     - Fehmi Jaafar
-    - Ellis Emmanuel Eghan
+    - Ellis E. Eghan
     - Bram Adams
     awards:
     - Recommended to the IEEE Transactions on Reliability
@@ -1348,7 +1348,7 @@
     authors:
     - Wenbin Li
     - Jane Huffman Hayes
-    - Giulio Antoniol
+    - Giuliano Antoniol
     - Yann-Gaël Guéhéneuc
     - Bram Adams
     pages: 1061-1080
@@ -1768,7 +1768,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/SQJ_StudyingTheRelationshipBetweenSourceCodeQualityAndMobilePlatformDependence.pdf
     bibtex: publications/2015/syersqj.bib
     authors:
-    - Mark. D. Syer
+    - Mark D. Syer
     - Meiyappan Nagappan
     - Bram Adams
     - Ahmed E. Hassan
@@ -1800,7 +1800,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/TSE_ReplicatingAndRe-evaluatingTheTheoryOfRelativeDefect-Proneness.pdf
     bibtex: publications/2015/tsemark.bib
     authors:
-    - Mark Syer
+    - Mark D. Syer
     - Meiyappan Nagappan
     - Bram Adams
     - Ahmed E. Hassan
@@ -1883,7 +1883,7 @@
     - Douglas H. Martin
     - James R. Cordy
     - Bram Adams
-    - Giulio Antoniol
+    - Giuliano Antoniol
     acceptance_ratio: 23/73=31.5%
     publisher: IEEE
     address: Florence, Italy
@@ -1982,7 +1982,7 @@
     authors:
     - Bram Adams
     - Stephany Bellomo
-    - Chris Bird
+    - Christian Bird
     - Foutse Khomh
     - Kim Moir
     publisher: IEEE
@@ -2054,7 +2054,7 @@
     - Zhen Ming Jiang
     - Bram Adams
     - Ahmed E. Hassan
-    - Mike Godfrey
+    - Michael Godfrey
     - Mohamed Nasser
     - Parminder Flora
     publisher: Wiley
@@ -2096,7 +2096,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2014_MiningCo-ChangeInformationToUnderstandWhenBuildChangesAreNecessary.pdf
     bibtex: publications/2014/icsm_shane.bib
     authors:
-    - Shane Mcintosh
+    - Shane McIntosh
     - Bram Adams
     - Meiyappan Nagappan
     - Ahmed E. Hassan
@@ -2190,7 +2190,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf
     bibtex: publications/2014/msrshane.bib
     authors:
-    - Shane Mcintosh
+    - Shane McIntosh
     - Yasutaka Kamei
     - Bram Adams
     - Ahmed E. Hassan
@@ -2222,7 +2222,7 @@
     venue: 2nd International Workshop on Release Engineering (RELENG)
     address: Mountain View, CA, US
     authors:
-    - Shane Mcintosh
+    - Shane McIntosh
     - Bram Adams
     - Meiyappan Nagappan
     - Ahmed E. Hassan
@@ -2359,7 +2359,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/CSMR2013_ProgrammingLanguageEcosystems_TheEvolutionOfR.pdf
     bibtex: publications/2013/csmr_daniel.bib
     authors:
-    - Daniel Germán
+    - Daniel M. Germán
     - Bram Adams
     - Ahmed E. Hassan
     acceptance_ratio: 29/80=36.3%
@@ -2475,7 +2475,7 @@
     - Roman Suvorov
     - Bram Adams
     - Meiyappan Nagappan
-    - Ahmed Hassan
+    - Ahmed E. Hassan
     - Ying Zou
     acceptance_ratio: 46/181=25%
     publisher: IEEE
@@ -2647,7 +2647,7 @@
     - Zhen Ming Jiang
     - Bram Adams
     - Ahmed E. Hassan
-    - Mike Godfrey
+    - Michael Godfrey
     - Mohamed Nasser
     - Parminder Flora
     awards:
@@ -2768,7 +2768,7 @@
     - Shane McIntosh
     - Bram Adams
     - Yasutaka Kamei
-    - Thanh Nguyen
+    - Thanh H. D. Nguyen
     - Ahmed E. Hassan
     awards:
     - mentioned in https://stackoverflow.blog/2011/06/22/se-podcast-09/
@@ -2874,7 +2874,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_ACaseStudyOfBiasInBug-FixDatasets.pdf
     bibtex: publications/2010/wcre10thanh.bib
     authors:
-    - Thanh Nguyen
+    - Thanh H. D. Nguyen
     - Bram Adams
     - Ahmed E. Hassan
     acceptance_ratio: 21/67=31%
@@ -2909,7 +2909,7 @@
     - Liliane Barbour
     - Weiyi Shang
     - Bram Adams
-    - Ahmed Hassan
+    - Ahmed E. Hassan
     - Ying Zou
     acceptance_ratio: 21/67=31%
     address: Boston, MA, US
@@ -3161,8 +3161,8 @@
     bibtex: publications/2009/wcre09b.bib
     authors:
     - Nicolas Bettenburg
-    - Weyi Shang
-    - Walid Ibrahim
+    - Weiyi Shang
+    - Walid M. Ibrahim
     - Bram Adams
     - Ying Zou
     - Ahmed E. Hassan
