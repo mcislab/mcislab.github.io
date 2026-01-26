@@ -1565,6 +1565,7 @@ table tbody tr.dark {
     margin: 0;
     padding: 10px 0 20px;
     flex: 1;
+    text-align: justify;
 }
 
 #home_featured21 .read_more {
@@ -1620,7 +1621,8 @@ table tbody tr.dark {
 
 #home_featured2 p {
     margin: 0;
-    padding: 0 20px
+    padding: 0 20px;
+    text-align: justify;
 }
 
 #home_featured2 p strong {
@@ -3729,4 +3731,19 @@ table.rouge-table td.code {
 
 table.rouge-table pre {
     margin: 0;
+}
+
+/* ============================================
+   MCIS Lab Vignette Text Justification
+   Last updated: January 2026
+   ============================================ */
+
+/* Justify text in about.html content boxes */
+.box p {
+    text-align: justify;
+}
+
+/* Justify text in publications.html sidebar vignettes */
+.sidebar #featured p {
+    text-align: justify;
 }
