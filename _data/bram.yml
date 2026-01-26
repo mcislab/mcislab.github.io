@@ -364,7 +364,6 @@ chair_duties:
     event: "16th Working Conf. on Reverse Engineering (WCRE)"
     url: "http://web.soccerlab.polymtl.ca/wcre2009/"
     date: "October 13-16, 2009"
-    date: "October 13-16, 2009"
     address: "Lille, France"
 
 pc_membership:
@@ -1083,21 +1082,40 @@ journal_reviewing:
     url: "https://www.hrzz.hr/default.aspx?id=1166"
 
 editorship:
-  - role: '<a href="https://ivado.ca/en/">IVADO</a> researcher'
-  - role: 'Associate editor of the <a href="https://www.computer.org/csdl/journal/ts">IEEE Transactions on Software Engineering (TSE)</a>'
-  - role: 'Member of the editorial board of the <a href="https://link.springer.com/journal/10664">Journal on Empirical Software Engineering (EMSE)</a>'
-  - role: 'Member of the editorial board of the <a href="https://www.journals.elsevier.com/information-and-software-technology/">Journal on Information and Software Technology (IST)</a>'
-  - role: 'Former associate editor of the <a href="https://www.journals.elsevier.com/journal-of-systems-and-software/">Journal of Systems and Software (JSS)</a>'
-  - role: 'Former member of the steering committee of the <a href="http://msrconf.org/">International Conference on Mining Software Repositories (MSR)</a>'
+  - role: "IVADO researcher"
+    url: "https://ivado.ca/en/"
+  - role: "Associate editor"
+    event: "IEEE Transactions on Software Engineering (TSE)"
+    url: "https://www.computer.org/csdl/journal/ts"
+  - role: "Member of the editorial board"
+    event: "Journal on Empirical Software Engineering (EMSE)"
+    url: "https://link.springer.com/journal/10664"
+  - role: "Member of the editorial board"
+    event: "Journal on Information and Software Technology (IST)"
+    url: "https://www.journals.elsevier.com/information-and-software-technology/"
+  - role: "Former associate editor"
+    event: "Journal of Systems and Software (JSS)"
+    url: "https://www.journals.elsevier.com/journal-of-systems-and-software/"
+  - role: "Former member of the steering committee"
+    event: "International Conference on Mining Software Repositories (MSR)"
+    url: "http://msrconf.org/"
     date: "2016-2024"
-  - role: 'Former member of the steering committee of the <a href="http://saner.aau.at/">IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)</a>'
+  - role: "Former member of the steering committee"
+    event: "IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)"
+    url: "http://saner.aau.at/"
     date: "2015-2018"
-  - role: 'Member of the steering committee of the <a href="http://releng.polymtl.ca">International Workshop on Release Engineering (RELENG)</a>'
-  - role: 'Former member of the steering committee of the <a href="http://sback.it/mud2014/">International Workshop on Mining Unstructured Data (MUD)</a>'
+  - role: "Member of the steering committee"
+    event: "International Workshop on Release Engineering (RELENG)"
+    url: "http://releng.polymtl.ca"
+  - role: "Former member of the steering committee"
+    event: "International Workshop on Mining Unstructured Data (MUD)"
+    url: "http://sback.it/mud2014/"
     date: "2010-2015"
-  - role: 'Panel member at the <a href="http://www.cs.wm.edu/icsm2011/?page_id=291">mid-career doctoral symposium</a>'
-    event: "27th IEEE Intl. Conf. on Software Maintenance (ICSM)"
-    url: "http://www.cs.wm.edu/icsm2011/"
+  - role: "Panel member"
+    event: "mid-career doctoral symposium"
+    url: "http://www.cs.wm.edu/icsm2011/?page_id=291"
+    at_event: "27th IEEE Intl. Conf. on Software Maintenance (ICSM)"
+    at_url: "http://www.cs.wm.edu/icsm2011/"
     date: "September 25-30, 2011"
     address: "Williamsburg, VA, US"
 

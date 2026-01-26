@@ -47,15 +47,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.awards %}
-                        <li>
-                                {% if item.award_url %}<a href="{{ item.award_url }}">{% endif %}
-                                        {{ item.award }}
-                                        {% if item.award_url %}</a>{% endif %}
-                                {% if item.description %} {{ item.description }}{% endif %}
-                                {% if item.venue %} at <a href="{{ item.venue_url }}">{{ item.venue }}</a>{% endif %}
-                                {% if item.extra_label %} (<a href="{{ item.extra_url }}">{{ item.extra_label }}</a>){%
-                                endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='award' %}
                         {% endfor %}
                 </ul>
                 </p>
@@ -67,12 +59,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.event_coorganization %}
-                        <li>
-                                <a href="{{ item.url }}">{{ item.name }}</a>, {{ item.date }} ({{ item.address }}){% if
-                                item.colocated_with %}, co-located with <a href="{{ item.colocated_url }}">{{
-                                        item.colocated_with }}</a>{% endif %}{% if item.hosted_by %}, graciously hosted
-                                by {{ item.hosted_by }}{% endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='event' %}
                         {% endfor %}
                 </ul>
                 </p>
@@ -82,13 +69,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.chair_duties %}
-                        <li>
-                                {{ item.role }} {% if item.cochair %}(together with <a href="{{ item.cochair_url }}">{{
-                                        item.cochair }}</a>){% endif %} {% if item.track %}for {{ item.track }}{% endif
-                                %} of the <a href="{{ item.url }}">{{ item.event }}</a>, {{ item.date }} ({{
-                                item.address }}){% if item.extra_label %} [<a href="{{ item.extra_url }}">{{
-                                        item.extra_label }}</a>]{% endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='chair' %}
                         {% endfor %}
                 </ul>
                 </p>
@@ -99,13 +80,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.pc_membership %}
-                        <li>
-                                {% if item.track %}{% if item.track_url %}<a href="{{ item.track_url }}">{% endif %}{{
-                                        item.track }}{% if item.track_url %}</a>{% endif %} track of the {% endif %}<a
-                                        href="{{ item.url }}">{{ item.event }}</a>, {{ item.date }}{% if item.address %}
-                                ({{ item.address }}){% endif %}{% if item.colocated_with %}, co-located with <a
-                                        href="{{ item.colocated_url }}">{{ item.colocated_with }}</a>{% endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='pc' %}
                         {% endfor %}
                 </ul>
                 </p>
@@ -116,10 +91,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.journal_reviewing %}
-                        <li>
-                                <a href="{{ item.url }}">{{ item.name }}</a>{% if item.short_name %} ({{ item.short_name
-                                }}){% endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='reviewing' %}
                         {% endfor %}
                 </ul>
                 </p>
@@ -130,11 +102,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.editorship %}
-                        <li>
-                                {{ item.role }}{% if item.event %} of the <a href="{{ item.url }}">{{ item.event
-                                        }}</a>{% endif %}{% if item.date %}, {{ item.date }}{% endif %}{% if
-                                item.address %} ({{ item.address }}){% endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='editorship' %}
                         {% endfor %}
                 </ul>
                 </p>
@@ -144,17 +112,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.invited_talks %}
-                        <li>
-                                {% if item.slides_url %}<a href="{{ item.slides_url }}">{% endif %}{{ item.title }}{% if
-                                        item.slides_url %}</a>{% endif %},
-                                {{ item.prefix | default: "Invited talk at" }}
-                                {% if item.url %}<a href="{{ item.url }}">{% endif %}{{ item.event }}{% if item.url
-                                        %}</a>{% endif %}{% if item.address %}, {{ item.address }}{% endif %}, {{
-                                item.date }}{% if item.extra_label %} <span style="color: black; font-weight: bold">[{%
-                                        if item.extra_url %}<a href="{{ item.extra_url }}">{% endif %}{{
-                                                item.extra_label }}{% if item.extra_url %}</a>{% endif %}]</span>{%
-                                endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='talk' %}
                         {% endfor %}
                 </ul>
                 </p>
@@ -164,12 +122,7 @@ title: Dr. Bram Adams
                 <p>
                 <ul>
                         {% for item in site.data.bram.press %}
-                        <li>
-                                <a href="{{ item.url }}">{{ item.title }}</a>{% if item.extra_label %} (also <a
-                                        href="{{ item.extra_url }}">{{ item.extra_label }}</a>){% endif %}{% if
-                                item.description or item.event %}, {{ item.description | default: item.event }}{% endif
-                                %}{% if item.date %}, {{ item.date }}{% endif %}
-                        </li>
+                        {% include bram_entry.ext item=item type='press' %}
                         {% endfor %}
                 </ul>
                 </p>
