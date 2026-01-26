@@ -169,6 +169,13 @@ event_coorganization:
 
 chair_duties:
   - role: "most influential paper co-chair"
+    cochair: "Denys Poshyvanyk"
+    cochair_url: "https://www.cs.wm.edu/~denys/"
+    event: "42nd IEEE International Conference on Software Maintenance and Evolution (ICSME)"
+    url: "https://conf.researchr.org/home/icsme-2026"
+    date: "September 16-18, 2026"
+    address: "Benevento, Italy"
+  - role: "most influential paper co-chair"
     cochair: "Alexander Serebrenik"
     cochair_url: "https://www.win.tue.nl/~aserebre/"
     event: "32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)"
