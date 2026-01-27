@@ -1,9 +1,17 @@
-- title: "LLM Review Assistance in Practice"
+- title: "Does AI Review Assistance Help?"
   image: "images/llm-review-sidebar.png"
   image_alt: "LLM-based code review assistant"
   teaser: "Did you know that *~20% of LLM-generated review comments* are considered valuable by developers? We studied RevMate at Mozilla and Ubisoft, finding that refactoring-related comments are 3x more likely to be accepted than functional comments."
   venue: "TSE 2026"
   link: "https://arxiv.org/abs/2411.07091"
+  front_page: true
+
+- title: "LLM Output Biases"
+  image: "images/output-format-sidebar.png"
+  image_alt: "Output Biases"
+  teaser: "Did you know that *up to 73% of LLM outputs* contain non-code elements that bias evaluation? We propose strategies to extract clean code for reliable assessment."
+  venue: "EMSE 2026"
+  link: "https://arxiv.org/abs/2403.17214"
   front_page: false
 
 - title: "Semantic Versioning for AI"
@@ -13,6 +21,30 @@
   venue: "EMSE 2025"
   link: "publications/2025/emse_semver.pdf"
   front_page: true
+
+- title: "InterTrans Code Translation"
+  image: "images/intertrans-sidebar.png"
+  image_alt: "InterTrans"
+  teaser: "Did you know that leveraging *intermediate translations* across programming languages can bridge syntactic gaps and boost LLM translation accuracy by up to 43.3%?"
+  venue: "ICSE 2025"
+  link: "https://arxiv.org/abs/2411.01063"
+  front_page: false
+
+- title: "Leaderboard Smells"
+  image: "images/lbops-smells-sidebar.png"
+  image_alt: "LBOps"
+  teaser: "Did you know that there are *eight unique types of leaderboard smells*? Identifying these pitfalls helps stakeholders perform more transparent foundation model selection."
+  venue: "TSE 2025"
+  link: "https://arxiv.org/abs/2407.04065"
+  front_page: false
+
+- title: "Build Batching for CI"
+  image: "images/batching-sidebar.png"
+  image_alt: "Build Batching"
+  teaser: "Did you know that dynamic build batching can *save over 20% of CI resources* while identifying build failures faster than traditional heuristics?"
+  venue: "EMSE 2025"
+  link: "publications/2025/emse_divya_light.pdf"
+  front_page: false
 
 - title: "Speeding up CI/CD"
   image: "images/commit-grouping-wide.png"
@@ -28,30 +60,6 @@
   teaser: "Did you know that *continuous model retraining* can be performed at a fraction of the cost by using lifelong learning? We adopted a replay buffer to prevent \"catastrophic forgetting\" while reducing training time for software analytics models."
   venue: "ICSE SEIP 2024"
   link: "https://arxiv.org/abs/2305.09824"
-  front_page: true
-
-- title: "InterTrans Code Translation"
-  image: "images/intertrans-sidebar.png"
-  image_alt: "InterTrans"
-  teaser: "Did you know that leveraging *intermediate translations* across programming languages can bridge syntactic gaps and boost LLM translation accuracy by up to 43.3%?"
-  venue: "ICSE 2025"
-  link: "https://arxiv.org/abs/2411.01063"
-  front_page: false
-
-- title: "LLM Output Biases"
-  image: "images/output-format-sidebar.png"
-  image_alt: "Output Biases"
-  teaser: "Did you know that *up to 73% of LLM outputs* contain non-code elements that bias evaluation? We propose strategies to extract clean code for reliable assessment."
-  venue: "EMSE 2026"
-  link: "https://arxiv.org/abs/2403.17214"
-  front_page: false
-
-- title: "Leaderboard Smells"
-  image: "images/lbops-smells-sidebar.png"
-  image_alt: "LBOps"
-  teaser: "Did you know that there are *eight unique types of leaderboard smells*? Identifying these pitfalls helps stakeholders perform more transparent foundation model selection."
-  venue: "TSE 2025"
-  link: "https://arxiv.org/abs/2407.04065"
   front_page: false
 
 - title: "Code Review Prediction"
@@ -93,13 +101,3 @@
   venue: "EMSE 2023"
   link: "https://arxiv.org/abs/2203.11365"
   front_page: false
-
-- title: "Build Batching for CI"
-  image: "images/batching-sidebar.png"
-  image_alt: "Build Batching"
-  teaser: "Did you know that dynamic build batching can *save over 20% of CI resources* while identifying build failures faster than traditional heuristics?"
-  venue: "EMSE 2025"
-  link: "publications/2025/emse_divya_light.pdf"
-  front_page: false
-
-
