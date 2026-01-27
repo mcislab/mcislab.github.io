@@ -45,6 +45,40 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
+/* CSS Custom Properties for Theming */
+:root {
+    /* Gray Scale */
+    --color-gray-900: #000;
+    --color-gray-800: #272727;
+    --color-gray-700: #333;
+    --color-gray-600: #454545;
+    --color-gray-400: #666;
+    --color-gray-200: #ccc;
+    --color-gray-150: #ddd;
+    --color-gray-50: #eee;
+    --color-gray-25: #f2f2f2;
+    --color-white: #fff;
+
+    /* Brand Accent */
+    --color-accent: #A3443E;
+
+    /* Semantic Tokens */
+    --color-link: var(--color-accent);
+    --color-text-default: var(--color-gray-900);
+    --color-text-muted: var(--color-gray-400);
+    --color-border: var(--color-gray-400);
+
+    /* Primary Button (read_more, readmore) */
+    --btn-primary-bg: var(--color-gray-600);
+    --btn-primary-bg-hover: var(--color-gray-800);
+    --btn-primary-text: var(--color-white);
+
+    /* Secondary Button (more) */
+    --btn-secondary-text: #A2A2A2;
+    --btn-secondary-text-hover: var(--color-gray-150);
+}
+
 html,
 body,
 div,
@@ -179,7 +213,7 @@ body {
     font-size: 13px;
     font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
     font-family: Century Gothic, sans-serif;
-    color: #000;
+    color: var(--color-text-default);
     background: #eee url(../images/bg.png) repeat;
     padding: 0;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2)
@@ -211,7 +245,7 @@ br.clear {
 a {
     outline: none;
     text-decoration: none;
-    color: #A3443E
+    color: var(--color-link)
 }
 
 .tagline_left {
@@ -407,7 +441,7 @@ header p {
 }
 
 #sub-headline {
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid var(--color-border);
     padding: 15px 0
 }
 
@@ -417,8 +451,8 @@ header p {
 }
 
 #breadcrumb {
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     padding: 20px 0
 }
 
@@ -427,25 +461,25 @@ header p {
 }
 
 .container {
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     padding: 30px 0
 }
 
 .container1 {
-    border-top: 1px solid #666;
+    border-top: 1px solid var(--color-border);
     padding: 30px 0
 }
 
 .box {
     background-color: #FFF;
-    border: 1px solid #666;
+    border: 1px solid var(--color-border);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    -webkit-box-shadow: 5px 5px 5px #ccc;
-    -moz-box-shadow: 5px 5px 5px #ccc;
-    box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px var(--color-gray-200);
+    -moz-box-shadow: 5px 5px 5px var(--color-gray-200);
+    box-shadow: 5px 5px 5px var(--color-gray-200);
     padding: 29px
 }
 
@@ -471,22 +505,22 @@ header p {
 }
 
 #comments .commentlist li.comment_odd {
-    color: #666;
+    color: var(--color-text-muted);
     background-color: #F7F7F7
 }
 
 #comments .commentlist li.comment_odd a {
-    color: #A3443E;
+    color: var(--color-link);
     background-color: #F7F7F7
 }
 
 #comments .commentlist li.comment_even {
-    color: #666;
+    color: var(--color-text-muted);
     background-color: #E8E8E8
 }
 
 #comments .commentlist li.comment_even a {
-    color: #A3443E;
+    color: var(--color-link);
     background-color: #E8E8E8
 }
 
@@ -526,14 +560,14 @@ header p {
     height: 65px;
     font-size: 20px;
     line-height: normal;
-    border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted var(--color-border);
     margin: 0;
     padding: 15px 0 0
 }
 
 .sidebar .holder h2.title img {
     float: left;
-    border: 1px solid #666;
+    border: 1px solid var(--color-border);
     margin: -15px 8px 0 0;
     padding: 5px
 }
@@ -541,7 +575,7 @@ header p {
 .sidebar div.imgholder {
     display: block;
     width: 260px;
-    border: 1px solid #666;
+    border: 1px solid var(--color-border);
     margin: 0 0 10px;
     padding: 4px
 }
@@ -574,7 +608,7 @@ header p {
     font-weight: 400;
     font-family: Artifika, Georgia, Times New Roman, Times, serif;
     line-height: normal;
-    border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted var(--color-border);
     margin: 0;
     padding: 0 0 8px
 }
@@ -694,7 +728,7 @@ header p {
 }
 
 .grid .footbox li {
-    color: #000;
+    color: var(--color-text-default);
     margin: 22px 0 0
 }
 
@@ -902,7 +936,7 @@ h6 a {
 }
 
 p {
-    color: #000
+    color: var(--color-text-default)
 }
 
 #tagline,
@@ -944,7 +978,7 @@ input[type=email],
 input[type=url],
 textarea {
     background: rgba(206, 205, 205, 0.6);
-    border: 2px solid #666;
+    border: 2px solid var(--color-border);
     line-height: 2em;
     -webkit-box-shadow: inset -1px 1px 1px rgba(255, 255, 255, 0.65);
     -moz-box-shadow: inset -1px 1px 1px rgba(255, 255, 255, 0.65);
@@ -970,14 +1004,14 @@ input[type=url] {
 
 input[type=submit],
 input[type=reset] {
-    background: #000;
+    background: var(--color-gray-900);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333), color-stop(100%, #333333));
     background-image: -webkit-linear-gradient(top, #333 0%, #333333 100%);
     background-image: -moz-linear-gradient(top, #333 0%, #333333 100%);
     background-image: -o-linear-gradient(top, #333 0%, #333333 100%);
     background-image: -ms-linear-gradient(top, #333 0%, #333333 100%);
     background: linear-gradient(top, #333 0%, #333333 100%);
-    color: #fff;
+    color: var(--color-white);
     -webkit-border-radius: 10px 0 10px 0;
     -moz-border-radius: 10px 0 10px 0;
     border-radius: 10px 0 10px 0;
@@ -1002,7 +1036,7 @@ input[type=reset]:hover {
     -webkit-border-radius: 0 10px 0 10px;
     -moz-border-radius: 0 10px 0 10px;
     border-radius: 0 10px 0 10px;
-    color: #fff;
+    color: var(--color-white);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
@@ -1044,19 +1078,21 @@ a.more {
     float: left;
     margin-top: 12px;
     width: 140px;
-    height: 45px;
     font-size: 15px;
     text-transform: uppercase;
-    color: #A2A2A2;
+    color: var(--btn-primary-text);
     text-decoration: none;
-    padding-top: 15px;
     font-family: Artifika, Verdana, Geneva, sans-serif;
-    background: url(../images/futured_button.png) no-repeat left top;
-    padding: 18px
+    background: var(--btn-primary-bg);
+    padding: 15px 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center
 }
 
 a.more:hover {
-    color: #ddd
+    background: var(--btn-primary-bg-hover)
 }
 
 .callout {
@@ -1154,10 +1190,10 @@ a.read_more {
     text-align: center;
     float: left;
     font-size: 13px;
-    color: #fff;
+    color: var(--btn-primary-text);
     text-decoration: none;
     margin-top: 18px;
-    background: #454545 url(../images/arrow_01.png) no-repeat right;
+    background: var(--btn-primary-bg) url(../images/arrow_01.png) no-repeat right;
     margin-left: 15px;
     padding: 2px 30px 4px 10px;
     -webkit-border-radius: 10px;
@@ -1171,7 +1207,7 @@ a.read_more {
 }
 
 a.read_more:hover {
-    background: #272727 url(../images/arrow_01.png) no-repeat right;
+    background: var(--btn-primary-bg-hover) url(../images/arrow_01.png) no-repeat right;
     padding: 2px 30px 4px 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1242,8 +1278,8 @@ footer p {
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
-    border-top: 1px dashed #666;
-    border-bottom: 1px dashed #666
+    border-top: 1px dashed var(--color-border);
+    border-bottom: 1px dashed var(--color-border)
 }
 
 .nav,
@@ -1347,10 +1383,10 @@ li.sfHover>a>.sf-sub-indicator {
     font-size: 20px;
     font-weight: 400;
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: #666;
+    color: var(--color-text-muted);
     background-color: #F9F9F9;
     line-height: normal;
-    border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted var(--color-border);
     margin: 0 0 20px;
     padding: 0 0 14px
 }
@@ -1370,16 +1406,16 @@ li.sfHover>a>.sf-sub-indicator {
 
 .sidebar .subnav a {
     display: block;
-    color: #000;
+    color: var(--color-text-default);
     background: url(../images/red_file.gif) no-repeat 10px center #F9F9F9;
     text-decoration: none;
-    border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted var(--color-border);
     margin: 0;
     padding: 5px 10px 5px 20px
 }
 
 .sidebar .subnav a:hover {
-    color: #A3443E;
+    color: var(--color-link);
     background-color: #F9F9F9
 }
 
@@ -1389,7 +1425,7 @@ li.sfHover>a>.sf-sub-indicator {
     border-bottom: none;
     padding: 0;
     margin: 0;
-    color: #A3443E
+    color: var(--color-link)
 }
 
 .sidebar .subnav ul ul a,
@@ -1497,7 +1533,7 @@ table {
 
 table thead th {
     color: #FFF;
-    background-color: #666;
+    background-color: var(--color-text-muted);
     border: 1px solid #CCC;
     border-collapse: collapse;
     text-align: center;
@@ -1645,7 +1681,7 @@ table tbody tr.dark {
     text-align: center;
     margin: 0 0 15px;
     padding: 0 20px 8px;
-    border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted var(--color-border);
     box-sizing: border-box
 }
 
@@ -1796,7 +1832,7 @@ table tbody tr.dark {
 }
 
 .jFlowSlideContainer {
-    background-color: #000
+    background-color: var(--color-gray-900)
 }
 
 .jFlowSlideContainer a {
@@ -1845,10 +1881,10 @@ a.readmore {
     text-align: center;
     float: right;
     font-size: 13px;
-    color: #fff;
+    color: var(--btn-primary-text);
     text-decoration: none;
     margin-top: 30px;
-    background: #454545;
+    background: var(--btn-primary-bg);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -1856,7 +1892,7 @@ a.readmore {
 }
 
 a.readmore:hover {
-    background: #272727
+    background: var(--btn-primary-bg-hover)
 }
 
 ul.nav li:hover li ul,
@@ -2324,7 +2360,7 @@ div.dark_rounded .pp_close {
 
 div.dark_rounded .pp_description {
     margin-right: 85px;
-    color: #fff
+    color: var(--color-white)
 }
 
 div.dark_rounded .pp_nav .pp_play {
@@ -2363,11 +2399,11 @@ div.dark_square .pp_left,
 div.dark_square .pp_middle,
 div.dark_square .pp_right,
 div.dark_square .pp_content {
-    background: #000
+    background: var(--color-gray-900)
 }
 
 div.dark_square .pp_description {
-    color: #fff;
+    color: var(--color-white);
     margin: 0 85px 0 0
 }
 
@@ -2620,7 +2656,7 @@ div.pp_pic_holder a:focus {
 }
 
 div.pp_overlay {
-    background: #000;
+    background: var(--color-gray-900);
     display: none;
     left: 0;
     position: absolute;
@@ -2840,7 +2876,7 @@ a.pp_close {
 }
 
 div.ppt {
-    color: #fff;
+    color: var(--color-white);
     display: none;
     font-size: 17px;
     z-index: 9999;
@@ -2849,7 +2885,7 @@ div.ppt {
 
 div.pp_default .pp_content,
 div.light_rounded .pp_content {
-    background-color: #fff
+    background-color: var(--color-white)
 }
 
 div.pp_default #pp_full_res .pp_inline,
@@ -2859,14 +2895,14 @@ div.light_square .pp_content .ppt,
 div.light_square #pp_full_res .pp_inline,
 div.facebook .pp_content .ppt,
 div.facebook #pp_full_res .pp_inline {
-    color: #000
+    color: var(--color-text-default)
 }
 
 div.pp_default .pp_gallery ul li a:hover,
 div.pp_default .pp_gallery ul li.selected a,
 .pp_gallery ul a:hover,
 .pp_gallery li.selected a {
-    border-color: #fff
+    border-color: var(--color-white)
 }
 
 div.pp_default .pp_details,
@@ -2887,7 +2923,7 @@ div.light_square .pp_middle,
 div.light_square .pp_right,
 div.light_square .pp_content,
 div.facebook .pp_content {
-    background: #fff
+    background: var(--color-white)
 }
 
 div.light_rounded .pp_description,
@@ -2940,7 +2976,7 @@ div.dark_square .currentTextHolder {
 
 div.dark_rounded #pp_full_res .pp_inline,
 div.dark_square #pp_full_res .pp_inline {
-    color: #fff
+    color: var(--color-white)
 }
 
 .pp_top,
@@ -3068,7 +3104,7 @@ article.latestgallery_left p {
 }
 
 .highlight {
-    background: #ffffff;
+    background: var(--color-white);
 }
 
 .highlight .c {
@@ -3420,7 +3456,7 @@ article.latestgallery_left p {
     object-fit: cover;
     border-radius: 50%;
     /* Optional: make images round-ish */
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-gray-200);
 }
 
 .person-info {
@@ -3431,7 +3467,7 @@ article.latestgallery_left p {
 
 .person-info a {
     font-weight: bold;
-    color: #A3443E;
+    color: var(--color-link);
 }
 
 
