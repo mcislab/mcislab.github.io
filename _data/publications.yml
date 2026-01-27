@@ -31,7 +31,6 @@
     publisher: IEEE
     status: to appear
     url: https://arxiv.org/abs/2509.12421
-    bibtex: publications/2026/ieeesw-hicham.bib
   - authors:
     - Aaditya Bhatia
     - Foutse Khomh
@@ -44,7 +43,6 @@
     publisher: ACM
     status: to appear
     url: https://arxiv.org/abs/2311.12019
-    bibtex: publications/2026/tosem_aadi.bib
   - authors:
     - Marcos Macedo
     - Yuan Tian
@@ -58,7 +56,6 @@
     volume: '31'
     number: '41'
     url: https://arxiv.org/abs/2403.17214
-    bibtex: publications/2026/emse_output.bib
   - authors:
     - Jaskirat Singh
     - Emad Fallahzadeh
@@ -71,7 +68,6 @@
     publisher: Springer
     status: to appear
     url: publications/2026/emse_blackbox.pdf
-    bibtex: publications/2026/emse_blackbox.bib
 2025:
   journal:
   - authors:
@@ -85,7 +81,6 @@
     pages: 55-63
     publisher: IEEE
     url: publications/2025/ieeesw-shenyu.pdf
-    bibtex: publications/2025/ieeesw-shenyu.bib
   - authors:
     - Adekunle Ajibode
     - Abdul Ali Bangash
@@ -100,7 +95,6 @@
     number: '3'
     publisher: Springer
     url: publications/2025/emse_semver.pdf
-    bibtex: publications/2025/emse_semver.bib
   - authors:
     - Zhimin Zhao
     - Abdul Ali Bangash
@@ -116,7 +110,6 @@
     pages: 929-946
     publisher: IEEE
     url: https://arxiv.org/abs/2407.04065
-    bibtex: publications/2025/tse_jimmy.bib
   - authors:
     - Amir M. Ebrahimi
     - Bram Adams
@@ -130,7 +123,6 @@
     number: '3'
     publisher: Springer
     url: https://arxiv.org/abs/2501.00674
-    bibtex: publications/2025/emse_amir_sentinel.bib
   - authors:
     - Divya M. Kamath
     - Bram Adams
@@ -142,7 +134,6 @@
     number: '2'
     publisher: Springer
     url: publications/2025/emse_divya_light.pdf
-    bibtex: publications/2025/emse_divya_light.bib
   - authors:
     - Emad Fallahzadeh
     - Peter C. Rigby
@@ -154,7 +145,6 @@
     number: '1'
     publisher: Springer
     url: publications/2025/emse_scale.pdf
-    bibtex: publications/2025/emse_scale.bib
   - authors:
     - Harsh Patel
     - Dominique Boucher
@@ -170,7 +160,6 @@
     pages: 74-83
     publisher: IEEE
     url: publications/2025/ieeesw-harsh.pdf
-    bibtex: publications/2025/ieeesw-harsh.bib
   - authors:
     - Jerin Yasmin
     - Jiale Wang
@@ -183,7 +172,6 @@
     volume: '219'
     publisher: Elsevier
     url: https://arxiv.org/abs/2406.00180
-    bibtex: publications/2025/jss_airflow.bib
     tags: [cisc834]
   conference:
   - authors:
@@ -200,7 +188,6 @@
     status: to appear
     acceptance_ratio: N/A
     url: https://arxiv.org/abs/2411.01063
-    bibtex: publications/2025/icse25.bib
   - authors:
     - Ruben Opdebeeck
     - Bram Adams
@@ -215,7 +202,6 @@
     publisher: IEEE
     acceptance_ratio: 52/225=23.21%
     url: https://researchportal.vub.be/nl/publications/analysing-software-supply-chains-of-infrastructure-as-code-extrac
-    bibtex: publications/2025/saner.bib
   workshop:
   - authors:
     - Marcos Macedo
@@ -226,14 +212,12 @@
     venue: in Proceedings of the 3rd Workshop on Deep Learning for Code (DL4C)
     address: Singapore
     url: https://openreview.net/forum?id=9WHJuzjPJf
-    bibtex: publications/2025/dl4c.bib
 2024:
   journal:
   - year: 2024
     title: The State of Documentation Practices of Third-party Machine Learning Models
       and Datasets
     url: publications/2024/ieeesw-ernesto.pdf
-    bibtex: publications/2024/ieeesw-ernesto.bib
     tags: [cisc834]
     authors:
     - Ernesto Lang Oreamuno
@@ -250,7 +234,6 @@
     title: On Combining Commit Grouping and Build Skip Prediction to Reduce Redundant
       Continuous Integration Activity
     url: publications/2024/emse_divya_timeout.pdf
-    bibtex: publications/2024/emse_divya_timeout.bib
     tags: [cisc834]
     authors:
     - Divya M. Kamath
@@ -264,7 +247,6 @@
   - year: 2024
     title: Does Using Bazel Help Speed Up Continuous Integration Builds?
     url: https://arxiv.org/abs/2405.00796
-    bibtex: publications/2024/emse_shenyu.bib
     tags: [cisc834]
     authors:
     - Shenyu Zheng
@@ -277,7 +259,6 @@
   - year: 2024
     title: The impact of Concept drift and Data leakage on Log Level Prediction Models
     url: https://sail.cs.queensu.ca/data/pdfs/2024_The_Impact_of_Concept_Drift_and_Data_leakage_on_Log_Level_Prediction_Models.pdf
-    bibtex: publications/2024/emse_youssef.bib
     tags: [cisc834]
     authors:
     - Youssef Esseddiq Ouatiti
@@ -293,7 +274,6 @@
     title: Post Deployment Recycling of Machine Learning Models - Don't Throw Away
       Your Old Models!
     url: publications/2024/emse_harsh.pdf
-    bibtex: publications/2024/emse_harsh.bib
     tags: [cisc834]
     authors:
     - Harsh Patel
@@ -306,7 +286,6 @@
   - year: 2024
     title: A Large-Scale Exploratory Study on the Proxy Pattern in Ethereum
     url: https://sail.cs.queensu.ca/data/pdfs/2024_A_Large-Scale_Exploratory_Study_on_the_Proxy_Pattern_in_Ethereum.pdf
-    bibtex: publications/2024/emse_amir_proxy.bib
     authors:
     - Amir M. Ebrahimi
     - Bram Adams
@@ -319,7 +298,6 @@
   - year: 2024
     title: An Empirical Study of Challenges in Machine Learning Asset Management
     url: https://arxiv.org/abs/2402.15990
-    bibtex: publications/2024/emse_jimmy_challenges.bib
     tags: [cisc834]
     authors:
     - Zhimin Zhao
@@ -335,7 +313,6 @@
     title: 'Towards Graph-Anonymization of Software Analytics Data: Empirical Study
       on JIT Defect Prediction'
     url: publications/2024/emse_akshat_within.pdf
-    bibtex: publications/2024/emse_akshat_within.bib
     tags: [cisc834]
     authors:
     - Akshat Malik
@@ -348,7 +325,6 @@
   - year: 2024
     title: Image-based Communication on Social Coding Platforms
     url: https://arxiv.org/abs/2306.15851
-    bibtex: publications/2024/jsep_maleknaz.bib
     authors:
     - Maleknaz Nayebi
     - Bram Adams
@@ -360,7 +336,6 @@
     title: 'Unreproducible builds: Time to fix, causes, and correlation with external
       ecosystem factors'
     url: publications/2024/emse_rahul.pdf
-    bibtex: publications/2024/emse_rahul.bib
     tags: [cisc834]
     authors:
     - Rahul Bajaj
@@ -376,7 +351,6 @@
     title: An empirical study on code review activity prediction and its impact in
       practice
     url: https://arxiv.org/abs/2404.10703
-    bibtex: publications/2024/fse.bib
     authors:
     - Doriane Olewicki
     - Sarra Habchi
@@ -391,7 +365,6 @@
     title: 'On the Costs and Benefits of Adopting Lifelong Learning for Software Analytics:
       Empirical Study on Brown Build and Risk Prediction'
     url: https://arxiv.org/abs/2305.09824
-    bibtex: publications/2024/seip.bib
     authors:
     - Doriane Olewicki
     - Sarra Habchi
@@ -410,7 +383,6 @@
     title: Exploring the Impact of the Output Format on the Evaluation of Large Language
       Models for Code Translation
     url: https://arxiv.org/abs/2403.17214
-    bibtex: publications/2024/forge.bib
     authors:
     - Marcos Macedo
     - Yuan Tian
@@ -429,7 +401,6 @@
     title: On the Coordination of Vulnerability Fixes - An Empirical Study of Practices
       from 13 CVE Numbering Authorities
     url: publications/2023/emse_justina_cna.pdf
-    bibtex: publications/2023/emse_justina_cna.bib
     authors:
     - Jiahuei Lin
     - Bram Adams
@@ -441,7 +412,6 @@
   - year: 2023
     title: 'A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization'
     url: publications/2023/tse_armstrong.pdf
-    bibtex: publications/2023/tse_armstrong.bib
     authors:
     - Armstrong Tita Foundjem
     - Ellis E. Eghan
@@ -454,7 +424,6 @@
   - year: 2023
     title: On practitioners' concerns when adopting service mesh frameworks
     url: publications/2023/emse_yihao.pdf
-    bibtex: publications/2023/emse_yihao.bib
     tags: [cisc834]
     authors:
     - Yihao Chen
@@ -468,7 +437,6 @@
   - year: 2023
     title: On the Discoverability of npm Vulnerabilities in Node.js Projects
     url: https://das.encs.concordia.ca/pdf/Alfadel_TOSEM2022.pdf
-    bibtex: publications/2023/tosem_mahmoud.bib
     tags: [cisc834]
     authors:
     - Mahmoud Alfadel
@@ -484,7 +452,6 @@
     title: 'Towards a change taxonomy for machine learning pipelines: Empirical study
       of ML pipelines and forks related to academic publications'
     url: https://arxiv.org/abs/2203.11365
-    bibtex: publications/2023/emse_aadi.bib
     authors:
     - Aaditya Bhatia
     - Ellis E. Eghan
@@ -500,7 +467,6 @@
     title: 'Vulnerability management in Linux distributions: An empirical study on
       Debian and Fedora'
     url: https://sail.cs.queensu.ca/data/pdfs/2023_Vulnerability_management_in_Linux_distributions.pdf
-    bibtex: publications/2023/emse_justina.bib
     authors:
     - Jiahuei Lin
     - Haoxiang Zhang
@@ -514,7 +480,6 @@
   - year: 2023
     title: 'IoPV: On Inconsistent Option Performance Variations'
     url: https://ece.uwaterloo.ca/~wshang/pubs/FSE_2023_JINFU.pdf
-    bibtex: publications/2023/fse.bib
     authors:
     - Jinfu Chen
     - Zishuo Ding
@@ -531,7 +496,6 @@
   - year: 2023
     title: Understanding the Time to First Response In GitHub Pull Requests
     url: https://arxiv.org/abs/2304.08426
-    bibtex: publications/2023/msr_kazi.bib
     tags: [cisc834]
     authors:
     - Kazi Amit Hasan
@@ -560,7 +524,6 @@
     title: Upstream Bug Management in Linux Distributions - An Empirical Study of
       Debian and Fedora Practices
     url: https://sail.cs.queensu.ca/data/pdfs/2022_Upstream_bug_management_in_Linux_distributions.pdf
-    bibtex: publications/2022/emse_upstream.bib
     authors:
     - Jiahuei Lin
     - Haoxiang Zhang
@@ -573,7 +536,6 @@
   - year: 2022
     title: A mixed-methods analysis of micro-collaborative coding practices in OpenStack
     url: publications/2022/emse_micro.pdf
-    bibtex: publications/2022/emse_micro.bib
     authors:
     - Armstrong Tita Foundjem
     - Eleni Constantinou
@@ -587,7 +549,6 @@
     title: 'There''s no Such Thing as a Free Lunch: Lessons Learned from Exploring
       the Overhead Introduced by the Greenkeeper Dependency Bot in Npm'
     url: https://sail.cs.queensu.ca/data/pdfs/2023_Theres_no_Such_Thing_as_a_Free_Lunch_Lessons_Learned_from_Exploring_the_Overhead_Introduced_by_the_Greenkeeper_Dependency_Bot_in_Npm.pdf
-    bibtex: publications/2022/tosem_ben.bib
     tags: [cisc834]
     authors:
     - Benjamin Rombaut
@@ -603,7 +564,6 @@
     title: A user survey on the adoption of crowd-based software engineering instructional
       screencasts by the new generation of software developers
     url: https://www.researchgate.net/publication/356560172_A_user_survey_on_the_adoption_of_crowd-based_software_engineering_instructional_screencasts_by_the_new_generation_of_software_developers
-    bibtex: publications/2022/jss_parisa.bib
     authors:
     - Parisa Moslehi
     - Juergen Rilling
@@ -615,7 +575,6 @@
   - year: 2022
     title: Toward Using Package Centrality Trend to Identify Packages in Decline
     url: https://arxiv.org/abs/2107.10168
-    bibtex: publications/2022/tem.bib
     tags: [cisc834]
     authors:
     - Mujahid, Suhaib
@@ -633,7 +592,6 @@
     title: 'On the Untriviality of Trivial Packages: An Empirical Study of npm JavaScript
       Packages'
     url: https://das.encs.concordia.ca/pdf/atique_tse2021.pdf
-    bibtex: publications/2022/tse_atique.bib
     tags: [cisc834]
     authors:
     - Md Atique Reza Chowdhury
@@ -648,7 +606,6 @@
   - year: 2022
     title: Quantifying, Characterizing, and Mitigating Flakily Covered Program Elements
     url: https://rebels.cs.uwaterloo.ca/papers/tse2020_vysali.pdf
-    bibtex: publications/2022/tse_shiva.bib
     tags: [cisc834]
     authors:
     - Shivashree Vysali
@@ -664,7 +621,6 @@
     title: On the Challenges of Migrating to Machine Learning Life Cycle Management
       Platforms
     url: https://dl.acm.org/doi/abs/10.5555/3566055.3566061
-    bibtex: publications/2023/cascon_aquilas.bib
     authors:
     - Aquilas Tchanjou Njomou
     - Marios Fokaefs
@@ -677,7 +633,6 @@
   - year: 2022
     title: Exploring trends and practices of forks in open-source software repositories
     url: https://enoei.github.io/papers/hadian2022forks.pdf
-    bibtex: publications/2023/cascon_mahsa.bib
     authors:
     - Mahsa Hadian
     - Soude Ghari
@@ -694,7 +649,6 @@
   - year: 2022
     title: Towards Language-independent Brown Build Detection
     url: publications/2022/icse22.pdf
-    bibtex: publications/2022/icse22.bib
     authors:
     - Doriane Olewicki
     - Mathieu Nayrolles
@@ -707,7 +661,6 @@
   - year: 2022
     title: How heated is it? Understanding GitHub locked issues
     url: https://arxiv.org/abs/2204.00155
-    bibtex: publications/2022/msr22.bib
     authors:
     - Isabella Ferreira
     - Bram Adams
@@ -721,7 +674,6 @@
   - year: 2022
     title: Why Do Projects Join the Apache Software Foundation?
     url: https://research.tue.nl/en/publications/why-do-projects-join-the-apache-software-foundation
-    bibtex: publications/2022/seis22.bib
     authors:
     - Nan Yang
     - Isabella Ferreira
@@ -737,7 +689,6 @@
   - year: 2021
     title: Why do Builds Fail? - A Conceptual Replication Study
     url: publications/2021/jss_amine.pdf
-    bibtex: publications/2021/jss_amine.bib
     tags: [cisc834]
     authors:
     - Amine Barrak
@@ -752,7 +703,6 @@
     title: A Qualitative Study of the Benefits and Costs of Logging from Developers'
       Perspectives
     url: https://sail.cs.queensu.ca/data/pdfs/TSE2020_QualitativeStudyOfTheBenefitsAndCostsOfLoggingFromDevelopersPerspectives.pdf
-    bibtex: publications/2021/tse.bib
     authors:
     - Heng Li
     - Weiyi Shang
@@ -768,7 +718,6 @@
     title: Evaluating the impact of falsely detected performance bug-inducing changes
       in JIT models
     url: https://users.encs.concordia.ca/~shang/pubs/Quach2021_Article_EvaluatingTheImpactOfFalselyDe.pdf
-    bibtex: publications/2021/emse_sophia.bib
     tags: [cisc834]
     authors:
     - Sophia Quach
@@ -784,7 +733,6 @@
     title: 'Individual Differences Limit Predicting Well-being and Productivity Using
       Software Repositories: A Longitudinal Industrial Study'
     url: https://arxiv.org/abs/2104.13713
-    bibtex: publications/2021/emse_miikka.bib
     authors:
     - Miikka Kuutila
     - Mika Mäntylä
@@ -798,7 +746,6 @@
   - year: 2021
     title: Release Synchronization in Software Ecosystems
     url: publications/2021/emse_armstrong.pdf
-    bibtex: publications/2021/emse_armstrong.bib
     authors:
     - Armstrong Tita Foundjem
     - Bram Adams
@@ -809,7 +756,6 @@
   - year: 2021
     title: An Exploratory Study on Machine Learning Model Stores
     url: https://arxiv.org/abs/1905.10677
-    bibtex: publications/2021/ieeesw_hunter.bib
     authors:
     - Minke Xiu
     - Zhen Ming Jiang
@@ -824,7 +770,6 @@
     title: 'The “Shut the f**k up” Phenomenon: Characterizing Incivility in Open Source
       Code Review Discussions'
     url: https://arxiv.org/pdf/2108.09905v1.pdf
-    bibtex: publications/2021/cscw.bib
     authors:
     - Isabella Ferreira
     - Jinghui Cheng
@@ -840,7 +785,6 @@
     title: Onboarding vs. Diversity, Productivity and Quality - Empirical Study of
       the OpenStack Ecosystem
     url: publications/2021/icse_armstrong.pdf
-    bibtex: publications/2021/icse_armstrong.bib
     authors:
     - Armstrong Tita Foundjem
     - Ellis E. Eghan
@@ -852,7 +796,6 @@
   - year: 2021
     title: The Impacts of Sentiments and Tones in Community-Generated Issue Discussions
     url: https://arxiv.org/abs/2103.10615
-    bibtex: publications/2021/chase.bib
     tags: [cisc834]
     authors:
     - Arghavan Sanei
@@ -867,7 +810,6 @@
     title: On the Co-evolution of ML Pipelines and Source Code - Empirical Study of
       DVC Projects
     url: publications/2021/saner.pdf
-    bibtex: publications/2021/saner.bib
     authors:
     - Amine Barrak
     - Ellis E. Eghan
@@ -882,7 +824,6 @@
   - year: 2021
     title: 'MSR4ML: Reconstructing artifact traceability in Machine Learning repositories [short]'
     url: https://ieeexplore.ieee.org/document/9426012
-    bibtex: publications/2021/saner_aquilas.bib
     authors:
     - Aquilas Tchanjou Njomou
     - Alexandra Johanne Bifona Africa
@@ -899,7 +840,6 @@
   - year: 2020
     title: The Diversity Crisis of Software Engineering for Artificial Intelligence
     url: publications/2020/The_Diversity_Crisis_of_Software_Engineering_for_AI.pdf
-    bibtex: publications/2020/ieeesw_ai.bib
     authors:
     - Bram Adams
     - Foutse Khomh
@@ -912,7 +852,6 @@
     title: A Feature Location Approach for Mapping Application Features Extracted
       from Crowd-based Screencasts to Source Code
     url: publications/2020/emse_parisa.pdf
-    bibtex: publications/2020/emse_parisa.bib
     authors:
     - Parisa Moslehi
     - Bram Adams
@@ -924,7 +863,6 @@
   - year: 2020
     title: 'Swarm Relays: Distributed Self-Healing Ground-and-Air Connectivity Chains'
     url: http://www.arxiv.org/abs/1909.10496
-    bibtex: publications/2020/ras.bib
     authors:
     - Vivek Shankar Varadharajan
     - David St-Onge
@@ -939,7 +877,6 @@
     title: 'Migrating a Software Factory to Design Thinking: Paying Attention to People
       and Mind-Sets'
     url: https://corpus.ulaval.ca/jspui/handle/20.500.11794/37586
-    bibtex: publications/2020/ieeesw_nolwen.bib
     authors:
     - Nowen Mahé
     - Bram Adams
@@ -955,7 +892,6 @@
     title: Software Configuration Engineering in Practice - Interviews, Survey, and
       Systematic Literature Review
     url: publications/2020/tse.pdf
-    bibtex: publications/2020/tse.bib
     authors:
     - Mohammed Sayagh
     - Noureddine Kerzazi
@@ -970,7 +906,6 @@
   - year: 2020
     title: On the Impact of Multi-language Development in Machine Learning Frameworks
     url: publications/2020/icsme_manel.pdf
-    bibtex: publications/2020/icsme_manel.bib
     authors:
     - Manel Grichi
     - Ellis E. Eghan
@@ -985,7 +920,6 @@
     title: Analysis of Modern Release Engineering Topics - A Large-Scale Study using
       StackOverflow
     url: publications/2020/icsme_moses.pdf
-    bibtex: publications/2020/icsme_moses.bib
     tags: [cisc834]
     authors:
     - Moses Openja
@@ -1000,7 +934,6 @@
   - year: 2020
     title: On the Impact of Inter-language Dependencies in Multi-language Systems
     url: publications/2020/qrs_manel.pdf
-    bibtex: publications/2020/qrs_manel.bib
     authors:
     - Manel Grichi
     - Mouna Abidi
@@ -1020,7 +953,6 @@
     title: A Comparison of Communication Tone and Responding Across Users and Developers
       in Two R Mailing Lists
     url: publications/2019/ieeesw_marc.pdf
-    bibtex: publications/2019/ieeesw_marc.bib
     tags: [cisc834]
     authors:
     - Marc Lanovaz
@@ -1033,7 +965,6 @@
   - year: 2019
     title: 'SOUL: Data Sharing for Robot Swarms'
     url: https://unpaywall.org/10.1007%2Fs10514-019-09855-2
-    bibtex: publications/2019/auro.bib
     authors:
     - Vivek Shankar Varadharajan
     - David St-Onge
@@ -1047,7 +978,6 @@
     title: A Study of Build Inflation in 30 Million CPAN Builds on 13 Perl Versions
       and 10 Operating Systems
     url: publications/2019/emse_mahdis.pdf
-    bibtex: publications/2019/emse_mahdis.bib
     authors:
     - Mahdis Zolfagharinia
     - Bram Adams
@@ -1059,7 +989,6 @@
   - year: 2019
     title: 'cregit : Token-level Blame Information in git Version Control Repositories'
     url: https://github.com/dmgerman/papers/raw/master/to-appear/emse-cregit/cregit.pdf
-    bibtex: publications/2019/emse_daniel.bib
     authors:
     - Daniel M. Germán
     - Bram Adams
@@ -1073,7 +1002,6 @@
       ecosystems: Using cause-and-effect analysis to disentangle the causes of complex
       problems'
     url: https://ieeexplore.ieee.org/document/8491285
-    bibtex: publications/2019/ieeesw.bib
     authors:
     - Josianne Marsan
     - Mathieu Templier
@@ -1090,7 +1018,6 @@
   - year: 2019
     title: Understanding GCC Builtins to Develop Better Tools
     url: https://www.manuelrigger.at/papers/GCCBuiltins-ESECFSE19-preprint.pdf
-    bibtex: publications/2019/fse.bib
     authors:
     - Manuel Rigger
     - Stefan Marr
@@ -1105,7 +1032,6 @@
     title: A Comparison of Bugs across the iOS and Android Platforms of Two Open Source
       Cross Platform Browser Apps
     url: https://plg.uwaterloo.ca/~migod/papers/2019/mobileSoft2019.pdf
-    bibtex: publications/2019/mobile.bib
     authors:
     - Wajdi Aljedaani
     - Meiyappan Nagappan
@@ -1122,7 +1048,6 @@
     title: A Longitudinal Study on the Maintainers’ Sentiment of a Large Scale Open
       Source Ecosystem
     url: publications/2019/SEMotion_2019.pdf
-    bibtex: publications/2019/semotion.bib
     authors:
     - Isabella Ferreira
     - Kate Stewart
@@ -1138,7 +1063,6 @@
     title: An Exploratory Qualitative and Quantitative Analysis of Emotions in Issue
       Report Comments of Open Source Systems
     url: publications/2018/emse_alessandro.pdf
-    bibtex: publications/2018/emse_alessandro.bib
     authors:
     - Alessandro Murgia
     - Marco Ortu
@@ -1155,7 +1079,6 @@
     title: Linking Software Repositories with Emotions and Work Well-Being using Experience
       Sampling
     url: https://arxiv.org/pdf/1808.05409.pdf
-    bibtex: publications/2018/kuutila.bib
     authors:
     - Miikka Kuutila
     - Mika Mäntylä
@@ -1170,7 +1093,6 @@
   - year: 2018
     title: The Open-Closed Principle of Modern Machine Learning Frameworks
     url: publications/2018/msr2.pdf
-    bibtex: publications/2018/msr2.bib
     tags: [cisc834]
     authors:
     - Houssem Ben Braiek
@@ -1184,7 +1106,6 @@
   - year: 2018
     title: Feature Location using Crowd-based Screencasts
     url: publications/2018/msr1.pdf
-    bibtex: publications/2018/msr1.bib
     authors:
     - Parisa Moslehi
     - Bram Adams
@@ -1197,7 +1118,6 @@
   - year: 2018
     title: Do programmers work at night or during weekend?
     url: https://arxiv.org/pdf/1802.05084.pdf
-    bibtex: publications/2018/icse.bib
     authors:
     - Maëlick Claes
     - Mika Mäntylä
@@ -1212,7 +1132,6 @@
   - year: 2017
     title: An Empirical Study of Unspecified Dependencies in Make-Based Build Systems
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE2017_AnEmpiricalStudyOfUnspecifiedDependenciesInMake-BasedBuildSystems.pdf
-    bibtex: publications/2017/emse_cor_paul.bib
     authors:
     - Cor-Paul Bezemer
     - Shane McIntosh
@@ -1228,7 +1147,6 @@
     title: 'App Store 2.0: From Crowd Information to Actionable Feedback in Mobile
       Ecosystems'
     url: https://hal.inria.fr/hal-01406422/document
-    bibtex: publications/2017/maria.bib
     authors:
     - María Gómez
     - Bram Adams
@@ -1243,7 +1161,6 @@
   - year: 2017
     title: Prioritizing Manual Test Cases in Rapid Release Environments
     url: http://sealab.cs.umanitoba.ca/wp-content/uploads/2016/07/Published.pdf
-    bibtex: publications/2017/stvr_hadi.bib
     authors:
     - Hadi Hemmati
     - Zhihan Fang
@@ -1259,7 +1176,6 @@
     title: Does the Choice of Configuration Framework Matter for Developers? Empirical
       Study on 11 Java Configuration Frameworks
     url: publications/2017/scam17.pdf
-    bibtex: publications/2017/scam.bib
     authors:
     - Mohammed Sayagh
     - Zhen Dong
@@ -1274,7 +1190,6 @@
   - year: 2017
     title: On Cross-stack Configuration Errors
     url: publications/2017/icse.pdf
-    bibtex: publications/2017/icse.bib
     authors:
     - Mohammed Sayagh
     - Noureddine Kerzazi
@@ -1288,7 +1203,6 @@
     title: Do Not Trust Build Results at Face Value - An Empirical Study of 30 Million
       CPAN Builds
     url: publications/2017/msr.pdf
-    bibtex: publications/2017/msr.bib
     tags: [cisc834]
     authors:
     - Mahdis Zolfagharinia
@@ -1302,7 +1216,6 @@
   - year: 2017
     title: 'Broadcast vs. Unicast Review Technology: Does it Matter?'
     url: http://swat.polymtl.ca/~foutsekh/docs/ICST-Tita.pdf
-    bibtex: publications/2017/icst.bib
     tags: [cisc834]
     authors:
     - Foundjem Tita Armstrong
@@ -1317,7 +1230,6 @@
   - year: 2017
     title: Code of Conduct in Open Source Projects
     url: publications/2017/saner.pdf
-    bibtex: publications/2017/saner.bib
     authors:
     - Parastou Tourani
     - Bram Adams
@@ -1332,7 +1244,6 @@
   - year: 2017
     title: Automated Performance Deviation Detection Across Software Versions Releases [short]
     url: publications/2017/qrs.pdf
-    bibtex: publications/2017/qrs.bib
     tags: [cisc834]
     authors:
     - Abderrahmane Benbachir
@@ -1348,7 +1259,6 @@
     title: 'Abnormal working hours: effect of rapid releases and implications to work
       content [short]'
     url: https://pdfs.semanticscholar.org/6160/a7aa897e86cad0af47abfd4e9f95b77612b8.pdf
-    bibtex: publications/2017/msr_claes.bib
     authors:
     - Maëlick Claes
     - Mika Mäntylä
@@ -1361,7 +1271,6 @@
 2016:
   journal:
   - year: 2016
-    bibtex: publications/2016/jsep_jane.bib
     authors:
     - Wenbin Li
     - Jane Huffman Hayes
@@ -1377,7 +1286,6 @@
     title: An Exploratory Study of API Changes and Usages based on Apache and Eclipse
       Ecosystems
     url: publications/2016/emse_wei.pdf
-    bibtex: publications/2016/emse15_wei.bib
     authors:
     - Wei Wu
     - Foutse Khomh
@@ -1392,7 +1300,6 @@
   - year: 2016
     title: Identifying and Understanding Header File Hotspots in C/C++ Build Processes
     url: http://sail.cs.queensu.ca/data/pdfs/ASE_IdentifyingAndUnderstandingHeaderFileHotspotsInC,C++BuildProcesses.pdf
-    bibtex: publications/2016/ause15_shane.bib
     authors:
     - Shane McIntosh
     - Bram Adams
@@ -1406,7 +1313,6 @@
   - year: 2016
     title: What do programmers know about software energy consumption?
     url: https://peerj.com/preprints/886/
-    bibtex: publications/2016/candy.bib
     authors:
     - Candy Pang
     - Abram Hindle
@@ -1421,7 +1327,6 @@
     title: An Empirical Study of the Impact of Modern Code Review Practices on Software
       Quality
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_AnEmpiricalStudyOfTheImpactOfModernCodeReviewPracticesOnSoftwareQuality.pdf
-    bibtex: publications/2016/emse15_shane.bib
     authors:
     - Shane McIntosh
     - Yasutaka Kamei
@@ -1435,7 +1340,6 @@
   - year: 2016
     title: Examining the Rating System Used in Mobile App Stores
     url: https://cs.uwaterloo.ca/~m2nagapp/publications/pdfs/An-Examination-of-the-Current-Rating-System-used-in-Mobile-App-Stores.pdf
-    bibtex: publications/2016/mojicaiee4.bib
     authors:
     - Israel J. Mojica Ruiz
     - Meiyappan Nagappan
@@ -1452,7 +1356,6 @@
     title: An Empirical Study of Integration Activities in Distributions of Open Source
       Software
     url: publications/2016/integration_oss_distribution.pdf
-    bibtex: publications/2016/emse15_ryan.bib
     authors:
     - Bram Adams
     - Ryan Kavanagh
@@ -1467,7 +1370,6 @@
   - year: 2016
     title: Analyzing Ad Library Updates in Android Apps
     url: http://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnAdLibraryUpdatesInAndroidApps.pdf
-    bibtex: publications/2016/mojicaiee3.bib
     authors:
     - Israel J. Mojica Ruiz
     - Meiyappan Nagappan
@@ -1484,7 +1386,6 @@
     title: 'Continuously Mining the Use of Distributed Version Control Systems: An
       empirical study of how Linux uses git'
     url: https://sail.cs.queensu.ca/data/pdfs/2016_ContinuouslyMiningDistributedVersionControlSystems_AnEmpiricalStudyOfHowLinuxUsesGit.pdf
-    bibtex: publications/2016/emse_daniel.bib
     authors:
     - Daniel M. Germán
     - Bram Adams
@@ -1499,7 +1400,6 @@
     title: 'Experience Report: An Empirical Study of API Failures in OpenStack Cloud
       Environments'
     url: http://swat.polymtl.ca/~foutsekh/docs/issre_2016_Pooya.pdf
-    bibtex: publications/2016/issre_pooya.bib
     tags: [cisc834]
     authors:
     - Pooya Musavi
@@ -1514,7 +1414,6 @@
     title: 'Does geographical distance effect distributed development teams: How aggregation
       bias in software artifacts causes contradicting findings'
     url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2016_DoesGeographicalDistanceEffectDistributedDevelopmentTeamsHowAggregationBiasInSoftwareArtifactsCausesContradictoryFindings.pdf
-    bibtex: publications/2016/issre_thanh.bib
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -1527,7 +1426,6 @@
   - year: 2016
     title: Energy Profiles of Java Collections Classes
     url: http://softwareprocess.es/pubs/hasan2016ICSE-Energy-Profiles-of-Java-Collections-Classes.pdf
-    bibtex: publications/2016/icse.bib
     authors:
     - Samir Hasan
     - Zachary King
@@ -1544,7 +1442,6 @@
   - year: 2016
     title: On Mining Crowd-based Speech Documentation
     url: publications/2016/msr_parisa.pdf
-    bibtex: publications/2016/msrparisa.bib
     authors:
     - Parisa Moslehi
     - Bram Adams
@@ -1557,7 +1454,6 @@
     title: Mining Test Repositories for Automatic Detection of UI Performance Regressions
       in Android Apps
     url: https://hal.inria.fr/hal-01280784
-    bibtex: publications/2016/msrmaria.bib
     authors:
     - María Gómez
     - Romain Rouvoy
@@ -1571,7 +1467,6 @@
     title: Mining Valence, Arousal, and Dominance - Possibilities for Detecting Burnout
       and Productivity?
     url: https://arxiv.org/pdf/1603.04287.pdf
-    bibtex: publications/2016/msrmika.bib
     authors:
     - Mika Mäntylä
     - Bram Adams
@@ -1585,7 +1480,6 @@
   - year: 2016
     title: 'Feature Toggles: A case study and survey'
     url: http://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf
-    bibtex: publications/2016/msrupak.bib
     tags: [cisc834]
     authors:
     - Md Tajmilur Rahman
@@ -1600,7 +1494,6 @@
     title: Reproducing Context-sensitive Crashes of Mobile Apps using Crowdsourced
       Monitoring
     url: https://hal.inria.fr/hal-01276926
-    bibtex: publications/2016/mobile.bib
     authors:
     - María Gómez
     - Romain Rouvoy
@@ -1615,7 +1508,6 @@
   - year: 2016
     title: Modern Release Engineering in a Nutshell - Why Researchers should Care [invited paper]
     url: publications/2016/fose.pdf
-    bibtex: publications/2016/fose.bib
     authors:
     - Bram Adams
     - Shane McIntosh
@@ -1628,7 +1520,6 @@
   - year: 2016
     title: Release Practices in Mobile Apps – Users and Developers Perception
     url: http://www.ucalgary.ca/mnayebi/files/mnayebi/saner-camera-ready_mbg.pdf
-    bibtex: publications/2016/saner_maleknaz.bib
     authors:
     - Maleknaz Nayebi
     - Bram Adams
@@ -1643,7 +1534,6 @@
     title: 'Botched Releases: Do we Need to Roll Back? Empirical Study on a Commercial
       Web App'
     url: publications/2016/saner_noureddine.pdf
-    bibtex: publications/2016/saner_noureddine.bib
     authors:
     - Noureddine Kerzazi
     - Bram Adams
@@ -1656,7 +1546,6 @@
   - year: 2016
     title: The Impact of Human Discussions on Just-In-Time Quality Assurance
     url: publications/2016/saner_parastou.pdf
-    bibtex: publications/2016/saner_parastou.bib
     authors:
     - Parastou Tourani
     - Bram Adams
@@ -1685,7 +1574,6 @@
   - year: 2016
     title: How the Release Process Impacts your Software Analytics
     url: https://github.com/ds4se/chapters/tree/master/bramadams
-    bibtex: publications/2016/persp.bib
     authors:
     - Bram Adams
     venue: chapter in Perspectives on Data Science for Software Engineering, edited
@@ -1703,7 +1591,6 @@
     replication_package: http://paris.utdallas.edu/cseet16/video/02-CSEE&T-2016-Panel-I.html
     venue: panel at the 29th IEEE Conference on Software Engineering Education and Training (CSEET)
   - year: 2016
-    bibtex: publications/2016/ieeesw_round.bib
     authors:
     - Felienne Hermans
     - Janet Siegmund
@@ -1721,7 +1608,6 @@
   - year: 2016
     title: Who Needs Release and DevOps Engineers, and Why?
     url: publications/2016/csed.pdf
-    bibtex: publications/2016/csed.bib
     authors:
     - Noureddine Kerzazi
     - Bram Adams
@@ -1736,7 +1622,6 @@
     title: 'On Rapid Releases and Software Testing: A Case Study and a Semi-Systematic
       Literature Review'
     url: publications/2015/emsemika.pdf
-    bibtex: publications/2015/emse_mika.bib
     authors:
     - Mika Mäntylä
     - Bram Adams
@@ -1752,7 +1637,6 @@
     title: A Large-Scale Empirical Study of the Relationship Between Build Technology
       and Build Maintenance
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ALarge-ScaleEmpiricalStudyOfTheRelationshipBetweenBuildTechnologyAndBuildMaintenance.pdf
-    bibtex: publications/2015/emse.bib
     authors:
     - Shane McIntosh
     - Meiyappan Nagappan
@@ -1768,7 +1652,6 @@
     title: 'Understanding the Impact of Rapid Releases on Software Quality: The Case
       of Firefox'
     url: http://swat.polymtl.ca/~foutsekh/docs/EMSE-published-version.pdf
-    bibtex: publications/2015/foutsemse.bib
     authors:
     - Foutse Khomh
     - Bram Adams
@@ -1783,7 +1666,6 @@
     title: Studying the Relationship Between Source Code Quality and Mobile Platform
       Dependence
     url: http://sail.cs.queensu.ca/data/pdfs/SQJ_StudyingTheRelationshipBetweenSourceCodeQualityAndMobilePlatformDependence.pdf
-    bibtex: publications/2015/syersqj.bib
     authors:
     - Mark D. Syer
     - Meiyappan Nagappan
@@ -1798,7 +1680,6 @@
     title: The Practice and Future of Release Engineering - A Roundtable with Three
       Release Engineers
     url: http://online.qmags.com/ISW0315
-    bibtex: publications/2015/roundtable.bib
     authors:
     - Bram Adams
     - Stephany Bellomo
@@ -1815,7 +1696,6 @@
   - year: 2015
     title: Replicating and Re-evaluating the Theory of Relative Defect-Proneness
     url: http://sail.cs.queensu.ca/data/pdfs/TSE_ReplicatingAndRe-evaluatingTheTheoryOfRelativeDefect-Proneness.pdf
-    bibtex: publications/2015/tsemark.bib
     authors:
     - Mark D. Syer
     - Meiyappan Nagappan
@@ -1830,7 +1710,6 @@
     title: 'Management of community contributions: A case study on the Android and
       Linux software ecosystems'
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ManagementOfCommunityContributions-ACaseStudyOnTheAndroidAndLinuxSoftwareEcosystems.pdf
-    bibtex: publications/2015/nicbetemse.bib
     authors:
     - Nicolas Bettenburg
     - Ahmed E. Hassan
@@ -1846,7 +1725,6 @@
     title: The Impact of Cross-Distribution Bug Duplicates, Empirical Study on Debian
       and Ubuntu
     url: publications/2015/scam15_vincent.pdf
-    bibtex: publications/2015/scam15b.bib
     tags: [cisc834]
     authors:
     - Vincent Boisselle
@@ -1860,7 +1738,6 @@
   - year: 2015
     title: Multi-layer Software Configuration - Empirical Study on Wordpress
     url: publications/2015/scam15_mohammed.pdf
-    bibtex: publications/2015/scam15a.bib
     tags: [cisc834]
     authors:
     - Mohammed Sayagh
@@ -1876,7 +1753,6 @@
     title: An Industrial Case Study on the Automated Detection of Performance Regressions
       in Heterogeneous Environments
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2015_AnIndustrialCaseStudyOnTheAutomatedDetectionOfPerformanceRegressionsInHeterogeneousEnvironments.pdf
-    bibtex: publications/2015/seip.bib
     authors:
     - King Chun Foo
     - Zhen Ming Jiang
@@ -1895,7 +1771,6 @@
     title: Make It Simple - An Empirical Analysis of GNU Make Feature Use in Open
       Source Projects
     url: http://research.cs.queensu.ca/home/cordy/Papers/MCAA_ICPC15_Makefiles.pdf
-    bibtex: publications/2015/icpc_doug.bib
     authors:
     - Douglas H. Martin
     - James R. Cordy
@@ -1909,7 +1784,6 @@
   - year: 2015
     title: Co-evolution of infrastructure and Source Code - An Empirical Study
     url: publications/2015/msrjojo.pdf
-    bibtex: publications/2015/msrjojo.bib
     authors:
     - Yujuan Jiang
     - Bram Adams
@@ -1922,7 +1796,6 @@
     title: Are Bullies more Productive? Empirical Study of Affectiveness vs. Issue
       Fixing Time
     url: publications/2015/msrmarco.pdf
-    bibtex: publications/2015/msrmarco.bib
     authors:
     - Marco Ortu
     - Bram Adams
@@ -1956,7 +1829,6 @@
     title: 'The JIRA Repository Dataset: Understanding Social Aspects of Software
       Development [short]'
     url: publications/2015/ortu_promise.pdf
-    bibtex: publications/2015/ortu_promise.bib
     authors:
     - Marco Ortu
     - Giuseppe Destefanis
@@ -1970,7 +1842,6 @@
   - year: 2015
     title: Inherent Characteristics of Traceability Artifacts - Less is More [RE:Next! Track]
     url: publications/2015/re15next.pdf
-    bibtex: publications/2015/re15next.bib
     authors:
     - Jane Huffman Hayes
     - Giuliano Antoniol
@@ -1984,7 +1855,6 @@
   - year: 2015
     title: A dataset of the activity of the git super-repository of Linux in 2012 [data showcase]
     url: http://sail.cs.queensu.ca/data/pdfs/msr-A-Dataset-of-the-Activity-of-the-Git-Super-repository-of-Linux%20in%202012.pdf
-    bibtex: publications/2015/super_repo.bib
     authors:
     - Daniel M. Germán
     - Bram Adams
@@ -2018,7 +1888,6 @@
   - year: 2014
     title: Impact of Ad Libraries on Ratings of Android Mobile Apps
     url: http://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnTheRelationshipBetweenTheNumberOfAdLibrariesInAnAndroidAppAndItsRating.pdf
-    bibtex: publications/2014/mojica14ieee2.bib
     authors:
     - Israel J. Mojica Ruiz
     - Meiyappan Nagappan
@@ -2034,7 +1903,6 @@
   - year: 2014
     title: A Large Scale Empirical Study on Software Reuse in Mobile Apps
     url: https://cs.uwaterloo.ca/~m2nagapp/publications/publications/A-Large-Scale-Empirical-Study-on-Software-Reuse-in-Mobile-Apps.html
-    bibtex: publications/2014/mojica14ieee.bib
     authors:
     - Israel J. Mojica Ruiz
     - Bram Adams
@@ -2050,7 +1918,6 @@
   - year: 2014
     title: Studying Software Evolution Using Topic Models
     url: http://cs.queensu.ca/~sthomas/data/Thomas_2012_SCP.pdf
-    bibtex: publications/2014/scpsteve.bib
     authors:
     - Stephen W. Thomas
     - Bram Adams
@@ -2065,7 +1932,6 @@
     title: An Exploratory Study of the Evolution of Communicated Information about
       the Execution of Large Software Systems
     url: http://sail.cs.queensu.ca/data/pdfs/JSEP_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
-    bibtex: publications/2014/jsme_ian.bib
     authors:
     - Weiyi Shang
     - Zhen Ming Jiang
@@ -2084,7 +1950,6 @@
     title: Monitoring Sentiment in Open Source Mailing Lists - Exploratory Study on
       the Apache Ecosystem
     url: publications/2014/cascon14.pdf
-    bibtex: publications/2014/cascon.bib
     tags: [cisc834]
     authors:
     - Parastou Tourani
@@ -2098,7 +1963,6 @@
   - year: 2014
     title: Why do Automated Builds Break? An Empirical Study
     url: publications/2014/icsm14_noureddine.pdf
-    bibtex: publications/2014/icsm_noureddine.bib
     authors:
     - Noureddine Kerzazi
     - Foutse Khomh
@@ -2111,7 +1975,6 @@
   - year: 2014
     title: Mining Co-Change Information to Understand when Build Changes are Necessary
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2014_MiningCo-ChangeInformationToUnderstandWhenBuildChangesAreNecessary.pdf
-    bibtex: publications/2014/icsm_shane.bib
     authors:
     - Shane McIntosh
     - Bram Adams
@@ -2125,7 +1988,6 @@
   - year: 2014
     title: Supplementary Bug Fixes vs. Re-opened Bugs
     url: http://swat.polymtl.ca/~foutsekh/docs/suppl_reop.pdf
-    bibtex: publications/2014/scam14.bib
     tags: [cisc834]
     authors:
     - Le An
@@ -2141,7 +2003,6 @@
     title: A Qualitative Analysis of Software Build System Changes and Build Ownership
       Styles
     url: publications/2014/esem14mini.pdf
-    bibtex: publications/2014/esemmini.bib
     tags: [cisc834]
     authors:
     - Mini Shridhar
@@ -2155,7 +2016,6 @@
   - year: 2014
     title: Tracing Back the History of Commits in Low-tech Reviewing Environments
     url: publications/2014/esem14jojo.pdf
-    bibtex: publications/2014/esemjojo.bib
     authors:
     - Yujuan Jiang
     - Bram Adams
@@ -2170,7 +2030,6 @@
     title: Collecting and Leveraging a Benchmark of Build System Clones to Aid in
       Quality Assessments
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2014_CollectingAndLeveragingABenchmarkOfBuildSystemClonesToAidInQualityAssessments.pdf
-    bibtex: publications/2014/seip.bib
     authors:
     - Shane McIntosh
     - Martin Poehlmann
@@ -2191,7 +2050,6 @@
     title: Do Developers Feel Emotions? An Exploratory Analysis of Emotions in Software
       Artifacts
     url: http://alessandromurgia.files.wordpress.com/2014/03/emotionanalysis.pdf
-    bibtex: publications/2014/msralex.bib
     authors:
     - Alessandro Murgia
     - Parastou Tourani
@@ -2205,7 +2063,6 @@
     title: 'The Impact of Code Review Coverage and Code Review Participation on Software
       Quality: A Case Study of the Qt, VTK, and ITK Projects'
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf
-    bibtex: publications/2014/msrshane.bib
     authors:
     - Shane McIntosh
     - Yasutaka Kamei
@@ -2248,7 +2105,6 @@
   - year: 2013
     title: Is lines of code a good measure of effort in effort-aware models?
     url: https://das.encs.concordia.ca/pdf/Shihab_IST2013.pdf
-    bibtex: publications/2013/ist_emad.bib
     authors:
     - Emad Shihab
     - Yasutaka Kamei
@@ -2262,7 +2118,6 @@
   - year: 2013
     title: Studying Re-opened Bugs in Open Source Software
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_StudyingRe-openedBugsInOpenSourceSoftware.pdf
-    bibtex: publications/2013/emsemad.bib
     authors:
     - Emad Shihab
     - Akinori Ihara
@@ -2279,7 +2134,6 @@
   - year: 2013
     title: A Large-Scale Empirical Study of Just-In-Time Quality Assurance
     url: https://das.encs.concordia.ca/pdf/Kamei_TSE2013.pdf
-    bibtex: publications/2013/tseyasu.bib
     authors:
     - Yasutaka Kamei
     - Emad Shihab
@@ -2298,7 +2152,6 @@
     title: 'Revisiting Prior Empirical Findings For Mobile Apps: An Empirical Case
       Study on the 15 Most Popular Open-Source Android Apps'
     url: https://cs.uwaterloo.ca/~m2nagapp/publications/publications/Revisiting-Prior-Empirical-Findings-For-Mobile-Apps-An-Empirical-Case-Study-on-the-15-Most-Popular-Open-Source-Android-Apps.html
-    bibtex: publications/2013/cascon.bib
     authors:
     - Mark D. Syer
     - Meiyappan Nagappan
@@ -2312,7 +2165,6 @@
   - year: 2013
     title: On the Effect of Program Exploration on Maintenance Tasks
     url: http://swat.polymtl.ca/~foutsekh/docs/wcre13main-idm123-p-19100-submitted.pdf
-    bibtex: publications/2013/wcre.bib
     authors:
     - Zéphyrin Soh
     - Foutse Khomh
@@ -2327,7 +2179,6 @@
   - year: 2013
     title: On Rapid Releases and Software Testing
     url: http://swat.polymtl.ca/~foutsekh/docs/PID2891705.pdf
-    bibtex: publications/2013/icsm_mika.bib
     authors:
     - Mika Mäntylä
     - Foutse Khomh
@@ -2344,7 +2195,6 @@
   - year: 2013
     title: Assisting Big Data Analytics Developers When Cloud Deploying Hadoop Applications
     url: publications/2013/icse_ian.pdf
-    bibtex: publications/2013/icse_ian.bib
     authors:
     - Weiyi Shang
     - Zhen Ming Jiang
@@ -2361,7 +2211,6 @@
   - year: 2013
     title: Will My Patch Make It? And How Fast? - Case Study on the Linux Kernel
     url: publications/2013/msr_jojo.pdf
-    bibtex: publications/2013/msr_jojo.bib
     authors:
     - Yujuan Jiang
     - Bram Adams
@@ -2374,7 +2223,6 @@
   - year: 2013
     title: 'Programming Language Ecosystems: the Evolution of R'
     url: http://sail.cs.queensu.ca/data/pdfs/CSMR2013_ProgrammingLanguageEcosystems_TheEvolutionOfR.pdf
-    bibtex: publications/2013/csmr_daniel.bib
     authors:
     - Daniel M. Germán
     - Bram Adams
@@ -2385,7 +2233,6 @@
       and Reengineering (CSMR)
     pages: 243-252
   - year: 2013
-    bibtex: publications/2013/csmr_fehmi.bib
     authors:
     - Fehmi Jaafar
     - Salima Hassaine
@@ -2398,7 +2245,6 @@
     pages: 15-24
     address: Genova
   - year: 2013
-    bibtex: publications/2013/csmr_etienne.bib
     authors:
     - Étienne Duclos
     - Sébastien Le Digabel
@@ -2414,7 +2260,6 @@
   - year: 2012
     title: Preserving Knowledge in Software Projects
     url: http://sail.cs.queensu.ca/data/pdfs/JSS_PreservingKnowledgeInSoftwareProjects.pdf
-    bibtex: publications/2012/jssomar12.bib
     authors:
     - Omar Alam
     - Bram Adams
@@ -2427,7 +2272,6 @@
   - year: 2012
     title: On the Relationship between Comment Update Practices and Software Bugs
     url: http://sail.cs.queensu.ca/data/pdfs/JSS_OnTheRelationshipBetweenCommentUpdatePracticesAndSoftwareBugs.pdf
-    bibtex: publications/2012/jsswalid12.bib
     authors:
     - Walid M. Ibrahim
     - Nicolas Bettenburg
@@ -2442,7 +2286,6 @@
     title: 'Using Pig as a Data Preparation Language for Large-Scale Mining Software
       Repositories Studies: An Experience Report'
     url: http://sail.cs.queensu.ca/data/pdfs/JSS_UsingPigAsADataPreparationLanguageForLarge-ScaleMiningSoftwareRepositoriesStudies_AnExperienceReport.pdf
-    bibtex: publications/2012/jsspig12.bib
     authors:
     - Weiyi Shang
     - Bram Adams
@@ -2456,7 +2299,6 @@
     title: An Empirical Study on Inconsistent Changes to Code Clones at the Release
       Level
     url: http://sail.cs.queensu.ca/data/pdfs/SCP_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtTheReleaseLevel,ScienceOfComputerProgramming.pdf
-    bibtex: publications/2012/scp.bib
     authors:
     - Nicolas Bettenburg
     - Weiyi Shang
@@ -2472,7 +2314,6 @@
   - year: 2012
     title: The Evolution of Java Build Systems
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_TheEvolutionOfJavaBuildSystems.pdf
-    bibtex: publications/2012/emse12.bib
     authors:
     - Shane McIntosh
     - Bram Adams
@@ -2487,7 +2328,6 @@
     title: 'An Empirical Study of Build System Migrations in Practice: Case Studies
       on KDE and the Linux Kernel'
     url: publications/2012/ICSM2012Roman.pdf
-    bibtex: publications/2012/icsm_roman.bib
     authors:
     - Roman Suvorov
     - Bram Adams
@@ -2502,7 +2342,6 @@
   - year: 2012
     title: An Industrial Study on the Risk of Software Changes
     url: https://das.encs.concordia.ca/pdf/Shihab_FSE2012.pdf
-    bibtex: publications/2012/fse12.bib
     authors:
     - Emad Shihab
     - Bram Adams
@@ -2517,7 +2356,6 @@
   - year: 2012
     title: Understanding Reuse in the Android Market
     url: http://sail.cs.queensu.ca/data/pdfs/ICPC2012_UnderstandingReuseInTheAndroidMarket.pdf
-    bibtex: publications/2012/icpc12israel.bib
     authors:
     - Israel J. Mojica Ruiz
     - Meiyappan Nagappan
@@ -2532,7 +2370,6 @@
     title: Do Faster Releases Improve Software Quality? - An Empirical Case Study
       of Mozilla Firefox
     url: publications/2012/MSR2012Foutse.pdf
-    bibtex: publications/2012/msr12foutse.bib
     authors:
     - Foutse Khomh
     - Tejinder Dhaliwal
@@ -2549,7 +2386,6 @@
   - year: 2012
     title: A Qualitative Study on Performance Bugs
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2012_AQualitativeStudyOnPerformanceBugs.pdf
-    bibtex: publications/2012/msr12shahed.bib
     authors:
     - Shahed Zaman
     - Bram Adams
@@ -2565,7 +2401,6 @@
     title: Automated Detection of Performance Regressions Using Statistical Process
       Control Techniques
     url: http://sail.cs.queensu.ca/data/pdfs/ICPE2012_AutomatedDetectionOfPerformanceRegressionsUsingStatisticalProcessControlTechniques.pdf
-    bibtex: publications/2012/icpe.bib
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2614,7 +2449,6 @@
   - year: 2012
     title: A Large Scale Empirical Study on User-Centric Performance Analysis
     url: http://sail.cs.queensu.ca/data/pdfs/ICST2012_ALargeScaleEmpiricalStudyOnUser-CentricPerformanceAnalysis.pdf
-    bibtex: publications/2012/icst12shahed.bib
     authors:
     - Shahed Zaman
     - Bram Adams
@@ -2628,7 +2462,6 @@
   - year: 2011
     title: Prioritizing the Creation of Unit Tests in Legacy Software Systems
     url: http://sail.cs.queensu.ca/data/pdfs/SPE_PrioritizingTheCreationOfUnitTestsInLegacySoftwareSystems.pdf
-    bibtex: publications/2011/spe.bib
     authors:
     - Emad Shihab
     - Zhen Ming Jiang
@@ -2644,7 +2477,6 @@
   - year: 2011
     title: Automatic Load Test Verification Using Control Charts
     url: http://sail.cs.queensu.ca/data/pdfs/APSEC2011_AutomatedVerificationOfLoadTestsUsingControlCharts.pdf
-    bibtex: publications/2011/apsec.bib
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2658,7 +2490,6 @@
     title: An Exploratory Study of the Evolution of Communicated Information about
       the Execution of Large Software Systems
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2011_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
-    bibtex: publications/2011/wcre_ian.bib
     authors:
     - Weiyi Shang
     - Zhen Ming Jiang
@@ -2678,7 +2509,6 @@
   - year: 2011
     title: Identifying Performance Deviations in Thread Pools
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_IdentifyingPerformanceDeviationsInThreadPools.pdf
-    bibtex: publications/2011/icsm_mark.bib
     authors:
     - Mark D. Syer
     - Bram Adams
@@ -2692,7 +2522,6 @@
     title: 'Exploring the Development of Micro-Apps: A Case Study on the BlackBerry
       and Android Platforms'
     url: http://sail.cs.queensu.ca/data/pdfs/SCAM2011_ExploringTheDevelopmentOfMicro-Apps_ACaseStudyOnTheBlackBerryAndAndroidPlatforms.pdf
-    bibtex: publications/2011/scam11and.bib
     authors:
     - Mark D. Syer
     - Bram Adams
@@ -2707,7 +2536,6 @@
   - year: 2011
     title: Recovering a Balanced Overview of Topics in a Software Domain
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_RecoveringABalancedOverviewOfTopicsInASoftwareDomain.pdf
-    bibtex: publications/2011/scam11lda.bib
     authors:
     - Matthew B. Kelly
     - Jason S. Alexander
@@ -2722,7 +2550,6 @@
   - year: 2011
     title: Using Indexed Sequence Diagrams to Recover the Behaviour of AJAX Applications
     url: http://sail.cs.queensu.ca/data/pdfs/WSE2011_UsingIndexedSequenceDiagramsToRecoverTheBehaviourOfAJAXApplications.pdf
-    bibtex: publications/2011/wse11.bib
     authors:
     - Shane McIntosh
     - Bram Adams
@@ -2736,7 +2563,6 @@
   - year: 2011
     title: 'High-Impact Defects: A Study of Breakage and Surprise Defects'
     url: http://sail.cs.queensu.ca/data/pdfs/FSE2011_High-ImpactDefects_AStudyOfBreakageAndSurpriseDefects.pdf
-    bibtex: publications/2011/fse11.bib
     authors:
     - Emad Shihab
     - Yasutaka Kamei
@@ -2752,7 +2578,6 @@
   - year: 2011
     title: Modeling the Evolution of Topics in Historical Software Repositories
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_ModelingTheEvolutionOfTopicsInSourceCodeHistories.pdf
-    bibtex: publications/2011/msr11steve.bib
     authors:
     - Stephen W. Thomas
     - Bram Adams
@@ -2766,7 +2591,6 @@
   - year: 2011
     title: 'Security vs Performance bugs: A Case Study on Firefox'
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2011_SecurityVersusPerformanceBugs_ACaseStudyOnFirefox.pdf
-    bibtex: publications/2011/msr11shahed.bib
     authors:
     - Shahed Zaman
     - Bram Adams
@@ -2779,7 +2603,6 @@
   - year: 2011
     title: An Empirical Study of Build Maintenance Effort
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf
-    bibtex: publications/2011/icse11.bib
     tags: [makao]
     authors:
     - Shane McIntosh
@@ -2800,7 +2623,6 @@
   - year: 2011
     title: Modeling the Performance of Ultra-Large-Scale Systems Using Layered Simulations
     url: http://sail.cs.queensu.ca/data/pdfs/MESOCA2011_ModelingThePerformanceOfUltra-Large-ScaleSystemsUsingLayeredSimulations.pdf
-    bibtex: publications/2011/mesoca11.bib
     authors:
     - King Chun Foo
     - Zhen Ming Jiang
@@ -2818,7 +2640,6 @@
     title: A Lightweight Approach to Uncover Technical Information in Unstructured
       Data [short]
     url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_ALightweightApproachToUncoverTechnicalInformationInUnstructuredData.pdf
-    bibtex: publications/2011/icpc11nic.bib
     authors:
     - Nicolas Bettenburg
     - Bram Adams
@@ -2834,7 +2655,6 @@
     title: Industrial Case Study on Supporting the Comprehension of System Behaviour
       Under Load [poster]
     url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_IndustrialCaseStudyOnSupportingTheComprehensionOfSystemBehaviourUnderLoad.pdf
-    bibtex: publications/2011/icpc11mark.bib
     authors:
     - Mark D. Syer
     - Bram Adams
@@ -2860,7 +2680,6 @@
     title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory
       Study'
     url: http://dx.doi.org/10.1007/978-3-642-14888-0_9
-    bibtex: publications/2010/kcsd.bib
     authors:
     - Emad Shihab
     - Nicolas Bettenburg
@@ -2875,7 +2694,6 @@
     title: Pinpointing the Subsystems Responsible for the Performance Deviations in
       a Load Test
     url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2010_PinpointingTheSubsystemsResponsibleForThePerformanceDeviationsInALoadTest.pdf
-    bibtex: publications/2010/issre10.bib
     authors:
     - Haroon Malik
     - Bram Adams
@@ -2889,7 +2707,6 @@
   - year: 2010
     title: A Case Study of Bias in Bug-Fix Datasets
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_ACaseStudyOfBiasInBug-FixDatasets.pdf
-    bibtex: publications/2010/wcre10thanh.bib
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2901,7 +2718,6 @@
   - year: 2010
     title: 'Why are Bugs Re-opened: A Case Study on the Eclipse Project'
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_PredictingRe-openedBugs_ACaseStudyOnTheEclipseProject.pdf
-    bibtex: publications/2010/wcre10emad.bib
     authors:
     - Emad Shihab
     - Akinori Ihara
@@ -2920,7 +2736,6 @@
   - year: 2010
     title: Studying the Impact of Clones on Software Defects
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_StudyingTheImpactOfClonesOnSoftwareDefects.pdf
-    bibtex: publications/2010/wcre10gehan.bib
     authors:
     - Gehan M. K. Selim
     - Liliane Barbour
@@ -2936,7 +2751,6 @@
     title: An Experience Report on Scaling Tools for Mining Software Repositories
       Using MapReduce
     url: http://sail.cs.queensu.ca/data/pdfs/ASE2010_AnExperienceReportOnScalingToolsForMiningSoftwareRepositoriesUsingMapReduce.pdf
-    bibtex: publications/2010/ase10.bib
     authors:
     - Weiyi Shang
     - Bram Adams
@@ -2950,7 +2764,6 @@
   - year: 2010
     title: Studying the impact of dependency network measures on software quality
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_StudyingTheimpactOfdependencynetworkmeasuresOnsoftwarequality.pdf
-    bibtex: publications/2010/icsm_thanh.bib
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2963,7 +2776,6 @@
   - year: 2010
     title: Revisiting Common Bug Prediction Findings Using Effort Aware Models
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_RevisitingCommonBugPredictionFindingsUsingEffort-AwareModels.pdf
-    bibtex: publications/2010/icsm_yasu.bib
     authors:
     - Yasutaka Kamei
     - Shinsuke Matsumoto
@@ -2979,7 +2791,6 @@
   - year: 2010
     title: Validating the Use of Topic Models for Software Evolution
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf
-    bibtex: publications/2010/scam10.bib
     authors:
     - Stephen W. Thomas
     - Bram Adams
@@ -2998,7 +2809,6 @@
     title: 'Understanding the Impact of Code and Process Metrics on Post-release Defects:
       A Case Study on the Eclipse Project'
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE2010_UnderstandingTheImpactOfCodeAndProcessMetricsOnPost-releaseDefects_ACaseStudyOnTheEclipseProject.pdf
-    bibtex: publications/2010/esem10.bib
     authors:
     - Emad Shihab
     - Zhen Ming Jiang
@@ -3014,7 +2824,6 @@
     title: Using Load Tests To Automatically Compare the Subsystems of a Large Enterprise
       System
     url: http://sail.cs.queensu.ca/data/pdfs/COMPSAC2010_UsingLoadTestsToAutomaticallyCompareTheSubsystemsOfALargeEnterpriseSystem.pdf
-    bibtex: publications/2010/compsac10.bib
     authors:
     - Haroon Malik
     - Bram Adams
@@ -3028,7 +2837,6 @@
     title: Mining Performance Regression Testing Repositories for Automated Performance
       Analysis
     url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_MiningPerformanceRegressionTestingRepositoriesForAutomatedPerformanceAnalysis.pdf
-    bibtex: publications/2010/qsic10derek.bib
     authors:
     - King Chun Foo
     - Zhen Ming Jiang
@@ -3043,7 +2851,6 @@
   - year: 2010
     title: Prioritizing Unit Test Creation for Test-Driven Maintenance of Legacy Systems
     url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_PrioritizingUnitTestCreationForTest-DrivenMaintenanceOfLegacySystems.pdf
-    bibtex: publications/2010/qsic10emad.bib
     authors:
     - Emad Shihab
     - Zhen Ming Jiang
@@ -3059,7 +2866,6 @@
   - year: 2010
     title: The Evolution of ANT Build Systems
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf
-    bibtex: publications/2010/msr10shane.bib
     tags: [makao]
     authors:
     - Shane McIntosh
@@ -3075,7 +2881,6 @@
   - year: 2010
     title: Should I contribute to this discussion?
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_ShouldIContributeToThisDiscussion_.pdf
-    bibtex: publications/2010/msr10walid.bib
     authors:
     - Walid M. Ibrahim
     - Nicolas Bettenburg
@@ -3090,7 +2895,6 @@
   - year: 2010
     title: Identifying Crosscutting Concerns Using Historical Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf
-    bibtex: publications/2010/icse10.bib
     authors:
     - Bram Adams
     - Zhen Ming Jiang
@@ -3103,7 +2907,6 @@
     title: Automatic Comparison of Load Tests to Support the Performance Analysis
       of Large Enterprise Systems
     url: http://www.cse.yorku.ca/~zmjiang/publications/csmr2010_malik.pdf
-    bibtex: publications/2010/csmr10.bib
     authors:
     - Haroon Malik
     - Zhen Ming Jiang
@@ -3140,7 +2943,6 @@
   - year: 2009
     title: Disentangling Virtual Machine Architecture
     url: publications/2009/iet-ccvm-postprint.pdf
-    bibtex: publications/2009/iet09.bib
     tags: [aspicere]
     authors:
     - Michael Haupt
@@ -3157,7 +2959,6 @@
     title: Using Aspect Orientation in Legacy Environments for Reverse Engineering
       using Dynamic Analysis - An Industrial Experience Report
     url: https://repository.tudelft.nl/file/File_6062302e-6de3-4436-9dbe-2689bf9f0097
-    bibtex: publications/2009/jss09.bib
     tags: [aspicere]
     authors:
     - Bram Adams
@@ -3175,7 +2976,6 @@
   - year: 2009
     title: An Empirical Study on Inconsistent Changes to Code Clones at Release Level
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtReleaseLevel.pdf
-    bibtex: publications/2009/wcre09b.bib
     authors:
     - Nicolas Bettenburg
     - Weiyi Shang
@@ -3192,7 +2992,6 @@
   - year: 2009
     title: A Study of the Time Dependence of Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AStudyOfTheTimeDependenceOfCodeChanges.pdf
-    bibtex: publications/2009/wcre09a.bib
     authors:
     - Omar Alam
     - Bram Adams
@@ -3204,7 +3003,6 @@
   - year: 2009
     title: Measuring the Progress of Projects Using the Time Dependence of Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_MeasuringTheProgressOfProjectsUsingTheTimeDependenceOfCodeChanges.pdf
-    bibtex: publications/2009/icsm09.bib
     authors:
     - Omar Alam
     - Bram Adams
@@ -3220,7 +3018,6 @@
     title: MapReduce as a General Framework to Support Research in Mining Software
       Repositories (MSR)
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2009_MapReduceAsAGeneralFrameworkToSupportResearchInMiningSoftwareRepositories(MSR).pdf
-    bibtex: publications/2009/msr09.bib
     authors:
     - Weiyi Shang
     - Zhen Ming Jiang
@@ -3234,7 +3031,6 @@
   - year: 2009
     title: Can we Refactor Conditional Compilation into Aspects?
     url: http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf
-    bibtex: publications/2009/aosd09b.bib
     tags: [aspicere, r3v3rs3]
     authors:
     - Bram Adams
@@ -3254,7 +3050,6 @@
     title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory
       Study'
     url: http://sail.cs.queensu.ca/data/pdfs/KCSD2009_OnTheCentralRoleOfMailingListsInOpenSourceProjects_AnExploratoryStudy.pdf
-    bibtex: publications/2009/kcsd09.bib
     authors:
     - Emad Shihab
     - Nicolas Bettenburg
@@ -3268,7 +3063,6 @@
     title: 'Virtual Machine Support for Many-Core Architectures: Decoupling Abstract
       From Concrete Concurrency Models'
     url: http://gloss.di.fc.ul.pt/places09/preproceedings.pdf
-    bibtex: publications/2009/places09.bib
     authors:
     - Stefan Marr
     - Stijn Timbermont
@@ -3291,7 +3085,6 @@
   - year: 2009
     title: Co-Evolution of Source Code and the Build System
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_Co-EvolutionOfSourceCodeAndTheBuildSystem.pdf
-    bibtex: publications/2009/phdsym09.bib
     tags: [makao]
     authors:
     - Bram Adams
@@ -3316,7 +3109,6 @@
     title: 'R3V3RS3: Querying for Syntactical Patterns of Conditional Compilation
       Usage [demo]'
     url: publications/2009/r3v3rs3.pdf
-    bibtex: publications/2009/aosd09.bib
     tags: [r3v3rs3]
     authors:
     - Bram Adams
@@ -3332,7 +3124,6 @@
   - year: 2008
     title: The Evolution of the Linux Build System
     url: publications/2008/eceasst.pdf
-    bibtex: publications/2008/eceasst.bib
     tags: [makao]
     authors:
     - Bram Adams
@@ -3348,7 +3139,6 @@
   - year: 2008
     title: Aspect mining in the Presence of the C Preprocessor
     url: publications/2008/late.pdf
-    bibtex: publications/2008/late08.bib
     tags: [r3v3rs3]
     authors:
     - Bram Adams
@@ -3362,7 +3152,6 @@
   - year: 2008
     title: Towards a DSAL for Object Layout in Virtual Machines
     url: http://dsal.dcc.uchile.cl/2008/timbermont.pdf
-    bibtex: publications/2008/dsal08.bib
     authors:
     - Stijn Timbermont
     - Bram Adams
@@ -3374,7 +3163,6 @@
   - year: 2008
     title: cHALO, Stateful Aspects in C
     url: publications/2008/acp4is.pdf
-    bibtex: publications/2008/acp4is08.bib
     tags: [aspicere]
     authors:
     - Bram Adams
@@ -3390,7 +3178,6 @@
     title: 'Co-evolution of Source Code and the Build System: Impact on the Introduction
       of AOSD in Legacy Systems'
     url: publications/2008/PhD.pdf
-    bibtex: publications/2008/phd.bib
     tags: [makao, aspicere, r3v3rs3]
     authors:
     - Bram Adams
@@ -3431,7 +3218,6 @@
   - year: 2007
     title: Aspect-orientation For Revitalising Legacy Business Software
     url: publications/2007/entcs.pdf
-    bibtex: publications/2007/ao4revitalisinglegacybusinesssoftware.bib
     tags: [aspicere]
     authors:
     - Kris De Schutter
@@ -3447,7 +3233,6 @@
   - year: 2007
     title: Design Recovery and Maintenance of Build Systems
     url: publications/2007/icsm.pdf
-    bibtex: publications/2007/recovery.bib
     tags: [makao]
     authors:
     - Bram Adams
@@ -3472,7 +3257,6 @@
   - year: 2007
     title: The Evolution of the Linux Build System
     url: ftp://ftp.umh.ac.be/pub/ftp_infofs/2007/ERCIM-Evol2007.pdf
-    bibtex: publications/2007/evolution.bib
     authors:
     - Bram Adams
     - Kris De Schutter
@@ -3486,7 +3270,6 @@
     title: An Aspect for Idiom-based Exception Handling (using local continuation
       join points, join point properties, annotations and type parameters)
     url: publications/2007/splat07.pdf
-    bibtex: publications/2007/splat07.bib
     tags: [aspicere]
     authors:
     - Bram Adams
@@ -3499,7 +3282,6 @@
   - year: 2007
     title: 'Face-off: AOP+LMP vs. Legacy Software'
     url: http://drops.dagstuhl.de/opus/volltexte/2007/888
-    bibtex: publications/2007/faceoff.bib
     authors:
     - Kris De Schutter
     - Bram Adams
@@ -3518,7 +3300,6 @@
   - year: 2007
     title: MAKAO [demo]
     url: publications/2007/icsm-demo.pdf
-    bibtex: publications/2007/icsm-demo.bib
     tags: [makao]
     authors:
     - Bram Adams
@@ -3533,7 +3314,6 @@
   - year: 2007
     title: Made in MAKAO [extended abstract]
     url: publications/2007/aosd-demo.pdf
-    bibtex: publications/2007/aosd-demo.bib
     authors:
     - Bram Adams
     address: Vancouver, Canada
@@ -3545,7 +3325,6 @@
     title: Regaining Lost Knowledge through Dynamic Analysis and Aspect Orientation
       - An Industrial Experience Report
     url: publications/2006/regaining.pdf
-    bibtex: publications/2006/regaining.bib
     tags: [aspicere]
     authors:
     - Andy Zaidman
@@ -3572,7 +3351,6 @@
   - year: 2006
     title: Made in MAKAO [extended abstract]
     url: publications/2006/makao-ewas.pdf
-    bibtex: publications/2006/makao-ewas.bib
     authors:
     - Bram Adams
     address: Enschede, The Netherlands
@@ -3583,7 +3361,6 @@
   - year: 2006
     title: Aspect-orientation for Revitalising Legacy Business Software
     url: publications/2006/ao4vittel.pdf
-    bibtex: publications/2006/ao4vittel.bib
     authors:
     - Kris De Schutter
     - Bram Adams
@@ -3594,7 +3371,6 @@
   - year: 2006
     title: AOP on the C-side
     url: publications/2006/aoponthecside.pdf
-    bibtex: publications/2006/aoponthecside.bib
     authors:
     - Bram Adams
     address: Bonn, Germany
@@ -3624,7 +3400,6 @@
     title: 'Applying Dynamic Analysis in a Legacy Context: An Industrial Experience
       Report'
     url: http://www.lore.ua.ac.be/Events/PCODA2005/PCODA2005proceedings.pdf
-    bibtex: publications/2005/applyingaspectsinalegacyenvironment.bib
     authors:
     - Andy Zaidman
     - Bram Adams
@@ -3636,7 +3411,6 @@
   - year: 2005
     title: AOP for Legacy Environments, a Case Study
     url: publications/2005/aop-for-legacy-environments_case-study.pdf
-    bibtex: publications/2005/aop-for-legacy-environments_case-study.bib
     authors:
     - Bram Adams
     - Kris De Schutter
@@ -3654,7 +3428,6 @@
   - year: 2005
     title: 'Aspect Orientation for C: Express yourself'
     url: publications/2005/expressyourself.pdf
-    bibtex: publications/2005/expressyourself.bib
     authors:
     - Bram Adams
     - Tom Tourwé
