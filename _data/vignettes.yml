@@ -1,3 +1,11 @@
+- title: "LLM Review Assistance in Practice"
+  image: "images/llm-review-sidebar.png"
+  image_alt: "LLM-based code review assistant"
+  teaser: "Did you know that *~20% of LLM-generated review comments* are considered valuable by developers? We studied RevMate at Mozilla and Ubisoft, finding that refactoring-related comments are 3x more likely to be accepted than functional comments."
+  venue: "TSE 2026"
+  link: "https://arxiv.org/abs/2411.07091"
+  front_page: false
+
 - title: "Semantic Versioning for AI"
   image: "images/semver-wide.png"
   image_alt: "Versioning through color-coded sheep"
@@ -93,3 +101,5 @@
   venue: "EMSE 2025"
   link: "publications/2025/emse_divya_light.pdf"
   front_page: false
+
+
