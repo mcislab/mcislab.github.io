@@ -37,7 +37,7 @@
         {{ item.prefix | default: "Invited talk at" }}
         {% if item.url %}<a href="{{ item.url }}">{% endif %}{{ item.event }}{% if item.url %}</a>{% endif %}
         {% if item.address %}, {{ item.address }}{% endif %}, {{ item.date }}
-        {% if item.extra_label %} <span style="color: black; font-weight: bold">[{% if item.extra_url %}<a href="{{ item.extra_url }}">{% endif %}{{ item.extra_label }}{% if item.extra_url %}</a>{% endif %}]</span>{% endif %}
+        {% if item.extra_label %} <span class="pub-highlight">[{% if item.extra_url %}<a href="{{ item.extra_url }}">{% endif %}{{ item.extra_label }}{% if item.extra_url %}</a>{% endif %}]</span>{% endif %}
     {% elsif include.type == 'press' %}
         <a href="{{ item.url }}">{{ item.title }}</a>{% if item.extra_label %} (also <a href="{{ item.extra_url }}">{{ item.extra_label }}</a>){% endif %}
         {% if item.description or item.event %}, {{ item.description | default: item.event }}{% endif %}

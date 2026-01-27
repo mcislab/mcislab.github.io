@@ -3747,3 +3747,18 @@ table.rouge-table pre {
 .sidebar #featured p {
     text-align: justify;
 }
+
+/* ================================================
+   Publication & Academic Service Highlight Styles
+   ================================================ */
+
+/* Used for awards, replication packages, video links in publications */
+.pub-highlight {
+    color: black;
+    font-weight: bold;
+}
+
+/* Caption text for embedded elements like maps */
+.caption-text {
+    font-size: 0.85em;
+}
