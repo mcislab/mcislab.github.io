@@ -35,8 +35,8 @@
     {% elsif include.type == 'talk' %}
         {% if item.slides_url %}<a href="{{ item.slides_url }}">{% endif %}{{ item.title }}{% if item.slides_url %}</a>{% endif %},
         {{ item.prefix | default: "Invited talk at" }}
-        {% if item.url %}<a href="{{ item.url }}">{% endif %}{{ item.event }}{% if item.url %}</a>{% endif %}
-        {% if item.address %}, {{ item.address }}{% endif %}, {{ item.date }}
+        {%- if item.event and item.event != "" %} {% if item.url %}<a href="{{ item.url }}">{% endif %}{{ item.event }}{% if item.url %}</a>{% endif %}{% endif -%}
+        {%- if item.address %}{% if item.event and item.event != "" %},{% endif %} {{ item.address }},{% endif %} {{ item.date }}
         {% if item.extra_label %} <span class="pub-highlight">[{% if item.extra_url %}<a href="{{ item.extra_url }}">{% endif %}{{ item.extra_label }}{% if item.extra_url %}</a>{% endif %}]</span>{% endif %}
     {% elsif include.type == 'press' %}
         <a href="{{ item.url }}">{{ item.title }}</a>{% if item.extra_label %} (also <a href="{{ item.extra_url }}">{{ item.extra_label }}</a>){% endif %}
