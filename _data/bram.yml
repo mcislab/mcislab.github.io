@@ -1223,7 +1223,7 @@ invited_talks:
     extra_url: "https://www.youtube.com/embed/RkEpxvzlLWQ?list=PLn0nrSd4xjjZa4KDqFBCMOnk52CItWqyU"
   - title: "On Building and Delivering Software"
     prefix: "Guest lecture at"
-    event: "Arie van Deursen's Software Architecture course, TU Delft"
+    event: "Arie van Deursen's Software Architecture course"
     url: "http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/"
     date: "March 20th, 2015"
     address: "TU Delft, Netherlands"
