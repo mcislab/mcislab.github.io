@@ -696,16 +696,15 @@ header p {
     padding: 0
 }
 
-.grid .latestgallery h2 {
+.grid .latestgallery h1 {
     margin-left: 0;
     text-align: center
 }
 
-.grid .latestgallery_left h2 {
+.grid .latestgallery_left h1 {
     margin-left: 0;
     text-align: center;
     border-bottom: none;
-    font-size: 18px;
     padding-bottom: 0;
     margin-bottom: 10px;
 }
@@ -3579,8 +3578,8 @@ article.latestgallery_left p {
         margin-top: 0;
     }
 
-    .grid .latestgallery h2,
-    .grid .latestgallery_left h2 {
+    .grid .latestgallery h1,
+    .grid .latestgallery_left h1 {
         text-align: center;
         width: 100%;
         margin-left: 0;

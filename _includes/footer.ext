@@ -4,7 +4,7 @@
         <div class="container_12"> 
             <div class="grid"> 
     <article class="latestgallery_left">
-      <h2>Latest Work</h2>
+      <h1>Latest Work</h1>
       {% assign count = 0 %}
       {% assign latest_1 = nil %}
       {% assign latest_2 = nil %}
