@@ -1,6 +1,23 @@
 2026:
   journal:
   - authors:
+    - Doriane Olewicki
+    - Leuson Da Silva
+    - Oussama Ben Sghaier
+    - Suhaib Mujahid
+    - Arezou Amini
+    - Benjamin Mah
+    - Marco Castelluccio
+    - Sarra Habchi
+    - Foutse Khomh
+    - Bram Adams
+    year: 2026
+    title: 'Impact of LLM-based Review Assistant in Practice: A Mixed Open-/Closed-source Case Study'
+    venue: Transactions on Software Engineering (TSE)
+    publisher: IEEE
+    status: to appear
+    url: https://arxiv.org/abs/2411.07091
+  - authors:
     - Hao Li
     - Hicham Masri
     - Filipe Roseiro Côgo
