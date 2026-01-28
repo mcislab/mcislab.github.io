@@ -15,7 +15,9 @@ title: Who are these MCIS people?
                         {% for person in site.data.people.faculty %}
                         <div class="person-card">
                                 <div class="person-img">
-                                        <img src="{{ person.image }}" height="160" alt="{{ person.name }}" />
+                                        {% if person.url %}<a href="{{ person.url }}">{% endif %}
+                                                <img src="{{ person.image }}" height="160" alt="{{ person.name }}" />
+                                                {% if person.url %}</a>{% endif %}
                                 </div>
                                 <div class="person-info">
                                         <a href="{{ person.url | default: '#' }}">{{ person.name }}</a>
@@ -31,8 +33,10 @@ title: Who are these MCIS people?
                         {% for person in site.data.people.students %}
                         <div class="person-card">
                                 <div class="person-img">
-                                        <img src="{{ person.image | default: 'images/mcis.png' }}" height="140"
-                                                alt="{{ person.name }}" />
+                                        {% if person.url %}<a href="{{ person.url }}">{% endif %}
+                                                <img src="{{ person.image | default: 'images/mcis.png' }}" height="140"
+                                                        alt="{{ person.name }}" />
+                                                {% if person.url %}</a>{% endif %}
                                 </div>
                                 <div class="person-info">
                                         <a href="{{ person.url | default: '#' }}">{{ person.name }}</a><br />
@@ -54,8 +58,10 @@ title: Who are these MCIS people?
                         {% for person in site.data.people.alumni %}
                         <div class="person-card">
                                 <div class="person-img">
-                                        <img src="{{ person.image | default: 'images/mcis.png' }}" height="140"
-                                                alt="{{ person.name }}" />
+                                        {% if person.url %}<a href="{{ person.url }}">{% endif %}
+                                                <img src="{{ person.image | default: 'images/mcis.png' }}" height="140"
+                                                        alt="{{ person.name }}" />
+                                                {% if person.url %}</a>{% endif %}
                                 </div>
                                 <div class="person-info">
                                         <a href="{{ person.url | default: '#' }}">{{ person.name }}</a><br />
