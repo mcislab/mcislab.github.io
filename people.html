@@ -42,7 +42,7 @@ title: Who are these MCIS people?
                                         <a href="{{ person.url | default: '#' }}">{{ person.name }}</a><br />
                                         {{ person.role }}<br />
                                         {% if person.supervisor %}
-                                        (with {% for sup in person.supervisor %}<a
+                                        (with {% for sup in person.supervisor %}<a class="supervisor-link"
                                                 href="{{ site.data.supervisors[sup] }}">{{ sup }}</a>{% unless
                                         forloop.last %} & {% endunless %}{% endfor %})
                                         {% endif %}
@@ -67,7 +67,7 @@ title: Who are these MCIS people?
                                         <a href="{{ person.url | default: '#' }}">{{ person.name }}</a><br />
                                         {{ person.role }}<br />
                                         {% if person.supervisor %}
-                                        (with {% for sup in person.supervisor %}<a
+                                        (with {% for sup in person.supervisor %}<a class="supervisor-link"
                                                 href="{{ site.data.supervisors[sup] }}">{{ sup }}</a>{% unless
                                         forloop.last %} & {% endunless %}{% endfor %})
                                         {% endif %}

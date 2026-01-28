@@ -3527,6 +3527,26 @@ article.latestgallery_left p {
     color: var(--color-link);
 }
 
+/* Larger font for faculty cards (only name, no role/supervisor info) */
+h2+.who-section .person-info {
+    font-size: 18px;
+}
+
+h2+.who-section .person-info a {
+    font-size: 20px;
+}
+
+/* Supervisor links in black to distinguish from student name */
+.person-info a.supervisor-link {
+    color: #333;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.person-info a.supervisor-link:hover {
+    text-decoration: underline;
+}
+
 
 /* Media Queries for Mobile Responsiveness */
 @media screen and (max-width: 768px) {
