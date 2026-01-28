@@ -1293,7 +1293,50 @@ footer p {
     text-align: center;
     text-transform: uppercase;
     border-top: 1px dashed var(--color-border);
-    border-bottom: 1px dashed var(--color-border)
+    border-bottom: 1px dashed var(--color-border);
+    position: relative;
+    /* Ensure toggle is positioned relative to container */
+}
+
+/* Hamburger Toggle Button - Hidden by default */
+.nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1001;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: var(--color-gray-700);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+/* Animation for active toggle */
+.nav-toggle.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.nav-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* Current page label - hidden on desktop, only shown on mobile */
+.nav-current-page {
+    display: none;
 }
 
 .nav,
@@ -3551,23 +3594,147 @@ article.latestgallery_left p {
         width: 100%;
     }
 
-    /* Adjust navigation for mobile (simplified stacking) */
-    .nav ul {
-        position: static;
-        width: auto;
+    /* Compact Hamburger Navigation for mobile */
+    .nav-toggle {
+        display: block;
+    }
+
+    #nav-container {
+        min-height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    /* Current page label next to hamburger */
+    .nav-current-page {
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 14px;
+        font-weight: normal;
+        color: #333;
+        text-transform: uppercase;
+    }
+
+    /* Urgent styling for Join Us page */
+    .nav-current-page.urgent {
+        color: #C00;
+        font-weight: bold;
+    }
+
+    /* Hide current page label when menu is open */
+    .nav-toggle.active~.nav-current-page,
+    .nav-current-page.hidden {
         display: none;
-        /* Hide submenu by default on mobile for simplicity, or just stack */
+    }
+
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        z-index: 1001;
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    .nav-toggle span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin: 6px auto;
+        transition: 0.3s;
+    }
+
+    .nav {
+        display: none;
+        width: 100%;
+        margin-top: 50px;
+        text-align: left;
+        padding: 0;
+        background: #fff;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .nav.nav-open {
+        display: block;
     }
 
     .nav li {
-        display: block;
         width: 100%;
-        text-align: center;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid #f0f0f0;
     }
 
-    .nav li:hover ul {
+    .nav li a {
+        padding: 15px 20px;
         display: block;
+        line-height: normal;
+        color: #333;
+        text-decoration: none;
+    }
+
+    /* Submenu indicator arrow */
+    .nav .has-submenu::after {
+        content: '▼';
+        font-size: 10px;
+        margin-left: 8px;
+        transition: transform 0.3s;
+    }
+
+    .nav li.submenu-open>.has-submenu::after {
+        transform: rotate(180deg);
+    }
+
+    /* Handle submenus on mobile */
+    .nav .submenu {
+        position: static;
+        width: 100%;
+        display: none;
+        /* Hide submenus by default */
+        background: #f5f5f5;
+        padding-left: 0;
+    }
+
+    .nav li.submenu-open>.submenu {
+        display: block;
+        /* Show when parent is clicked/tapped */
+    }
+
+    .nav .submenu li {
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .nav .submenu li a {
+        padding-left: 40px;
+        font-size: 13px;
+        color: #555;
+    }
+
+    .nav li.submenu-open>a {
+        background: #f9f9f9;
+        font-weight: bold;
     }
 
     /* Footer columns full width on mobile */

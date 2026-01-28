@@ -4750,7 +4750,21 @@ $(document).ready(function () {
     });
     jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({
         social_tools: false
-    })
+    });
+
+    /* Compact Mobile Menu Toggle */
+    jQuery('.nav-toggle').on('click', function () {
+        jQuery(this).toggleClass('active');
+        jQuery('ul.nav').toggleClass('nav-open');
+    });
+
+    /* Mobile Submenu Toggle (for dropdowns like Tools, Courses, Events) */
+    jQuery('.nav > li > a').on('click', function (e) {
+        if (jQuery(window).width() <= 768 && jQuery(this).siblings('ul').length) {
+            e.preventDefault();
+            jQuery(this).parent().toggleClass('submenu-open');
+        }
+    });
 });
 jQuery(function () {
     jQuery('ul.nav').superfish();

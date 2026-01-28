@@ -1,17 +1,23 @@
 <!-- -*- engine:liquid -*- -->
 <div class="main-container">
   <div id="nav-container">
+    <span class="nav-current-page{% for pg in site.data.content %}{% assign pg_url_base = pg.url | remove: '.html' %}{% assign page_url_base = page.url | remove: '.html' | remove: 'index' %}{% if page_url_base == pg_url_base or page.url == pg.url or page_url_base == '/' and pg.label == 'Home' %}{% if pg.urgent == 'kindof' %} urgent{% endif %}{% endif %}{% endfor %}">{% for pg in site.data.content %}{% assign pg_url_base = pg.url | remove: '.html' %}{% assign page_url_base = page.url | remove: '.html' | remove: 'index' %}{% if page_url_base == pg_url_base or page.url == pg.url or page_url_base == '/' and pg.label == 'Home' %}{{ pg.label }}{% endif %}{% endfor %}</span>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
    <nav> 
     <ul class="nav">
     {% for pg in site.data.content %}
-       {% if pg.url == page.url %}<li class="active">{% elsif pg.urgent == "last" %}<li class="last">{% else %}<li>{% endif %}{% if pg.urgent == "kindof" %}<a class="urgent" href="{{ pg.url }}">{{ pg.label }}</a>{% elsif pg.label == "Courses" or pg.label == "Tools" or pg.label == "Events" %}<a>{{ pg.label }}</a>{% else %}<a href="{{ pg.url }}">{{ pg.label }}</a>{% endif %}{% if pg.label == "Courses" %}
-              <ul>{% for course in site.data.courses %}
+       {% if pg.url == page.url %}<li class="active">{% elsif pg.urgent == "last" %}<li class="last">{% else %}<li>{% endif %}{% if pg.urgent == "kindof" %}<a class="urgent" href="{{ pg.url }}">{{ pg.label }}</a>{% elsif pg.label == "Courses" or pg.label == "Tools" or pg.label == "Events" %}<a class="has-submenu" href="javascript:void(0);">{{ pg.label }}</a>{% else %}<a href="{{ pg.url }}">{{ pg.label }}</a>{% endif %}{% if pg.label == "Courses" %}
+              <ul class="submenu">{% for course in site.data.courses %}
 	      	     <li><a href="{{ course.url }}">{{ course.name }}</a></li>{% endfor %}
 	      </ul>{% elsif pg.label == "Tools" %}
-              <ul>{% for tool in site.data.tools %}
+              <ul class="submenu">{% for tool in site.data.tools %}
 	      	     <li><a href="{{ tool.url }}">{{ tool.name }}</a></li>{% endfor %}
 	      </ul>{% elsif pg.label == "Events" %}
-              <ul>{% for ev in site.data.events %}
+              <ul class="submenu">{% for ev in site.data.events %}
 	      	     <li><a href="{{ ev.url }}">{{ ev.name }}</a></li>{% endfor %}
 	      </ul>{% endif %}</li>{% endfor %}
     </ul>
@@ -19,3 +25,47 @@
     <div class="clear"></div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var toggle = document.querySelector('.nav-toggle');
+    var nav = document.querySelector('.nav');
+    var currentPage = document.querySelector('.nav-current-page');
+    
+    // Main hamburger toggle
+    if (toggle && nav) {
+        toggle.addEventListener('click', function() {
+            toggle.classList.toggle('active');
+            nav.classList.toggle('nav-open');
+            // Hide/show current page label when menu opens/closes
+            if (currentPage) {
+                currentPage.classList.toggle('hidden');
+            }
+        });
+    }
+    
+    // Submenu toggle for Tools, Events, Courses (accordion behavior)
+    var submenuLinks = document.querySelectorAll('.nav .has-submenu');
+    submenuLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            var parentLi = this.parentElement;
+            var isOpen = parentLi.classList.contains('submenu-open');
+            
+            // Close all other open submenus first
+            document.querySelectorAll('.nav li.submenu-open').forEach(function(openLi) {
+                if (openLi !== parentLi) {
+                    openLi.classList.remove('submenu-open');
+                }
+            });
+            
+            // Toggle the clicked submenu
+            if (isOpen) {
+                parentLi.classList.remove('submenu-open');
+            } else {
+                parentLi.classList.add('submenu-open');
+            }
+        });
+    });
+});
+</script>
