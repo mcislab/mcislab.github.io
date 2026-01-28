@@ -14,6 +14,8 @@
       <li class="current"><a href="{{ page.url }}">ASPICERE</a></li>
       {% elsif page.url == "/r3v3rs3.html" %}
       <li class="current"><a href="{{ page.url }}">R3V3RS3</a></li>
+      {% elsif page.url == "/cisc834.html" %}
+      <li class="current"><a href="{{ page.url }}">CISC 834</a></li>
       {% else %}
       <li class="current"><a href="{{ page.url }}">{% for pg in site.data.content %}{% if pg.url == page.url %}{{ pg.label }}{% endif %}{% endfor %}</a></li>
       {% endif %}
