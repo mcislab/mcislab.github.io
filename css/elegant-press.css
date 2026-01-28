@@ -53,21 +53,29 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     --color-gray-800: #272727;
     --color-gray-700: #333;
     --color-gray-600: #454545;
+    --color-gray-500: #555;
     --color-gray-400: #666;
     --color-gray-200: #ccc;
     --color-gray-150: #ddd;
+    --color-gray-100: #e8e8e8;
+    --color-gray-75: #ededed;
     --color-gray-50: #eee;
     --color-gray-25: #f2f2f2;
+    --color-gray-15: #f5f5f5;
+    --color-gray-10: #f7f7f7;
+    --color-gray-5: #f9f9f9;
     --color-white: #fff;
 
     /* Brand Accent */
     --color-accent: #A3443E;
+    --color-urgent: #C00;
 
     /* Semantic Tokens */
     --color-link: var(--color-accent);
     --color-text-default: var(--color-gray-900);
     --color-text-muted: var(--color-gray-400);
     --color-border: var(--color-gray-400);
+    --color-border-light: #C7C5C8;
 
     /* Primary Button (read_more, readmore) */
     --btn-primary-bg: var(--color-gray-600);
@@ -77,6 +85,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     /* Secondary Button (more) */
     --btn-secondary-text: #A2A2A2;
     --btn-secondary-text-hover: var(--color-gray-150);
+
+    /* Card and Container */
+    --color-card-bg: var(--color-gray-5);
+    --color-card-border: var(--color-gray-150);
 }
 
 html,
@@ -214,7 +226,7 @@ body {
     font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
     font-family: Century Gothic, sans-serif;
     color: var(--color-text-default);
-    background: #ededed;
+    background: var(--color-gray-75);
     padding: 0;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2)
 }
@@ -269,7 +281,7 @@ img {
 
 .imgl,
 .imgr {
-    border: 1px solid #C7C5C8;
+    border: 1px solid var(--color-border-light);
     padding: 5px
 }
 
@@ -343,7 +355,7 @@ header h1 {
 header h1 a {
     font-family: 'ChunkFive Regular', Arial, Helvetica, sans-serif;
     font-size: 75px;
-    text-shadow: 0 3px 3px #555;
+    text-shadow: 0 3px 3px var(--color-gray-500);
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -o-transition: all 200ms linear;
@@ -399,7 +411,7 @@ header p {
 #header1 h1 a {
     font-family: 'ChunkFive Regular', Arial, Helvetica, sans-serif;
     font-size: 75px;
-    text-shadow: 0 3px 3px #555;
+    text-shadow: 0 3px 3px var(--color-gray-500);
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -o-transition: all 200ms linear;
@@ -472,7 +484,7 @@ header p {
 }
 
 .box {
-    background-color: #FFF;
+    background-color: var(--color-white);
     border: 1px solid var(--color-border);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -506,22 +518,22 @@ header p {
 
 #comments .commentlist li.comment_odd {
     color: var(--color-text-muted);
-    background-color: #F7F7F7
+    background-color: var(--color-gray-10)
 }
 
 #comments .commentlist li.comment_odd a {
     color: var(--color-link);
-    background-color: #F7F7F7
+    background-color: var(--color-gray-10)
 }
 
 #comments .commentlist li.comment_even {
     color: var(--color-text-muted);
-    background-color: #E8E8E8
+    background-color: var(--color-gray-100)
 }
 
 #comments .commentlist li.comment_even a {
     color: var(--color-link);
-    background-color: #E8E8E8
+    background-color: var(--color-gray-100)
 }
 
 #comments .commentlist .submitdate {
@@ -641,7 +653,7 @@ header p {
     display: block;
     width: 100%;
     height: 99px;
-    border-bottom: 1px dotted #C7C5C8;
+    border-bottom: 1px dotted var(--color-border-light);
     overflow: hidden;
     margin: 0 0 11px;
     padding: 0 0 21px
@@ -649,7 +661,7 @@ header p {
 
 .sidebar .latestnews img {
     float: left;
-    border: 1px solid #C7C5C8;
+    border: 1px solid var(--color-border-light);
     clear: left;
     margin: 0 10px 0 0;
     padding: 4px
@@ -683,7 +695,7 @@ header p {
     font-weight: 400;
     margin-bottom: 10px;
     padding-bottom: 6px;
-    border-bottom: 1px dotted #585858;
+    border-bottom: 1px dotted var(--color-gray-600);
     text-align: center
 }
 
@@ -927,7 +939,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #333;
+    color: var(--color-gray-700);
     font-family: Artifika, Arial, Helvetica, sans-serif
 }
 
@@ -949,7 +961,7 @@ p {
 #tagline1 {
     padding-top: 5px;
     font-size: 18px;
-    text-shadow: 0 0 3px #555;
+    text-shadow: 0 0 3px var(--color-gray-500);
     letter-spacing: 2px;
     font-family: ChunkFive, Arial, Helvetica, sans-serif;
     color: #333
@@ -1102,7 +1114,7 @@ a.more:hover {
 }
 
 .callout {
-    background: #ededed;
+    background: var(--color-gray-75);
     width: 100%;
     margin: 20px 0 40px
 }
@@ -1134,7 +1146,7 @@ a.more:hover {
 }
 
 .callout .grid {
-    background-color: #FFF;
+    background-color: var(--color-white);
     border: 1px solid var(--color-border);
     border-radius: 5px;
     box-shadow: 5px 5px 5px var(--color-gray-200);
@@ -1287,7 +1299,7 @@ footer p {
 }
 
 #nav-container {
-    background-color: #FFF;
+    background-color: var(--color-white);
     z-index: 1000;
     font-size: 14px;
     text-align: center;
@@ -1370,7 +1382,7 @@ footer p {
 .nav a {
     display: block;
     position: relative;
-    color: #333;
+    color: var(--color-gray-700);
     text-decoration: none;
     padding: .75em 1em
 }
@@ -1431,7 +1443,7 @@ li.sfHover>a>.sf-sub-indicator {
 
 .sidebar .subnav {
     display: block;
-    background-color: #F9F9F9;
+    background-color: var(--color-gray-5);
     margin-bottom: 30px;
     padding: 25px
 }
@@ -1441,7 +1453,7 @@ li.sfHover>a>.sf-sub-indicator {
     font-weight: 400;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: var(--color-text-muted);
-    background-color: #F9F9F9;
+    background-color: var(--color-gray-5);
     line-height: normal;
     border-bottom: 1px dotted var(--color-border);
     margin: 0 0 20px;
@@ -1464,7 +1476,7 @@ li.sfHover>a>.sf-sub-indicator {
 .sidebar .subnav a {
     display: block;
     color: var(--color-text-default);
-    background: url(../images/red_file.gif) no-repeat 10px center #F9F9F9;
+    background: url(../images/red_file.gif) no-repeat 10px center var(--color-gray-5);
     text-decoration: none;
     border-bottom: 1px dotted var(--color-border);
     margin: 0;
@@ -1473,7 +1485,7 @@ li.sfHover>a>.sf-sub-indicator {
 
 .sidebar .subnav a:hover {
     color: var(--color-link);
-    background-color: #F9F9F9
+    background-color: var(--color-gray-5)
 }
 
 .sidebar .subnav a.inline {
@@ -1489,7 +1501,7 @@ li.sfHover>a>.sf-sub-indicator {
 .sidebar .subnav ul ul ul a,
 .sidebar .subnav ul ul ul ul a,
 .sidebar .subnav ul ul ul ul ul a {
-    background: url(../images/red_file.gif) no-repeat #F9F9F9
+    background: url(../images/red_file.gif) no-repeat var(--color-gray-5)
 }
 
 .sidebar .subnav ul ul a {
@@ -1547,7 +1559,7 @@ select {
     width: 68px;
     height: 35px;
     text-transform: uppercase;
-    color: #FFF;
+    color: var(--color-white);
     background-color: #565656;
     cursor: pointer;
     font-weight: 700;
@@ -1589,7 +1601,7 @@ table {
 }
 
 table thead th {
-    color: #FFF;
+    color: var(--color-white);
     background-color: var(--color-text-muted);
     border: 1px solid #CCC;
     border-collapse: collapse;
@@ -1612,11 +1624,11 @@ table tbody td {
 }
 
 table tbody tr.light {
-    background-color: #F7F7F7
+    background-color: var(--color-gray-10)
 }
 
 table tbody tr.dark {
-    background-color: #E8E8E8
+    background-color: var(--color-gray-100)
 }
 
 #home_featured21 {
@@ -1646,7 +1658,7 @@ table tbody tr.dark {
     font-size: 22px;
     font-weight: 400;
     color: #4A4A4A;
-    background-color: #FFF;
+    background-color: var(--color-white);
     margin: 8px 0 0 10px;
     padding: 0
 }
@@ -1676,7 +1688,7 @@ table tbody tr.dark {
     position: relative;
     display: block;
     width: 960px;
-    background-color: #FFF;
+    background-color: var(--color-white);
     margin: -45px auto 0;
     padding: 30px 0 0
 }
@@ -1872,7 +1884,7 @@ table tbody tr.dark {
 #slide4 .slideheading,
 #slide5 .slideheading {
     font-family: "ChunkFive Regular", Georgia, serif;
-    color: #FFF;
+    color: var(--color-white);
     font-size: 35px;
     letter-spacing: 2px;
     margin: 0 0 10px
@@ -1884,7 +1896,7 @@ table tbody tr.dark {
 #slide4 p,
 #slide5 p {
     font-family: Artifika, Georgia, serif;
-    color: #FFF;
+    color: var(--color-white);
     margin: 0
 }
 
@@ -1978,7 +1990,7 @@ ul.nav li li li.sfHover ul {
 
 .nav li li,
 .nav li li li {
-    background: #ededed
+    background: var(--color-gray-75)
 }
 
 .nav ul .sf-sub-indicator,
@@ -3131,12 +3143,12 @@ div.portfolio table tbody td {
 }
 
 .nav li a.urgent {
-    color: #ff0000;
+    color: var(--color-urgent);
     font-weight: bold;
 }
 
 .subnav li a.urgent {
-    color: #ff0000;
+    color: var(--color-urgent);
     font-weight: bold;
 }
 
@@ -3494,7 +3506,7 @@ article.latestgallery_left p {
     min-height: 160px;
     /* Added min-height to match faculty/student card heights */
     margin-bottom: 20px;
-    background: #f9f9f9;
+    background: var(--color-gray-5);
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
@@ -3538,7 +3550,7 @@ h2+.who-section .person-info a {
 
 /* Supervisor links in black to distinguish from student name */
 .person-info a.supervisor-link {
-    color: #333;
+    color: var(--color-gray-700);
     font-weight: normal;
     text-decoration: underline;
 }
@@ -3636,13 +3648,13 @@ h2+.who-section .person-info a {
         transform: translateY(-50%);
         font-size: 14px;
         font-weight: normal;
-        color: #333;
+        color: var(--color-gray-700);
         text-transform: uppercase;
     }
 
     /* Urgent styling for Join Us page */
     .nav-current-page.urgent {
-        color: #C00;
+        color: var(--color-urgent);
         font-weight: bold;
     }
 
@@ -3683,7 +3695,7 @@ h2+.who-section .person-info a {
         display: block;
         width: 30px;
         height: 3px;
-        background-color: #333;
+        background-color: var(--color-gray-700);
         margin: 6px auto;
         transition: 0.3s;
     }
@@ -3694,8 +3706,8 @@ h2+.who-section .person-info a {
         margin-top: 50px;
         text-align: left;
         padding: 0;
-        background: #fff;
-        border-top: 1px solid #f0f0f0;
+        background: var(--color-white);
+        border-top: 1px solid var(--color-gray-25);
     }
 
     .nav.nav-open {
@@ -3704,14 +3716,14 @@ h2+.who-section .person-info a {
 
     .nav li {
         width: 100%;
-        border-bottom: 1px solid #f0f0f0;
+        border-bottom: 1px solid var(--color-gray-25);
     }
 
     .nav li a {
         padding: 15px 20px;
         display: block;
         line-height: normal;
-        color: #333;
+        color: var(--color-gray-700);
         text-decoration: none;
     }
 
@@ -3733,7 +3745,7 @@ h2+.who-section .person-info a {
         width: 100%;
         display: none;
         /* Hide submenus by default */
-        background: #f5f5f5;
+        background: var(--color-gray-15);
         padding-left: 0;
     }
 
@@ -3743,17 +3755,17 @@ h2+.who-section .person-info a {
     }
 
     .nav .submenu li {
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid var(--color-gray-100);
     }
 
     .nav .submenu li a {
         padding-left: 40px;
         font-size: 13px;
-        color: #555;
+        color: var(--color-gray-500);
     }
 
     .nav li.submenu-open>a {
-        background: #f9f9f9;
+        background: var(--color-gray-5);
         font-weight: bold;
     }
 
