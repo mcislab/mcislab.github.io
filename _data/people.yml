@@ -29,6 +29,7 @@ students:
     role: Master's student
     supervisor: [Dr. Ahmed E. Hassan]
     image: images/ahmed_hereiz.png
+    url: https://ahmed-hereiz.github.io/
   - name: Mohammed Mehedi Hasan
     role: PhD student
     supervisor: [Dr. Ahmed E. Hassan]
@@ -67,7 +68,7 @@ students:
     image: https://sailresearch.github.io/sail-website/img/members/jihoshin.jpeg
     url: https://sites.google.com/view/jiho-shin
   - name: Zehao Wang
-    role: Postdoc
+    role: Incoming Postdoc
     supervisor: [Dr. Ahmed E. Hassan]
     image: https://sailresearch.github.io/sail-website/img/members/zehao.jpeg
     url: https://zehaowang00.github.io/
@@ -90,7 +91,7 @@ alumni:
     role: Master's
     supervisor: [Dr. Ahmed E. Hassan]
     image: images/rahul.jpeg
-    url: https://www.linkedin.com/in/rahulbajaj0509
+    url: https://journalctl.org/about/
   - name: Abdul Ali Bangash
     role: Postdoc
     supervisor: [Dr. Ahmed E. Hassan]
