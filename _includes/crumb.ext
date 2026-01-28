@@ -10,6 +10,10 @@
       <li class="current"><a href="{{ page.url }}">Dr. Bram Adams</a></li>
       {% elsif page.url == "/makao.html" %}
       <li class="current"><a href="{{ page.url }}">MAKAO</a></li>
+      {% elsif page.url == "/aspicere.html" %}
+      <li class="current"><a href="{{ page.url }}">ASPICERE</a></li>
+      {% elsif page.url == "/r3v3rs3.html" %}
+      <li class="current"><a href="{{ page.url }}">R3V3RS3</a></li>
       {% else %}
       <li class="current"><a href="{{ page.url }}">{% for pg in site.data.content %}{% if pg.url == page.url %}{{ pg.label }}{% endif %}{% endfor %}</a></li>
       {% endif %}
