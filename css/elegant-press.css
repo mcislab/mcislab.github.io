@@ -3969,6 +3969,16 @@ h2+.who-section .person-info a {
     .sidebar .subnav a:hover {
         background: var(--color-gray-25);
     }
+
+    /* Narrower columns for year-only navigation (publications page) */
+    .sidebar .subnav-years ul {
+        grid-template-columns: repeat(auto-fit, minmax(55px, 1fr));
+        gap: 5px;
+    }
+
+    .sidebar .subnav-years a {
+        padding: 4px 2px;
+    }
 }
 
 /* Slide text popup styles (global) */
