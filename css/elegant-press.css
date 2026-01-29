@@ -3570,7 +3570,6 @@ h2+.who-section .person-info a {
     #header,
     #sub-headline,
     #nav-container,
-    #breadcrumb,
     .container,
     .container1,
     .grid,
@@ -3580,6 +3579,13 @@ h2+.who-section .person-info a {
         width: 100%;
         /* Fluid width */
         padding: 10px 0;
+    }
+
+    /* Hide the separate breadcrumb on mobile - it's now in the navbar */
+    #breadcrumb,
+    #breadcrumb+br,
+    #breadcrumb+br+br {
+        display: none;
     }
 
     .main-container header {
@@ -3651,6 +3657,11 @@ h2+.who-section .person-info a {
         font-weight: normal;
         color: var(--color-gray-700);
         text-transform: uppercase;
+    }
+
+    .nav-current-page a {
+        color: var(--color-link);
+        text-decoration: underline;
     }
 
     /* Urgent styling for Join Us page */
