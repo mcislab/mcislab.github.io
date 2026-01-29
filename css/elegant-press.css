@@ -3924,6 +3924,51 @@ h2+.who-section .person-info a {
         width: 100%;
         height: auto;
     }
+
+    /* Compact year navigation for publications page on mobile */
+    .sidebar .subnav {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .sidebar .subnav h5 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .sidebar .subnav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 8px 10px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sidebar .subnav li {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .sidebar .subnav li::after {
+        content: none;
+    }
+
+    .sidebar .subnav a {
+        display: block;
+        background: none;
+        border-bottom: none;
+        padding: 5px 2px;
+        font-size: 13px;
+        border-radius: 3px;
+        text-decoration: underline;
+    }
+
+    .sidebar .subnav a:hover {
+        background: var(--color-gray-25);
+    }
 }
 
 /* Slide text popup styles (global) */
