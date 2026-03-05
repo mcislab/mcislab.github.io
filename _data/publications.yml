@@ -1271,6 +1271,7 @@
 2016:
   journal:
   - year: 2016
+    title: 'Error Leakage and Wasted Time: Sensitivity and Effort Analysis of a Requirements Consistency Checking Process'
     authors:
     - Wenbin Li
     - Jane Huffman Hayes
@@ -1591,6 +1592,7 @@
     replication_package: http://paris.utdallas.edu/cseet16/video/02-CSEE&T-2016-Panel-I.html
     venue: panel at the 29th IEEE Conference on Software Engineering Education and Training (CSEET)
   - year: 2016
+    title: 'Leaders of Tomorrow on the Future of Software Engineering: A Roundtable'
     authors:
     - Felienne Hermans
     - Janet Siegmund
@@ -2233,6 +2235,7 @@
       and Reengineering (CSMR)
     pages: 243-252
   - year: 2013
+    title: 'Program Evolution and Bug-proneness: An Empirical Study'
     authors:
     - Fehmi Jaafar
     - Salima Hassaine
@@ -2245,6 +2248,7 @@
     pages: 15-24
     address: Genova
   - year: 2013
+    title: 'ACRE: An Automated Aspect Creator for Testing C++ Applications'
     authors:
     - Étienne Duclos
     - Sébastien Le Digabel
