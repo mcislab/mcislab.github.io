@@ -1,6 +1,105 @@
 2026:
   journal:
   - authors:
+    - Kosei Horikawa
+    - Hao Li
+    - Yutaro Kashiwa
+    - Bram Adams
+    - Hajimu Iida
+    - Ahmed E. Hassan
+    year: 2026
+    title: 'Agentic Refactoring: An Empirical Study of AI Coding Agents'
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+    publisher: ACM
+    status: to appear
+    url: https://arxiv.org/abs/2511.04824
+  - authors:
+    - Lin Geng
+    - Hao Li
+    - Sidney Givigi
+    - Bram Adams
+    year: 2026
+    title: 'SwarmUpdate: Hierarchical Software Updates and Deep Learning Model Patching
+      for Heterogeneous UAV Swarms'
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+    publisher: ACM
+    status: to appear
+    url: https://arxiv.org/abs/2503.13784
+  - authors:
+    - Worawalan Chatlatanagulchai
+    - Hao Li
+    - Yutaro Kashiwa
+    - Brittany Reid
+    - Kundjanasith Thonglek
+    - Pattara Leelaprute
+    - Arnon Rungsawang
+    - Bundit Manaskasemsak
+    - Bram Adams
+    - Ahmed E. Hassan
+    - Hajimu Iida
+    year: 2026
+    title: 'Agent READMEs: An Empirical Study of Context Files for Agentic Coding'
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+    publisher: ACM
+    status: to appear
+    url: https://arxiv.org/abs/2511.12884
+  - authors:
+    - Mohammed Mehedi Hasan
+    - Hao Li
+    - Emad Fallahzadeh
+    - Gopi Krishnan Rajbahadur
+    - Bram Adams
+    - Ahmed E. Hassan
+    year: 2026
+    title: 'Model Context Protocol (MCP) at First Glance: Studying the Security and
+      Maintainability of MCP Servers'
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+    publisher: ACM
+    status: to appear
+    url: https://arxiv.org/abs/2506.13538
+  - authors:
+    - Adekunle Ajibode
+    - Abdul Ali Bangash
+    - Oussama Ben Sghaier
+    - Bram Adams
+    - Ahmed E. Hassan
+    year: 2026
+    title: On the synchronization between Hugging Face pre-trained language models
+      and their upstream GitHub repository
+    venue: Empirical Software Engineering (EMSE)
+    volume: '31'
+    number: '5'
+    publisher: Springer
+    url: https://arxiv.org/abs/2508.10157
+  - authors:
+    - Mohammed Mehedi Hasan
+    - Hao Li
+    - Emad Fallahzadeh
+    - Gopi Krishnan Rajbahadur
+    - Bram Adams
+    - Ahmed E. Hassan
+    year: 2026
+    title: An Empirical Study of Testing Practices in Open Source AI Agent Frameworks
+      and Agentic Applications
+    venue: Empirical Software Engineering (EMSE)
+    volume: '31'
+    number: '5'
+    publisher: Springer
+    url: https://arxiv.org/abs/2509.19185
+  - authors:
+    - Yu Shi
+    - Abdul Ali Bangash
+    - Emad Fallahzadeh
+    - Bram Adams
+    - Ahmed E. Hassan
+    year: 2026
+    title: 'HAFix: History-Augmented Large Language Models for Bug Fixing'
+    venue: Empirical Software Engineering (EMSE)
+    volume: '31'
+    number: '4'
+    publisher: Springer
+    url: https://arxiv.org/abs/2501.09135
+  - authors:
     - Doriane Olewicki
     - Leuson Da Silva
     - Oussama Ben Sghaier
@@ -68,6 +167,76 @@
     publisher: Springer
     status: to appear
     url: publications/2026/emse_blackbox.pdf
+  conference:
+  - authors:
+    - Suzhen Zhong
+    - Ying Zou
+    - Bram Adams
+    year: 2026
+    title: 'Developer-LLM Conversations: An Empirical Study of Interactions and Generated
+      Code Quality'
+    venue: in Proceedings of the 36th IEEE International Conference on Collaborative
+      Advances in Software and Computing (CASCON)
+    address: York, ON
+    publisher: IEEE
+    url: https://arxiv.org/abs/2509.10402
+  - authors:
+    - Mateus Karvat
+    - Bram Adams
+    - Sidney Givigi
+    year: 2026
+    title: 'From Leaderboard to Deployment: Code Quality Challenges in AV Perception
+      Repositories'
+    venue: in Proceedings of the 29th IEEE International Conference on Intelligent
+      Transportation Systems (ITSC)
+    address: Naples, Italy
+    publisher: IEEE
+    url: https://arxiv.org/abs/2603.02194
+  - authors:
+    - James Jewitt
+    - Gopi Krishnan Rajbahadur
+    - Hao Li
+    - Bram Adams
+    - Ahmed E. Hassan
+    year: 2026
+    title: 'Permissive-Washing in the Open AI Supply Chain: A Large-Scale Audit of
+      License Integrity'
+    venue: in Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and
+      Data Mining (KDD)
+    address: Jeju, Korea
+    publisher: ACM
+    acceptance_ratio: 18.5%
+    url: https://arxiv.org/abs/2602.08816
+  other:
+  - authors:
+    - Carmen Armenti
+    - Hao Li
+    - Marco Raglianti
+    - Bram Adams
+    - Michele Lanza
+    year: 2026
+    title: Toward Visual Exploration of Agent Trajectories [short]
+    venue: in Proceedings of the IEEE Working Conference on Software Visualization
+      (VISSOFT)
+    address: Benevento, Italy
+    publisher: IEEE
+    acceptance_ratio: 32/48=66.7%
+  - authors:
+    - Ahmed E. Hassan
+    - Hao Li
+    - Dayi Lin
+    - Bram Adams
+    - Tse-Hsun (Peter) Chen
+    - Yutaro Kashiwa
+    - Dong Qiu
+    - Haoxiang Zhang
+    - Miku Watanabe
+    year: 2026
+    title: 'Agentic Software Engineering: A Roadmap to Software Engineering 3.0'
+    venue: Technical Briefing in the Proceedings of the 48th International Conference
+      on Software Engineering (ICSE)
+    acceptance_ratio: 9/12=75%
+    url: https://dl.acm.org/doi/10.1145/3774748.3776601
 2025:
   journal:
   - authors:
@@ -2417,13 +2586,14 @@
     pages: 299-310
   other:
   - year: 2012
-    title: Technical Briefing on Software Release Engineering
+    title: On Software Release Engineering
     url: http://www.slideshare.net/bramadams/on-software-release-engineering-bram-adams
     authors:
     - Bram Adams
     acceptance_ratio: 18/50=36%
     address: Zurich, Switzerland
-    venue: in Proceedings of the 34th International Conference on Software Engineering (ICSE)
+    venue: Technical Briefing in the Proceedings of the 34th International Conference
+      on Software Engineering (ICSE)
   - year: 2012
     authors:
     - Max Di Penta
