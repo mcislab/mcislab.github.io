@@ -25,6 +25,7 @@
     publisher: ACM
     status: to appear
     url: https://arxiv.org/abs/2503.13784
+    tags: [cisc834]
   - authors:
     - Worawalan Chatlatanagulchai
     - Hao Li
@@ -86,6 +87,7 @@
     number: '5'
     publisher: Springer
     url: https://arxiv.org/abs/2509.19185
+    tags: [cisc834]
   - authors:
     - Yu Shi
     - Abdul Ali Bangash
@@ -130,6 +132,7 @@
     publisher: IEEE
     status: to appear
     url: https://arxiv.org/abs/2509.12421
+    tags: [cisc834]
   - authors:
     - Aaditya Bhatia
     - Foutse Khomh
@@ -142,6 +145,7 @@
     publisher: ACM
     status: to appear
     url: https://arxiv.org/abs/2311.12019
+    tags: [cisc834]
   - authors:
     - Marcos Macedo
     - Yuan Tian
@@ -167,6 +171,7 @@
     publisher: Springer
     status: to appear
     url: publications/2026/emse_blackbox.pdf
+    tags: [cisc834]
   conference:
   - authors:
     - Suzhen Zhong
@@ -192,6 +197,7 @@
     address: Naples, Italy
     publisher: IEEE
     url: https://arxiv.org/abs/2603.02194
+    tags: [cisc834]
   - authors:
     - James Jewitt
     - Gopi Krishnan Rajbahadur
@@ -264,6 +270,7 @@
     number: '3'
     publisher: Springer
     url: publications/2025/emse_semver.pdf
+    tags: [cisc834]
   - authors:
     - Zhimin Zhao
     - Abdul Ali Bangash
