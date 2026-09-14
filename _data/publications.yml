@@ -943,6 +943,8 @@
     - Isabella Ferreira
     - Jinghui Cheng
     - Bram Adams
+    awards:
+    - mentioned in https://medium.com/acm-cscw/incivility-in-open-source-code-review-discussions-a-characterization-study-ca81ca231e66
     article_number: '353'
     publisher: ACM
     venue: in Proceedings of the 24th Conference on Computer-Supported Cooperative
@@ -1403,6 +1405,8 @@
     - Parastou Tourani
     - Bram Adams
     - Alexander Serebrenik
+    awards:
+    - mentioned in https://neverworkintheory.org/2021/09/18/code-of-conduct-in-open-source-projects.html
     acceptance_ratio: 34/135=25%
     publisher: IEEE
     address: Klagenfurt, Austria
