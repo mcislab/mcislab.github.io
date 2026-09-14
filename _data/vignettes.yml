@@ -6,6 +6,14 @@
   link: "https://arxiv.org/abs/2411.07091"
   front_page: true
 
+- title: "Open Labels, Missing Paperwork"
+  image: "images/permissive-washing-vignette.png"
+  image_alt: "An auditor opens a case marked with a red FREE tag and finds a binder containing almost entirely empty document sleeves"
+  teaser: "Did you know that *just 2.3% of permissively labeled AI datasets and 3.2% of models* include both the required license text and a copyright notice? We audited 124,278 AI supply chains and found that an “open” label can hide missing paperwork, potentially putting downstream reuse at legal risk."
+  venue: "KDD 2026"
+  link: "https://arxiv.org/abs/2602.08816"
+  front_page: false
+
 - title: "LLM Output Biases"
   image: "images/output-format-sidebar.png"
   image_alt: "Output Biases"
