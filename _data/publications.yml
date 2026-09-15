@@ -2,7 +2,7 @@
   journal:
   - authors:
     - Kosei Horikawa
-    - Hao Li
+    - Hao Li (*)
     - Yutaro Kashiwa
     - Bram Adams
     - Hajimu Iida
@@ -14,8 +14,8 @@
     status: to appear
     url: https://arxiv.org/abs/2511.04824
   - authors:
-    - Lin Geng
-    - Hao Li
+    - Lin Geng (*)
+    - Hao Li (*)
     - Sidney Givigi
     - Bram Adams
     year: 2026
@@ -28,7 +28,7 @@
     tags: [cisc834]
   - authors:
     - Worawalan Chatlatanagulchai
-    - Hao Li
+    - Hao Li (*)
     - Yutaro Kashiwa
     - Brittany Reid
     - Kundjanasith Thonglek
@@ -45,9 +45,9 @@
     status: to appear
     url: https://arxiv.org/abs/2511.12884
   - authors:
-    - Mohammed Mehedi Hasan
-    - Hao Li
-    - Emad Fallahzadeh
+    - Mohammed Mehedi Hasan (*)
+    - Hao Li (*)
+    - Emad Fallahzadeh (*)
     - Gopi Krishnan Rajbahadur
     - Bram Adams
     - Ahmed E. Hassan
@@ -59,9 +59,9 @@
     status: to appear
     url: https://arxiv.org/abs/2506.13538
   - authors:
-    - Adekunle Ajibode
-    - Abdul Ali Bangash
-    - Oussama Ben Sghaier
+    - Adekunle Ajibode (*)
+    - Abdul Ali Bangash (*)
+    - Oussama Ben Sghaier (*)
     - Bram Adams
     - Ahmed E. Hassan
     year: 2026
@@ -73,9 +73,9 @@
     publisher: Springer
     url: https://arxiv.org/abs/2508.10157
   - authors:
-    - Mohammed Mehedi Hasan
-    - Hao Li
-    - Emad Fallahzadeh
+    - Mohammed Mehedi Hasan (*)
+    - Hao Li (*)
+    - Emad Fallahzadeh (*)
     - Gopi Krishnan Rajbahadur
     - Bram Adams
     - Ahmed E. Hassan
@@ -89,9 +89,9 @@
     url: https://arxiv.org/abs/2509.19185
     tags: [cisc834]
   - authors:
-    - Yu Shi
-    - Abdul Ali Bangash
-    - Emad Fallahzadeh
+    - Yu Shi (*)
+    - Abdul Ali Bangash (*)
+    - Emad Fallahzadeh (*)
     - Bram Adams
     - Ahmed E. Hassan
     year: 2026
@@ -102,9 +102,9 @@
     publisher: Springer
     url: https://arxiv.org/abs/2501.09135
   - authors:
-    - Doriane Olewicki
+    - Doriane Olewicki (*)
     - Leuson Da Silva
-    - Oussama Ben Sghaier
+    - Oussama Ben Sghaier (*)
     - Suhaib Mujahid
     - Arezou Amini
     - Benjamin Mah
@@ -119,10 +119,10 @@
     status: to appear
     url: https://arxiv.org/abs/2411.07091
   - authors:
-    - Hao Li
-    - Hicham Masri
+    - Hao Li (*)
+    - Hicham Masri (*)
     - Filipe Roseiro Côgo
-    - Abdul Ali Bangash
+    - Abdul Ali Bangash (*)
     - Bram Adams
     - Ahmed E. Hassan
     year: 2026
@@ -134,7 +134,7 @@
     url: https://arxiv.org/abs/2509.12421
     tags: [cisc834]
   - authors:
-    - Aaditya Bhatia
+    - Aaditya Bhatia (*)
     - Foutse Khomh
     - Bram Adams
     - Ahmed E. Hassan
@@ -147,7 +147,7 @@
     url: https://arxiv.org/abs/2311.12019
     tags: [cisc834]
   - authors:
-    - Marcos Macedo
+    - Marcos Macedo (*)
     - Yuan Tian
     - Filipe Roseiro Côgo
     - Bram Adams
@@ -160,8 +160,8 @@
     number: '41'
     url: https://arxiv.org/abs/2403.17214
   - authors:
-    - Jaskirat Singh
-    - Emad Fallahzadeh
+    - Jaskirat Singh (*)
+    - Emad Fallahzadeh (*)
     - Bram Adams
     - Ahmed E. Hassan
     year: 2025
@@ -174,7 +174,7 @@
     tags: [cisc834]
   conference:
   - authors:
-    - Suzhen Zhong
+    - Suzhen Zhong (*)
     - Ying Zou
     - Bram Adams
     year: 2026
@@ -199,9 +199,9 @@
     url: https://arxiv.org/abs/2603.02194
     tags: [cisc834]
   - authors:
-    - James Jewitt
+    - James Jewitt (*)
     - Gopi Krishnan Rajbahadur
-    - Hao Li
+    - Hao Li (*)
     - Bram Adams
     - Ahmed E. Hassan
     year: 2026
@@ -216,7 +216,7 @@
   other:
   - authors:
     - Carmen Armenti
-    - Hao Li
+    - Hao Li (*)
     - Marco Raglianti
     - Bram Adams
     - Michele Lanza
@@ -229,7 +229,7 @@
     acceptance_ratio: 32/48=66.7%
   - authors:
     - Ahmed E. Hassan
-    - Hao Li
+    - Hao Li (*)
     - Dayi Lin
     - Bram Adams
     - Tse-Hsun (Peter) Chen
@@ -246,7 +246,7 @@
 2025:
   journal:
   - authors:
-    - Shenyu Zheng
+    - Shenyu Zheng (*)
     - Bram Adams
     - Ahmed E. Hassan
     year: 2025
@@ -257,8 +257,8 @@
     publisher: IEEE
     url: publications/2025/ieeesw-shenyu.pdf
   - authors:
-    - Adekunle Ajibode
-    - Abdul Ali Bangash
+    - Adekunle Ajibode (*)
+    - Abdul Ali Bangash (*)
     - Filipe Roseiro Côgo
     - Bram Adams
     - Ahmed E. Hassan
@@ -272,8 +272,8 @@
     url: publications/2025/emse_semver.pdf
     tags: [cisc834]
   - authors:
-    - Zhimin Zhao
-    - Abdul Ali Bangash
+    - Zhimin Zhao (*)
+    - Abdul Ali Bangash (*)
     - Filipe Roseiro Côgo
     - Bram Adams
     - Ahmed E. Hassan
@@ -287,7 +287,7 @@
     publisher: IEEE
     url: https://arxiv.org/abs/2407.04065
   - authors:
-    - Amir M. Ebrahimi
+    - Amir M. Ebrahimi (*)
     - Bram Adams
     - Gustavo A. Oliva
     - Ahmed E. Hassan
@@ -300,7 +300,7 @@
     publisher: Springer
     url: https://arxiv.org/abs/2501.00674
   - authors:
-    - Divya M. Kamath
+    - Divya M. Kamath (*)
     - Bram Adams
     - Ahmed E. Hassan
     year: 2025
@@ -311,7 +311,7 @@
     publisher: Springer
     url: publications/2025/emse_divya_light.pdf
   - authors:
-    - Emad Fallahzadeh
+    - Emad Fallahzadeh (*)
     - Peter C. Rigby
     - Bram Adams
     year: 2025
@@ -322,9 +322,9 @@
     publisher: Springer
     url: publications/2025/emse_scale.pdf
   - authors:
-    - Harsh Patel
+    - Harsh Patel (*)
     - Dominique Boucher
-    - Emad Fallahzadeh
+    - Emad Fallahzadeh (*)
     - Ahmed E. Hassan
     - Bram Adams
     year: 2025
@@ -351,7 +351,7 @@
     tags: [cisc834]
   conference:
   - authors:
-    - Marcos Macedo
+    - Marcos Macedo (*)
     - Yuan Tian
     - Pengyu Nie
     - Filipe Roseiro Côgo
@@ -380,7 +380,7 @@
     url: https://researchportal.vub.be/nl/publications/analysing-software-supply-chains-of-infrastructure-as-code-extrac
   workshop:
   - authors:
-    - Marcos Macedo
+    - Marcos Macedo (*)
     - Yuan Tian
     - Bram Adams
     year: 2025
@@ -396,9 +396,9 @@
     url: publications/2024/ieeesw-ernesto.pdf
     tags: [cisc834]
     authors:
-    - Ernesto Lang Oreamuno
+    - Ernesto Lang Oreamuno (*)
     - Rohan Faiyaz Khan
-    - Abdul Ali Bangash
+    - Abdul Ali Bangash (*)
     - Catherine Stinson
     - Bram Adams
     pages: 52-59
@@ -412,8 +412,8 @@
     url: publications/2024/emse_divya_timeout.pdf
     tags: [cisc834]
     authors:
-    - Divya M. Kamath
-    - Eduardo Fernandes
+    - Divya M. Kamath (*)
+    - Eduardo Fernandes (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '29'
@@ -425,7 +425,7 @@
     url: https://arxiv.org/abs/2405.00796
     tags: [cisc834]
     authors:
-    - Shenyu Zheng
+    - Shenyu Zheng (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '29'
@@ -452,7 +452,7 @@
     url: publications/2024/emse_harsh.pdf
     tags: [cisc834]
     authors:
-    - Harsh Patel
+    - Harsh Patel (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '29'
@@ -463,7 +463,7 @@
     title: A Large-Scale Exploratory Study on the Proxy Pattern in Ethereum
     url: https://sail.cs.queensu.ca/data/pdfs/2024_A_Large-Scale_Exploratory_Study_on_the_Proxy_Pattern_in_Ethereum.pdf
     authors:
-    - Amir M. Ebrahimi
+    - Amir M. Ebrahimi (*)
     - Bram Adams
     - Gustavo A. Oliva
     - Ahmed E. Hassan
@@ -476,9 +476,9 @@
     url: https://arxiv.org/abs/2402.15990
     tags: [cisc834]
     authors:
-    - Zhimin Zhao
-    - Yihao Chen
-    - Abdul Ali Bangash
+    - Zhimin Zhao (*)
+    - Yihao Chen (*)
+    - Abdul Ali Bangash (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '29'
@@ -491,7 +491,7 @@
     url: publications/2024/emse_akshat_within.pdf
     tags: [cisc834]
     authors:
-    - Akshat Malik
+    - Akshat Malik (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '29'
@@ -514,8 +514,8 @@
     url: publications/2024/emse_rahul.pdf
     tags: [cisc834]
     authors:
-    - Rahul Bajaj
-    - Eduardo Fernandes
+    - Rahul Bajaj (*)
+    - Eduardo Fernandes (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '29'
@@ -528,7 +528,7 @@
       practice
     url: https://arxiv.org/abs/2404.10703
     authors:
-    - Doriane Olewicki
+    - Doriane Olewicki (*)
     - Sarra Habchi
     - Bram Adams
     acceptance_ratio: 121/483=25.1%
@@ -542,7 +542,7 @@
       Empirical Study on Brown Build and Risk Prediction'
     url: https://arxiv.org/abs/2305.09824
     authors:
-    - Doriane Olewicki
+    - Doriane Olewicki (*)
     - Sarra Habchi
     - Mathieu Nayrolles
     - Mojtaba Faramarzi
@@ -560,7 +560,7 @@
       Models for Code Translation
     url: https://arxiv.org/abs/2403.17214
     authors:
-    - Marcos Macedo
+    - Marcos Macedo (*)
     - Yuan Tian
     - Filipe Roseiro Côgo
     - Bram Adams
@@ -578,7 +578,7 @@
       from 13 CVE Numbering Authorities
     url: publications/2023/emse_justina_cna.pdf
     authors:
-    - Jiahuei Lin
+    - Jiahuei Lin (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '28'
@@ -589,8 +589,8 @@
     title: 'A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization'
     url: publications/2023/tse_armstrong.pdf
     authors:
-    - Armstrong Tita Foundjem
-    - Ellis E. Eghan
+    - Armstrong Tita Foundjem (*)
+    - Ellis E. Eghan (*)
     - Bram Adams
     pages: 4731-4750
     volume: '49'
@@ -602,8 +602,8 @@
     url: publications/2023/emse_yihao.pdf
     tags: [cisc834]
     authors:
-    - Yihao Chen
-    - Eduardo Fernandes
+    - Yihao Chen (*)
+    - Eduardo Fernandes (*)
     - Bram Adams
     - Ahmed E. Hassan
     volume: '28'
@@ -629,10 +629,10 @@
       of ML pipelines and forks related to academic publications'
     url: https://arxiv.org/abs/2203.11365
     authors:
-    - Aaditya Bhatia
-    - Ellis E. Eghan
-    - Manel Grichi
-    - William Glazer Cavanagh
+    - Aaditya Bhatia (*)
+    - Ellis E. Eghan (*)
+    - Manel Grichi (*)
+    - William Glazer Cavanagh (*)
     - Zhen Ming Jiang
     - Bram Adams
     volume: '28'
@@ -644,7 +644,7 @@
       Debian and Fedora'
     url: https://sail.cs.queensu.ca/data/pdfs/2023_Vulnerability_management_in_Linux_distributions.pdf
     authors:
-    - Jiahuei Lin
+    - Jiahuei Lin (*)
     - Haoxiang Zhang
     - Bram Adams
     - Ahmed E. Hassan
@@ -675,7 +675,7 @@
     tags: [cisc834]
     authors:
     - Kazi Amit Hasan
-    - Marcos Macedo
+    - Marcos Macedo (*)
     - Yuan Tian
     - Bram Adams
     - Steven Ding
@@ -701,7 +701,7 @@
       Debian and Fedora Practices
     url: https://sail.cs.queensu.ca/data/pdfs/2022_Upstream_bug_management_in_Linux_distributions.pdf
     authors:
-    - Jiahuei Lin
+    - Jiahuei Lin (*)
     - Haoxiang Zhang
     - Bram Adams
     - Ahmed E. Hassan
@@ -713,7 +713,7 @@
     title: A mixed-methods analysis of micro-collaborative coding practices in OpenStack
     url: publications/2022/emse_micro.pdf
     authors:
-    - Armstrong Tita Foundjem
+    - Armstrong Tita Foundjem (*)
     - Eleni Constantinou
     - Tom Mens
     - Bram Adams
@@ -741,7 +741,7 @@
       screencasts by the new generation of software developers
     url: https://www.researchgate.net/publication/356560172_A_user_survey_on_the_adoption_of_crowd-based_software_engineering_instructional_screencasts_by_the_new_generation_of_software_developers
     authors:
-    - Parisa Moslehi
+    - Parisa Moslehi (*)
     - Juergen Rilling
     - Bram Adams
     publisher: Elsevier
@@ -784,7 +784,7 @@
     url: https://rebels.cs.uwaterloo.ca/papers/tse2020_vysali.pdf
     tags: [cisc834]
     authors:
-    - Shivashree Vysali
+    - Shivashree Vysali (*)
     - Shane McIntosh
     - Bram Adams
     pages: 1018-1029
@@ -826,7 +826,7 @@
     title: Towards Language-independent Brown Build Detection
     url: publications/2022/icse22.pdf
     authors:
-    - Doriane Olewicki
+    - Doriane Olewicki (*)
     - Mathieu Nayrolles
     - Bram Adams
     acceptance_ratio: 197/751=26.23%
@@ -838,7 +838,7 @@
     title: How heated is it? Understanding GitHub locked issues
     url: https://arxiv.org/abs/2204.00155
     authors:
-    - Isabella Ferreira
+    - Isabella Ferreira (*)
     - Bram Adams
     - Jinghui Cheng
     acceptance_ratio: 47/137=34.3%
@@ -852,7 +852,7 @@
     url: https://research.tue.nl/en/publications/why-do-projects-join-the-apache-software-foundation
     authors:
     - Nan Yang
-    - Isabella Ferreira
+    - Isabella Ferreira (*)
     - Alexander Serebrenik
     - Bram Adams
     acceptance_ratio: 17/39=43.59%
@@ -867,8 +867,8 @@
     url: publications/2021/jss_amine.pdf
     tags: [cisc834]
     authors:
-    - Amine Barrak
-    - Ellis E. Eghan
+    - Amine Barrak (*)
+    - Ellis E. Eghan (*)
     - Bram Adams
     - Foutse Khomh
     pages: '110939'
@@ -923,7 +923,7 @@
     title: Release Synchronization in Software Ecosystems
     url: publications/2021/emse_armstrong.pdf
     authors:
-    - Armstrong Tita Foundjem
+    - Armstrong Tita Foundjem (*)
     - Bram Adams
     publisher: Springer
     venue: Empirical Software Engineering (EMSE)
@@ -947,7 +947,7 @@
       Code Review Discussions'
     url: https://arxiv.org/pdf/2108.09905v1.pdf
     authors:
-    - Isabella Ferreira
+    - Isabella Ferreira (*)
     - Jinghui Cheng
     - Bram Adams
     awards:
@@ -964,8 +964,8 @@
       the OpenStack Ecosystem
     url: publications/2021/icse_armstrong.pdf
     authors:
-    - Armstrong Tita Foundjem
-    - Ellis E. Eghan
+    - Armstrong Tita Foundjem (*)
+    - Ellis E. Eghan (*)
     - Bram Adams
     acceptance_ratio: 138/602=22.92%
     pages: 1033-1045
@@ -989,8 +989,8 @@
       DVC Projects
     url: publications/2021/saner.pdf
     authors:
-    - Amine Barrak
-    - Ellis E. Eghan
+    - Amine Barrak (*)
+    - Ellis E. Eghan (*)
     - Bram Adams
     acceptance_ratio: 42/165=25%
     publisher: IEEE
@@ -1031,7 +1031,7 @@
       from Crowd-based Screencasts to Source Code
     url: publications/2020/emse_parisa.pdf
     authors:
-    - Parisa Moslehi
+    - Parisa Moslehi (*)
     - Bram Adams
     - Juergen Rilling
     pages: 4873-4926
@@ -1042,7 +1042,7 @@
     title: 'Swarm Relays: Distributed Self-Healing Ground-and-Air Connectivity Chains'
     url: http://www.arxiv.org/abs/1909.10496
     authors:
-    - Vivek Shankar Varadharajan
+    - Vivek Shankar Varadharajan (*)
     - David St-Onge
     - Bram Adams
     - Giovanni Beltrame
@@ -1071,7 +1071,7 @@
       Systematic Literature Review
     url: publications/2020/tse.pdf
     authors:
-    - Mohammed Sayagh
+    - Mohammed Sayagh (*)
     - Noureddine Kerzazi
     - Bram Adams
     - Fabio Petrillo
@@ -1085,8 +1085,8 @@
     title: On the Impact of Multi-language Development in Machine Learning Frameworks
     url: publications/2020/icsme_manel.pdf
     authors:
-    - Manel Grichi
-    - Ellis E. Eghan
+    - Manel Grichi (*)
+    - Ellis E. Eghan (*)
     - Bram Adams
     acceptance_ratio: 58/201=28.9%
     publisher: IEEE
@@ -1113,10 +1113,10 @@
     title: On the Impact of Inter-language Dependencies in Multi-language Systems
     url: publications/2020/qrs_manel.pdf
     authors:
-    - Manel Grichi
+    - Manel Grichi (*)
     - Mouna Abidi
     - Fehmi Jaafar
-    - Ellis E. Eghan
+    - Ellis E. Eghan (*)
     - Bram Adams
     awards:
     - Recommended to the IEEE Transactions on Reliability
@@ -1144,7 +1144,7 @@
     title: 'SOUL: Data Sharing for Robot Swarms'
     url: https://unpaywall.org/10.1007%2Fs10514-019-09855-2
     authors:
-    - Vivek Shankar Varadharajan
+    - Vivek Shankar Varadharajan (*)
     - David St-Onge
     - Bram Adams
     - Giovanni Beltrame
@@ -1157,7 +1157,7 @@
       and 10 Operating Systems
     url: publications/2019/emse_mahdis.pdf
     authors:
-    - Mahdis Zolfagharinia
+    - Mahdis Zolfagharinia (*)
     - Bram Adams
     - Yann-Gaël Guéhéneuc
     volume: '24'
@@ -1227,7 +1227,7 @@
       Source Ecosystem
     url: publications/2019/SEMotion_2019.pdf
     authors:
-    - Isabella Ferreira
+    - Isabella Ferreira (*)
     - Kate Stewart
     - Daniel M. Germán
     - Bram Adams
@@ -1244,7 +1244,7 @@
     authors:
     - Alessandro Murgia
     - Marco Ortu
-    - Parastou Tourani
+    - Parastou Tourani (*)
     - Bram Adams
     - Serge Demeyer
     pages: 521-564
@@ -1258,7 +1258,7 @@
       Sampling
     url: https://arxiv.org/pdf/1808.05409.pdf
     authors:
-    - Miikka Kuutila
+    - Miikka Kuutila (*)
     - Mika Mäntylä
     - Maëlick Claes
     - Marko Elovainio
@@ -1285,7 +1285,7 @@
     title: Feature Location using Crowd-based Screencasts
     url: publications/2018/msr1.pdf
     authors:
-    - Parisa Moslehi
+    - Parisa Moslehi (*)
     - Bram Adams
     - Juergen Rilling
     acceptance_ratio: 37/113=32.7%
@@ -1312,7 +1312,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE2017_AnEmpiricalStudyOfUnspecifiedDependenciesInMake-BasedBuildSystems.pdf
     authors:
     - Cor-Paul Bezemer
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Daniel M. Germán
     - Ahmed E. Hassan
@@ -1326,7 +1326,7 @@
       Ecosystems'
     url: https://hal.inria.fr/hal-01406422/document
     authors:
-    - María Gómez
+    - María Gómez (*)
     - Bram Adams
     - Walid Maalej
     - Martin Monperrus
@@ -1355,7 +1355,7 @@
       Study on 11 Java Configuration Frameworks
     url: publications/2017/scam17.pdf
     authors:
-    - Mohammed Sayagh
+    - Mohammed Sayagh (*)
     - Zhen Dong
     - Artur Andrzejak
     - Bram Adams
@@ -1369,7 +1369,7 @@
     title: On Cross-stack Configuration Errors
     url: publications/2017/icse.pdf
     authors:
-    - Mohammed Sayagh
+    - Mohammed Sayagh (*)
     - Noureddine Kerzazi
     - Bram Adams
     replication_package: publications/2017/icse2017_data.zip
@@ -1383,7 +1383,7 @@
     url: publications/2017/msr.pdf
     tags: [cisc834]
     authors:
-    - Mahdis Zolfagharinia
+    - Mahdis Zolfagharinia (*)
     - Bram Adams
     - Yann-Gaël Guéhéneuc
     acceptance_ratio: 37/121=30.6%
@@ -1396,7 +1396,7 @@
     url: http://swat.polymtl.ca/~foutsekh/docs/ICST-Tita.pdf
     tags: [cisc834]
     authors:
-    - Foundjem Tita Armstrong
+    - Foundjem Tita Armstrong (*)
     - Foutse Khomh
     - Bram Adams
     acceptance_ratio: 36/135=27%
@@ -1409,7 +1409,7 @@
     title: Code of Conduct in Open Source Projects
     url: publications/2017/saner.pdf
     authors:
-    - Parastou Tourani
+    - Parastou Tourani (*)
     - Bram Adams
     - Alexander Serebrenik
     awards:
@@ -1482,7 +1482,7 @@
     title: Identifying and Understanding Header File Hotspots in C/C++ Build Processes
     url: http://sail.cs.queensu.ca/data/pdfs/ASE_IdentifyingAndUnderstandingHeaderFileHotspotsInC,C++BuildProcesses.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Meiyappan Nagappan
     - Ahmed E. Hassan
@@ -1509,7 +1509,7 @@
       Quality
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_AnEmpiricalStudyOfTheImpactOfModernCodeReviewPracticesOnSoftwareQuality.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Yasutaka Kamei
     - Bram Adams
     - Ahmed E. Hassan
@@ -1539,7 +1539,7 @@
     url: publications/2016/integration_oss_distribution.pdf
     authors:
     - Bram Adams
-    - Ryan Kavanagh
+    - Ryan Kavanagh (*)
     - Ahmed E. Hassan
     - Daniel M. Germán
     publisher: Springer
@@ -1611,7 +1611,7 @@
     - Samir Hasan
     - Zachary King
     - Munawar Hafiz
-    - Mohammed Sayagh
+    - Mohammed Sayagh (*)
     - Bram Adams
     - Abram Hindle
     awards:
@@ -1624,7 +1624,7 @@
     title: On Mining Crowd-based Speech Documentation
     url: publications/2016/msr_parisa.pdf
     authors:
-    - Parisa Moslehi
+    - Parisa Moslehi (*)
     - Bram Adams
     - Juergen Rilling
     acceptance_ratio: 36/103=27%
@@ -1636,7 +1636,7 @@
       in Android Apps
     url: https://hal.inria.fr/hal-01280784
     authors:
-    - María Gómez
+    - María Gómez (*)
     - Romain Rouvoy
     - Bram Adams
     - Lionel Seinturier
@@ -1651,7 +1651,7 @@
     authors:
     - Mika Mäntylä
     - Bram Adams
-    - Giuseppe Destefanis
+    - Giuseppe Destefanis (*)
     - Daniel Graziotin
     - Marco Ortu
     acceptance_ratio: 36/103=27%
@@ -1676,7 +1676,7 @@
       Monitoring
     url: https://hal.inria.fr/hal-01276926
     authors:
-    - María Gómez
+    - María Gómez (*)
     - Romain Rouvoy
     - Bram Adams
     - Lionel Seinturier
@@ -1691,7 +1691,7 @@
     url: publications/2016/fose.pdf
     authors:
     - Bram Adams
-    - Shane McIntosh
+    - Shane McIntosh (*)
     replication_package: https://www.youtube.com/watch?v=HMtiGNGxXr4/
     publisher: IEEE
     address: Osaka, Japan
@@ -1728,7 +1728,7 @@
     title: The Impact of Human Discussions on Just-In-Time Quality Assurance
     url: publications/2016/saner_parastou.pdf
     authors:
-    - Parastou Tourani
+    - Parastou Tourani (*)
     - Bram Adams
     acceptance_ratio: 52/140=37%
     publisher: IEEE
@@ -1742,14 +1742,14 @@
     title: On the Impact of Affect in Software Engineering
     url: publications/2016/thesis_parastou.pdf
     authors:
-    - Parastou Tourani
+    - Parastou Tourani (*)
     venue: PhD thesis at GIGL, Polytechnique Montreal
   - year: 2016
     title: Mining Software Repositories for Release Engineers - Empirical Studies
       on Integration and Infrastructure-as-Code
     url: publications/2016/thesis_jojo.pdf
     authors:
-    - Yujuan Jiang
+    - Yujuan Jiang (*)
     venue: PhD thesis at GIGL, Polytechnique Montreal
   other:
   - year: 2016
@@ -1820,7 +1820,7 @@
       and Build Maintenance
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ALarge-ScaleEmpiricalStudyOfTheRelationshipBetweenBuildTechnologyAndBuildMaintenance.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Meiyappan Nagappan
     - Bram Adams
     - Audris Mockus
@@ -1909,7 +1909,7 @@
     url: publications/2015/scam15_vincent.pdf
     tags: [cisc834]
     authors:
-    - Vincent Boisselle
+    - Vincent Boisselle (*)
     - Bram Adams
     acceptance_ratio: 24/68=35%
     publisher: IEEE
@@ -1922,7 +1922,7 @@
     url: publications/2015/scam15_mohammed.pdf
     tags: [cisc834]
     authors:
-    - Mohammed Sayagh
+    - Mohammed Sayagh (*)
     - Bram Adams
     acceptance_ratio: 24/68=35%
     publisher: IEEE
@@ -1967,7 +1967,7 @@
     title: Co-evolution of infrastructure and Source Code - An Empirical Study
     url: publications/2015/msrjojo.pdf
     authors:
-    - Yujuan Jiang
+    - Yujuan Jiang (*)
     - Bram Adams
     replication_package: https://mcislab.github.io/publications/2015/msr15_extended_dataset.zip
     acceptance_ratio: 32/106=30%
@@ -1981,8 +1981,8 @@
     authors:
     - Marco Ortu
     - Bram Adams
-    - Giuseppe Destefanis
-    - Parastou Tourani
+    - Giuseppe Destefanis (*)
+    - Parastou Tourani (*)
     - Michele Marchesi
     - Roberto Tonelli
     acceptance_ratio: 32/106=30%
@@ -1994,7 +1994,7 @@
     title: Automated Identification of Functional Problems in Flight Simulators
     url: publications/2015/thesis_vincent.pdf
     authors:
-    - Vincent Boisselle
+    - Vincent Boisselle (*)
     venue: Master's thesis at GIGL, Polytechnique Montreal
   other:
   - year: 2015
@@ -2013,7 +2013,7 @@
     url: publications/2015/ortu_promise.pdf
     authors:
     - Marco Ortu
-    - Giuseppe Destefanis
+    - Giuseppe Destefanis (*)
     - Alessandro Murgia
     - Michele Marchesi
     - Roberto Tonelli
@@ -2134,8 +2134,8 @@
     url: publications/2014/cascon14.pdf
     tags: [cisc834]
     authors:
-    - Parastou Tourani
-    - Yujuan Jiang
+    - Parastou Tourani (*)
+    - Yujuan Jiang (*)
     - Bram Adams
     acceptance_ratio: 19/56=33.9%
     address: Markham, ON, Canada
@@ -2158,7 +2158,7 @@
     title: Mining Co-Change Information to Understand when Build Changes are Necessary
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2014_MiningCo-ChangeInformationToUnderstandWhenBuildChangesAreNecessary.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Meiyappan Nagappan
     - Ahmed E. Hassan
@@ -2187,7 +2187,7 @@
     url: publications/2014/esem14mini.pdf
     tags: [cisc834]
     authors:
-    - Mini Shridhar
+    - Mini Shridhar (*)
     - Bram Adams
     - Foutse Khomh
     acceptance_ratio: 23/123=19%
@@ -2199,7 +2199,7 @@
     title: Tracing Back the History of Commits in Low-tech Reviewing Environments
     url: publications/2014/esem14jojo.pdf
     authors:
-    - Yujuan Jiang
+    - Yujuan Jiang (*)
     - Bram Adams
     - Foutse Khomh
     - Daniel M. Germán
@@ -2213,7 +2213,7 @@
       Quality Assessments
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2014_CollectingAndLeveragingABenchmarkOfBuildSystemClonesToAidInQualityAssessments.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Martin Poehlmann
     - Elmar Juergens
     - Audris Mockus
@@ -2234,7 +2234,7 @@
     url: http://alessandromurgia.files.wordpress.com/2014/03/emotionanalysis.pdf
     authors:
     - Alessandro Murgia
-    - Parastou Tourani
+    - Parastou Tourani (*)
     - Bram Adams
     - Marco Ortu
     acceptance_ratio: 29/85=34%
@@ -2246,7 +2246,7 @@
       Quality: A Case Study of the Qt, VTK, and ITK Projects'
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Yasutaka Kamei
     - Bram Adams
     - Ahmed E. Hassan
@@ -2261,7 +2261,7 @@
     title: How much does this commit cost?
     url: publications/2014/releng14jojo.pdf
     authors:
-    - Yujuan Jiang
+    - Yujuan Jiang (*)
     - Bram Adams
     - Daniel M. Germán
     address: Mountain View, CA, US
@@ -2271,14 +2271,14 @@
     venue: 2nd International Workshop on Release Engineering (RELENG)
     address: Mountain View, CA, US
     authors:
-    - Yujuan Jiang
+    - Yujuan Jiang (*)
     - Bram Adams
   - year: 2014
     title: Identifying Header File Hotspots in C/C++ Build Processes [poster]
     venue: 2nd International Workshop on Release Engineering (RELENG)
     address: Mountain View, CA, US
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Meiyappan Nagappan
     - Ahmed E. Hassan
@@ -2304,7 +2304,7 @@
     - Emad Shihab
     - Akinori Ihara
     - Yasutaka Kamei
-    - Walid M. Ibrahim
+    - Walid M. Ibrahim (*)
     - Masao Ohira
     - Bram Adams
     - Ahmed E. Hassan
@@ -2394,7 +2394,7 @@
     title: Will My Patch Make It? And How Fast? - Case Study on the Linux Kernel
     url: publications/2013/msr_jojo.pdf
     authors:
-    - Yujuan Jiang
+    - Yujuan Jiang (*)
     - Bram Adams
     - Daniel M. Germán
     replication_package: publications/2013/linux_patch_final.arff.gz
@@ -2445,7 +2445,7 @@
     title: Preserving Knowledge in Software Projects
     url: http://sail.cs.queensu.ca/data/pdfs/JSS_PreservingKnowledgeInSoftwareProjects.pdf
     authors:
-    - Omar Alam
+    - Omar Alam (*)
     - Bram Adams
     - Ahmed E. Hassan
     publisher: Elsevier
@@ -2457,7 +2457,7 @@
     title: On the Relationship between Comment Update Practices and Software Bugs
     url: http://sail.cs.queensu.ca/data/pdfs/JSS_OnTheRelationshipBetweenCommentUpdatePracticesAndSoftwareBugs.pdf
     authors:
-    - Walid M. Ibrahim
+    - Walid M. Ibrahim (*)
     - Nicolas Bettenburg
     - Bram Adams
     - Ahmed E. Hassan
@@ -2486,7 +2486,7 @@
     authors:
     - Nicolas Bettenburg
     - Weiyi Shang
-    - Walid M. Ibrahim
+    - Walid M. Ibrahim (*)
     - Bram Adams
     - Ying Zou
     - Ahmed E. Hassan
@@ -2499,7 +2499,7 @@
     title: The Evolution of Java Build Systems
     url: http://sail.cs.queensu.ca/data/pdfs/EMSE_TheEvolutionOfJavaBuildSystems.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Ahmed E. Hassan
     publisher: Springer
@@ -2513,7 +2513,7 @@
       on KDE and the Linux Kernel'
     url: publications/2012/ICSM2012Roman.pdf
     authors:
-    - Roman Suvorov
+    - Roman Suvorov (*)
     - Bram Adams
     - Meiyappan Nagappan
     - Ahmed E. Hassan
@@ -2736,7 +2736,7 @@
     title: Using Indexed Sequence Diagrams to Recover the Behaviour of AJAX Applications
     url: http://sail.cs.queensu.ca/data/pdfs/WSE2011_UsingIndexedSequenceDiagramsToRecoverTheBehaviourOfAJAXApplications.pdf
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Ahmed E. Hassan
     - Ying Zou
@@ -2790,7 +2790,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf
     tags: [makao]
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Yasutaka Kamei
     - Thanh H. D. Nguyen
@@ -2880,7 +2880,7 @@
       a Load Test
     url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2010_PinpointingTheSubsystemsResponsibleForThePerformanceDeviationsInALoadTest.pdf
     authors:
-    - Haroon Malik
+    - Haroon Malik (*)
     - Bram Adams
     - Ahmed E. Hassan
     acceptance_ratio: 40/130=31%
@@ -2907,7 +2907,7 @@
     - Emad Shihab
     - Akinori Ihara
     - Yasutaka Kamei
-    - Walid M. Ibrahim
+    - Walid M. Ibrahim (*)
     - Masao Ohira
     - Bram Adams
     - Ahmed E. Hassan
@@ -2997,7 +2997,7 @@
     authors:
     - Emad Shihab
     - Zhen Ming Jiang
-    - Walid M. Ibrahim
+    - Walid M. Ibrahim (*)
     - Bram Adams
     - Ahmed E. Hassan
     acceptance_ratio: 30/102=29%
@@ -3010,7 +3010,7 @@
       System
     url: http://sail.cs.queensu.ca/data/pdfs/COMPSAC2010_UsingLoadTestsToAutomaticallyCompareTheSubsystemsOfALargeEnterpriseSystem.pdf
     authors:
-    - Haroon Malik
+    - Haroon Malik (*)
     - Bram Adams
     - Ahmed E. Hassan
     acceptance_ratio: 20%
@@ -3053,7 +3053,7 @@
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf
     tags: [makao]
     authors:
-    - Shane McIntosh
+    - Shane McIntosh (*)
     - Bram Adams
     - Ahmed E. Hassan
     acceptance_ratio: 16/51=31.4%
@@ -3067,7 +3067,7 @@
     title: Should I contribute to this discussion?
     url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_ShouldIContributeToThisDiscussion_.pdf
     authors:
-    - Walid M. Ibrahim
+    - Walid M. Ibrahim (*)
     - Nicolas Bettenburg
     - Emad Shihab
     - Bram Adams
@@ -3093,7 +3093,7 @@
       of Large Enterprise Systems
     url: http://www.cse.yorku.ca/~zmjiang/publications/csmr2010_malik.pdf
     authors:
-    - Haroon Malik
+    - Haroon Malik (*)
     - Zhen Ming Jiang
     - Bram Adams
     - Ahmed E. Hassan
@@ -3164,7 +3164,7 @@
     authors:
     - Nicolas Bettenburg
     - Weiyi Shang
-    - Walid M. Ibrahim
+    - Walid M. Ibrahim (*)
     - Bram Adams
     - Ying Zou
     - Ahmed E. Hassan
@@ -3178,7 +3178,7 @@
     title: A Study of the Time Dependence of Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AStudyOfTheTimeDependenceOfCodeChanges.pdf
     authors:
-    - Omar Alam
+    - Omar Alam (*)
     - Bram Adams
     - Ahmed E. Hassan
     acceptance_ratio: 20/79=25%
@@ -3189,7 +3189,7 @@
     title: Measuring the Progress of Projects Using the Time Dependence of Code Changes
     url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_MeasuringTheProgressOfProjectsUsingTheTimeDependenceOfCodeChanges.pdf
     authors:
-    - Omar Alam
+    - Omar Alam (*)
     - Bram Adams
     - Ahmed E. Hassan
     awards:
@@ -3374,7 +3374,7 @@
     authors:
     - Zhen Ming Jiang
     - Dharmesh Thakkar
-    - Haroon Malik
+    - Haroon Malik (*)
     - Emad Shihab
     - Ahmed E. Hassan
     - Dave Dietz
