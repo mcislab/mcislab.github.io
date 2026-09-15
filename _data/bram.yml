@@ -168,6 +168,19 @@ event_coorganization:
     colocated_url: "https://web.archive.org/web/20130206145244/https://aosd.net/2009/index.php"
 
 chair_duties:
+  - role: "area chair"
+    track: "\"SE4AI\" (Software Engineering for AI)"
+    event: "35th ACM International Conference on the Foundations of Software Engineering (FSE)"
+    url: "https://conf.researchr.org/home/fse-2027"
+    date: "July 12-16, 2027"
+    address: "Shenzhen, China"
+  - role: "awards co-chair"
+    cochair: "Dongmei Zhang"
+    cochair_url: "https://2027.msrconf.org/profile/dongmeizhang"
+    event: "24th International Conference on Mining Software Repositories (MSR)"
+    url: "https://conf.researchr.org/home/msr-2027"
+    date: "April 26-27, 2027"
+    address: "Dublin, Ireland"
   - role: "most influential paper co-chair"
     cochair: "Denys Poshyvanyk"
     cochair_url: "https://www.cs.wm.edu/~denys/"
@@ -175,6 +188,13 @@ chair_duties:
     url: "https://conf.researchr.org/home/icsme-2026"
     date: "September 16-18, 2026"
     address: "Benevento, Italy"
+  - role: "awards co-chair"
+    cochair: "Patanamon Thongtanunam"
+    cochair_url: "https://2026.msrconf.org/profile/patanamonthongtanunam1"
+    event: "23rd International Conference on Mining Software Repositories (MSR)"
+    url: "https://conf.researchr.org/home/msr-2026"
+    date: "April 13-14, 2026"
+    address: "Rio de Janeiro, Brazil"
   - role: "most influential paper co-chair"
     cochair: "Alexander Serebrenik"
     cochair_url: "https://www.win.tue.nl/~aserebre/"
@@ -1097,6 +1117,10 @@ editorship:
     event: "Journal of Systems and Software (JSS)"
     url: "https://www.journals.elsevier.com/journal-of-systems-and-software/"
   - role: "Former member of the steering committee"
+    event: "International Conference on AI-powered Software (AIware)"
+    url: "https://conf.researchr.org/series/aiware"
+    date: "2024-2025"
+  - role: "Former member of the steering committee"
     event: "International Conference on Mining Software Repositories (MSR)"
     url: "http://msrconf.org/"
     date: "2016-2024"
@@ -1345,8 +1369,6 @@ press:
     url: "https://www.lapresse.ca/affaires/economie/emploi/201209/10/01-4572598-globalink-ouvre-montreal-sur-le-monde.php"
     description: "interview with Martine Letarte of La Presse"
     date: "September 10, 2012"
-
-
 
 
 
