@@ -753,12 +753,12 @@
     url: https://arxiv.org/abs/2107.10168
     tags: [cisc834]
     authors:
-    - Mujahid, Suhaib
-    - Costa, Diego Elias
-    - Abdalkareem, Rabe
-    - Shihab, Emad
-    - Saied, Mohamed Aymen
-    - Adams, Bram
+    - Suhaib Mujahid
+    - Diego Elias Costa
+    - Rabe Abdalkareem
+    - Emad Shihab
+    - Mohamed Aymen Saied
+    - Bram Adams
     pages: 3618-3632
     volume: '69'
     number: '6'
