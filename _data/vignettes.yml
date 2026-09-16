@@ -1,3 +1,11 @@
+- title: "MCP Servers Under Inspection"
+  image: "images/mcp-server-inspection-vignette.png"
+  image_alt: "A technician inspects one of several standardized connectors linking a central metal hub to different equipment cases"
+  teaser: "MCP lets agentic AI assistants connect to outside tools through a common interface. Yet, across 1,899 studied open-source servers, we find that *66% have serious code smells while traditional security scanners miss MCP-specific vulnerabilities like tool poisoning*."
+  venue: "TOSEM 2026"
+  link: "https://arxiv.org/abs/2506.13538"
+  front_page: true
+
 - title: "Does AI Review Assistance Help?"
   image: "images/llm-review-sidebar.png"
   image_alt: "LLM-based code review assistant"
@@ -60,7 +68,7 @@
   teaser: "Did you know that hybrid CI scheduling combining commit grouping and skip prediction can *reduce commit turn-around time by 96%*? Our hybrid heuristics significantly reduce redundant build activity while faster identifying failures."
   venue: "EMSE 2024"
   link: "publications/2024/emse_divya_timeout.pdf"
-  front_page: true
+  front_page: false
 
 - title: "Lifelong Learning"
   image: "images/lifelong-learning-wide.png"
