@@ -1309,7 +1309,7 @@
   journal:
   - year: 2017
     title: An Empirical Study of Unspecified Dependencies in Make-Based Build Systems
-    url: http://sail.cs.queensu.ca/data/pdfs/EMSE2017_AnEmpiricalStudyOfUnspecifiedDependenciesInMake-BasedBuildSystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/EMSE2017_AnEmpiricalStudyOfUnspecifiedDependenciesInMake-BasedBuildSystems.pdf
     authors:
     - Cor-Paul Bezemer
     - Shane McIntosh (*)
@@ -1338,7 +1338,7 @@
     number: '2'
   - year: 2017
     title: Prioritizing Manual Test Cases in Rapid Release Environments
-    url: http://sealab.cs.umanitoba.ca/wp-content/uploads/2016/07/Published.pdf
+    url: https://onlinelibrary.wiley.com/doi/abs/10.1002/stvr.1609
     authors:
     - Hadi Hemmati
     - Zhihan Fang
@@ -1480,7 +1480,7 @@
     number: '6'
   - year: 2016
     title: Identifying and Understanding Header File Hotspots in C/C++ Build Processes
-    url: http://sail.cs.queensu.ca/data/pdfs/ASE_IdentifyingAndUnderstandingHeaderFileHotspotsInC,C++BuildProcesses.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ASE_IdentifyingAndUnderstandingHeaderFileHotspotsInC,C++BuildProcesses.pdf
     authors:
     - Shane McIntosh (*)
     - Bram Adams
@@ -1507,7 +1507,7 @@
   - year: 2016
     title: An Empirical Study of the Impact of Modern Code Review Practices on Software
       Quality
-    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_AnEmpiricalStudyOfTheImpactOfModernCodeReviewPracticesOnSoftwareQuality.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/EMSE_AnEmpiricalStudyOfTheImpactOfModernCodeReviewPracticesOnSoftwareQuality.pdf
     authors:
     - Shane McIntosh (*)
     - Yasutaka Kamei
@@ -1550,7 +1550,7 @@
     replication_package: https://mcislab.github.io/publications/2015/integration_oss_distribution_adams_et_al.zip
   - year: 2016
     title: Analyzing Ad Library Updates in Android Apps
-    url: http://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnAdLibraryUpdatesInAndroidApps.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnAdLibraryUpdatesInAndroidApps.pdf
     authors:
     - Israel J. Mojica Ruiz
     - Meiyappan Nagappan
@@ -1594,7 +1594,7 @@
   - year: 2016
     title: 'Does geographical distance effect distributed development teams: How aggregation
       bias in software artifacts causes contradicting findings'
-    url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2016_DoesGeographicalDistanceEffectDistributedDevelopmentTeamsHowAggregationBiasInSoftwareArtifactsCausesContradictoryFindings.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ISSRE2016_DoesGeographicalDistanceEffectDistributedDevelopmentTeamsHowAggregationBiasInSoftwareArtifactsCausesContradictoryFindings.pdf
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -1700,7 +1700,7 @@
     pages: 78-90
   - year: 2016
     title: Release Practices in Mobile Apps – Users and Developers Perception
-    url: http://www.ucalgary.ca/mnayebi/files/mnayebi/saner-camera-ready_mbg.pdf
+    url: publications/2016/saner_maleknaz.pdf
     authors:
     - Maleknaz Nayebi
     - Bram Adams
@@ -1763,13 +1763,12 @@
     publisher: Morgan Kaufmann
   - year: 2016
     title: Why You Should Be Teaching Deployment in Your Curriculum!
-    url: http://paris.utdallas.edu/cseet16/slides/02-CSEE&T-2016-Panel-I.pdf
+    url: https://web.archive.org/web/20160430223103if_/http://paris.utdallas.edu/cseet16/docs/Panel-I.pdf
     authors:
     - Len Bass
     - Bram Adams
     - Chris Parnin
     - Lorin Hochstein
-    replication_package: http://paris.utdallas.edu/cseet16/video/02-CSEE&T-2016-Panel-I.html
     venue: panel at the 29th IEEE Conference on Software Engineering Education and Training (CSEET)
   - year: 2016
     title: 'Leaders of Tomorrow on the Future of Software Engineering: A Roundtable'
@@ -1818,7 +1817,7 @@
   - year: 2015
     title: A Large-Scale Empirical Study of the Relationship Between Build Technology
       and Build Maintenance
-    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ALarge-ScaleEmpiricalStudyOfTheRelationshipBetweenBuildTechnologyAndBuildMaintenance.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/EMSE_ALarge-ScaleEmpiricalStudyOfTheRelationshipBetweenBuildTechnologyAndBuildMaintenance.pdf
     authors:
     - Shane McIntosh (*)
     - Meiyappan Nagappan
@@ -1847,7 +1846,7 @@
   - year: 2015
     title: Studying the Relationship Between Source Code Quality and Mobile Platform
       Dependence
-    url: http://sail.cs.queensu.ca/data/pdfs/SQJ_StudyingTheRelationshipBetweenSourceCodeQualityAndMobilePlatformDependence.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/SQJ_StudyingTheRelationshipBetweenSourceCodeQualityAndMobilePlatformDependence.pdf
     authors:
     - Mark D. Syer
     - Meiyappan Nagappan
@@ -1877,7 +1876,7 @@
     pages: 42-49
   - year: 2015
     title: Replicating and Re-evaluating the Theory of Relative Defect-Proneness
-    url: http://sail.cs.queensu.ca/data/pdfs/TSE_ReplicatingAndRe-evaluatingTheTheoryOfRelativeDefect-Proneness.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/TSE_ReplicatingAndRe-evaluatingTheTheoryOfRelativeDefect-Proneness.pdf
     authors:
     - Mark D. Syer
     - Meiyappan Nagappan
@@ -1891,7 +1890,7 @@
   - year: 2015
     title: 'Management of community contributions: A case study on the Android and
       Linux software ecosystems'
-    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_ManagementOfCommunityContributions-ACaseStudyOnTheAndroidAndLinuxSoftwareEcosystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/EMSE_ManagementOfCommunityContributions-ACaseStudyOnTheAndroidAndLinuxSoftwareEcosystems.pdf
     authors:
     - Nicolas Bettenburg
     - Ahmed E. Hassan
@@ -1929,12 +1928,11 @@
     address: Bremen, Germany
     venue: in Proceedings of the 15th International Working Conference on Source Code
       Analysis and Manipulation (SCAM)
-    replication_package: http://mcis.cs.queensu.ca/~msayagh/Paper/SCAM15/LOC_vs_Options/
     pages: 31-40
   - year: 2015
     title: An Industrial Case Study on the Automated Detection of Performance Regressions
       in Heterogeneous Environments
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2015_AnIndustrialCaseStudyOnTheAutomatedDetectionOfPerformanceRegressionsInHeterogeneousEnvironments.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSE2015_AnIndustrialCaseStudyOnTheAutomatedDetectionOfPerformanceRegressionsInHeterogeneousEnvironments.pdf
     authors:
     - King Chun Foo
     - Zhen Ming Jiang
@@ -2036,7 +2034,7 @@
     pages: 196-201
   - year: 2015
     title: A dataset of the activity of the git super-repository of Linux in 2012 [data showcase]
-    url: http://sail.cs.queensu.ca/data/pdfs/msr-A-Dataset-of-the-Activity-of-the-Git-Super-repository-of-Linux%20in%202012.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/msr-A-Dataset-of-the-Activity-of-the-Git-Super-repository-of-Linux%20in%202012.pdf
     authors:
     - Daniel M. Germán
     - Bram Adams
@@ -2069,7 +2067,7 @@
   journal:
   - year: 2014
     title: Impact of Ad Libraries on Ratings of Android Mobile Apps
-    url: http://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnTheRelationshipBetweenTheNumberOfAdLibrariesInAnAndroidAppAndItsRating.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/IEEESoftware_OnTheRelationshipBetweenTheNumberOfAdLibrariesInAnAndroidAppAndItsRating.pdf
     authors:
     - Israel J. Mojica Ruiz
     - Meiyappan Nagappan
@@ -2113,7 +2111,7 @@
   - year: 2014
     title: An Exploratory Study of the Evolution of Communicated Information about
       the Execution of Large Software Systems
-    url: http://sail.cs.queensu.ca/data/pdfs/JSEP_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/JSEP_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
     authors:
     - Weiyi Shang
     - Zhen Ming Jiang
@@ -2156,7 +2154,7 @@
     pages: 41-50
   - year: 2014
     title: Mining Co-Change Information to Understand when Build Changes are Necessary
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2014_MiningCo-ChangeInformationToUnderstandWhenBuildChangesAreNecessary.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2014_MiningCo-ChangeInformationToUnderstandWhenBuildChangesAreNecessary.pdf
     authors:
     - Shane McIntosh (*)
     - Bram Adams
@@ -2211,7 +2209,7 @@
   - year: 2014
     title: Collecting and Leveraging a Benchmark of Build System Clones to Aid in
       Quality Assessments
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2014_CollectingAndLeveragingABenchmarkOfBuildSystemClonesToAidInQualityAssessments.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSE2014_CollectingAndLeveragingABenchmarkOfBuildSystemClonesToAidInQualityAssessments.pdf
     authors:
     - Shane McIntosh (*)
     - Martin Poehlmann
@@ -2244,7 +2242,7 @@
   - year: 2014
     title: 'The Impact of Code Review Coverage and Code Review Participation on Software
       Quality: A Case Study of the Qt, VTK, and ITK Projects'
-    url: http://sail.cs.queensu.ca/data/pdfs/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/MSR2014_TheImpactOfCodeReviewCoverageAndCodeReviewParticipationOnSoftwareQuality_ACaseStudyOfTheQt,VTK,AndITKProjects.pdf
     authors:
     - Shane McIntosh (*)
     - Yasutaka Kamei
@@ -2299,7 +2297,7 @@
     pages: 1981-1993
   - year: 2013
     title: Studying Re-opened Bugs in Open Source Software
-    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_StudyingRe-openedBugsInOpenSourceSoftware.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/EMSE_StudyingRe-openedBugsInOpenSourceSoftware.pdf
     authors:
     - Emad Shihab
     - Akinori Ihara
@@ -2404,7 +2402,7 @@
     pages: 101-110
   - year: 2013
     title: 'Programming Language Ecosystems: the Evolution of R'
-    url: http://sail.cs.queensu.ca/data/pdfs/CSMR2013_ProgrammingLanguageEcosystems_TheEvolutionOfR.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/CSMR2013_ProgrammingLanguageEcosystems_TheEvolutionOfR.pdf
     authors:
     - Daniel M. Germán
     - Bram Adams
@@ -2443,7 +2441,7 @@
   journal:
   - year: 2012
     title: Preserving Knowledge in Software Projects
-    url: http://sail.cs.queensu.ca/data/pdfs/JSS_PreservingKnowledgeInSoftwareProjects.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/JSS_PreservingKnowledgeInSoftwareProjects.pdf
     authors:
     - Omar Alam (*)
     - Bram Adams
@@ -2455,7 +2453,7 @@
     pages: 2318-2330
   - year: 2012
     title: On the Relationship between Comment Update Practices and Software Bugs
-    url: http://sail.cs.queensu.ca/data/pdfs/JSS_OnTheRelationshipBetweenCommentUpdatePracticesAndSoftwareBugs.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/JSS_OnTheRelationshipBetweenCommentUpdatePracticesAndSoftwareBugs.pdf
     authors:
     - Walid M. Ibrahim (*)
     - Nicolas Bettenburg
@@ -2469,7 +2467,7 @@
   - year: 2012
     title: 'Using Pig as a Data Preparation Language for Large-Scale Mining Software
       Repositories Studies: An Experience Report'
-    url: http://sail.cs.queensu.ca/data/pdfs/JSS_UsingPigAsADataPreparationLanguageForLarge-ScaleMiningSoftwareRepositoriesStudies_AnExperienceReport.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/JSS_UsingPigAsADataPreparationLanguageForLarge-ScaleMiningSoftwareRepositoriesStudies_AnExperienceReport.pdf
     authors:
     - Weiyi Shang
     - Bram Adams
@@ -2482,7 +2480,7 @@
   - year: 2012
     title: An Empirical Study on Inconsistent Changes to Code Clones at the Release
       Level
-    url: http://sail.cs.queensu.ca/data/pdfs/SCP_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtTheReleaseLevel,ScienceOfComputerProgramming.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/SCP_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtTheReleaseLevel,ScienceOfComputerProgramming.pdf
     authors:
     - Nicolas Bettenburg
     - Weiyi Shang
@@ -2497,7 +2495,7 @@
     pages: 760-776
   - year: 2012
     title: The Evolution of Java Build Systems
-    url: http://sail.cs.queensu.ca/data/pdfs/EMSE_TheEvolutionOfJavaBuildSystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/EMSE_TheEvolutionOfJavaBuildSystems.pdf
     authors:
     - Shane McIntosh (*)
     - Bram Adams
@@ -2539,7 +2537,7 @@
     pages: '62:1-62:11'
   - year: 2012
     title: Understanding Reuse in the Android Market
-    url: http://sail.cs.queensu.ca/data/pdfs/ICPC2012_UnderstandingReuseInTheAndroidMarket.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICPC2012_UnderstandingReuseInTheAndroidMarket.pdf
     authors:
     - Israel J. Mojica Ruiz
     - Meiyappan Nagappan
@@ -2569,7 +2567,7 @@
     pages: 179-188
   - year: 2012
     title: A Qualitative Study on Performance Bugs
-    url: http://sail.cs.queensu.ca/data/pdfs/MSR2012_AQualitativeStudyOnPerformanceBugs.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/MSR2012_AQualitativeStudyOnPerformanceBugs.pdf
     authors:
     - Shahed Zaman
     - Bram Adams
@@ -2584,7 +2582,7 @@
   - year: 2012
     title: Automated Detection of Performance Regressions Using Statistical Process
       Control Techniques
-    url: http://sail.cs.queensu.ca/data/pdfs/ICPE2012_AutomatedDetectionOfPerformanceRegressionsUsingStatisticalProcessControlTechniques.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICPE2012_AutomatedDetectionOfPerformanceRegressionsUsingStatisticalProcessControlTechniques.pdf
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2633,7 +2631,7 @@
     acceptance_ratio: 8/22=36.4%
   - year: 2012
     title: A Large Scale Empirical Study on User-Centric Performance Analysis
-    url: http://sail.cs.queensu.ca/data/pdfs/ICST2012_ALargeScaleEmpiricalStudyOnUser-CentricPerformanceAnalysis.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICST2012_ALargeScaleEmpiricalStudyOnUser-CentricPerformanceAnalysis.pdf
     authors:
     - Shahed Zaman
     - Bram Adams
@@ -2646,7 +2644,7 @@
   journal:
   - year: 2011
     title: Prioritizing the Creation of Unit Tests in Legacy Software Systems
-    url: http://sail.cs.queensu.ca/data/pdfs/SPE_PrioritizingTheCreationOfUnitTestsInLegacySoftwareSystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/SPE_PrioritizingTheCreationOfUnitTestsInLegacySoftwareSystems.pdf
     authors:
     - Emad Shihab
     - Zhen Ming Jiang
@@ -2661,7 +2659,7 @@
   conference:
   - year: 2011
     title: Automatic Load Test Verification Using Control Charts
-    url: http://sail.cs.queensu.ca/data/pdfs/APSEC2011_AutomatedVerificationOfLoadTestsUsingControlCharts.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/APSEC2011_AutomatedVerificationOfLoadTestsUsingControlCharts.pdf
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2674,7 +2672,7 @@
   - year: 2011
     title: An Exploratory Study of the Evolution of Communicated Information about
       the Execution of Large Software Systems
-    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2011_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/WCRE2011_AnExploratoryStudyOfTheEvolutionOfCommunicatedInformationAboutTheExecutionOfLargeSoftwareSystems.pdf
     authors:
     - Weiyi Shang
     - Zhen Ming Jiang
@@ -2693,7 +2691,7 @@
     pages: 335-344
   - year: 2011
     title: Identifying Performance Deviations in Thread Pools
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_IdentifyingPerformanceDeviationsInThreadPools.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_IdentifyingPerformanceDeviationsInThreadPools.pdf
     authors:
     - Mark D. Syer
     - Bram Adams
@@ -2706,7 +2704,7 @@
   - year: 2011
     title: 'Exploring the Development of Micro-Apps: A Case Study on the BlackBerry
       and Android Platforms'
-    url: http://sail.cs.queensu.ca/data/pdfs/SCAM2011_ExploringTheDevelopmentOfMicro-Apps_ACaseStudyOnTheBlackBerryAndAndroidPlatforms.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/SCAM2011_ExploringTheDevelopmentOfMicro-Apps_ACaseStudyOnTheBlackBerryAndAndroidPlatforms.pdf
     authors:
     - Mark D. Syer
     - Bram Adams
@@ -2720,7 +2718,7 @@
     pages: 55-64
   - year: 2011
     title: Recovering a Balanced Overview of Topics in a Software Domain
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_RecoveringABalancedOverviewOfTopicsInASoftwareDomain.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2011_RecoveringABalancedOverviewOfTopicsInASoftwareDomain.pdf
     authors:
     - Matthew B. Kelly
     - Jason S. Alexander
@@ -2734,7 +2732,7 @@
     pages: 135-144
   - year: 2011
     title: Using Indexed Sequence Diagrams to Recover the Behaviour of AJAX Applications
-    url: http://sail.cs.queensu.ca/data/pdfs/WSE2011_UsingIndexedSequenceDiagramsToRecoverTheBehaviourOfAJAXApplications.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/WSE2011_UsingIndexedSequenceDiagramsToRecoverTheBehaviourOfAJAXApplications.pdf
     authors:
     - Shane McIntosh (*)
     - Bram Adams
@@ -2747,7 +2745,7 @@
     pages: 1-10
   - year: 2011
     title: 'High-Impact Defects: A Study of Breakage and Surprise Defects'
-    url: http://sail.cs.queensu.ca/data/pdfs/FSE2011_High-ImpactDefects_AStudyOfBreakageAndSurpriseDefects.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/FSE2011_High-ImpactDefects_AStudyOfBreakageAndSurpriseDefects.pdf
     authors:
     - Emad Shihab
     - Yasutaka Kamei
@@ -2762,7 +2760,7 @@
     pages: 300-310
   - year: 2011
     title: Modeling the Evolution of Topics in Historical Software Repositories
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_ModelingTheEvolutionOfTopicsInSourceCodeHistories.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSE2011_ModelingTheEvolutionOfTopicsInSourceCodeHistories.pdf
     authors:
     - Stephen W. Thomas
     - Bram Adams
@@ -2775,7 +2773,7 @@
     pages: 173-182
   - year: 2011
     title: 'Security vs Performance bugs: A Case Study on Firefox'
-    url: http://sail.cs.queensu.ca/data/pdfs/MSR2011_SecurityVersusPerformanceBugs_ACaseStudyOnFirefox.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/MSR2011_SecurityVersusPerformanceBugs_ACaseStudyOnFirefox.pdf
     authors:
     - Shahed Zaman
     - Bram Adams
@@ -2787,7 +2785,7 @@
     pages: 93-102
   - year: 2011
     title: An Empirical Study of Build Maintenance Effort
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSE2011_AnEmpiricalStudyOfBuildMaintenanceEffort.pdf
     tags: [makao]
     authors:
     - Shane McIntosh (*)
@@ -2807,7 +2805,7 @@
   other:
   - year: 2011
     title: Modeling the Performance of Ultra-Large-Scale Systems Using Layered Simulations
-    url: http://sail.cs.queensu.ca/data/pdfs/MESOCA2011_ModelingThePerformanceOfUltra-Large-ScaleSystemsUsingLayeredSimulations.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/MESOCA2011_ModelingThePerformanceOfUltra-Large-ScaleSystemsUsingLayeredSimulations.pdf
     authors:
     - King Chun Foo
     - Zhen Ming Jiang
@@ -2824,7 +2822,7 @@
   - year: 2011
     title: A Lightweight Approach to Uncover Technical Information in Unstructured
       Data [short]
-    url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_ALightweightApproachToUncoverTechnicalInformationInUnstructuredData.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICPC2011_ALightweightApproachToUncoverTechnicalInformationInUnstructuredData.pdf
     authors:
     - Nicolas Bettenburg
     - Bram Adams
@@ -2839,7 +2837,7 @@
   - year: 2011
     title: Industrial Case Study on Supporting the Comprehension of System Behaviour
       Under Load [poster]
-    url: http://sail.cs.queensu.ca/data/pdfs/ICPC2011_IndustrialCaseStudyOnSupportingTheComprehensionOfSystemBehaviourUnderLoad.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICPC2011_IndustrialCaseStudyOnSupportingTheComprehensionOfSystemBehaviourUnderLoad.pdf
     authors:
     - Mark D. Syer
     - Bram Adams
@@ -2878,7 +2876,7 @@
   - year: 2010
     title: Pinpointing the Subsystems Responsible for the Performance Deviations in
       a Load Test
-    url: http://sail.cs.queensu.ca/data/pdfs/ISSRE2010_PinpointingTheSubsystemsResponsibleForThePerformanceDeviationsInALoadTest.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ISSRE2010_PinpointingTheSubsystemsResponsibleForThePerformanceDeviationsInALoadTest.pdf
     authors:
     - Haroon Malik (*)
     - Bram Adams
@@ -2891,7 +2889,7 @@
     pages: 201-210
   - year: 2010
     title: A Case Study of Bias in Bug-Fix Datasets
-    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_ACaseStudyOfBiasInBug-FixDatasets.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/WCRE2010_ACaseStudyOfBiasInBug-FixDatasets.pdf
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2902,7 +2900,7 @@
     pages: 259-268
   - year: 2010
     title: 'Why are Bugs Re-opened: A Case Study on the Eclipse Project'
-    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_PredictingRe-openedBugs_ACaseStudyOnTheEclipseProject.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/WCRE2010_PredictingRe-openedBugs_ACaseStudyOnTheEclipseProject.pdf
     authors:
     - Emad Shihab
     - Akinori Ihara
@@ -2920,7 +2918,7 @@
     - invited for special issue
   - year: 2010
     title: Studying the Impact of Clones on Software Defects
-    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2010_StudyingTheImpactOfClonesOnSoftwareDefects.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/WCRE2010_StudyingTheImpactOfClonesOnSoftwareDefects.pdf
     authors:
     - Gehan M. K. Selim
     - Liliane Barbour
@@ -2935,7 +2933,7 @@
   - year: 2010
     title: An Experience Report on Scaling Tools for Mining Software Repositories
       Using MapReduce
-    url: http://sail.cs.queensu.ca/data/pdfs/ASE2010_AnExperienceReportOnScalingToolsForMiningSoftwareRepositoriesUsingMapReduce.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ASE2010_AnExperienceReportOnScalingToolsForMiningSoftwareRepositoriesUsingMapReduce.pdf
     authors:
     - Weiyi Shang
     - Bram Adams
@@ -2948,7 +2946,7 @@
     pages: 275-284
   - year: 2010
     title: Studying the impact of dependency network measures on software quality
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_StudyingTheimpactOfdependencynetworkmeasuresOnsoftwarequality.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_StudyingTheimpactOfdependencynetworkmeasuresOnsoftwarequality.pdf
     authors:
     - Thanh H. D. Nguyen
     - Bram Adams
@@ -2960,7 +2958,7 @@
     pages: 1-10
   - year: 2010
     title: Revisiting Common Bug Prediction Findings Using Effort Aware Models
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_RevisitingCommonBugPredictionFindingsUsingEffort-AwareModels.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_RevisitingCommonBugPredictionFindingsUsingEffort-AwareModels.pdf
     authors:
     - Yasutaka Kamei
     - Shinsuke Matsumoto
@@ -2975,7 +2973,7 @@
     pages: 1-10
   - year: 2010
     title: Validating the Use of Topic Models for Software Evolution
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2010_ValidatingTheUseOfTopicModelsForSoftwareEvolution.pdf
     authors:
     - Stephen W. Thomas
     - Bram Adams
@@ -2993,7 +2991,7 @@
   - year: 2010
     title: 'Understanding the Impact of Code and Process Metrics on Post-release Defects:
       A Case Study on the Eclipse Project'
-    url: http://sail.cs.queensu.ca/data/pdfs/EMSE2010_UnderstandingTheImpactOfCodeAndProcessMetricsOnPost-releaseDefects_ACaseStudyOnTheEclipseProject.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/EMSE2010_UnderstandingTheImpactOfCodeAndProcessMetricsOnPost-releaseDefects_ACaseStudyOnTheEclipseProject.pdf
     authors:
     - Emad Shihab
     - Zhen Ming Jiang
@@ -3008,7 +3006,7 @@
   - year: 2010
     title: Using Load Tests To Automatically Compare the Subsystems of a Large Enterprise
       System
-    url: http://sail.cs.queensu.ca/data/pdfs/COMPSAC2010_UsingLoadTestsToAutomaticallyCompareTheSubsystemsOfALargeEnterpriseSystem.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/COMPSAC2010_UsingLoadTestsToAutomaticallyCompareTheSubsystemsOfALargeEnterpriseSystem.pdf
     authors:
     - Haroon Malik (*)
     - Bram Adams
@@ -3021,7 +3019,7 @@
   - year: 2010
     title: Mining Performance Regression Testing Repositories for Automated Performance
       Analysis
-    url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_MiningPerformanceRegressionTestingRepositoriesForAutomatedPerformanceAnalysis.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/QSIC2010_MiningPerformanceRegressionTestingRepositoriesForAutomatedPerformanceAnalysis.pdf
     authors:
     - King Chun Foo
     - Zhen Ming Jiang
@@ -3035,7 +3033,7 @@
     pages: 32-41
   - year: 2010
     title: Prioritizing Unit Test Creation for Test-Driven Maintenance of Legacy Systems
-    url: http://sail.cs.queensu.ca/data/pdfs/QSIC2010_PrioritizingUnitTestCreationForTest-DrivenMaintenanceOfLegacySystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/QSIC2010_PrioritizingUnitTestCreationForTest-DrivenMaintenanceOfLegacySystems.pdf
     authors:
     - Emad Shihab
     - Zhen Ming Jiang
@@ -3050,7 +3048,7 @@
     - invited for special issue
   - year: 2010
     title: The Evolution of ANT Build Systems
-    url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/MSR2010_TheEvolutionOfANTBuildSystems.pdf
     tags: [makao]
     authors:
     - Shane McIntosh (*)
@@ -3065,7 +3063,7 @@
     pages: 42-51
   - year: 2010
     title: Should I contribute to this discussion?
-    url: http://sail.cs.queensu.ca/data/pdfs/MSR2010_ShouldIContributeToThisDiscussion_.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/MSR2010_ShouldIContributeToThisDiscussion_.pdf
     authors:
     - Walid M. Ibrahim (*)
     - Nicolas Bettenburg
@@ -3079,7 +3077,7 @@
     pages: 181-190
   - year: 2010
     title: Identifying Crosscutting Concerns Using Historical Code Changes
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSE2010_IdentifyingCrosscuttingConcernsUsingHistoricalCodeChanges.pdf
     authors:
     - Bram Adams
     - Zhen Ming Jiang
@@ -3160,7 +3158,7 @@
   conference:
   - year: 2009
     title: An Empirical Study on Inconsistent Changes to Code Clones at Release Level
-    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtReleaseLevel.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/WCRE2009_AnEmpiricalStudyOnInconsistentChangesToCodeClonesAtReleaseLevel.pdf
     authors:
     - Nicolas Bettenburg
     - Weiyi Shang
@@ -3176,7 +3174,7 @@
     - invited for special issue
   - year: 2009
     title: A Study of the Time Dependence of Code Changes
-    url: http://sail.cs.queensu.ca/data/pdfs/WCRE2009_AStudyOfTheTimeDependenceOfCodeChanges.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/WCRE2009_AStudyOfTheTimeDependenceOfCodeChanges.pdf
     authors:
     - Omar Alam (*)
     - Bram Adams
@@ -3187,7 +3185,7 @@
     pages: 21-30
   - year: 2009
     title: Measuring the Progress of Projects Using the Time Dependence of Code Changes
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_MeasuringTheProgressOfProjectsUsingTheTimeDependenceOfCodeChanges.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_MeasuringTheProgressOfProjectsUsingTheTimeDependenceOfCodeChanges.pdf
     authors:
     - Omar Alam (*)
     - Bram Adams
@@ -3202,7 +3200,7 @@
   - year: 2009
     title: MapReduce as a General Framework to Support Research in Mining Software
       Repositories (MSR)
-    url: http://sail.cs.queensu.ca/data/pdfs/MSR2009_MapReduceAsAGeneralFrameworkToSupportResearchInMiningSoftwareRepositories(MSR).pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/MSR2009_MapReduceAsAGeneralFrameworkToSupportResearchInMiningSoftwareRepositories(MSR).pdf
     authors:
     - Weiyi Shang
     - Zhen Ming Jiang
@@ -3215,7 +3213,7 @@
     pages: 21-30
   - year: 2009
     title: Can we Refactor Conditional Compilation into Aspects?
-    url: http://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/AOSD2009_CanWeRefactorConditionalCompilationIntoAspects_.pdf
     tags: [aspicere, r3v3rs3]
     authors:
     - Bram Adams
@@ -3234,7 +3232,7 @@
   - year: 2009
     title: 'On the Central Role of Mailing Lists in Open Source Projects: An Exploratory
       Study'
-    url: http://sail.cs.queensu.ca/data/pdfs/KCSD2009_OnTheCentralRoleOfMailingListsInOpenSourceProjects_AnExploratoryStudy.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/KCSD2009_OnTheCentralRoleOfMailingListsInOpenSourceProjects_AnExploratoryStudy.pdf
     authors:
     - Emad Shihab
     - Nicolas Bettenburg
@@ -3247,7 +3245,7 @@
   - year: 2009
     title: 'Virtual Machine Support for Many-Core Architectures: Decoupling Abstract
       From Concrete Concurrency Models'
-    url: http://gloss.di.fc.ul.pt/places09/preproceedings.pdf
+    url: https://web.archive.org/web/20100805091940/http://gloss.di.fc.ul.pt/places09/preproceedings.pdf/at_download/file
     authors:
     - Stefan Marr
     - Stijn Timbermont
@@ -3261,7 +3259,7 @@
   other:
   - year: 2009
     title: The Life of a Software Concern
-    url: http://benevol.evolumons.be/Proceedings_of_Short_Papers.pdf
+    url: https://web.archive.org/web/20131220092256/http://jointevents2009.evolumons.be/doku.php?id=b_home
     authors:
     - Bram Adams.
     - Ahmed E. Hassan
@@ -3269,7 +3267,7 @@
     venue: in Benevol, December 2009
   - year: 2009
     title: Co-Evolution of Source Code and the Build System
-    url: http://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_Co-EvolutionOfSourceCodeAndTheBuildSystem.pdf
+    url: https://sail.cs.queensu.ca/data/pdfs/ICSM-ICSME2009_Co-EvolutionOfSourceCodeAndTheBuildSystem.pdf
     tags: [makao]
     authors:
     - Bram Adams
@@ -3584,7 +3582,7 @@
   - year: 2005
     title: 'Applying Dynamic Analysis in a Legacy Context: An Industrial Experience
       Report'
-    url: http://www.lore.ua.ac.be/Events/PCODA2005/PCODA2005proceedings.pdf
+    url: https://web.archive.org/web/20070508172932/http://www.lore.ua.ac.be/Events/PCODA2005/PCODA2005proceedings.pdf
     authors:
     - Andy Zaidman
     - Bram Adams
