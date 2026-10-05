@@ -1,3 +1,11 @@
+- title: "When Tool Manuals Mislead"
+  image: "images/mcp-tool-description-vignette.png"
+  image_alt: "A puzzled technician compares a manual showing a circle with a tool that stamps a star"
+  teaser: "AI agents rely on tool descriptions much like people rely on manuals. In our study of 856 tools, *97.1% of descriptions had at least one quality issue*. Fuller descriptions improved task success, but also increased execution steps, making concise, context-aware guidance important."
+  venue: "TOSEM 2026"
+  link: "https://arxiv.org/abs/2602.14878"
+  front_page: false
+
 - title: "MCP Servers Under Inspection"
   image: "images/mcp-server-inspection-vignette.png"
   image_alt: "A technician inspects one of several standardized connectors linking a central metal hub to different equipment cases"

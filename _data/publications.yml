@@ -1,6 +1,18 @@
 2026:
   journal:
   - authors:
+    - Mohammed Mehedi Hasan (*)
+    - Hao Li (*)
+    - Gopi Krishnan Rajbahadur
+    - Bram Adams
+    - Ahmed E. Hassan
+    year: 2026
+    title: 'Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions'
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+    publisher: ACM
+    status: to appear
+    url: https://arxiv.org/abs/2602.14878
+  - authors:
     - Kosei Horikawa
     - Hao Li (*)
     - Yutaro Kashiwa
