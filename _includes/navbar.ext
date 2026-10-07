@@ -10,7 +10,7 @@
    <nav> 
     <ul class="nav">
     {% for pg in site.data.content %}
-       {% if pg.url == page.url %}<li class="active">{% elsif pg.urgent == "last" %}<li class="last">{% else %}<li>{% endif %}{% if pg.urgent == "kindof" %}<a class="urgent" href="{{ pg.url }}">{{ pg.label }}</a>{% elsif pg.label == "Courses" or pg.label == "Tools" or pg.label == "Events" %}<a class="has-submenu" href="javascript:void(0);">{{ pg.label }}</a>{% else %}<a href="{{ pg.url }}">{{ pg.label }}</a>{% endif %}{% if pg.label == "Courses" %}
+       {% if pg.url == page.url %}<li class="active">{% elsif pg.urgent == "last" %}<li class="last">{% else %}<li>{% endif %}{% if pg.urgent == "kindof" %}<a class="urgent" href="{{ pg.url | remove_first: "/" }}">{{ pg.label }}</a>{% elsif pg.label == "Courses" or pg.label == "Tools" or pg.label == "Events" %}<a class="has-submenu" href="javascript:void(0);">{{ pg.label }}</a>{% else %}<a href="{{ pg.url | remove_first: "/" }}">{{ pg.label }}</a>{% endif %}{% if pg.label == "Courses" %}
               <ul class="submenu">{% for course in site.data.courses %}
 	      	     <li><a href="{{ course.url }}">{{ course.name }}</a></li>{% endfor %}
 	      </ul>{% elsif pg.label == "Tools" %}
