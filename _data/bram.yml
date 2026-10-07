@@ -169,7 +169,13 @@ event_coorganization:
 
 chair_duties:
   - role: "area chair"
-    track: "\"SE4AI\" (Software Engineering for AI)"
+    track: "Analytics"
+    event: "50th International Conference on Software Engineering (ICSE)"
+    url: "https://www.icse-conferences.org/"
+    date: "April 2028"
+    address: "Hawaii, USA"
+  - role: "area chair"
+    track: "SE4AI (Software Engineering for AI)"
     event: "35th ACM International Conference on the Foundations of Software Engineering (FSE)"
     url: "https://conf.researchr.org/home/fse-2027"
     date: "July 12-16, 2027"
