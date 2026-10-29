@@ -1,6 +1,20 @@
 2026:
   journal:
   - authors:
+    - Ahmed E. Hassan
+    - Hao Li (*)
+    - Dayi Lin
+    - Bram Adams
+    - Tse-Hsun Chen
+    - Yutaro Kashiwa
+    - Dong Qiu
+    year: 2026
+    title: 'Agentic Software Engineering: Foundational Pillars and a Research Roadmap'
+    venue: Transactions on Software Engineering and Methodology (TOSEM)
+    publisher: ACM
+    status: to appear
+    url: https://arxiv.org/abs/2509.06216
+  - authors:
     - Mohammed Mehedi Hasan (*)
     - Hao Li (*)
     - Gopi Krishnan Rajbahadur
