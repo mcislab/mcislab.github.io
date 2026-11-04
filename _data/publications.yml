@@ -1927,6 +1927,18 @@
       Evolution, and Reengineering (SANER)
     replication_package: https://bitbucket.org/mikeschaekermann/replication-paper-tourani-adams
     pages: 189-200
+  workshop:
+  - year: 2016
+    title: Who Needs Release and DevOps Engineers, and Why?
+    url: publications/2016/csed.pdf
+    authors:
+    - Noureddine Kerzazi
+    - Bram Adams
+    acceptance_ratio: 14/18=77.8%
+    address: Austin, Texas
+    venue: in Proceedings of the International Workshop on Continuous Software Evolution
+      and Delivery (CSED)
+    pages: 77-83
   thesis:
   - year: 2016
     title: On the Impact of Affect in Software Engineering
@@ -1979,17 +1991,6 @@
     volume: '33'
     number: '2'
     pages: 99-104
-  - year: 2016
-    title: Who Needs Release and DevOps Engineers, and Why?
-    url: publications/2016/csed.pdf
-    authors:
-    - Noureddine Kerzazi
-    - Bram Adams
-    acceptance_ratio: 14/18=77.8%
-    address: Austin, Texas
-    venue: in Proceedings of the International Workshop on Continuous Software Evolution
-      and Delivery (CSED)
-    pages: 77-83
 2015:
   journal:
   - year: 2015
@@ -3003,7 +3004,7 @@
     address: Waikiki, Honolulu, Hawaii
     venue: in Proceedings of the 33rd International Conference on Software Engineering (ICSE)
     pages: 141-150
-  other:
+  workshop:
   - year: 2011
     title: Modeling the Performance of Ultra-Large-Scale Systems Using Layered Simulations
     url: https://sail.cs.queensu.ca/data/pdfs/MESOCA2011_ModelingThePerformanceOfUltra-Large-ScaleSystemsUsingLayeredSimulations.pdf
@@ -3020,6 +3021,7 @@
     venue: in Proceedings of the 2011 International Workshop on the Maintenance and
       Evolution of Service-Oriented and Cloud-Based Systems (MESOCA)
     pages: 10 p.
+  other:
   - year: 2011
     title: A Lightweight Approach to Uncover Technical Information in Unstructured
       Data [short]
